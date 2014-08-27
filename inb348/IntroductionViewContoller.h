@@ -7,10 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Exercises.h"
+
+
 
 @interface IntroductionViewContoller : UIViewController
 @property (weak, nonatomic) IBOutlet UILabel *nameLabel;
 @property (weak, nonatomic) IBOutlet UIImageView *coverView;
-@property (weak, nonatomic) IBOutlet UITextView *introTextView;
+@property (weak, nonatomic) IBOutlet UITextView *instructionTextView;
+
+@property Exercises *selectedExercise;
 
 @end

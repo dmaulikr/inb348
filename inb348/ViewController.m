@@ -26,14 +26,14 @@
     
     //add data into exercise class object
     exercise.name = @"1st exercise";
-    exercise.introduction = @"Just do it";
+    exercise.instruction = @"Just do it";
     exercise.cover = [UIImage imageNamed:@"1st.jpg"];
     [_exercise addObject:exercise]; //add the object to array
     
     
     exercise = [[Exercises alloc] init]; //allocate in heap and initialise
     exercise.name = @"2nd exercise";
-    exercise.introduction = @"Do it well";
+    exercise.instruction = @"Do it well";
     exercise.cover = [UIImage imageNamed:@"2nd.jpg"];
     [_exercise addObject:exercise]; // add the object to array
 
@@ -97,6 +97,10 @@
     
     
     [self presentViewController:navigationController animated:YES completion:nil];//Current view will change to navigationController which is on "IntroductionViewController"
+    
+    
+    introViewController.selectedExercise = [_exercise objectAtIndex:indexPath.row];
+    // Assign a value to "selectedExercise" property of InstructionViewController. the value is exercise object that user selected from cell.
     
     
 }

@@ -78,12 +78,20 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Introduction" id="Pnb-gL-6mE">
-                        <barButtonItem key="leftBarButtonItem" title="Close" id="roY-xi-aVm"/>
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="Mg3-55-pvg"/>
+                        <barButtonItem key="leftBarButtonItem" title="Close" id="roY-xi-aVm">
+                            <connections>
+                                <action selector="closeButtonTapped:" destination="tl2-hq-9iA" id="wSl-cI-bq1"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="Mg3-55-pvg">
+                            <connections>
+                                <action selector="addButtonTapped:" destination="tl2-hq-9iA" id="JvY-gZ-JYS"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="coverView" destination="cZ2-nj-HF9" id="VXO-Yj-hSW"/>
-                        <outlet property="introTextView" destination="xAO-xE-N75" id="XLe-cX-2Rj"/>
+                        <outlet property="instructionTextView" destination="xAO-xE-N75" id="UrI-EU-nu4"/>
                         <outlet property="nameLabel" destination="TtE-DU-MJR" id="b69-NC-A0X"/>
                     </connections>
                 </viewController>

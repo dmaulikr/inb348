@@ -8,6 +8,7 @@
 
 #import "IntroductionViewContoller.h"
 
+
 @interface IntroductionViewContoller ()
 
 @end
@@ -27,6 +28,15 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    _nameLabel.text = _selectedExercise.name;
+    _instructionTextView.text = _selectedExercise.instruction;
+    _coverView.image = _selectedExercise.cover;
+    
+
+    
+
+
 }
 
 - (void)didReceiveMemoryWarning
@@ -45,5 +55,14 @@
     // Pass the selected object to the new view controller.
 }
 */
+- (IBAction)closeButtonTapped:(id)sender {
+    
+    //dismiss current view
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+- (IBAction)addButtonTapped:(id)sender {
+
+}
 
 @end

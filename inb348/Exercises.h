@@ -11,7 +11,7 @@
 @interface Exercises : NSObject
 
 @property NSString *name;
-@property NSString *introduction;
+@property NSString *instruction;
 @property UIImage *cover;
 
 @end
