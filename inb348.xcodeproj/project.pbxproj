@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01ACEDFE19ADC3820063B2CF /* barbellrow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01ACEDF419ADC3820063B2CF /* barbellrow.jpg */; };
+		01ACEDFF19ADC3820063B2CF /* benchpress.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01ACEDF519ADC3820063B2CF /* benchpress.jpg */; };
+		01ACEE0019ADC3820063B2CF /* bodumbellrow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01ACEDF619ADC3820063B2CF /* bodumbellrow.jpg */; };
+		01ACEE0119ADC3820063B2CF /* deadlifts.png in Resources */ = {isa = PBXBuildFile; fileRef = 01ACEDF719ADC3820063B2CF /* deadlifts.png */; };
+		01ACEE0219ADC3820063B2CF /* declinepress.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01ACEDF819ADC3820063B2CF /* declinepress.jpg */; };
+		01ACEE0319ADC3820063B2CF /* inclinepress.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01ACEDF919ADC3820063B2CF /* inclinepress.jpg */; };
+		01ACEE0719ADC3820063B2CF /* situp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01ACEDFD19ADC3820063B2CF /* situp.jpg */; };
+		01ACEE0919ADC4730063B2CF /* pushup.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01ACEE0819ADC4730063B2CF /* pushup.jpg */; };
+		01ACEE0C19ADCCA30063B2CF /* legcurl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01ACEE0A19ADCCA30063B2CF /* legcurl.jpg */; };
+		01ACEE0D19ADCCA30063B2CF /* legextension.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01ACEE0B19ADCCA30063B2CF /* legextension.jpg */; };
 		6DD17C6F19AD749C008B6FCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD17C6E19AD749C008B6FCB /* Foundation.framework */; };
 		6DD17C7119AD749C008B6FCB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD17C7019AD749C008B6FCB /* CoreGraphics.framework */; };
 		6DD17C7319AD749C008B6FCB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD17C7219AD749C008B6FCB /* UIKit.framework */; };
@@ -43,6 +53,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01ACEDF419ADC3820063B2CF /* barbellrow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = barbellrow.jpg; path = ../../../Desktop/Exercises/barbellrow.jpg; sourceTree = "<group>"; };
+		01ACEDF519ADC3820063B2CF /* benchpress.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = benchpress.jpg; path = ../../../Desktop/Exercises/benchpress.jpg; sourceTree = "<group>"; };
+		01ACEDF619ADC3820063B2CF /* bodumbellrow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bodumbellrow.jpg; path = ../../../Desktop/Exercises/bodumbellrow.jpg; sourceTree = "<group>"; };
+		01ACEDF719ADC3820063B2CF /* deadlifts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = deadlifts.png; path = ../../../Desktop/Exercises/deadlifts.png; sourceTree = "<group>"; };
+		01ACEDF819ADC3820063B2CF /* declinepress.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = declinepress.jpg; path = ../../../Desktop/Exercises/declinepress.jpg; sourceTree = "<group>"; };
+		01ACEDF919ADC3820063B2CF /* inclinepress.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = inclinepress.jpg; path = ../../../Desktop/Exercises/inclinepress.jpg; sourceTree = "<group>"; };
+		01ACEDFD19ADC3820063B2CF /* situp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = situp.jpg; path = ../../../Desktop/Exercises/situp.jpg; sourceTree = "<group>"; };
+		01ACEE0819ADC4730063B2CF /* pushup.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pushup.jpg; path = ../../../Desktop/Exercises/pushup.jpg; sourceTree = "<group>"; };
+		01ACEE0A19ADCCA30063B2CF /* legcurl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = legcurl.jpg; path = ../../../Desktop/Exercises/legcurl.jpg; sourceTree = "<group>"; };
+		01ACEE0B19ADCCA30063B2CF /* legextension.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = legextension.jpg; path = ../../../Desktop/Exercises/legextension.jpg; sourceTree = "<group>"; };
 		6DD17C6B19AD749C008B6FCB /* inb348.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = inb348.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DD17C6E19AD749C008B6FCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6DD17C7019AD749C008B6FCB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -177,6 +197,16 @@
 		6DD17CB019AD8868008B6FCB /* image */ = {
 			isa = PBXGroup;
 			children = (
+				01ACEE0A19ADCCA30063B2CF /* legcurl.jpg */,
+				01ACEE0B19ADCCA30063B2CF /* legextension.jpg */,
+				01ACEE0819ADC4730063B2CF /* pushup.jpg */,
+				01ACEDF419ADC3820063B2CF /* barbellrow.jpg */,
+				01ACEDF519ADC3820063B2CF /* benchpress.jpg */,
+				01ACEDF619ADC3820063B2CF /* bodumbellrow.jpg */,
+				01ACEDF719ADC3820063B2CF /* deadlifts.png */,
+				01ACEDF819ADC3820063B2CF /* declinepress.jpg */,
+				01ACEDF919ADC3820063B2CF /* inclinepress.jpg */,
+				01ACEDFD19ADC3820063B2CF /* situp.jpg */,
 				6DD17CB119AD8E52008B6FCB /* 2nd.jpg */,
 				6DD17CAD19AD885B008B6FCB /* 1st.jpg */,
 			);
@@ -259,12 +289,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01ACEE0119ADC3820063B2CF /* deadlifts.png in Resources */,
+				01ACEE0219ADC3820063B2CF /* declinepress.jpg in Resources */,
+				01ACEE0319ADC3820063B2CF /* inclinepress.jpg in Resources */,
 				6DD17CB219AD8E52008B6FCB /* 2nd.jpg in Resources */,
+				01ACEE0D19ADCCA30063B2CF /* legextension.jpg in Resources */,
+				01ACEDFE19ADC3820063B2CF /* barbellrow.jpg in Resources */,
+				01ACEDFF19ADC3820063B2CF /* benchpress.jpg in Resources */,
 				6DD17C8519AD749C008B6FCB /* Main_iPad.storyboard in Resources */,
 				6DD17C8A19AD749C008B6FCB /* Images.xcassets in Resources */,
+				01ACEE0019ADC3820063B2CF /* bodumbellrow.jpg in Resources */,
 				6DD17C8219AD749C008B6FCB /* Main_iPhone.storyboard in Resources */,
 				6DD17C7919AD749C008B6FCB /* InfoPlist.strings in Resources */,
+				01ACEE0C19ADCCA30063B2CF /* legcurl.jpg in Resources */,
+				01ACEE0719ADC3820063B2CF /* situp.jpg in Resources */,
 				6DD17CAE19AD885B008B6FCB /* 1st.jpg in Resources */,
+				01ACEE0919ADC4730063B2CF /* pushup.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,6 +546,7 @@
 				6DD17CA219AD749C008B6FCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6DD17CA319AD749C008B6FCB /* Build configuration list for PBXNativeTarget "inb348Tests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +555,7 @@
 				6DD17CA519AD749C008B6FCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
