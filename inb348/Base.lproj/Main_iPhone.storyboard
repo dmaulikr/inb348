@@ -27,7 +27,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iAk-Jk-44p">
-                                            <rect key="frame" x="20" y="11" width="46" height="21"/>
+                                            <rect key="frame" x="20" y="5" width="46" height="33"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         </imageView>
                                     </subviews>
@@ -44,6 +44,52 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BYR-GF-Lfv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="692" y="28"/>
+        </scene>
+        <!--Introduction View Contoller - Introduction-->
+        <scene sceneID="iG1-gL-Tc2">
+            <objects>
+                <viewController storyboardIdentifier="IntroductionViewController" id="tl2-hq-9iA" customClass="IntroductionViewContoller" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="TyI-Ru-bTD"/>
+                        <viewControllerLayoutGuide type="bottom" id="rVG-DF-8ME"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bnU-Ot-NCE">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cZ2-nj-HF9">
+                                <rect key="frame" x="56" y="119" width="209" height="142"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name of Exercise" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TtE-DU-MJR">
+                                <rect key="frame" x="56" y="85" width="209" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="how to do it" translatesAutoresizingMaskIntoConstraints="NO" id="xAO-xE-N75">
+                                <rect key="frame" x="40" y="277" width="240" height="228"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Introduction" id="Pnb-gL-6mE">
+                        <barButtonItem key="leftBarButtonItem" title="Close" id="roY-xi-aVm"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="Mg3-55-pvg"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="coverView" destination="cZ2-nj-HF9" id="VXO-Yj-hSW"/>
+                        <outlet property="introTextView" destination="xAO-xE-N75" id="XLe-cX-2Rj"/>
+                        <outlet property="nameLabel" destination="TtE-DU-MJR" id="b69-NC-A0X"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cWl-Zg-RV4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1633" y="28"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="gfZ-8m-HGI">
@@ -62,6 +108,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pWq-nt-Tsw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="166" y="28"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="SNa-34-tsy">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="vfF-HF-YrJ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="8qF-sR-F9S">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="tl2-hq-9iA" kind="relationship" relationship="rootViewController" id="MZc-33-qBn"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="euD-6I-LuX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1107" y="28"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

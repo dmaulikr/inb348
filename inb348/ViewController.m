@@ -80,4 +80,27 @@
     return [_exercise count]; //set it as how many objects are in exercise array
 }
 
+
+
+//this method manages what happens when a row is tapped
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    
+    [tableView deselectRowAtIndexPath:indexPath animated:YES]; //when a row is tapped, deselect highlighted row automatically.
+    
+    //create IntroductionViewController class object and tell App that we have ViewController on storyboard which is called "IntroductionViewController"
+    IntroductionViewContoller *introViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"IntroductionViewController"];
+    
+    
+    //create navigationController object and initialise on "IntroViewController"
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:introViewController];
+    
+    
+    [self presentViewController:navigationController animated:YES completion:nil];//Current view will change to navigationController which is on "IntroductionViewController"
+    
+    
+}
+
+
+
 @end
