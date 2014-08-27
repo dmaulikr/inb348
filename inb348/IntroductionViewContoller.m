@@ -62,7 +62,9 @@
 }
 
 - (IBAction)addButtonTapped:(id)sender {
-
+    UIAlertView *notification =[[UIAlertView alloc]initWithTitle:@"Great!" message:@"You had added this to today's exercise" delegate:nil cancelButtonTitle:@"Continue" otherButtonTitles:nil];
+    
+    [notification show];
 }
 
 @end
