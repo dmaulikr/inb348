@@ -24,6 +24,10 @@
 		6DD17C9D19AD749C008B6FCB /* inb348Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD17C9C19AD749C008B6FCB /* inb348Tests.m */; };
 		6DD17CA819AD77A9008B6FCB /* Exercises.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD17CA719AD77A9008B6FCB /* Exercises.m */; };
 		6DD17CA919AD77A9008B6FCB /* Exercises.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD17CA719AD77A9008B6FCB /* Exercises.m */; };
+		6DD17CAE19AD885B008B6FCB /* 1st.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6DD17CAD19AD885B008B6FCB /* 1st.jpg */; };
+		6DD17CAF19AD885B008B6FCB /* 1st.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6DD17CAD19AD885B008B6FCB /* 1st.jpg */; };
+		6DD17CB219AD8E52008B6FCB /* 2nd.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6DD17CB119AD8E52008B6FCB /* 2nd.jpg */; };
+		6DD17CB319AD8E52008B6FCB /* 2nd.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6DD17CB119AD8E52008B6FCB /* 2nd.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +63,8 @@
 		6DD17C9C19AD749C008B6FCB /* inb348Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = inb348Tests.m; sourceTree = "<group>"; };
 		6DD17CA619AD77A9008B6FCB /* Exercises.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exercises.h; sourceTree = "<group>"; };
 		6DD17CA719AD77A9008B6FCB /* Exercises.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Exercises.m; sourceTree = "<group>"; };
+		6DD17CAD19AD885B008B6FCB /* 1st.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1st.jpg; sourceTree = "<group>"; };
+		6DD17CB119AD8E52008B6FCB /* 2nd.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2nd.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +124,7 @@
 		6DD17C7419AD749C008B6FCB /* inb348 */ = {
 			isa = PBXGroup;
 			children = (
+				6DD17CB019AD8868008B6FCB /* image */,
 				6DD17C7D19AD749C008B6FCB /* AppDelegate.h */,
 				6DD17C7E19AD749C008B6FCB /* AppDelegate.m */,
 				6DD17C8019AD749C008B6FCB /* Main_iPhone.storyboard */,
@@ -159,6 +166,15 @@
 				6DD17C9919AD749C008B6FCB /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6DD17CB019AD8868008B6FCB /* image */ = {
+			isa = PBXGroup;
+			children = (
+				6DD17CB119AD8E52008B6FCB /* 2nd.jpg */,
+				6DD17CAD19AD885B008B6FCB /* 1st.jpg */,
+			);
+			name = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,10 +253,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DD17CB219AD8E52008B6FCB /* 2nd.jpg in Resources */,
 				6DD17C8519AD749C008B6FCB /* Main_iPad.storyboard in Resources */,
 				6DD17C8A19AD749C008B6FCB /* Images.xcassets in Resources */,
 				6DD17C8219AD749C008B6FCB /* Main_iPhone.storyboard in Resources */,
 				6DD17C7919AD749C008B6FCB /* InfoPlist.strings in Resources */,
+				6DD17CAE19AD885B008B6FCB /* 1st.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +266,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DD17CB319AD8E52008B6FCB /* 2nd.jpg in Resources */,
+				6DD17CAF19AD885B008B6FCB /* 1st.jpg in Resources */,
 				6DD17C9B19AD749C008B6FCB /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
