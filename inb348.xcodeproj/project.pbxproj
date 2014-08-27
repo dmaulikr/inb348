@@ -22,6 +22,8 @@
 		6DD17C9319AD749C008B6FCB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD17C7219AD749C008B6FCB /* UIKit.framework */; };
 		6DD17C9B19AD749C008B6FCB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6DD17C9919AD749C008B6FCB /* InfoPlist.strings */; };
 		6DD17C9D19AD749C008B6FCB /* inb348Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD17C9C19AD749C008B6FCB /* inb348Tests.m */; };
+		6DD17CA819AD77A9008B6FCB /* Exercises.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD17CA719AD77A9008B6FCB /* Exercises.m */; };
+		6DD17CA919AD77A9008B6FCB /* Exercises.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD17CA719AD77A9008B6FCB /* Exercises.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		6DD17C9819AD749C008B6FCB /* inb348Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "inb348Tests-Info.plist"; sourceTree = "<group>"; };
 		6DD17C9A19AD749C008B6FCB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6DD17C9C19AD749C008B6FCB /* inb348Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = inb348Tests.m; sourceTree = "<group>"; };
+		6DD17CA619AD77A9008B6FCB /* Exercises.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exercises.h; sourceTree = "<group>"; };
+		6DD17CA719AD77A9008B6FCB /* Exercises.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Exercises.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +124,8 @@
 				6DD17C8319AD749C008B6FCB /* Main_iPad.storyboard */,
 				6DD17C8619AD749C008B6FCB /* ViewController.h */,
 				6DD17C8719AD749C008B6FCB /* ViewController.m */,
+				6DD17CA619AD77A9008B6FCB /* Exercises.h */,
+				6DD17CA719AD77A9008B6FCB /* Exercises.m */,
 				6DD17C8919AD749C008B6FCB /* Images.xcassets */,
 				6DD17C7519AD749C008B6FCB /* Supporting Files */,
 			);
@@ -254,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DD17C8819AD749C008B6FCB /* ViewController.m in Sources */,
+				6DD17CA819AD77A9008B6FCB /* Exercises.m in Sources */,
 				6DD17C7F19AD749C008B6FCB /* AppDelegate.m in Sources */,
 				6DD17C7B19AD749C008B6FCB /* main.m in Sources */,
 			);
@@ -264,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DD17C9D19AD749C008B6FCB /* inb348Tests.m in Sources */,
+				6DD17CA919AD77A9008B6FCB /* Exercises.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

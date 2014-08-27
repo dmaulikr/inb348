@@ -26,4 +26,22 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
+    
+    
+    UILabel *ourLabel = (UILabel *) [cell viewWithTag:42];
+    ourLabel.text = @"Whatever";
+    
+    
+    return cell;
+    
+}
+
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return 11;
+}
+
 @end
