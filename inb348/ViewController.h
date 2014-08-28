@@ -15,6 +15,5 @@
 
 
 @property NSMutableArray *exercise;
-
-
+//@property NSArray *selectedWorkout;
 @end

@@ -17,5 +17,5 @@
 @property (weak, nonatomic) IBOutlet UITextView *instructionTextView;
 
 @property Exercises *selectedExercise;
-
+@property NSArray *array;
 @end

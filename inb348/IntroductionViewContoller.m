@@ -62,9 +62,17 @@
 }
 
 - (IBAction)addButtonTapped:(id)sender {
+    
+     _array = [[NSArray alloc]initWithObjects:_selectedExercise.name, nil];
+    
     UIAlertView *notification =[[UIAlertView alloc]initWithTitle:@"Great!" message:@"You had added this to today's exercise" delegate:nil cancelButtonTitle:@"Continue" otherButtonTitles:nil];
     
     [notification show];
+    
+    //HOW TO SHIFT THOSE DATA IN THIS ARRAY TO TODAY'S WORKOUT TABLEVIEW?
+    NSLog(@"The array name is %@",_array);
+    
+    
 }
 
 @end

@@ -22,8 +22,6 @@
     _exercise = [[NSMutableArray alloc] init]; //allocate _exercise array into heap and initialise
     Exercises *exercise = [[Exercises alloc] init]; //create Exercise class object and allocate it in to heap. initialise it.
     
-    
-    
     //add data into exercise class object
     //=====================================================
     //                      EX 1
