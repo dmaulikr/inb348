@@ -12,4 +12,6 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
+//GLOBAL ARRAY
+@property (strong, nonatomic)NSMutableArray *exercise;
 @end

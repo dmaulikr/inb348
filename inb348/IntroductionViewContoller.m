@@ -7,7 +7,7 @@
 //
 
 #import "IntroductionViewContoller.h"
-
+#import "AppDelegate.h"
 
 @interface IntroductionViewContoller ()
 
@@ -65,12 +65,22 @@
     
      _array = [[NSArray alloc]initWithObjects:_selectedExercise.name, nil];
     
+    //KEEP ADDING NULL VALUES INTO GLOBAL ARRAY
     UIAlertView *notification =[[UIAlertView alloc]initWithTitle:@"Great!" message:@"You had added this to today's exercise" delegate:nil cancelButtonTitle:@"Continue" otherButtonTitles:nil];
     
     [notification show];
     
+    AppDelegate *appDelegate = [[UIApplication sharedApplication]delegate];
+    [appDelegate.exercise addObject:[NSString stringWithFormat:@"%@",_selectedExercise.name]];
+    NSLog(@"%@",appDelegate.exercise);
+    
+    NSString *documentsDirectoryPath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)objectAtIndex:0];
+    NSString *filePath = [documentsDirectoryPath stringByAppendingPathComponent:@"exercise.plist"];
+    [appDelegate.exercise writeToFile:filePath atomically:YES];
+     
+    
     //HOW TO SHIFT THOSE DATA IN THIS ARRAY TO TODAY'S WORKOUT TABLEVIEW?
-    NSLog(@"The array name is %@",_array);
+    //NSLog(@"The array name is %@",_array);
     
     
 }
