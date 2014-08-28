@@ -65,24 +65,24 @@
     
      _array = [[NSArray alloc]initWithObjects:_selectedExercise.name, nil];
     
-    //KEEP ADDING NULL VALUES INTO GLOBAL ARRAY
     UIAlertView *notification =[[UIAlertView alloc]initWithTitle:@"Great!" message:@"You had added this to today's exercise" delegate:nil cancelButtonTitle:@"Continue" otherButtonTitles:nil];
     
     [notification show];
     
+    //==========================
+    //ADD TO GLOBAL ARRAY LOGIC
+    //==========================
+
+    //SAVE THE SELECTED EXERCISES INTO GLOBAL ARRAY
     AppDelegate *appDelegate = [[UIApplication sharedApplication]delegate];
-    [appDelegate.exercise addObject:[NSString stringWithFormat:@"%@",_selectedExercise.name]];
-    NSLog(@"%@",appDelegate.exercise);
+    [appDelegate.exerciseList addObject:[NSString stringWithFormat:@"%@",_array]];
+    NSLog(@"%@",appDelegate.exerciseList);
+    NSLog(@"%lu",(unsigned long)appDelegate.exerciseList.count);
+    
     
     NSString *documentsDirectoryPath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)objectAtIndex:0];
     NSString *filePath = [documentsDirectoryPath stringByAppendingPathComponent:@"exercise.plist"];
-    [appDelegate.exercise writeToFile:filePath atomically:YES];
-     
-    
-    //HOW TO SHIFT THOSE DATA IN THIS ARRAY TO TODAY'S WORKOUT TABLEVIEW?
-    //NSLog(@"The array name is %@",_array);
-    
-    
+    [appDelegate.exerciseList writeToFile:filePath atomically:YES];
 }
 
 @end
