@@ -40,6 +40,7 @@
 		6DD17CB319AD8E52008B6FCB /* 2nd.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6DD17CB119AD8E52008B6FCB /* 2nd.jpg */; };
 		6DD17CB619AD96AE008B6FCB /* IntroductionViewContoller.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD17CB519AD96AE008B6FCB /* IntroductionViewContoller.m */; };
 		6DD17CB719AD96AE008B6FCB /* IntroductionViewContoller.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD17CB519AD96AE008B6FCB /* IntroductionViewContoller.m */; };
+		8B354C6B19AF469B00F090D3 /* TodayWorkoutViewControllerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B354C6A19AF469B00F090D3 /* TodayWorkoutViewControllerTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +90,8 @@
 		6DD17CB119AD8E52008B6FCB /* 2nd.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2nd.jpg; sourceTree = "<group>"; };
 		6DD17CB419AD96AE008B6FCB /* IntroductionViewContoller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroductionViewContoller.h; sourceTree = "<group>"; };
 		6DD17CB519AD96AE008B6FCB /* IntroductionViewContoller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroductionViewContoller.m; sourceTree = "<group>"; };
+		8B354C6919AF469B00F090D3 /* TodayWorkoutViewControllerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodayWorkoutViewControllerTableViewController.h; sourceTree = "<group>"; };
+		8B354C6A19AF469B00F090D3 /* TodayWorkoutViewControllerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodayWorkoutViewControllerTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +160,8 @@
 				6DD17C8319AD749C008B6FCB /* Main_iPad.storyboard */,
 				6DD17C8619AD749C008B6FCB /* ViewController.h */,
 				6DD17C8719AD749C008B6FCB /* ViewController.m */,
+				8B354C6919AF469B00F090D3 /* TodayWorkoutViewControllerTableViewController.h */,
+				8B354C6A19AF469B00F090D3 /* TodayWorkoutViewControllerTableViewController.m */,
 				6DD17CA619AD77A9008B6FCB /* Exercises.h */,
 				6DD17CA719AD77A9008B6FCB /* Exercises.m */,
 				6DD17C8919AD749C008B6FCB /* Images.xcassets */,
@@ -329,6 +334,7 @@
 				6DD17CA819AD77A9008B6FCB /* Exercises.m in Sources */,
 				6DD17C7F19AD749C008B6FCB /* AppDelegate.m in Sources */,
 				6DD17C7B19AD749C008B6FCB /* main.m in Sources */,
+				8B354C6B19AF469B00F090D3 /* TodayWorkoutViewControllerTableViewController.m in Sources */,
 				6DD17CB619AD96AE008B6FCB /* IntroductionViewContoller.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

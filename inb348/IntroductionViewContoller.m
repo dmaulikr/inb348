@@ -63,6 +63,7 @@
 
 - (IBAction)addButtonTapped:(id)sender {
     
+    _string = _selectedExercise.name;
      _array = [[NSArray alloc]initWithObjects:_selectedExercise.name, nil];
     
     UIAlertView *notification =[[UIAlertView alloc]initWithTitle:@"Great!" message:@"You had added this to today's exercise" delegate:nil cancelButtonTitle:@"Continue" otherButtonTitles:nil];
@@ -75,9 +76,10 @@
 
     //SAVE THE SELECTED EXERCISES INTO GLOBAL ARRAY
     AppDelegate *appDelegate = [[UIApplication sharedApplication]delegate];
-    [appDelegate.exerciseList addObject:[NSString stringWithFormat:@"%@",_array]];
-    NSLog(@"%@",appDelegate.exerciseList);
-    NSLog(@"%lu",(unsigned long)appDelegate.exerciseList.count);
+    [appDelegate.exerciseList addObject:[NSString stringWithFormat:@"%@",_string]];
+    NSLog(@"%@",_string);
+   // NSLog(@"%@",appDelegate.exerciseList);
+   // NSLog(@"%lu",(unsigned long)appDelegate.exerciseList.count);
     
     
     NSString *documentsDirectoryPath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)objectAtIndex:0];

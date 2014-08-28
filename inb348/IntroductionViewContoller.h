@@ -18,4 +18,5 @@
 
 @property Exercises *selectedExercise;
 @property NSArray *array;
+@property NSString *string;
 @end
