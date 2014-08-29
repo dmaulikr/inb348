@@ -14,10 +14,10 @@
 {
     // Override point for customization after application launch.
     self.exerciseList = [[NSMutableArray alloc]init];
-    //UIPageControl *pageControl = [UIPageControl appearance];
-    //pageControl.pageIndicatorTintColor = [UIColor lightGrayColor];
-    //pageControl.currentPageIndicatorTintColor = [UIColor blackColor];
-    //pageControl.backgroundColor = [UIColor whiteColor];
+    UIPageControl *pageControl = [UIPageControl appearance];
+    pageControl.pageIndicatorTintColor = [UIColor lightGrayColor];
+    pageControl.currentPageIndicatorTintColor = [UIColor blackColor];
+    pageControl.backgroundColor = [UIColor whiteColor];
     return YES;
 }
 							

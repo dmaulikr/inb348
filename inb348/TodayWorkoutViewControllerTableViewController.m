@@ -44,7 +44,7 @@
 {
     AppDelegate *appDelegate = [[UIApplication sharedApplication]delegate];
     self.exerciseHistory = [[NSMutableArray alloc]initWithArray:appDelegate.exerciseList];
-    NSLog(@"Array count: %d",[self.exerciseHistory count]);
+    NSLog(@"Array count: %lu",(unsigned long)[self.exerciseHistory count]);
     
     [self.tableView reloadData];
     [super viewWillAppear:animated];

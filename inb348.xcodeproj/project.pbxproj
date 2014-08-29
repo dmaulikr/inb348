@@ -21,13 +21,13 @@
 		01C3782019B04C7F0045D349 /* PageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C3781E19B04C7F0045D349 /* PageContentViewController.m */; };
 		01C3782719B04FB70045D349 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C3782619B04FB70045D349 /* MainViewController.m */; };
 		01C3782819B04FB70045D349 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C3782619B04FB70045D349 /* MainViewController.m */; };
+		01C3782E19B06ED00045D349 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01C3782D19B06ED00045D349 /* Main_iPhone.storyboard */; };
 		6DD17C6F19AD749C008B6FCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD17C6E19AD749C008B6FCB /* Foundation.framework */; };
 		6DD17C7119AD749C008B6FCB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD17C7019AD749C008B6FCB /* CoreGraphics.framework */; };
 		6DD17C7319AD749C008B6FCB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD17C7219AD749C008B6FCB /* UIKit.framework */; };
 		6DD17C7919AD749C008B6FCB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6DD17C7719AD749C008B6FCB /* InfoPlist.strings */; };
 		6DD17C7B19AD749C008B6FCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD17C7A19AD749C008B6FCB /* main.m */; };
 		6DD17C7F19AD749C008B6FCB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD17C7E19AD749C008B6FCB /* AppDelegate.m */; };
-		6DD17C8219AD749C008B6FCB /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DD17C8019AD749C008B6FCB /* Main_iPhone.storyboard */; };
 		6DD17C8519AD749C008B6FCB /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DD17C8319AD749C008B6FCB /* Main_iPad.storyboard */; };
 		6DD17C8819AD749C008B6FCB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD17C8719AD749C008B6FCB /* ViewController.m */; };
 		6DD17C8A19AD749C008B6FCB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DD17C8919AD749C008B6FCB /* Images.xcassets */; };
@@ -73,6 +73,7 @@
 		01C3781E19B04C7F0045D349 /* PageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageContentViewController.m; sourceTree = "<group>"; };
 		01C3782519B04FB70045D349 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		01C3782619B04FB70045D349 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		01C3782D19B06ED00045D349 /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main_iPhone.storyboard; path = ../../../.Trash/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		6DD17C6B19AD749C008B6FCB /* inb348.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = inb348.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DD17C6E19AD749C008B6FCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6DD17C7019AD749C008B6FCB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -83,7 +84,6 @@
 		6DD17C7C19AD749C008B6FCB /* inb348-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "inb348-Prefix.pch"; sourceTree = "<group>"; };
 		6DD17C7D19AD749C008B6FCB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6DD17C7E19AD749C008B6FCB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6DD17C8119AD749C008B6FCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		6DD17C8419AD749C008B6FCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		6DD17C8619AD749C008B6FCB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6DD17C8719AD749C008B6FCB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -165,10 +165,10 @@
 				6DD17CB019AD8868008B6FCB /* image */,
 				6DD17C7D19AD749C008B6FCB /* AppDelegate.h */,
 				6DD17C7E19AD749C008B6FCB /* AppDelegate.m */,
-				6DD17C8019AD749C008B6FCB /* Main_iPhone.storyboard */,
 				01C3781D19B04C7F0045D349 /* PageContentViewController.h */,
 				01C3781E19B04C7F0045D349 /* PageContentViewController.m */,
 				01C3782519B04FB70045D349 /* MainViewController.h */,
+				01C3782D19B06ED00045D349 /* Main_iPhone.storyboard */,
 				01C3782619B04FB70045D349 /* MainViewController.m */,
 				9E57A65119B0184B00262BE6 /* ExerciseTableViewCell.h */,
 				9E57A65219B0184B00262BE6 /* ExerciseTableViewCell.m */,
@@ -315,6 +315,7 @@
 				0190BDF419ADF30A003F1FBB /* declinepress.jpg in Resources */,
 				0190BDF819ADF30A003F1FBB /* pushup.jpg in Resources */,
 				0190BDF519ADF30A003F1FBB /* inclinepress.jpg in Resources */,
+				01C3782E19B06ED00045D349 /* Main_iPhone.storyboard in Resources */,
 				6DD17CB219AD8E52008B6FCB /* 2nd.jpg in Resources */,
 				0190BDF019ADF30A003F1FBB /* barbellrow.jpg in Resources */,
 				0190BDF119ADF30A003F1FBB /* benchpress.jpg in Resources */,
@@ -322,7 +323,6 @@
 				6DD17C8519AD749C008B6FCB /* Main_iPad.storyboard in Resources */,
 				6DD17C8A19AD749C008B6FCB /* Images.xcassets in Resources */,
 				0190BDF219ADF30A003F1FBB /* bodumbellrow.jpg in Resources */,
-				6DD17C8219AD749C008B6FCB /* Main_iPhone.storyboard in Resources */,
 				6DD17C7919AD749C008B6FCB /* InfoPlist.strings in Resources */,
 				0190BDF919ADF30A003F1FBB /* situp.jpg in Resources */,
 				6DD17CAE19AD885B008B6FCB /* 1st.jpg in Resources */,
@@ -388,14 +388,6 @@
 				6DD17C7819AD749C008B6FCB /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		6DD17C8019AD749C008B6FCB /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6DD17C8119AD749C008B6FCB /* Base */,
-			);
-			name = Main_iPhone.storyboard;
 			sourceTree = "<group>";
 		};
 		6DD17C8319AD749C008B6FCB /* Main_iPad.storyboard */ = {

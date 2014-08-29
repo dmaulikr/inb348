@@ -104,8 +104,6 @@
 }
 */
 
-- (IBAction)startWalkthrough:(id)sender {
-}
 
 - (void)didReceiveMemoryWarning
 {
