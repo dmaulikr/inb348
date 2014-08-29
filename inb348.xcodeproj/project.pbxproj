@@ -17,6 +17,10 @@
 		0190BDF719ADF30A003F1FBB /* legextension.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0190BDED19ADF30A003F1FBB /* legextension.jpg */; };
 		0190BDF819ADF30A003F1FBB /* pushup.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0190BDEE19ADF30A003F1FBB /* pushup.jpg */; };
 		0190BDF919ADF30A003F1FBB /* situp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0190BDEF19ADF30A003F1FBB /* situp.jpg */; };
+		01C3781F19B04C7F0045D349 /* PageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C3781E19B04C7F0045D349 /* PageContentViewController.m */; };
+		01C3782019B04C7F0045D349 /* PageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C3781E19B04C7F0045D349 /* PageContentViewController.m */; };
+		01C3782719B04FB70045D349 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C3782619B04FB70045D349 /* MainViewController.m */; };
+		01C3782819B04FB70045D349 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C3782619B04FB70045D349 /* MainViewController.m */; };
 		6DD17C6F19AD749C008B6FCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD17C6E19AD749C008B6FCB /* Foundation.framework */; };
 		6DD17C7119AD749C008B6FCB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD17C7019AD749C008B6FCB /* CoreGraphics.framework */; };
 		6DD17C7319AD749C008B6FCB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD17C7219AD749C008B6FCB /* UIKit.framework */; };
@@ -65,6 +69,10 @@
 		0190BDED19ADF30A003F1FBB /* legextension.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = legextension.jpg; sourceTree = "<group>"; };
 		0190BDEE19ADF30A003F1FBB /* pushup.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pushup.jpg; sourceTree = "<group>"; };
 		0190BDEF19ADF30A003F1FBB /* situp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = situp.jpg; sourceTree = "<group>"; };
+		01C3781D19B04C7F0045D349 /* PageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageContentViewController.h; sourceTree = "<group>"; };
+		01C3781E19B04C7F0045D349 /* PageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageContentViewController.m; sourceTree = "<group>"; };
+		01C3782519B04FB70045D349 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		01C3782619B04FB70045D349 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		6DD17C6B19AD749C008B6FCB /* inb348.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = inb348.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DD17C6E19AD749C008B6FCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6DD17C7019AD749C008B6FCB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -158,6 +166,10 @@
 				6DD17C7D19AD749C008B6FCB /* AppDelegate.h */,
 				6DD17C7E19AD749C008B6FCB /* AppDelegate.m */,
 				6DD17C8019AD749C008B6FCB /* Main_iPhone.storyboard */,
+				01C3781D19B04C7F0045D349 /* PageContentViewController.h */,
+				01C3781E19B04C7F0045D349 /* PageContentViewController.m */,
+				01C3782519B04FB70045D349 /* MainViewController.h */,
+				01C3782619B04FB70045D349 /* MainViewController.m */,
 				9E57A65119B0184B00262BE6 /* ExerciseTableViewCell.h */,
 				9E57A65219B0184B00262BE6 /* ExerciseTableViewCell.m */,
 				6DD17CB419AD96AE008B6FCB /* IntroductionViewContoller.h */,
@@ -337,6 +349,8 @@
 			files = (
 				6DD17C8819AD749C008B6FCB /* ViewController.m in Sources */,
 				9E57A65319B0184B00262BE6 /* ExerciseTableViewCell.m in Sources */,
+				01C3781F19B04C7F0045D349 /* PageContentViewController.m in Sources */,
+				01C3782719B04FB70045D349 /* MainViewController.m in Sources */,
 				6DD17CA819AD77A9008B6FCB /* Exercises.m in Sources */,
 				6DD17C7F19AD749C008B6FCB /* AppDelegate.m in Sources */,
 				6DD17C7B19AD749C008B6FCB /* main.m in Sources */,
@@ -350,7 +364,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DD17CB719AD96AE008B6FCB /* IntroductionViewContoller.m in Sources */,
+				01C3782819B04FB70045D349 /* MainViewController.m in Sources */,
 				6DD17C9D19AD749C008B6FCB /* inb348Tests.m in Sources */,
+				01C3782019B04C7F0045D349 /* PageContentViewController.m in Sources */,
 				6DD17CA919AD77A9008B6FCB /* Exercises.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

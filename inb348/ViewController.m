@@ -186,7 +186,7 @@
     Exercises *exercise = [_exercise objectAtIndex:indexPath.row];
     
     
-    UILabel *ourLabel = (UILabel *) [cell viewWithTag:42]; //create ourLabel object and this label is located in cell which is tag 42
+    //UILabel *ourLabel = (UILabel *) [cell viewWithTag:42]; //create ourLabel object and this label is located in cell which is tag 42
     //ourLabel.text = exercise.name; //set label text as name from exercise array
     //cell.imageView.image = exercise.cover; //set cover image from exercise array to imageview in cell
     
