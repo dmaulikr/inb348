@@ -66,9 +66,8 @@
     _string = _selectedExercise.name;
      _array = [[NSArray alloc]initWithObjects:_selectedExercise.name, nil];
     
-    UIAlertView *notification =[[UIAlertView alloc]initWithTitle:@"Great!" message:@"You had added this to today's exercise" delegate:nil cancelButtonTitle:@"Continue" otherButtonTitles:nil];
     
-    [notification show];
+    
     
     //==========================
     //ADD TO GLOBAL ARRAY LOGIC
@@ -76,6 +75,16 @@
 
     //SAVE THE SELECTED EXERCISES INTO GLOBAL ARRAY
     AppDelegate *appDelegate = [[UIApplication sharedApplication]delegate];
+    
+    if([appDelegate.exerciseList containsObject:_string])
+    {
+        UIAlertView *notification =[[UIAlertView alloc]initWithTitle:@"Sorry!" message:@"You already registered this exercise" delegate:nil cancelButtonTitle:@"Continue" otherButtonTitles:nil];
+        [notification show];
+    }
+    else
+    {
+        UIAlertView *notification =[[UIAlertView alloc]initWithTitle:@"Great!" message:@"You had added this to today's exercise" delegate:nil cancelButtonTitle:@"Continue" otherButtonTitles:nil];
+        [notification show];
     [appDelegate.exerciseList addObject:[NSString stringWithFormat:@"%@",_string]];
     NSLog(@"%@",_string);
    // NSLog(@"%@",appDelegate.exerciseList);
@@ -85,6 +94,7 @@
     NSString *documentsDirectoryPath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)objectAtIndex:0];
     NSString *filePath = [documentsDirectoryPath stringByAppendingPathComponent:@"exercise.plist"];
     [appDelegate.exerciseList writeToFile:filePath atomically:YES];
+    }
 }
 
 @end
