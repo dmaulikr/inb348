@@ -177,9 +177,8 @@
 {
     //Talk to table view that we will use paticular cell which is identified as "Cell"
     
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
-    
-
+    //UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
+    ExerciseTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"EXCell"];
     
     
     //Create Exercise object of array and assign each row to cell. ex> cell 0 for exercise 0, cell 1 for exercise 1, cell 2 for exercise 2.
@@ -188,11 +187,11 @@
     
     
     UILabel *ourLabel = (UILabel *) [cell viewWithTag:42]; //create ourLabel object and this label is located in cell which is tag 42
+    //ourLabel.text = exercise.name; //set label text as name from exercise array
+    //cell.imageView.image = exercise.cover; //set cover image from exercise array to imageview in cell
     
-    ourLabel.text = exercise.name; //set label text as name from exercise array
-    
-    
-    cell.imageView.image = exercise.cover; //set cover image from exercise array to imageview in cell
+    cell.nameStr.text = exercise.name;
+    cell.coverImageView.image = exercise.cover; //set cover image from exercise array to imageview in cell
     
     return cell;
     

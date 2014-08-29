@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "Exercises.h"
 #import "IntroductionViewContoller.h"
+#import "ExerciseTableViewCell.h"
 
 
 @interface ViewController : UITableViewController

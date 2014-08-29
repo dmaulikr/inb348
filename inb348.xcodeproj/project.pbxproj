@@ -41,6 +41,7 @@
 		6DD17CB619AD96AE008B6FCB /* IntroductionViewContoller.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD17CB519AD96AE008B6FCB /* IntroductionViewContoller.m */; };
 		6DD17CB719AD96AE008B6FCB /* IntroductionViewContoller.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD17CB519AD96AE008B6FCB /* IntroductionViewContoller.m */; };
 		8B354C6B19AF469B00F090D3 /* TodayWorkoutViewControllerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B354C6A19AF469B00F090D3 /* TodayWorkoutViewControllerTableViewController.m */; };
+		9E57A65319B0184B00262BE6 /* ExerciseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E57A65219B0184B00262BE6 /* ExerciseTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +93,8 @@
 		6DD17CB519AD96AE008B6FCB /* IntroductionViewContoller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroductionViewContoller.m; sourceTree = "<group>"; };
 		8B354C6919AF469B00F090D3 /* TodayWorkoutViewControllerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodayWorkoutViewControllerTableViewController.h; sourceTree = "<group>"; };
 		8B354C6A19AF469B00F090D3 /* TodayWorkoutViewControllerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodayWorkoutViewControllerTableViewController.m; sourceTree = "<group>"; };
+		9E57A65119B0184B00262BE6 /* ExerciseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseTableViewCell.h; sourceTree = "<group>"; };
+		9E57A65219B0184B00262BE6 /* ExerciseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +158,8 @@
 				6DD17C7D19AD749C008B6FCB /* AppDelegate.h */,
 				6DD17C7E19AD749C008B6FCB /* AppDelegate.m */,
 				6DD17C8019AD749C008B6FCB /* Main_iPhone.storyboard */,
+				9E57A65119B0184B00262BE6 /* ExerciseTableViewCell.h */,
+				9E57A65219B0184B00262BE6 /* ExerciseTableViewCell.m */,
 				6DD17CB419AD96AE008B6FCB /* IntroductionViewContoller.h */,
 				6DD17CB519AD96AE008B6FCB /* IntroductionViewContoller.m */,
 				6DD17C8319AD749C008B6FCB /* Main_iPad.storyboard */,
@@ -331,6 +336,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DD17C8819AD749C008B6FCB /* ViewController.m in Sources */,
+				9E57A65319B0184B00262BE6 /* ExerciseTableViewCell.m in Sources */,
 				6DD17CA819AD77A9008B6FCB /* Exercises.m in Sources */,
 				6DD17C7F19AD749C008B6FCB /* AppDelegate.m in Sources */,
 				6DD17C7B19AD749C008B6FCB /* main.m in Sources */,
