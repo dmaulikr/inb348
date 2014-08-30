@@ -44,7 +44,7 @@
     // Do any additional setup after loading the view.
     //CREATES THE DATA MODEL FOR THE SOURCES
     _pageTitles = @[@"Find Step - by - Step Instructions", @"Record down your workouts!", @"Tweet out your workout progress!"];
-    _pageImages = @[@"1st.jpg",@"2nd.jpg",@"deadlifts.jpg"];
+    _pageImages = @[@"wall.jpg",@"wall1.jpg",@"wall5.jpg"];
     
     
     // Create page view controller
