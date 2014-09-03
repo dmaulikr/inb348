@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
+#import <Social/Social.h>
 
 @interface TodayWorkoutViewControllerTableViewController : UITableViewController
 @property (nonatomic,strong) NSMutableArray *exerciseHistory;
+- (IBAction)postTwitter:(id)sender;
 @end

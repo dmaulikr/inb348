@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		017ACE2319B70E41009E9B62 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 017ACE2219B70E41009E9B62 /* Social.framework */; };
+		017ACE2519B71347009E9B62 /* twitter-bird-white-on-blue-jpeg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 017ACE2419B71347009E9B62 /* twitter-bird-white-on-blue-jpeg.jpg */; };
 		0190BDF019ADF30A003F1FBB /* barbellrow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0190BDE619ADF30A003F1FBB /* barbellrow.jpg */; };
 		0190BDF119ADF30A003F1FBB /* benchpress.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0190BDE719ADF30A003F1FBB /* benchpress.jpg */; };
 		0190BDF219ADF30A003F1FBB /* bodumbellrow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0190BDE819ADF30A003F1FBB /* bodumbellrow.jpg */; };
@@ -63,6 +65,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		017ACE2219B70E41009E9B62 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		017ACE2419B71347009E9B62 /* twitter-bird-white-on-blue-jpeg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "twitter-bird-white-on-blue-jpeg.jpg"; sourceTree = "<group>"; };
 		0190BDE619ADF30A003F1FBB /* barbellrow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = barbellrow.jpg; sourceTree = "<group>"; };
 		0190BDE719ADF30A003F1FBB /* benchpress.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = benchpress.jpg; sourceTree = "<group>"; };
 		0190BDE819ADF30A003F1FBB /* bodumbellrow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bodumbellrow.jpg; sourceTree = "<group>"; };
@@ -118,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				017ACE2319B70E41009E9B62 /* Social.framework in Frameworks */,
 				6DD17C7119AD749C008B6FCB /* CoreGraphics.framework in Frameworks */,
 				6DD17C7319AD749C008B6FCB /* UIKit.framework in Frameworks */,
 				6DD17C6F19AD749C008B6FCB /* Foundation.framework in Frameworks */,
@@ -159,6 +164,7 @@
 		6DD17C6D19AD749C008B6FCB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				017ACE2219B70E41009E9B62 /* Social.framework */,
 				6DD17C6E19AD749C008B6FCB /* Foundation.framework */,
 				6DD17C7019AD749C008B6FCB /* CoreGraphics.framework */,
 				6DD17C7219AD749C008B6FCB /* UIKit.framework */,
@@ -227,6 +233,7 @@
 		6DD17CB019AD8868008B6FCB /* image */ = {
 			isa = PBXGroup;
 			children = (
+				017ACE2419B71347009E9B62 /* twitter-bird-white-on-blue-jpeg.jpg */,
 				8BE1E3A619B1A28C00820683 /* wall5.jpg */,
 				8BE1E3A419B1A1D600820683 /* wall4.jpg */,
 				8BE1E39C19B19E2100820683 /* wall.jpg */,
@@ -331,6 +338,7 @@
 				6DD17CB219AD8E52008B6FCB /* 2nd.jpg in Resources */,
 				8BE1E3A519B1A1D600820683 /* wall4.jpg in Resources */,
 				0190BDF019ADF30A003F1FBB /* barbellrow.jpg in Resources */,
+				017ACE2519B71347009E9B62 /* twitter-bird-white-on-blue-jpeg.jpg in Resources */,
 				0190BDF119ADF30A003F1FBB /* benchpress.jpg in Resources */,
 				0190BDF719ADF30A003F1FBB /* legextension.jpg in Resources */,
 				6DD17C8519AD749C008B6FCB /* Main_iPad.storyboard in Resources */,

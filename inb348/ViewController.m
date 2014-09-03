@@ -197,8 +197,6 @@
     
 }
 
-
-
 //set number of row on table view
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {

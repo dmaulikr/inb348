@@ -8,6 +8,7 @@
 
 #import "TodayWorkoutViewControllerTableViewController.h"
 
+
 @interface TodayWorkoutViewControllerTableViewController ()
 
 @end
@@ -44,7 +45,7 @@
 {
     AppDelegate *appDelegate = [[UIApplication sharedApplication]delegate];
     self.exerciseHistory = [[NSMutableArray alloc]initWithArray:appDelegate.exerciseList];
-    NSLog(@"Array count: %d",[self.exerciseHistory count]);
+    //NSLog(@"Array count: %d",[self.exerciseHistory count]);
     
     [self.tableView reloadData];
     [super viewWillAppear:animated];
@@ -98,6 +99,8 @@
     
     return cell;
 }
+
+
 
 /*
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -159,4 +162,14 @@
 }
 */
 
+- (IBAction)postTwitter:(id)sender
+{
+    //VERIFY TWITTER SERVICE AVAILABLE
+    if([SLComposeViewController isAvailableForServiceType:SLServiceTypeTwitter])
+    {
+        SLComposeViewController *tweetSheet = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeTwitter];
+        [tweetSheet setInitialText:@"Its fun to use this app for fitness! Com and join us!"];
+        [self presentViewController:tweetSheet animated:YES completion:nil];
+    }
+}
 @end
