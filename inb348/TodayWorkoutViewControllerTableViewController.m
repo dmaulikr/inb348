@@ -168,7 +168,7 @@
     if([SLComposeViewController isAvailableForServiceType:SLServiceTypeTwitter])
     {
         SLComposeViewController *tweetSheet = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeTwitter];
-        [tweetSheet setInitialText:@"Its fun to use this app for fitness! Com and join us!"];
+        [tweetSheet setInitialText:@"Its fun to use this app for fitness! Come and join us!"];
         [self presentViewController:tweetSheet animated:YES completion:nil];
     }
 }
