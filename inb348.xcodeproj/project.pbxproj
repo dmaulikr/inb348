@@ -48,6 +48,7 @@
 		6DD17CB719AD96AE008B6FCB /* IntroductionViewContoller.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD17CB519AD96AE008B6FCB /* IntroductionViewContoller.m */; };
 		8B1B232F19B87F4D00E0F259 /* wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B1B232E19B87F4D00E0F259 /* wallpaper.jpg */; };
 		8B1B233319B8827600E0F259 /* cycling.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B1B233219B8827600E0F259 /* cycling.jpg */; };
+		8B1B233519B888DE00E0F259 /* facebook.icon.205x205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B1B233419B888DE00E0F259 /* facebook.icon.205x205.jpg */; };
 		8B354C6B19AF469B00F090D3 /* TodayWorkoutViewControllerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B354C6A19AF469B00F090D3 /* TodayWorkoutViewControllerTableViewController.m */; };
 		8BE1E39F19B19E2100820683 /* wall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8BE1E39C19B19E2100820683 /* wall.jpg */; };
 		8BE1E3A019B19E2100820683 /* wall1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8BE1E39D19B19E2100820683 /* wall1.jpg */; };
@@ -111,6 +112,7 @@
 		6DD17CB519AD96AE008B6FCB /* IntroductionViewContoller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroductionViewContoller.m; sourceTree = "<group>"; };
 		8B1B232E19B87F4D00E0F259 /* wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wallpaper.jpg; sourceTree = "<group>"; };
 		8B1B233219B8827600E0F259 /* cycling.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cycling.jpg; sourceTree = "<group>"; };
+		8B1B233419B888DE00E0F259 /* facebook.icon.205x205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = facebook.icon.205x205.jpg; sourceTree = "<group>"; };
 		8B354C6919AF469B00F090D3 /* TodayWorkoutViewControllerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodayWorkoutViewControllerTableViewController.h; sourceTree = "<group>"; };
 		8B354C6A19AF469B00F090D3 /* TodayWorkoutViewControllerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodayWorkoutViewControllerTableViewController.m; sourceTree = "<group>"; };
 		8BE1E39C19B19E2100820683 /* wall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wall.jpg; sourceTree = "<group>"; };
@@ -238,6 +240,7 @@
 		6DD17CB019AD8868008B6FCB /* image */ = {
 			isa = PBXGroup;
 			children = (
+				8B1B233419B888DE00E0F259 /* facebook.icon.205x205.jpg */,
 				8B1B232E19B87F4D00E0F259 /* wallpaper.jpg */,
 				017ACE2419B71347009E9B62 /* twitter-bird-white-on-blue-jpeg.jpg */,
 				8BE1E3A619B1A28C00820683 /* wall5.jpg */,
@@ -357,6 +360,7 @@
 				6DD17C7919AD749C008B6FCB /* InfoPlist.strings in Resources */,
 				8BE1E39F19B19E2100820683 /* wall.jpg in Resources */,
 				0190BDF919ADF30A003F1FBB /* situp.jpg in Resources */,
+				8B1B233519B888DE00E0F259 /* facebook.icon.205x205.jpg in Resources */,
 				6DD17CAE19AD885B008B6FCB /* 1st.jpg in Resources */,
 				0190BDF619ADF30A003F1FBB /* legcurl.jpg in Resources */,
 			);

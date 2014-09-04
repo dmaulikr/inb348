@@ -13,4 +13,5 @@
 @interface TodayWorkoutViewControllerTableViewController : UITableViewController
 @property (nonatomic,strong) NSMutableArray *exerciseHistory;
 - (IBAction)postTwitter:(id)sender;
+- (IBAction)postFacebook:(id)sender;
 @end

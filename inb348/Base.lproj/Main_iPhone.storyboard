@@ -318,6 +318,18 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Today's Workout" id="klB-kn-5LN">
+                        <barButtonItem key="leftBarButtonItem" style="plain" id="bmG-xP-lD4">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="mFt-O6-3vr">
+                                <rect key="frame" x="16" y="7" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="facebook.icon.205x205.jpg">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="postFacebook:" destination="suK-1E-aWf" eventType="touchUpInside" id="OXe-Jh-Icb"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" style="plain" id="UYE-0t-ccj">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="a6E-2U-SDu">
                                 <rect key="frame" x="274" y="7" width="30" height="30"/>
@@ -428,6 +440,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="facebook.icon.205x205.jpg" width="512" height="512"/>
         <image name="twitter-bird-white-on-blue-jpeg.jpg" width="300" height="300"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

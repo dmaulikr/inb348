@@ -172,4 +172,13 @@
         [self presentViewController:tweetSheet animated:YES completion:nil];
     }
 }
+
+- (IBAction)postFacebook:(id)sender {
+    if([SLComposeViewController isAvailableForServiceType:SLServiceTypeFacebook])
+    {
+        SLComposeViewController *facebook = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeFacebook];
+        [facebook setInitialText:@"Its fun to use this app for fitness! Come and join us!"];
+        [self presentViewController:facebook animated:YES completion:nil];
+    }
+}
 @end
