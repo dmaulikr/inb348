@@ -1,0 +1,75 @@
+//
+//  AddReminderViewController.m
+//  inb348
+//
+//  Created by Clement Chwin Chiat Ng on 22/09/2014.
+//  Copyright (c) 2014 Dongmin Lee. All rights reserved.
+//
+
+#import "AddReminderViewController.h"
+
+@interface AddReminderViewController ()
+
+@end
+
+@implementation AddReminderViewController
+
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        // Custom initialization
+    }
+    return self;
+}
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    // Do any additional setup after loading the view.
+}
+
+- (void)didReceiveMemoryWarning
+{
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
+
+
+- (IBAction)save:(id)sender {
+    [self.itemText resignFirstResponder];
+    
+    //GET THE CURRENT DATE
+    NSDate *pickerDate = [self.datePicker date];
+    
+    //SCHEDULE THE NOTIFICATION
+    UILocalNotification *localNotification = [[UILocalNotification alloc]init];
+    localNotification.fireDate = pickerDate;
+    localNotification.alertBody = self.itemText.text;
+    localNotification.alertAction = @"Show me the item";
+    localNotification.timeZone = [NSTimeZone defaultTimeZone];
+    localNotification.applicationIconBadgeNumber = [[UIApplication sharedApplication]applicationIconBadgeNumber]+1;
+    
+    [[UIApplication sharedApplication]scheduleLocalNotification:localNotification];
+    
+    //REQUEST TO RELOAD TABLE VIEW DATA
+    [[NSNotificationCenter defaultCenter]postNotificationName:@"reloadData" object:self];
+    
+    //DISMISS THE VIEW CONTROLLER
+    //NEED TO CHANGE SO YOU GO BACK TO DEFAULT PAGE
+    //[self dismissViewControllerAnimated:YES completion:nil];
+    UIAlertView *notification =[[UIAlertView alloc]initWithTitle:@"Great!" message:@"We'll remind you on time!" delegate:nil cancelButtonTitle:@"Continue" otherButtonTitles:nil];
+    [notification show];
+}
+@end

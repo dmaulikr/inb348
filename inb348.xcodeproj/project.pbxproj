@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0168249219CFEDEE00D73ADA /* AddReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0168249119CFEDEE00D73ADA /* AddReminderViewController.m */; };
 		017ACE2319B70E41009E9B62 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 017ACE2219B70E41009E9B62 /* Social.framework */; };
 		017ACE2519B71347009E9B62 /* twitter-bird-white-on-blue-jpeg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 017ACE2419B71347009E9B62 /* twitter-bird-white-on-blue-jpeg.jpg */; };
 		0190BDF019ADF30A003F1FBB /* barbellrow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0190BDE619ADF30A003F1FBB /* barbellrow.jpg */; };
@@ -68,6 +69,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0168249019CFEDEE00D73ADA /* AddReminderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddReminderViewController.h; sourceTree = "<group>"; };
+		0168249119CFEDEE00D73ADA /* AddReminderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddReminderViewController.m; sourceTree = "<group>"; };
 		017ACE2219B70E41009E9B62 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		017ACE2419B71347009E9B62 /* twitter-bird-white-on-blue-jpeg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "twitter-bird-white-on-blue-jpeg.jpg"; sourceTree = "<group>"; };
 		0190BDE619ADF30A003F1FBB /* barbellrow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = barbellrow.jpg; sourceTree = "<group>"; };
@@ -186,6 +189,8 @@
 				6DD17CB019AD8868008B6FCB /* image */,
 				6DD17C7D19AD749C008B6FCB /* AppDelegate.h */,
 				6DD17C7E19AD749C008B6FCB /* AppDelegate.m */,
+				0168249019CFEDEE00D73ADA /* AddReminderViewController.h */,
+				0168249119CFEDEE00D73ADA /* AddReminderViewController.m */,
 				6DD17C8019AD749C008B6FCB /* Main_iPhone.storyboard */,
 				01C3781D19B04C7F0045D349 /* PageContentViewController.h */,
 				01C3781E19B04C7F0045D349 /* PageContentViewController.m */,
@@ -383,6 +388,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0168249219CFEDEE00D73ADA /* AddReminderViewController.m in Sources */,
 				6DD17C8819AD749C008B6FCB /* ViewController.m in Sources */,
 				9E57A65319B0184B00262BE6 /* ExerciseTableViewCell.m in Sources */,
 				01C3781F19B04C7F0045D349 /* PageContentViewController.m in Sources */,

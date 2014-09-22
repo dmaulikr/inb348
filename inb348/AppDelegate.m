@@ -12,6 +12,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    //HANDLE LAUNCHING FROM APPLICATION
+    UILocalNotification *localNotification = [launchOptions objectForKey:UIApplicationLaunchOptionsLocalNotificationKey];
+    if(localNotification)
+    {
+        application.applicationIconBadgeNumber = 0;
+    }
+    
     // Override point for customization after application launch.
     self.exerciseList = [[NSMutableArray alloc]init];
     UIPageControl *pageControl = [UIPageControl appearance];
@@ -46,6 +53,25 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+-(void)application:(UIApplication *)application didReceiveLocalNotification:(UILocalNotification *)notification
+{
+    UIApplicationState state = [application applicationState];
+    if(state == UIApplicationStateActive)
+    {
+        UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Reminder"
+                                                       message:notification.alertBody
+                                                      delegate:self cancelButtonTitle:@"OK"
+                                             otherButtonTitles:nil];
+        [alert show];
+    }
+    
+    //REQUEST TO RELOAD TABLE VIEW DATA
+    [[NSNotificationCenter defaultCenter]postNotificationName:@"reloadData" object:self];
+    
+    //RESETS THE ICON NUMBER
+    application.applicationIconBadgeNumber = 0;
+    
 }
 
 @end
