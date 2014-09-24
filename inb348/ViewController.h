@@ -12,10 +12,12 @@
 #import "ExerciseTableViewCell.h"
 
 
-@interface ViewController : UITableViewController
+@interface ViewController : UITableViewController<UIAlertViewDelegate>
 
 
 @property NSMutableArray *exercise;
-
+@property Exercises *selectedExercise;
+//@property NSArray *array;
+@property NSString *string;
 //@property NSArray *selectedWorkout;
 @end

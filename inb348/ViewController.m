@@ -7,8 +7,16 @@
 //
 
 #import "ViewController.h"
+#import "AppDelegate.h"
 
 @interface ViewController ()
+{
+    NSString *test;
+    NSMutableArray *array;
+
+}
+
+
 
 @end
 
@@ -17,6 +25,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    
 	// Do any additional setup after loading the view, typically from a nib.
     _exercise = [[NSMutableArray alloc] init]; //allocate _exercise array into heap and initialise
     Exercises *exercise = [[Exercises alloc] init]; //create Exercise class object and allocate it in to heap. initialise it.
@@ -156,7 +166,7 @@
     //                      EX 10
     //=====================================================
     exercise = [[Exercises alloc] init]; //allocate in heap and initialise
-    exercise.name = @"Bent over One Arm Dumbell Rows";
+    exercise.name = @"Bent Over One Arm Dumbell Rows";
     NSString *str49 = @"1: Place your left knee and left hand firmly anchored on a flat bench. Your left hand should serve as support for your body.";
     NSString *str50 = @"2: Maintain a tight core and flat back, contract your lats and biceps, and slowly row the dumbbell upwards until it’s above your torso.";
     NSString *str51 = @"3: Hold 1s and slowly lower the dumbbell to a full extension — you should feel a stretch throughout your upper backout.";
@@ -187,44 +197,71 @@
 
 -(IBAction)showAlert
 {
-    _exercise = [[NSMutableArray alloc] init]; //allocate _exercise array into heap and initialise
-    Exercises *exercise = [[Exercises alloc] init]; //create Exercise class object and allocate it in to heap. initialise it.
+    //_exercise = [[NSMutableArray alloc] init]; //allocate _exercise array into heap and initialise
+    //Exercises *exercise = [[Exercises alloc] init]; //create Exercise class object and allocate it in to heap. initialise it.
     
+    array = [[NSMutableArray alloc]initWithObjects:@"Dead Lifts",@"Push Ups",@"Bent Over One Arm Dumbell Rows",@"Bent Over Barbell Row",@"Leg Extensions",
+       @"Leg Curls", @"Incline Bench Press", @"Decline Bench Press",@"Sit Ups", @"Bench Press", nil];
     
-    exercise.name = @"Dead Lifts";
-    [_exercise addObject:exercise];
+    int i = arc4random() % 10;
     
-    exercise.name = @"Bent over One Arm Dumbell Rows";
-    [_exercise addObject:exercise];
+    //int x = arc4random() % 50;
     
-    exercise.name = @"Bent Over Barbell Row";
-    [_exercise addObject:exercise];
-    
-    NSInteger length = [_exercise count];
-    NSInteger randomIndex = arc4random()% length;
-
-    
-    //IF ARRAY COUNT IS > 0
-    //RANDOMIZE THE INDEX
-    id randomObject = nil;
-    if([_exercise count]>0)
-    {
-        int randomIndex = arc4random()%[_exercise count];
-        randomObject = [_exercise objectAtIndex:randomIndex];
-    }
-    //Exercises *randomObj = [_exercise objectAtIndex:randomIndex];
-    
-    NSLog(@"Exercise Array has %lu", (unsigned long)[self.exercise count]);
-    NSLog(@"Index No %ld", (long)randomIndex);
-    Exercises *test1 = [_exercise objectAtIndex:randomIndex];
-    NSLog(test1.name);
-    //NSUInteger index = [_exercise indexOfObject:@"Dead Lifts"];
-    //NSLog(@"Hi %lu", (unsigned long)index);
-    // NSLog(randomObject);
-    
-    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Random Challenge" message:@"Hi" delegate:self cancelButtonTitle:@"Try it!" otherButtonTitles:nil];
-    
+    NSLog(@"Exercise array has %lu", (unsigned long)[array count]);
+    NSLog(@"Exercise random %@", array[i]);
+    test = array[i];
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Random Exercise" message:array[i] delegate:self cancelButtonTitle:@"Try it!" otherButtonTitles:nil];
+    [alertView addButtonWithTitle:@"No, Thank You"];
     [alertView show];
+    
+  
+}
+
+-(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+    if(buttonIndex == 0)
+    {
+        //YOU NEED TO PUT ARRAY NAME INTO HERE
+        //NOW IS NULL VALUE
+        
+        
+        _string = test;
+        //_array = [[NSArray alloc]initWithObjects:_selectedExercise.name, nil];
+        
+        
+        
+        //==========================
+        //ADD TO GLOBAL ARRAY LOGIC
+        //==========================
+        
+        //SAVE THE SELECTED EXERCISES INTO GLOBAL ARRAY
+        AppDelegate *appDelegate = [[UIApplication sharedApplication]delegate];
+        
+        if([appDelegate.exerciseList containsObject:_string])
+        {
+            UIAlertView *notification =[[UIAlertView alloc]initWithTitle:@"Sorry!" message:@"You already registered this exercise" delegate:nil cancelButtonTitle:@"Continue" otherButtonTitles:nil];
+            [notification show];
+        }
+        else
+        {
+            UIAlertView *notification =[[UIAlertView alloc]initWithTitle:@"Great!" message:@"You had added this to today's exercise" delegate:nil cancelButtonTitle:@"Continue" otherButtonTitles:nil];
+            [notification show];
+            [appDelegate.exerciseList addObject:[NSString stringWithFormat:@"%@",_string]];
+            NSLog(@"%@",_string);
+            // NSLog(@"%@",appDelegate.exerciseList);
+            // NSLog(@"%lu",(unsigned long)appDelegate.exerciseList.count);
+            
+            
+            NSString *documentsDirectoryPath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)objectAtIndex:0];
+            NSString *filePath = [documentsDirectoryPath stringByAppendingPathComponent:@"exercise.plist"];
+            [appDelegate.exerciseList writeToFile:filePath atomically:YES];
+        }
+        
+    }
+    if(buttonIndex == 1)
+    {
+        
+    }
 }
 
 //this method decide what cell will show on table view
