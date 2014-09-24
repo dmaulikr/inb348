@@ -18,10 +18,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    
-    
     _exercise = [[NSMutableArray alloc] init]; //allocate _exercise array into heap and initialise
     Exercises *exercise = [[Exercises alloc] init]; //create Exercise class object and allocate it in to heap. initialise it.
+    
     
     //add data into exercise class object
     //=====================================================
@@ -172,6 +171,61 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+-(BOOL)canBecomeFirstResponder
+{
+    return YES;
+}
+
+-(void)motionEnded:(UIEventSubtype)motion withEvent:(UIEvent *)event
+{
+    if(motion == UIEventSubtypeMotionShake)
+    {
+        [self showAlert];
+    }
+}
+
+-(IBAction)showAlert
+{
+    _exercise = [[NSMutableArray alloc] init]; //allocate _exercise array into heap and initialise
+    Exercises *exercise = [[Exercises alloc] init]; //create Exercise class object and allocate it in to heap. initialise it.
+    
+    
+    exercise.name = @"Dead Lifts";
+    [_exercise addObject:exercise];
+    
+    exercise.name = @"Bent over One Arm Dumbell Rows";
+    [_exercise addObject:exercise];
+    
+    exercise.name = @"Bent Over Barbell Row";
+    [_exercise addObject:exercise];
+    
+    NSInteger length = [_exercise count];
+    NSInteger randomIndex = arc4random()% length;
+
+    
+    //IF ARRAY COUNT IS > 0
+    //RANDOMIZE THE INDEX
+    id randomObject = nil;
+    if([_exercise count]>0)
+    {
+        int randomIndex = arc4random()%[_exercise count];
+        randomObject = [_exercise objectAtIndex:randomIndex];
+    }
+    //Exercises *randomObj = [_exercise objectAtIndex:randomIndex];
+    
+    NSLog(@"Exercise Array has %lu", (unsigned long)[self.exercise count]);
+    NSLog(@"Index No %ld", (long)randomIndex);
+    Exercises *test1 = [_exercise objectAtIndex:randomIndex];
+    NSLog(test1.name);
+    //NSUInteger index = [_exercise indexOfObject:@"Dead Lifts"];
+    //NSLog(@"Hi %lu", (unsigned long)index);
+    // NSLog(randomObject);
+    
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Random Challenge" message:@"Hi" delegate:self cancelButtonTitle:@"Try it!" otherButtonTitles:nil];
+    
+    [alertView show];
+}
 
 //this method decide what cell will show on table view
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath

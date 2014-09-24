@@ -10,6 +10,7 @@
 		0168249219CFEDEE00D73ADA /* AddReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0168249119CFEDEE00D73ADA /* AddReminderViewController.m */; };
 		017ACE2319B70E41009E9B62 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 017ACE2219B70E41009E9B62 /* Social.framework */; };
 		017ACE2519B71347009E9B62 /* twitter-bird-white-on-blue-jpeg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 017ACE2419B71347009E9B62 /* twitter-bird-white-on-blue-jpeg.jpg */; };
+		017CAE9E19D268650060EE7B /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 017CAE9D19D268650060EE7B /* TestViewController.m */; };
 		0190BDF019ADF30A003F1FBB /* barbellrow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0190BDE619ADF30A003F1FBB /* barbellrow.jpg */; };
 		0190BDF119ADF30A003F1FBB /* benchpress.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0190BDE719ADF30A003F1FBB /* benchpress.jpg */; };
 		0190BDF219ADF30A003F1FBB /* bodumbellrow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0190BDE819ADF30A003F1FBB /* bodumbellrow.jpg */; };
@@ -73,6 +74,8 @@
 		0168249119CFEDEE00D73ADA /* AddReminderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddReminderViewController.m; sourceTree = "<group>"; };
 		017ACE2219B70E41009E9B62 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		017ACE2419B71347009E9B62 /* twitter-bird-white-on-blue-jpeg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "twitter-bird-white-on-blue-jpeg.jpg"; sourceTree = "<group>"; };
+		017CAE9C19D268650060EE7B /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		017CAE9D19D268650060EE7B /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		0190BDE619ADF30A003F1FBB /* barbellrow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = barbellrow.jpg; sourceTree = "<group>"; };
 		0190BDE719ADF30A003F1FBB /* benchpress.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = benchpress.jpg; sourceTree = "<group>"; };
 		0190BDE819ADF30A003F1FBB /* bodumbellrow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bodumbellrow.jpg; sourceTree = "<group>"; };
@@ -189,6 +192,8 @@
 				6DD17CB019AD8868008B6FCB /* image */,
 				6DD17C7D19AD749C008B6FCB /* AppDelegate.h */,
 				6DD17C7E19AD749C008B6FCB /* AppDelegate.m */,
+				017CAE9C19D268650060EE7B /* TestViewController.h */,
+				017CAE9D19D268650060EE7B /* TestViewController.m */,
 				0168249019CFEDEE00D73ADA /* AddReminderViewController.h */,
 				0168249119CFEDEE00D73ADA /* AddReminderViewController.m */,
 				6DD17C8019AD749C008B6FCB /* Main_iPhone.storyboard */,
@@ -395,6 +400,7 @@
 				01C3782719B04FB70045D349 /* MainViewController.m in Sources */,
 				6DD17CA819AD77A9008B6FCB /* Exercises.m in Sources */,
 				6DD17C7F19AD749C008B6FCB /* AppDelegate.m in Sources */,
+				017CAE9E19D268650060EE7B /* TestViewController.m in Sources */,
 				6DD17C7B19AD749C008B6FCB /* main.m in Sources */,
 				8B354C6B19AF469B00F090D3 /* TodayWorkoutViewControllerTableViewController.m in Sources */,
 				6DD17CB619AD96AE008B6FCB /* IntroductionViewContoller.m in Sources */,
