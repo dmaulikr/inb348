@@ -12,8 +12,14 @@
 @interface ViewController ()
 {
     NSString *test;
+    NSString *challenge;
+    UIAlertView *testView;
+    
     NSMutableArray *array;
-
+    NSMutableArray *arrayChallenge;
+    
+    NSArray *exerciseFilter;
+    NSArray *searchResults;
 }
 
 
@@ -26,6 +32,17 @@
 {
     [super viewDidLoad];
     
+    arrayChallenge = [[NSMutableArray alloc]initWithObjects:@"Do Push Ups for 50 times", @"Do Sit Ups for 50 times", @"Swimming for 1 hour", @"Jogging for 30 minutes",
+                      @"Cycling for 30 minutes",nil];
+    int i = arc4random() % 5;
+    challenge = arrayChallenge[i];
+    
+    testView = [[UIAlertView alloc] initWithTitle:@"Daily Challenge" message:arrayChallenge[i] delegate:nil cancelButtonTitle:@"Challenge Accepted" otherButtonTitles:nil];
+    [testView addButtonWithTitle:@"Not Today"];
+    [testView show];
+    
+    //MAYBE CAN PUT INTO THE TODAY'S WORK OUT LIST
+
     
 	// Do any additional setup after loading the view, typically from a nib.
     _exercise = [[NSMutableArray alloc] init]; //allocate _exercise array into heap and initialise
@@ -175,13 +192,35 @@
     exercise.cover = [UIImage imageNamed:@"bodumbellrow.jpg"];
     [_exercise addObject:exercise]; // add the object to array
 }
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
+//SEARCH FILTER LOGICS
+/*
+-(void)filterContentForSearchText:(NSString*)searchText scope:(NSString*)scope
+{
+    NSPredicate *resultsPredicate = [NSPredicate predicateWithFormat:@"SELF contains [cd] %@", searchText];
+    searchResults = [exerciseFilter filteredArrayUsingPredicate:resultsPredicate];
+}
 
+
+-(BOOL)searchDisplayController:(UISearchDisplayController *)controller
+shouldReloadTableForSearchString:(NSString *)searchString
+{
+    [self filterContentForSearchText:searchString
+                               scope:[[self.searchDisplayController.searchBar scopeButtonTitles]
+                                      objectAtIndex:[self.searchDisplayController.searchBar
+                                                     selectedScopeButtonIndex]]];
+    
+    return YES;
+}
+*/
+
+//FOR SHAKE EVENT
 -(BOOL)canBecomeFirstResponder
 {
     return YES;
@@ -214,22 +253,14 @@
     [alertView addButtonWithTitle:@"No, Thank You"];
     [alertView show];
     
-  
 }
+
 
 -(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
 {
     if(buttonIndex == 0)
     {
-        //YOU NEED TO PUT ARRAY NAME INTO HERE
-        //NOW IS NULL VALUE
-        
-        
         _string = test;
-        //_array = [[NSArray alloc]initWithObjects:_selectedExercise.name, nil];
-        
-        
-        
         //==========================
         //ADD TO GLOBAL ARRAY LOGIC
         //==========================
@@ -264,16 +295,24 @@
     }
 }
 
+
+
 //this method decide what cell will show on table view
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     //Talk to table view that we will use paticular cell which is identified as "Cell"
+    //static NSString *simpleTableIdentifier = @"ExerciseCell";
     
     //UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
+    
+ 
+    
     ExerciseTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"EXCell"];
+
     
     
     //Create Exercise object of array and assign each row to cell. ex> cell 0 for exercise 0, cell 1 for exercise 1, cell 2 for exercise 2.
+    
     
     Exercises *exercise = [_exercise objectAtIndex:indexPath.row];
     
@@ -285,6 +324,27 @@
     cell.nameStr.text = exercise.name;
     cell.coverImageView.image = exercise.cover; //set cover image from exercise array to imageview in cell
     
+    return  cell;
+  
+    
+    //=======
+    /*
+    //static NSString *simpleIdentifier = @"ExCell";
+    
+    ExerciseTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"EXCell"];
+    Exercises *exercise = [_exercise objectAtIndex:indexPath.row];
+    if(tableView == self.searchDisplayController.searchResultsTableView)
+    {
+        cell.nameStr.text = [searchResults objectAtIndex:indexPath.row];
+        cell.coverImageView.image = [searchResults objectAtIndex:indexPath.row];
+    }
+    else
+    {
+        cell.nameStr.text = exercise.name;
+        cell.coverImageView.image = exercise.cover;
+    }
+     */
+    //=========
     return cell;
     
 }
@@ -292,7 +352,17 @@
 //set number of row on table view
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return [_exercise count]; //set it as how many objects are in exercise array
+    /*
+    if(tableView == self.searchDisplayController.searchResultsTableView)
+    {
+        return [searchResults count];
+    }
+    else
+    {
+        return [_exercise count]; //set it as how many objects are in exercise array
+    }
+     */
+    return [_exercise count];
 }
 
 

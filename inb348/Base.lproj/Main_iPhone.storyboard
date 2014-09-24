@@ -12,13 +12,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <searchBar key="tableHeaderView" contentMode="redraw" id="19n-2b-N8r">
+                        <searchBar key="tableHeaderView" contentMode="redraw" id="pgS-W5-buu">
                             <rect key="frame" x="0.0" y="64" width="320" height="44"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             <textInputTraits key="textInputTraits"/>
-                            <connections>
-                                <outlet property="delegate" destination="MP5-0M-o7Y" id="C0h-8S-mve"/>
-                            </connections>
                         </searchBar>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="EXCell" id="8MQ-nP-fua" customClass="ExerciseTableViewCell">
@@ -54,7 +51,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Work out Library" id="16N-A3-x3E"/>
                     <connections>
-                        <outlet property="searchDisplayController" destination="PVL-hk-6mo" id="ihx-eN-mXm"/>
+                        <outlet property="searchDisplayController" destination="Dce-kK-j3C" id="C56-S2-gxg"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BYR-GF-Lfv" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -120,6 +117,14 @@
                         <outlet property="searchContentsController" destination="MP5-0M-o7Y" id="Dnj-D8-hDY"/>
                         <outlet property="searchResultsDataSource" destination="MP5-0M-o7Y" id="SjA-SO-4jW"/>
                         <outlet property="searchResultsDelegate" destination="MP5-0M-o7Y" id="y9A-md-2gm"/>
+                    </connections>
+                </searchDisplayController>
+                <searchDisplayController id="Dce-kK-j3C">
+                    <connections>
+                        <outlet property="delegate" destination="MP5-0M-o7Y" id="j9O-pe-Nae"/>
+                        <outlet property="searchContentsController" destination="MP5-0M-o7Y" id="uAE-cZ-E5g"/>
+                        <outlet property="searchResultsDataSource" destination="MP5-0M-o7Y" id="FcE-1W-jHl"/>
+                        <outlet property="searchResultsDelegate" destination="MP5-0M-o7Y" id="dvb-sj-Gl5"/>
                     </connections>
                 </searchDisplayController>
             </objects>
@@ -211,9 +216,9 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TWK-nZ-1Xt">
-                                <rect key="frame" x="129" y="538" width="69" height="30"/>
+                                <rect key="frame" x="120" y="538" width="80" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Start Now">
+                                <state key="normal" title="Get Started">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -273,24 +278,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NH5-7B-2AS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-693" y="2760"/>
-        </scene>
-        <!--Test View Controller-->
-        <scene sceneID="wEp-La-Gab">
-            <objects>
-                <viewController id="G3b-8G-ges" customClass="TestViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="4Im-Zu-uz8"/>
-                        <viewControllerLayoutGuide type="bottom" id="cuW-tX-BxR"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Eb0-uK-ajW">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="SKV-ZU-LzV" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-12" y="2795"/>
         </scene>
         <!--Add Reminder View Controller - Item-->
         <scene sceneID="m23-vv-0OP">
