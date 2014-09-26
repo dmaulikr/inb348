@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>QUT KG Healthstream</string>
+		<key>latitude</key>
+		<real>-27.453214</real>
+		<key>longitude</key>
+		<real>153.008523</real>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>QUT GP Healthstream</string>
+		<key>latitude</key>
+		<real>-27.477488</real>
+		<key>longitude</key>
+		<real>153.028461</real>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Jetts Health Gym</string>
+		<key>latitude</key>
+		<real>-27.486554</real>
+		<key>longitude</key>
+		<real>153.035959</real>
+	</dict>
+</array>
+</plist>
