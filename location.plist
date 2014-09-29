@@ -9,6 +9,8 @@
 		<real>-27.453214</real>
 		<key>longitude</key>
 		<real>153.008523</real>
+		<key>distance</key>
+		<integer>0</integer>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -17,6 +19,8 @@
 		<real>-27.477488</real>
 		<key>longitude</key>
 		<real>153.028461</real>
+		<key>distance</key>
+		<integer>0</integer>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -25,6 +29,8 @@
 		<real>-27.486554</real>
 		<key>longitude</key>
 		<real>153.035959</real>
+		<key>distance</key>
+		<integer>0</integer>
 	</dict>
 </array>
 </plist>

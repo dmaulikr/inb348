@@ -41,19 +41,47 @@
     [self.mapView regionThatFits:viewRegion];
     
     CLLocation *location1 = [[CLLocation alloc]initWithLatitude:zoomLocation.latitude longitude:zoomLocation.longitude];
-    CLLocation *location2 = [[CLLocation alloc] initWithLatitude:-27.477488 longitude:153.028461];
+    CLLocation *location2 = [[CLLocation alloc]initWithLatitude:-27.477488 longitude:153.028461];
     CLLocation *location3 = [[CLLocation alloc]initWithLatitude:-27.453214 longitude:153.008523];
     CLLocation *location4 = [[CLLocation alloc]initWithLatitude:-27.486554 longitude:153.035959];
     
     //DISTANCE BETWEEN DEFAULT LOCATION AND QUT HEALTHSTREAM iN METERS
     NSLog(@"Distance between these two coordinates: %f",[location1 distanceFromLocation:location2]);
-    NSInteger distance = [location1 distanceFromLocation:location2];
+    NSInteger distance1 = [location1 distanceFromLocation:location2];
     NSInteger distance2 = [location1 distanceFromLocation:location3];
     NSInteger distance3 = [location1 distanceFromLocation:location4];
-    NSLog(@"Distance from QUT GP %ld meters", (long)distance);
+    NSLog(@"Distance from QUT GP %ld meters", (long)distance1);
     NSLog(@"Distance from QUT KG %ld meters", (long)distance2);
     NSLog(@"Distance from Jetts %ld meters",(long)distance3);
     
+    
+    //CREATING DISTANCEOBJECT CAUSE PLIST ONLY ACCEPTS NSNUMBER INSTEAD OF NSINTEGER
+    NSNumber *distanceObject1 = [NSNumber numberWithInteger:distance1];
+    NSNumber *distanceObject2 = [NSNumber numberWithInteger:distance2];
+    NSNumber *distanceObject3 = [NSNumber numberWithInteger:distance3];
+    
+    
+    //LOCATION OF PLIST
+    NSString *dataFilePath = [[NSBundle mainBundle]pathForResource:@"location" ofType:@"plist"];
+    
+    //CREATE ARRAT WITH CONTENTS OF PLIST
+    NSMutableArray *plistArray = [[NSMutableArray alloc] initWithContentsOfFile: dataFilePath];
+    NSLog(@"plistArray before additon: %@", plistArray);
+    for (NSMutableDictionary *dict in plistArray)
+    {
+        //if you want to search for a record only otherwise remove the if statement
+        if ([[dict objectForKey:@"title"] isEqualToString:@"QUT KG Healthstream"])  //this just an example, modify this per your needed
+            [dict setObject:distanceObject2 forKey:@"distance"];  //select which dictionary record to set the Top key
+        if([[dict objectForKey:@"title"]isEqualToString:@"QUT GP Healthstream"])
+            [dict setObject:distanceObject1 forKey:@"distance"];
+        if([[dict objectForKey:@"title"]isEqualToString:@"Jetts Health Gym"])
+            [dict setObject:distanceObject3 forKey:@"distance"];
+    }
+    NSLog(@"plistArray after additon : %@", plistArray);
+    
+    //FIND WAYS TO WRITE DATA INTO DICTIONARY
+    //DATAFILEPATH NOT WRONG, CAN READ THE DATA WITHIN
+    [plistArray writeToFile:dataFilePath atomically:YES];
     //[location1 release];
     //[location2 release];
     //[self zoomToLocation];
