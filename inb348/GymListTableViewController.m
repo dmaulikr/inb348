@@ -30,6 +30,7 @@
     self.gymList = [[NSArray alloc]initWithContentsOfFile:path];
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
+    NSLog(@"%@",self.gymList[0]);
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
@@ -68,8 +69,13 @@
     
     NSDictionary *eachGym = [self.gymList objectAtIndex:indexPath.row];
     cell.myLabel.text = [eachGym objectForKey:@"title"];
+    //cell.lblDistance.text = [eachGym objectForKey:@"distance"];
     
-    
+    //MUST CONVERT FROM NSNUMBER TO NSSTRING SINCE LABEL COULD NOT SET TEXT AS NSNUMBER
+    NSNumber *test = [eachGym objectForKey:@"distance"];
+    NSLog(@"%@",test);
+    NSString *distance = [test stringValue];
+    cell.lblDistance.text = distance;
 
     
     // Configure the cell...

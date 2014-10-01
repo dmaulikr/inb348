@@ -62,10 +62,14 @@
     
     
     //LOCATION OF PLIST
-    NSString *dataFilePath = [[NSBundle mainBundle]pathForResource:@"location" ofType:@"plist"];
+   // NSString *dataFilePath = [[NSBundle mainBundle]pathForResource:@"location" ofType:@"plist"];
+    NSString *path = [[NSBundle mainBundle]pathForResource:@"location" ofType:@"plist"];
+   // NSString *documentsDirectoryPath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)objectAtIndex:0];
+    //NSString *filePath = [documentsDirectoryPath stringByAppendingPathComponent:@"location.plist"];
+
     
     //CREATE ARRAT WITH CONTENTS OF PLIST
-    NSMutableArray *plistArray = [[NSMutableArray alloc] initWithContentsOfFile: dataFilePath];
+    NSMutableArray *plistArray = [[NSMutableArray alloc] initWithContentsOfFile: path];
     NSLog(@"plistArray before additon: %@", plistArray);
     for (NSMutableDictionary *dict in plistArray)
     {
@@ -81,7 +85,7 @@
     
     //FIND WAYS TO WRITE DATA INTO DICTIONARY
     //DATAFILEPATH NOT WRONG, CAN READ THE DATA WITHIN
-    [plistArray writeToFile:dataFilePath atomically:YES];
+    [plistArray writeToFile:path atomically:YES];
     //[location1 release];
     //[location2 release];
     //[self zoomToLocation];
