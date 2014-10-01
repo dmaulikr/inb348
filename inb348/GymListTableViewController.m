@@ -75,7 +75,7 @@
     NSNumber *test = [eachGym objectForKey:@"distance"];
     NSLog(@"%@",test);
     NSString *distance = [test stringValue];
-    cell.lblDistance.text = distance;
+    cell.lblDistance.text = [distance stringByAppendingString:@" m"];
 
     
     // Configure the cell...
