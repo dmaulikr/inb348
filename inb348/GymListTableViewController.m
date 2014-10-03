@@ -68,6 +68,13 @@
     }
     
     NSDictionary *eachGym = [self.gymList objectAtIndex:indexPath.row];
+
+    
+    //SORTING ALGO
+    //GOES HERE
+    
+    
+    //NSArray *anArray = [eachGym allValues];
     cell.myLabel.text = [eachGym objectForKey:@"title"];
     //cell.lblDistance.text = [eachGym objectForKey:@"distance"];
     
@@ -82,7 +89,6 @@
     
     return cell;
 }
-
 
 /*
 // Override to support conditional editing of the table view.

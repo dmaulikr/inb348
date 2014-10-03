@@ -11,4 +11,5 @@
 
 @interface GymListTableViewController : UITableViewController
 @property (strong,nonatomic) NSArray *gymList;
+@property (strong,nonatomic) NSMutableArray *myArray;
 @end

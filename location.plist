@@ -32,5 +32,45 @@
 		<key>distance</key>
 		<integer>0</integer>
 	</dict>
+	<dict>
+		<key>title</key>
+		<string>EFM Health Club Herston</string>
+		<key>latitude</key>
+		<real>-27.445713</real>
+		<key>longitude</key>
+		<real>153.02868</real>
+		<key>distance</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Gym Nation</string>
+		<key>latitude</key>
+		<real>-27.482322</real>
+		<key>longitude</key>
+		<real>153.002473</real>
+		<key>distance</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Body Transformation</string>
+		<key>latitude</key>
+		<real>-27.472458</real>
+		<key>longitude</key>
+		<real>153.014545</real>
+		<key>distance</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Dundee&apos;s Fitness Gym</string>
+		<key>latitude</key>
+		<real>-27.477776</real>
+		<key>longitude</key>
+		<real>153.007106</real>
+		<key>distance</key>
+		<integer>0</integer>
+	</dict>
 </array>
 </plist>
