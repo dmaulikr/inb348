@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="7aX-Ln-9qt">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="jqM-VS-ytF">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
@@ -49,8 +49,17 @@
                             <outlet property="delegate" destination="MP5-0M-o7Y" id="2e0-6Y-tBd"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Work out Library" id="16N-A3-x3E"/>
+                    <navigationItem key="navigationItem" title="Work out Library" id="16N-A3-x3E">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="FiT-rr-nDo">
+                            <view key="customView" contentMode="scaleToFill" id="1EU-xQ-Qwe" customClass="FBProfilePictureView">
+                                <rect key="frame" x="233" y="5" width="71" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
+                        <outlet property="profilePicture" destination="1EU-xQ-Qwe" id="yH9-Js-PYS"/>
                         <outlet property="searchDisplayController" destination="Dce-kK-j3C" id="C56-S2-gxg"/>
                     </connections>
                 </tableViewController>
@@ -230,6 +239,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="em7-Mn-bMe"/>
+                    <navigationItem key="navigationItem" id="uIB-1y-5p7"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HTl-dz-S0w" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -365,7 +375,73 @@
             </objects>
             <point key="canvasLocation" x="1398" y="3581"/>
         </scene>
-        <!--Add Reminder View Controller - Item-->
+        <!--Login View View Controller-->
+        <scene sceneID="vb4-ci-086">
+            <objects>
+                <viewController id="jqM-VS-ytF" customClass="FBLoginViewViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="g4c-Ya-U1k"/>
+                        <viewControllerLayoutGuide type="bottom" id="on0-y3-sUY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="IgM-6N-7Tk">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Oi7-Mk-ByK" customClass="FBProfilePictureView">
+                                <rect key="frame" x="74" y="63" width="154" height="164"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y8c-fO-iGk">
+                                <rect key="frame" x="93" y="235" width="207" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZfP-p5-t8Y">
+                                <rect key="frame" x="30" y="264" width="280" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tkE-BT-Ba4">
+                                <rect key="frame" x="103" y="20" width="207" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fKi-6b-vHQ" customClass="FBLoginView">
+                                <rect key="frame" x="57" y="471" width="207" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="afU-ly-peF">
+                                <rect key="frame" x="128" y="425" width="62" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Continue">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="P9z-da-yQi" kind="modal" id="IyN-bd-9yg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="lblEmail" destination="ZfP-p5-t8Y" id="CGo-vS-nzu"/>
+                        <outlet property="lblLoginStatus" destination="tkE-BT-Ba4" id="8o9-Hw-xPH"/>
+                        <outlet property="lblUsername" destination="y8c-fO-iGk" id="vwH-IJ-8zb"/>
+                        <outlet property="loginButton" destination="fKi-6b-vHQ" id="1wG-zm-joD"/>
+                        <outlet property="profilePicture" destination="Oi7-Mk-ByK" id="xK9-i8-xDB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zgE-wI-Xm9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1200" y="3237"/>
+        </scene>
+        <!--Add Reminder View Controller - Reminder-->
         <scene sceneID="m23-vv-0OP">
             <objects>
                 <viewController id="fVM-Cs-fnu" customClass="AddReminderViewController" sceneMemberID="viewController">
@@ -437,7 +513,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="hIl-uL-dw5"/>
+                    <tabBarItem key="tabBarItem" title="Reminder" id="hIl-uL-dw5"/>
                     <navigationItem key="navigationItem" id="CXR-zh-99z"/>
                     <connections>
                         <outlet property="datePicker" destination="b0I-SL-TCZ" id="wHT-w5-mWN"/>

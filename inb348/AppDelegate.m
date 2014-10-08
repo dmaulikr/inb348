@@ -7,11 +7,16 @@
 //
 
 #import "AppDelegate.h"
+#import <FacebookSDK/FacebookSDK.h>
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    //FACEBOOK LOGIN
+    [FBLoginView class];
+    [FBProfilePictureView class];
+    
     //HANDLE LAUNCHING FROM APPLICATION
     UILocalNotification *localNotification = [launchOptions objectForKey:UIApplicationLaunchOptionsLocalNotificationKey];
     if(localNotification)
@@ -72,6 +77,11 @@
     //RESETS THE ICON NUMBER
     application.applicationIconBadgeNumber = 0;
     
+}
+
+-(BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
+{
+    return [FBAppCall handleOpenURL:url sourceApplication:sourceApplication];
 }
 
 @end

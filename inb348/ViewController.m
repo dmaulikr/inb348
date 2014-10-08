@@ -41,6 +41,8 @@
     [testView addButtonWithTitle:@"Not Today"];
     [testView show];
     
+    
+    
     //MAYBE CAN PUT INTO THE TODAY'S WORK OUT LIST
 
     
@@ -388,6 +390,12 @@ shouldReloadTableForSearchString:(NSString *)searchString
     // Assign a value to "selectedExercise" property of InstructionViewController. the value is exercise object that user selected from cell.
     
     
+}
+
+-(void)loginViewFetchedUserInfo:(FBLoginView *)loginView user:(id<FBGraphUser>)user
+{
+    NSLog(@"%@", user);
+    self.profilePicture.profileID = user.id;
 }
 
 

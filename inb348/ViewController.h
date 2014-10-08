@@ -10,11 +10,11 @@
 #import "Exercises.h"
 #import "IntroductionViewContoller.h"
 #import "ExerciseTableViewCell.h"
+#import <FacebookSDK/FacebookSDK.h>
 
 
-@interface ViewController : UITableViewController<UIAlertViewDelegate>
-
-
+@interface ViewController : UITableViewController<UIAlertViewDelegate, FBLoginViewDelegate>
+@property (weak, nonatomic) IBOutlet FBProfilePictureView *profilePicture;
 @property NSMutableArray *exercise;
 @property Exercises *selectedExercise;
 //@property NSArray *array;
