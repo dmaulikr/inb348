@@ -62,9 +62,9 @@
     NSString *str4 = @"4: Push body up until arms are extended.";
     NSString *str5 = @"5: Repeat";
     exercise.instruction = [NSString stringWithFormat:@"%@\n%@\n%@\n%@\n%@",str1,str2,str3,str4,str5];
-    exercise.cover = [UIImage imageNamed:@"pushup.jpg"];
+    exercise.cover = [UIImage imageNamed:@"pushups2.tiff"];
     [_exercise addObject:exercise]; //add the object to array
-    
+    exercise.animationArray = @[@"pushups1.tiff", @"pushups2.tiff"];
     //=====================================================
     //                      EX 2
     //=====================================================

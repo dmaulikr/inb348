@@ -13,7 +13,7 @@
 
 @interface IntroductionViewContoller : UIViewController
 @property (weak, nonatomic) IBOutlet UILabel *nameLabel;
-@property (weak, nonatomic) IBOutlet UIImageView *coverView;
+@property (strong, nonatomic) IBOutlet UIImageView *coverView;
 @property (weak, nonatomic) IBOutlet UITextView *instructionTextView;
 
 @property Exercises *selectedExercise;

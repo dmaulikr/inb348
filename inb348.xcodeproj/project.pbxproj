@@ -65,6 +65,8 @@
 		8BE1E3A519B1A1D600820683 /* wall4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8BE1E3A419B1A1D600820683 /* wall4.jpg */; };
 		8BE1E3A719B1A28C00820683 /* wall5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8BE1E3A619B1A28C00820683 /* wall5.jpg */; };
 		9E57A65319B0184B00262BE6 /* ExerciseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E57A65219B0184B00262BE6 /* ExerciseTableViewCell.m */; };
+		C6C9CD8319E752650006706C /* pushups1.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6C9CD8119E752650006706C /* pushups1.tiff */; };
+		C6C9CD8419E752650006706C /* pushups2.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6C9CD8219E752650006706C /* pushups2.tiff */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -147,6 +149,8 @@
 		8BE1E3A619B1A28C00820683 /* wall5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wall5.jpg; sourceTree = "<group>"; };
 		9E57A65119B0184B00262BE6 /* ExerciseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseTableViewCell.h; sourceTree = "<group>"; };
 		9E57A65219B0184B00262BE6 /* ExerciseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseTableViewCell.m; sourceTree = "<group>"; };
+		C6C9CD8119E752650006706C /* pushups1.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = pushups1.tiff; path = ../../../Desktop/pushups1.tiff; sourceTree = "<group>"; };
+		C6C9CD8219E752650006706C /* pushups2.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = pushups2.tiff; path = ../../../Desktop/pushups2.tiff; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -285,6 +289,8 @@
 		6DD17CB019AD8868008B6FCB /* image */ = {
 			isa = PBXGroup;
 			children = (
+				C6C9CD8119E752650006706C /* pushups1.tiff */,
+				C6C9CD8219E752650006706C /* pushups2.tiff */,
 				8B1B233419B888DE00E0F259 /* facebook.icon.205x205.jpg */,
 				8B1B232E19B87F4D00E0F259 /* wallpaper.jpg */,
 				017ACE2419B71347009E9B62 /* twitter-bird-white-on-blue-jpeg.jpg */,
@@ -389,8 +395,10 @@
 				8B1B232F19B87F4D00E0F259 /* wallpaper.jpg in Resources */,
 				0190BDF419ADF30A003F1FBB /* declinepress.jpg in Resources */,
 				0190BDF819ADF30A003F1FBB /* pushup.jpg in Resources */,
+				C6C9CD8319E752650006706C /* pushups1.tiff in Resources */,
 				0190BDF519ADF30A003F1FBB /* inclinepress.jpg in Resources */,
 				6DD17CB219AD8E52008B6FCB /* 2nd.jpg in Resources */,
+				C6C9CD8419E752650006706C /* pushups2.tiff in Resources */,
 				0170023919D52802000967AF /* location.plist in Resources */,
 				8BE1E3A519B1A1D600820683 /* wall4.jpg in Resources */,
 				0190BDF019ADF30A003F1FBB /* barbellrow.jpg in Resources */,
