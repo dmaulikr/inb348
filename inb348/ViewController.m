@@ -65,6 +65,7 @@
     exercise.cover = [UIImage imageNamed:@"pushups2.tiff"];
     [_exercise addObject:exercise]; //add the object to array
     exercise.animationArray = @[@"pushups1.tiff", @"pushups2.tiff"];
+    
     //=====================================================
     //                      EX 2
     //=====================================================
@@ -76,8 +77,9 @@
     NSString *str9 = @"4: Return until back of shoulders contact with floor or mat.";
     NSString *str10 = @"5: Repeat.";
     exercise.instruction = [NSString stringWithFormat:@"%@\n%@\n%@\n%@\n%@",str6,str7,str8,str9,str10];
-    exercise.cover = [UIImage imageNamed:@"situp.jpg"];
+    exercise.cover = [UIImage imageNamed:@"situp-9 (dragged).tiff"];
     [_exercise addObject:exercise]; // add the object to array
+    exercise.animationArray = @[@"situp-1 (dragged).tiff", @"situp-2 (dragged).tiff", @"situp-3 (dragged).tiff", @"situp-4 (dragged).tiff", @"situp-5 (dragged).tiff", @"situp-6 (dragged).tiff", @"situp-7 (dragged).tiff", @"situp-8 (dragged).tiff", @"situp-9 (dragged).tiff", @"situp-10 (dragged).tiff"];
     
     //=====================================================
     //                      EX 3
