@@ -151,17 +151,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cZ2-nj-HF9">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cZ2-nj-HF9">
                                 <rect key="frame" x="56" y="119" width="209" height="142"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="142" id="BFn-Qj-ATn"/>
+                                </constraints>
                             </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name of Exercise" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TtE-DU-MJR">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name of Exercise" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TtE-DU-MJR">
                                 <rect key="frame" x="56" y="85" width="209" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="how to do it" translatesAutoresizingMaskIntoConstraints="NO" id="xAO-xE-N75">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="how to do it" translatesAutoresizingMaskIntoConstraints="NO" id="xAO-xE-N75">
                                 <rect key="frame" x="40" y="277" width="240" height="228"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -170,6 +173,18 @@
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="rVG-DF-8ME" firstAttribute="top" secondItem="xAO-xE-N75" secondAttribute="bottom" constant="63" id="5uA-Vk-gPR"/>
+                            <constraint firstItem="TtE-DU-MJR" firstAttribute="leading" secondItem="cZ2-nj-HF9" secondAttribute="leading" id="Cuy-2Y-ghD"/>
+                            <constraint firstItem="TtE-DU-MJR" firstAttribute="top" secondItem="TyI-Ru-bTD" secondAttribute="bottom" constant="21" id="HnT-8g-EeF"/>
+                            <constraint firstItem="xAO-xE-N75" firstAttribute="top" secondItem="cZ2-nj-HF9" secondAttribute="bottom" constant="16" id="IVj-Yv-ON9"/>
+                            <constraint firstItem="cZ2-nj-HF9" firstAttribute="top" secondItem="TtE-DU-MJR" secondAttribute="bottom" constant="13" id="Tsk-Ji-i4b"/>
+                            <constraint firstItem="TtE-DU-MJR" firstAttribute="leading" secondItem="bnU-Ot-NCE" secondAttribute="leading" constant="56" id="kek-hw-zhG"/>
+                            <constraint firstItem="xAO-xE-N75" firstAttribute="leading" secondItem="bnU-Ot-NCE" secondAttribute="leading" constant="40" id="n94-u1-XA3"/>
+                            <constraint firstItem="TtE-DU-MJR" firstAttribute="centerX" secondItem="bnU-Ot-NCE" secondAttribute="centerX" id="vLn-7x-nVn"/>
+                            <constraint firstItem="xAO-xE-N75" firstAttribute="centerX" secondItem="cZ2-nj-HF9" secondAttribute="centerX" id="wcT-xQ-FuC"/>
+                            <constraint firstItem="TtE-DU-MJR" firstAttribute="trailing" secondItem="cZ2-nj-HF9" secondAttribute="trailing" id="ziZ-jU-q8S"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Introduction" id="Pnb-gL-6mE">
                         <barButtonItem key="leftBarButtonItem" title="Close" id="roY-xi-aVm">
@@ -224,7 +239,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TWK-nZ-1Xt">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TWK-nZ-1Xt">
                                 <rect key="frame" x="120" y="538" width="80" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Get Started">
@@ -237,6 +252,10 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="TWK-nZ-1Xt" firstAttribute="centerX" secondItem="Yhn-s9-BhS" secondAttribute="centerX" id="AKg-RS-YRT"/>
+                            <constraint firstAttribute="bottom" secondItem="TWK-nZ-1Xt" secondAttribute="bottom" id="VsO-Av-GV6"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="em7-Mn-bMe"/>
                     <navigationItem key="navigationItem" id="uIB-1y-5p7"/>
@@ -301,11 +320,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="arT-GM-MSI">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="arT-GM-MSI">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </mapView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tfe-A0-ip5">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tfe-A0-ip5">
                                 <rect key="frame" x="115" y="527" width="90" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Nearest Gym">
@@ -317,6 +336,14 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xpY-6B-SRg" firstAttribute="top" secondItem="tfe-A0-ip5" secondAttribute="bottom" constant="11" id="GdR-We-gdz"/>
+                            <constraint firstItem="arT-GM-MSI" firstAttribute="leading" secondItem="8Nv-Tj-b45" secondAttribute="leading" id="Log-vu-8jg"/>
+                            <constraint firstAttribute="bottom" secondItem="arT-GM-MSI" secondAttribute="bottom" id="PUi-Lj-RLj"/>
+                            <constraint firstAttribute="trailing" secondItem="arT-GM-MSI" secondAttribute="trailing" id="myJ-rA-Si9"/>
+                            <constraint firstItem="arT-GM-MSI" firstAttribute="top" secondItem="8Nv-Tj-b45" secondAttribute="top" id="tSv-SS-vqg"/>
+                            <constraint firstItem="tfe-A0-ip5" firstAttribute="centerX" secondItem="arT-GM-MSI" secondAttribute="centerX" id="vRr-2f-8Ag"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ewl-VV-RW0"/>
                     <connections>
@@ -412,12 +439,12 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fKi-6b-vHQ" customClass="FBLoginView">
-                                <rect key="frame" x="57" y="471" width="207" height="43"/>
+                                <rect key="frame" x="57" y="407" width="207" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="afU-ly-peF">
-                                <rect key="frame" x="128" y="425" width="62" height="30"/>
+                                <rect key="frame" x="120" y="369" width="62" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Continue">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>

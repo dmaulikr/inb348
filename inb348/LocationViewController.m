@@ -125,6 +125,9 @@
     //ADDING ANNOTATION
     MKPointAnnotation *point = [[MKPointAnnotation alloc]init];
     point.coordinate = userLocation.coordinate;
+    //CURRENT USER LAT AND LNG
+    //point.coordinate.latitude
+    //point.coordinate.longitude
     point.title = @"Current Position";
     point.subtitle = @"You're here";
     
