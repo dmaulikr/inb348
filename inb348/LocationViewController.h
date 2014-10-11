@@ -12,4 +12,5 @@
 
 @interface LocationViewController : UIViewController <MKMapViewDelegate>
 @property (strong,nonatomic) IBOutlet MKMapView *mapView;
+- (IBAction)returnCurrent:(id)sender;
 @end

@@ -118,7 +118,8 @@ int rowNo;
             
         }
     }
-    [self dismissViewControllerAnimated:YES completion:nil];
+    
+    //[self.parentViewController dismissViewControllerAnimated:YES completion:nil];
 }
 
 

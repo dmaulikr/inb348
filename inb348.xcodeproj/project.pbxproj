@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		013D0C9919E5215A003EB31E /* FBLoginViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 013D0C9819E5215A003EB31E /* FBLoginViewViewController.m */; };
+		0143B1EF19E9310C00B2101A /* Current-Location-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 0143B1EE19E9310C00B2101A /* Current-Location-512.png */; };
+		0143B1F119E9330400B2101A /* PixelKit_5-Oclock-Shades-Icon-Set__0001_14.png in Resources */ = {isa = PBXBuildFile; fileRef = 0143B1F019E9330400B2101A /* PixelKit_5-Oclock-Shades-Icon-Set__0001_14.png */; };
+		0143B1F319E9339600B2101A /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0143B1F219E9339600B2101A /* images.jpeg */; };
 		0168249219CFEDEE00D73ADA /* AddReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0168249119CFEDEE00D73ADA /* AddReminderViewController.m */; };
 		0170023219D52273000967AF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0170023119D52273000967AF /* MapKit.framework */; };
 		0170023419D52279000967AF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0170023319D52279000967AF /* CoreLocation.framework */; };
@@ -80,6 +83,9 @@
 /* Begin PBXFileReference section */
 		013D0C9719E5215A003EB31E /* FBLoginViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBLoginViewViewController.h; path = ../FBLoginViewViewController.h; sourceTree = "<group>"; };
 		013D0C9819E5215A003EB31E /* FBLoginViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBLoginViewViewController.m; path = ../FBLoginViewViewController.m; sourceTree = "<group>"; };
+		0143B1EE19E9310C00B2101A /* Current-Location-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Current-Location-512.png"; sourceTree = "<group>"; };
+		0143B1F019E9330400B2101A /* PixelKit_5-Oclock-Shades-Icon-Set__0001_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PixelKit_5-Oclock-Shades-Icon-Set__0001_14.png"; sourceTree = "<group>"; };
+		0143B1F219E9339600B2101A /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
 		0168249019CFEDEE00D73ADA /* AddReminderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddReminderViewController.h; sourceTree = "<group>"; };
 		0168249119CFEDEE00D73ADA /* AddReminderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddReminderViewController.m; sourceTree = "<group>"; };
 		0170023119D52273000967AF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
@@ -285,6 +291,9 @@
 		6DD17CB019AD8868008B6FCB /* image */ = {
 			isa = PBXGroup;
 			children = (
+				0143B1F219E9339600B2101A /* images.jpeg */,
+				0143B1F019E9330400B2101A /* PixelKit_5-Oclock-Shades-Icon-Set__0001_14.png */,
+				0143B1EE19E9310C00B2101A /* Current-Location-512.png */,
 				8B1B233419B888DE00E0F259 /* facebook.icon.205x205.jpg */,
 				8B1B232E19B87F4D00E0F259 /* wallpaper.jpg */,
 				017ACE2419B71347009E9B62 /* twitter-bird-white-on-blue-jpeg.jpg */,
@@ -401,14 +410,17 @@
 				6DD17C8519AD749C008B6FCB /* Main_iPad.storyboard in Resources */,
 				6DD17C8A19AD749C008B6FCB /* Images.xcassets in Resources */,
 				0190BDF219ADF30A003F1FBB /* bodumbellrow.jpg in Resources */,
+				0143B1F319E9339600B2101A /* images.jpeg in Resources */,
 				8BE1E3A019B19E2100820683 /* wall1.jpg in Resources */,
 				6DD17C8219AD749C008B6FCB /* Main_iPhone.storyboard in Resources */,
+				0143B1EF19E9310C00B2101A /* Current-Location-512.png in Resources */,
 				6DD17C7919AD749C008B6FCB /* InfoPlist.strings in Resources */,
 				8BE1E39F19B19E2100820683 /* wall.jpg in Resources */,
 				0190BDF919ADF30A003F1FBB /* situp.jpg in Resources */,
 				8B1B233519B888DE00E0F259 /* facebook.icon.205x205.jpg in Resources */,
 				6DD17CAE19AD885B008B6FCB /* 1st.jpg in Resources */,
 				0190BDF619ADF30A003F1FBB /* legcurl.jpg in Resources */,
+				0143B1F119E9330400B2101A /* PixelKit_5-Oclock-Shades-Icon-Set__0001_14.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,8 @@
 //
 
 #import "FBLoginViewViewController.h"
+NSString *userName;
+NSNumber *userID;
 
 @interface FBLoginViewViewController ()
 -(void)toggleHiddenState:(BOOL)shouldHide;
@@ -50,7 +52,9 @@
 
 -(void)loginViewShowingLoggedInUser:(FBLoginView *)loginView
 {
-    self.lblLoginStatus.text = @"You are logged in";
+    [_lblLoginStatus setText:[NSString stringWithFormat:@"Welcome to Fitness Mate, %@", userName]];
+    //self.lblLoginStatus.text = @"%@", userName;
+    NSLog(@"%@",userName);
     [self toggleHiddenState:NO];
 }
 
@@ -58,9 +62,19 @@
 {
     NSLog(@"%@", user);
     self.profilePicture.profileID = user.id;
-    self.lblUsername.text = user.name;
-    self.lblEmail.text = [user objectForKey:@"email"];
+    userID = [user objectForKey:@"id"];
+    userName = [user objectForKey:@"first_name"];
+    //NSLog(@"%@",userName);
+    //self.lblUsername.text = user.name;
+    //self.lblEmail.text = [user objectForKey:@"email"];
     self.btnContinue.hidden = NO;
+    
+    //PASSING VALUE
+    //COULDNT PASS ANYTHING....
+    ViewController *view = [[ViewController alloc]initWithNibName:@"ViewController" bundle:nil];
+    //view.userID = userID;
+    view.userName = @"%@Yes";
+    [self.navigationController pushViewController:view animated:YES];
 }
 
 -(void)loginViewShowingLoggedOutUser:(FBLoginView *)loginView

@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "AppDelegate.h"
+#import "FBLoginViewViewController.h"
 
 @interface ViewController ()
 {
@@ -20,9 +21,8 @@
     
     NSArray *exerciseFilter;
     NSArray *searchResults;
+    //NSString *userName;
 }
-
-
 
 @end
 
@@ -31,7 +31,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+    NSLog(@"%@",self.userName);
     arrayChallenge = [[NSMutableArray alloc]initWithObjects:@"Do Push Ups for 50 times", @"Do Sit Ups for 50 times", @"Swimming for 1 hour", @"Jogging for 30 minutes",
                       @"Cycling for 30 minutes",nil];
     int i = arc4random() % 5;
@@ -396,6 +396,7 @@ shouldReloadTableForSearchString:(NSString *)searchString
 {
     NSLog(@"%@", user);
     self.profilePicture.profileID = user.id;
+    //userName = [user objectForKey:@"first_name"];
 }
 
 

@@ -17,6 +17,8 @@
 @property (weak, nonatomic) IBOutlet FBProfilePictureView *profilePicture;
 @property NSMutableArray *exercise;
 @property Exercises *selectedExercise;
+@property (nonatomic) NSNumber *userID;
+@property (nonatomic) NSString *userName;
 //@property NSArray *array;
 @property NSString *string;
 //@property NSArray *selectedWorkout;
