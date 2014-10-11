@@ -45,6 +45,7 @@
     self.lblUsername.hidden = shouldHide;
     self.lblEmail.hidden = shouldHide;
     self.profilePicture.hidden = shouldHide;
+    self.btnContinue.hidden = YES;
 }
 
 -(void)loginViewShowingLoggedInUser:(FBLoginView *)loginView
@@ -59,6 +60,7 @@
     self.profilePicture.profileID = user.id;
     self.lblUsername.text = user.name;
     self.lblEmail.text = [user objectForKey:@"email"];
+    self.btnContinue.hidden = NO;
 }
 
 -(void)loginViewShowingLoggedOutUser:(FBLoginView *)loginView
