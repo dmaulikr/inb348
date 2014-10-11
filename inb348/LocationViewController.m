@@ -10,14 +10,20 @@
 #import "MapViewAnnotation.h"
 
 @interface LocationViewController ()
-
 @end
 
 @implementation LocationViewController
+
+//GLOBAL VARIABLE LAT AND LNG
+double currentLat, currentLng;
+
 @synthesize mapView;
+
+
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
+    
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
@@ -33,6 +39,11 @@
     [self.mapView addAnnotations:[self createAnnotations]];
     
     CLLocationCoordinate2D zoomLocation;
+    //CURRENT POSITION
+    //zoomLocation.latitude = currentLat;
+    //zoomLocation.longitude = currentLng;
+    
+    //DEFAULT POSITION
     zoomLocation.latitude = -27.476015;
     zoomLocation.longitude = 153.028457;
     
@@ -119,15 +130,20 @@
 
 -(void)mapView:(MKMapView *)mapView didUpdateUserLocation:(MKUserLocation *)userLocation
 {
+    //YOUR CURRENT POSITION CODE IS HERE
+    //REMEMBER TO GET THE LAT AND LNG
     MKCoordinateRegion region = MKCoordinateRegionMakeWithDistance(userLocation.coordinate, 500, 500);
     [self.mapView setRegion:[self.mapView regionThatFits:region]animated:YES];
     
     //ADDING ANNOTATION
     MKPointAnnotation *point = [[MKPointAnnotation alloc]init];
     point.coordinate = userLocation.coordinate;
+    
+    
     //CURRENT USER LAT AND LNG
-    //point.coordinate.latitude
-    //point.coordinate.longitude
+    //currentLat = userLocation.coordinate.latitude;
+    //currentLng = userLocation.coordinate.longitude;
+
     point.title = @"Current Position";
     point.subtitle = @"You're here";
     

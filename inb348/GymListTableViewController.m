@@ -9,10 +9,12 @@
 #import "GymListTableViewController.h"
 
 @interface GymListTableViewController ()
-
 @end
 
 @implementation GymListTableViewController
+
+//GLOBAL VARIABLE
+int rowNo;
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -72,15 +74,23 @@
     
     //SORTING ALGO
     //GOES HERE
+    NSSortDescriptor *sortDescriptor;
+    sortDescriptor = [[NSSortDescriptor alloc]initWithKey:@"distance" ascending:YES];
+    NSArray *sortDescriptors = [NSArray arrayWithObject:sortDescriptor];
+    NSArray *sortedArray;
+    sortedArray = [self.gymList sortedArrayUsingDescriptors:sortDescriptors];
+    NSLog(@"%@",sortedArray);
     
+    NSDictionary *eachGymTest = [sortedArray objectAtIndex:indexPath.row];
+    cell.myLabel.text = [eachGymTest objectForKey:@"title"];
     
-    //NSArray *anArray = [eachGym allValues];
-    cell.myLabel.text = [eachGym objectForKey:@"title"];
+    //PREVIOUS CODE
+    //cell.myLabel.text = [eachGym objectForKey:@"title"];
     //cell.lblDistance.text = [eachGym objectForKey:@"distance"];
     
     //MUST CONVERT FROM NSNUMBER TO NSSTRING SINCE LABEL COULD NOT SET TEXT AS NSNUMBER
-    NSNumber *test = [eachGym objectForKey:@"distance"];
-    NSLog(@"%@",test);
+    NSNumber *test = [eachGymTest objectForKey:@"distance"];
+    //NSLog(@"%@",test);
     NSString *distance = [test stringValue];
     cell.lblDistance.text = [distance stringByAppendingString:@" m"];
 
@@ -89,6 +99,28 @@
     
     return cell;
 }
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    rowNo = indexPath.row;
+    
+    for (NSInteger i=0; i<7; i++)
+    {
+        if(rowNo == i)
+        {
+            NSString *string;
+            GymListTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"myCell"];
+            NSDictionary *eachGym = [self.gymList objectAtIndex:indexPath.row];
+            cell.myLabel.text = [eachGym objectForKey:@"title"];
+            string = cell.myLabel.text;
+            NSLog(@"%@", string);
+            
+            
+        }
+    }
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
 
 /*
 // Override to support conditional editing of the table view.
