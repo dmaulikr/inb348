@@ -62,9 +62,9 @@
     NSString *str4 = @"4: Push body up until arms are extended.";
     NSString *str5 = @"5: Repeat";
     exercise.instruction = [NSString stringWithFormat:@"%@\n%@\n%@\n%@\n%@",str1,str2,str3,str4,str5];
-    exercise.cover = [UIImage imageNamed:@"pushups2.tiff"];
+    exercise.cover = [UIImage imageNamed:@"Pushups-1 (dragged).tiff"];
     [_exercise addObject:exercise]; //add the object to array
-    exercise.animationArray = @[@"pushups1.tiff", @"pushups2.tiff"];
+    exercise.animationArray = @[@"Pushups-1 (dragged).tiff", @"Pushups-2 (dragged).tiff", @"Pushups-3 (dragged).tiff", @"Pushups-4 (dragged).tiff", @"Pushups-5 (dragged).tiff", @"Pushups-6 (dragged).tiff", @"Pushups-7 (dragged).tiff", @"Pushups-8 (dragged).tiff", @"Pushups-9 (dragged).tiff", @"Pushups-10 (dragged).tiff", @"Pushups-11 (dragged).tiff", @"Pushups-12 (dragged).tiff", @"Pushups-13 (dragged).tiff", @"Pushups-14 (dragged).tiff", @"Pushups-15 (dragged).tiff", @"Pushups-16 (dragged).tiff", @"Pushups-17 (dragged).tiff"];
     
     //=====================================================
     //                      EX 2
@@ -79,8 +79,7 @@
     exercise.instruction = [NSString stringWithFormat:@"%@\n%@\n%@\n%@\n%@",str6,str7,str8,str9,str10];
     exercise.cover = [UIImage imageNamed:@"situp-9 (dragged).tiff"];
     [_exercise addObject:exercise]; // add the object to array
-    exercise.animationArray = @[@"situp-1 (dragged).tiff", @"situp-2 (dragged).tiff", @"situp-3 (dragged).tiff", @"situp-4 (dragged).tiff", @"situp-5 (dragged).tiff", @"situp-6 (dragged).tiff", @"situp-7 (dragged).tiff", @"situp-8 (dragged).tiff", @"situp-9 (dragged).tiff", @"situp-10 (dragged).tiff"];
-    
+    exercise.animationArray = @[@"Pushups-1 (dragged).tiff", @"Pushups-2 (dragged).tiff", @"Pushups-3 (dragged).tiff", @"Pushups-4 (dragged).tiff", @"Pushups-5 (dragged).tiff", @"Pushups-6 (dragged).tiff", @"Pushups-7 (dragged).tiff", @"Pushups-8 (dragged).tiff", @"Pushups-9 (dragged).tiff", @"Pushups-10 (dragged).tiff", @"Pushups-11 (dragged).tiff", @"Pushups-12 (dragged).tiff", @"Pushups-13 (dragged).tiff", @"Pushups-14 (dragged).tiff", @"Pushups-15 (dragged).tiff", @"Pushups-16 (dragged).tiff", @"Pushups-17 (dragged).tiff"];
     //=====================================================
     //                      EX 3
     //=====================================================
