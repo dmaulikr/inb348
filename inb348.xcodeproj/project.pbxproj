@@ -97,6 +97,196 @@
 		C658C5B919ECDA3000192E89 /* Pushups-16 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C658C59819ECDA3000192E89 /* Pushups-16 (dragged).tiff */; };
 		C658C5BA19ECDA3000192E89 /* Pushups-17 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C658C59919ECDA3000192E89 /* Pushups-17 (dragged).tiff */; };
 		C658C5BB19ECDA3000192E89 /* Pushups-17 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C658C59919ECDA3000192E89 /* Pushups-17 (dragged).tiff */; };
+		C6DBA9A419ECE2C10007D038 /* BWSitupNeck-1 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA98019ECE2C10007D038 /* BWSitupNeck-1 (dragged).tiff */; };
+		C6DBA9A519ECE2C10007D038 /* BWSitupNeck-2 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA98119ECE2C10007D038 /* BWSitupNeck-2 (dragged).tiff */; };
+		C6DBA9A619ECE2C10007D038 /* BWSitupNeck-3 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA98219ECE2C10007D038 /* BWSitupNeck-3 (dragged).tiff */; };
+		C6DBA9A719ECE2C10007D038 /* BWSitupNeck-4 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA98319ECE2C10007D038 /* BWSitupNeck-4 (dragged).tiff */; };
+		C6DBA9A819ECE2C10007D038 /* BWSitupNeck-5 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA98419ECE2C10007D038 /* BWSitupNeck-5 (dragged).tiff */; };
+		C6DBA9A919ECE2C10007D038 /* BWSitupNeck-6 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA98519ECE2C10007D038 /* BWSitupNeck-6 (dragged).tiff */; };
+		C6DBA9AA19ECE2C10007D038 /* BWSitupNeck-7 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA98619ECE2C10007D038 /* BWSitupNeck-7 (dragged).tiff */; };
+		C6DBA9AB19ECE2C10007D038 /* BWSitupNeck-8 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA98719ECE2C10007D038 /* BWSitupNeck-8 (dragged).tiff */; };
+		C6DBA9AC19ECE2C10007D038 /* BWSitupNeck-9 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA98819ECE2C10007D038 /* BWSitupNeck-9 (dragged).tiff */; };
+		C6DBA9AD19ECE2C10007D038 /* BWSitupNeck-10 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA98919ECE2C10007D038 /* BWSitupNeck-10 (dragged).tiff */; };
+		C6DBA9AE19ECE2C10007D038 /* BWSitupNeck-11 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA98A19ECE2C10007D038 /* BWSitupNeck-11 (dragged).tiff */; };
+		C6DBA9AF19ECE2C10007D038 /* BWSitupNeck-12 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA98B19ECE2C10007D038 /* BWSitupNeck-12 (dragged).tiff */; };
+		C6DBA9B019ECE2C10007D038 /* BWSitupNeck-13 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA98C19ECE2C10007D038 /* BWSitupNeck-13 (dragged).tiff */; };
+		C6DBA9B119ECE2C10007D038 /* BWSitupNeck-14 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA98D19ECE2C10007D038 /* BWSitupNeck-14 (dragged).tiff */; };
+		C6DBA9B219ECE2C10007D038 /* BWSitupNeck-15 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA98E19ECE2C10007D038 /* BWSitupNeck-15 (dragged).tiff */; };
+		C6DBA9B319ECE2C10007D038 /* BWSitupNeck-16 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA98F19ECE2C10007D038 /* BWSitupNeck-16 (dragged).tiff */; };
+		C6DBA9B419ECE2C10007D038 /* BWSitupNeck-17 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA99019ECE2C10007D038 /* BWSitupNeck-17 (dragged).tiff */; };
+		C6DBA9B519ECE2C10007D038 /* BWSitupNeck-18 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA99119ECE2C10007D038 /* BWSitupNeck-18 (dragged).tiff */; };
+		C6DBA9B619ECE2C10007D038 /* BWSitupNeck-19 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA99219ECE2C10007D038 /* BWSitupNeck-19 (dragged).tiff */; };
+		C6DBA9B719ECE2C10007D038 /* BWSitupNeck-20 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA99319ECE2C10007D038 /* BWSitupNeck-20 (dragged).tiff */; };
+		C6DBA9B819ECE2C10007D038 /* BWSitupNeck-21 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA99419ECE2C10007D038 /* BWSitupNeck-21 (dragged).tiff */; };
+		C6DBA9B919ECE2C10007D038 /* BWSitupNeck-22 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA99519ECE2C10007D038 /* BWSitupNeck-22 (dragged).tiff */; };
+		C6DBA9BA19ECE2C10007D038 /* BWSitupNeck-23 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA99619ECE2C10007D038 /* BWSitupNeck-23 (dragged).tiff */; };
+		C6DBA9BB19ECE2C10007D038 /* BWSitupNeck-24 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA99719ECE2C10007D038 /* BWSitupNeck-24 (dragged).tiff */; };
+		C6DBA9BC19ECE2C10007D038 /* BWSitupNeck-25 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA99819ECE2C10007D038 /* BWSitupNeck-25 (dragged).tiff */; };
+		C6DBA9BD19ECE2C10007D038 /* BWSitupNeck-26 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA99919ECE2C10007D038 /* BWSitupNeck-26 (dragged).tiff */; };
+		C6DBA9BE19ECE2C10007D038 /* BWSitupNeck-27 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA99A19ECE2C10007D038 /* BWSitupNeck-27 (dragged).tiff */; };
+		C6DBA9BF19ECE2C10007D038 /* BWSitupNeck-28 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA99B19ECE2C10007D038 /* BWSitupNeck-28 (dragged).tiff */; };
+		C6DBA9C019ECE2C10007D038 /* BWSitupNeck-29 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA99C19ECE2C10007D038 /* BWSitupNeck-29 (dragged).tiff */; };
+		C6DBA9C119ECE2C10007D038 /* BWSitupNeck-30 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA99D19ECE2C10007D038 /* BWSitupNeck-30 (dragged).tiff */; };
+		C6DBA9C219ECE2C10007D038 /* BWSitupNeck-31 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA99E19ECE2C10007D038 /* BWSitupNeck-31 (dragged).tiff */; };
+		C6DBA9C319ECE2C10007D038 /* BWSitupNeck-32 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA99F19ECE2C10007D038 /* BWSitupNeck-32 (dragged).tiff */; };
+		C6DBA9C419ECE2C10007D038 /* BWSitupNeck-33 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA9A019ECE2C10007D038 /* BWSitupNeck-33 (dragged).tiff */; };
+		C6DBA9C519ECE2C10007D038 /* BWSitupNeck-34 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA9A119ECE2C10007D038 /* BWSitupNeck-34 (dragged).tiff */; };
+		C6DBA9C619ECE2C10007D038 /* BWSitupNeck-35 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA9A219ECE2C10007D038 /* BWSitupNeck-35 (dragged).tiff */; };
+		C6DBA9C719ECE2C10007D038 /* BWSitupNeck-36 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA9A319ECE2C10007D038 /* BWSitupNeck-36 (dragged).tiff */; };
+		C6DBA9DC19ECE50D0007D038 /* DBBenchPress-1 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA9C919ECE50D0007D038 /* DBBenchPress-1 (dragged).tiff */; };
+		C6DBA9DD19ECE50D0007D038 /* DBBenchPress-2 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA9CA19ECE50D0007D038 /* DBBenchPress-2 (dragged).tiff */; };
+		C6DBA9DE19ECE50D0007D038 /* DBBenchPress-3 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA9CB19ECE50D0007D038 /* DBBenchPress-3 (dragged).tiff */; };
+		C6DBA9DF19ECE50D0007D038 /* DBBenchPress-4 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA9CC19ECE50D0007D038 /* DBBenchPress-4 (dragged).tiff */; };
+		C6DBA9E019ECE50D0007D038 /* DBBenchPress-5 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA9CD19ECE50D0007D038 /* DBBenchPress-5 (dragged).tiff */; };
+		C6DBA9E219ECE50D0007D038 /* DBBenchPress-7 (dragged) 1.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA9CF19ECE50D0007D038 /* DBBenchPress-7 (dragged) 1.tiff */; };
+		C6DBA9E319ECE50D0007D038 /* DBBenchPress-8 (dragged) 1.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA9D019ECE50D0007D038 /* DBBenchPress-8 (dragged) 1.tiff */; };
+		C6DBA9E419ECE50D0007D038 /* DBBenchPress-9 (dragged) 1.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA9D119ECE50D0007D038 /* DBBenchPress-9 (dragged) 1.tiff */; };
+		C6DBA9E519ECE50D0007D038 /* DBBenchPress-10 (dragged) 1.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA9D219ECE50D0007D038 /* DBBenchPress-10 (dragged) 1.tiff */; };
+		C6DBA9E619ECE50D0007D038 /* DBBenchPress-11 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA9D319ECE50D0007D038 /* DBBenchPress-11 (dragged).tiff */; };
+		C6DBA9E719ECE50D0007D038 /* DBBenchPress-12 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA9D419ECE50D0007D038 /* DBBenchPress-12 (dragged).tiff */; };
+		C6DBA9E819ECE50D0007D038 /* DBBenchPress-13 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA9D519ECE50D0007D038 /* DBBenchPress-13 (dragged).tiff */; };
+		C6DBA9E919ECE50D0007D038 /* DBBenchPress-14 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA9D619ECE50D0007D038 /* DBBenchPress-14 (dragged).tiff */; };
+		C6DBA9EA19ECE50D0007D038 /* DBBenchPress-15 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA9D719ECE50D0007D038 /* DBBenchPress-15 (dragged).tiff */; };
+		C6DBA9EB19ECE50D0007D038 /* DBBenchPress-16 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA9D819ECE50D0007D038 /* DBBenchPress-16 (dragged).tiff */; };
+		C6DBA9EC19ECE50D0007D038 /* DBBenchPress-17 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA9D919ECE50D0007D038 /* DBBenchPress-17 (dragged).tiff */; };
+		C6DBA9ED19ECE50D0007D038 /* DBBenchPress-18 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA9DA19ECE50D0007D038 /* DBBenchPress-18 (dragged).tiff */; };
+		C6DBA9EE19ECE50D0007D038 /* DBBenchPress-19 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA9DB19ECE50D0007D038 /* DBBenchPress-19 (dragged).tiff */; };
+		C6DBA9F019ECE8BB0007D038 /* DBBenchPress-6 (dragged) 1.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA9EF19ECE8BB0007D038 /* DBBenchPress-6 (dragged) 1.tiff */; };
+		C6DBAA0519ECE9CC0007D038 /* BBInclineBenchPress-1 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA9F219ECE9CC0007D038 /* BBInclineBenchPress-1 (dragged).tiff */; };
+		C6DBAA0619ECE9CC0007D038 /* BBInclineBenchPress-2 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA9F319ECE9CC0007D038 /* BBInclineBenchPress-2 (dragged).tiff */; };
+		C6DBAA0719ECE9CC0007D038 /* BBInclineBenchPress-3 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA9F419ECE9CC0007D038 /* BBInclineBenchPress-3 (dragged).tiff */; };
+		C6DBAA0819ECE9CC0007D038 /* BBInclineBenchPress-4 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA9F519ECE9CC0007D038 /* BBInclineBenchPress-4 (dragged).tiff */; };
+		C6DBAA0919ECE9CC0007D038 /* BBInclineBenchPress-5 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA9F619ECE9CC0007D038 /* BBInclineBenchPress-5 (dragged).tiff */; };
+		C6DBAA0A19ECE9CC0007D038 /* BBInclineBenchPress-6 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA9F719ECE9CC0007D038 /* BBInclineBenchPress-6 (dragged).tiff */; };
+		C6DBAA0B19ECE9CC0007D038 /* BBInclineBenchPress-7 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA9F819ECE9CC0007D038 /* BBInclineBenchPress-7 (dragged).tiff */; };
+		C6DBAA0C19ECE9CC0007D038 /* BBInclineBenchPress-8 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA9F919ECE9CC0007D038 /* BBInclineBenchPress-8 (dragged).tiff */; };
+		C6DBAA0D19ECE9CC0007D038 /* BBInclineBenchPress-9 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA9FA19ECE9CC0007D038 /* BBInclineBenchPress-9 (dragged).tiff */; };
+		C6DBAA0E19ECE9CC0007D038 /* BBInclineBenchPress-10 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA9FB19ECE9CC0007D038 /* BBInclineBenchPress-10 (dragged).tiff */; };
+		C6DBAA0F19ECE9CC0007D038 /* BBInclineBenchPress-11 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA9FC19ECE9CC0007D038 /* BBInclineBenchPress-11 (dragged).tiff */; };
+		C6DBAA1019ECE9CC0007D038 /* BBInclineBenchPress-12 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA9FD19ECE9CC0007D038 /* BBInclineBenchPress-12 (dragged).tiff */; };
+		C6DBAA1119ECE9CC0007D038 /* BBInclineBenchPress-13 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA9FE19ECE9CC0007D038 /* BBInclineBenchPress-13 (dragged).tiff */; };
+		C6DBAA1219ECE9CC0007D038 /* BBInclineBenchPress-14 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA9FF19ECE9CC0007D038 /* BBInclineBenchPress-14 (dragged).tiff */; };
+		C6DBAA1319ECE9CC0007D038 /* BBInclineBenchPress-15 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA0019ECE9CC0007D038 /* BBInclineBenchPress-15 (dragged).tiff */; };
+		C6DBAA1419ECE9CC0007D038 /* BBInclineBenchPress-16 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA0119ECE9CC0007D038 /* BBInclineBenchPress-16 (dragged).tiff */; };
+		C6DBAA1519ECE9CC0007D038 /* BBInclineBenchPress-17 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA0219ECE9CC0007D038 /* BBInclineBenchPress-17 (dragged).tiff */; };
+		C6DBAA1619ECE9CC0007D038 /* BBInclineBenchPress-18 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA0319ECE9CC0007D038 /* BBInclineBenchPress-18 (dragged).tiff */; };
+		C6DBAA1719ECE9CC0007D038 /* BBInclineBenchPress-19 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA0419ECE9CC0007D038 /* BBInclineBenchPress-19 (dragged).tiff */; };
+		C6DBAA3019ECEAFD0007D038 /* BBDeclineBenchPress-1 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA1919ECEAFD0007D038 /* BBDeclineBenchPress-1 (dragged).tiff */; };
+		C6DBAA3119ECEAFD0007D038 /* BBDeclineBenchPress-2 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA1A19ECEAFD0007D038 /* BBDeclineBenchPress-2 (dragged).tiff */; };
+		C6DBAA3219ECEAFD0007D038 /* BBDeclineBenchPress-3 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA1B19ECEAFD0007D038 /* BBDeclineBenchPress-3 (dragged).tiff */; };
+		C6DBAA3319ECEAFD0007D038 /* BBDeclineBenchPress-4 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA1C19ECEAFD0007D038 /* BBDeclineBenchPress-4 (dragged).tiff */; };
+		C6DBAA3419ECEAFD0007D038 /* BBDeclineBenchPress-5 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA1D19ECEAFD0007D038 /* BBDeclineBenchPress-5 (dragged).tiff */; };
+		C6DBAA3519ECEAFD0007D038 /* BBDeclineBenchPress-6 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA1E19ECEAFD0007D038 /* BBDeclineBenchPress-6 (dragged).tiff */; };
+		C6DBAA3619ECEAFD0007D038 /* BBDeclineBenchPress-7 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA1F19ECEAFD0007D038 /* BBDeclineBenchPress-7 (dragged).tiff */; };
+		C6DBAA3719ECEAFD0007D038 /* BBDeclineBenchPress-8 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA2019ECEAFD0007D038 /* BBDeclineBenchPress-8 (dragged).tiff */; };
+		C6DBAA3819ECEAFD0007D038 /* BBDeclineBenchPress-9 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA2119ECEAFD0007D038 /* BBDeclineBenchPress-9 (dragged).tiff */; };
+		C6DBAA3919ECEAFD0007D038 /* BBDeclineBenchPress-10 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA2219ECEAFD0007D038 /* BBDeclineBenchPress-10 (dragged).tiff */; };
+		C6DBAA3A19ECEAFD0007D038 /* BBDeclineBenchPress-11 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA2319ECEAFD0007D038 /* BBDeclineBenchPress-11 (dragged).tiff */; };
+		C6DBAA3B19ECEAFD0007D038 /* BBDeclineBenchPress-12 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA2419ECEAFD0007D038 /* BBDeclineBenchPress-12 (dragged).tiff */; };
+		C6DBAA3C19ECEAFD0007D038 /* BBDeclineBenchPress-13 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA2519ECEAFD0007D038 /* BBDeclineBenchPress-13 (dragged).tiff */; };
+		C6DBAA3D19ECEAFD0007D038 /* BBDeclineBenchPress-14 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA2619ECEAFD0007D038 /* BBDeclineBenchPress-14 (dragged).tiff */; };
+		C6DBAA3E19ECEAFD0007D038 /* BBDeclineBenchPress-15 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA2719ECEAFD0007D038 /* BBDeclineBenchPress-15 (dragged).tiff */; };
+		C6DBAA3F19ECEAFD0007D038 /* BBDeclineBenchPress-16 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA2819ECEAFD0007D038 /* BBDeclineBenchPress-16 (dragged).tiff */; };
+		C6DBAA4019ECEAFD0007D038 /* BBDeclineBenchPress-17 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA2919ECEAFD0007D038 /* BBDeclineBenchPress-17 (dragged).tiff */; };
+		C6DBAA4119ECEAFD0007D038 /* BBDeclineBenchPress-18 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA2A19ECEAFD0007D038 /* BBDeclineBenchPress-18 (dragged).tiff */; };
+		C6DBAA4219ECEAFD0007D038 /* BBDeclineBenchPress-19 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA2B19ECEAFD0007D038 /* BBDeclineBenchPress-19 (dragged).tiff */; };
+		C6DBAA4319ECEAFD0007D038 /* BBDeclineBenchPress-20 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA2C19ECEAFD0007D038 /* BBDeclineBenchPress-20 (dragged).tiff */; };
+		C6DBAA4419ECEAFD0007D038 /* BBDeclineBenchPress-21 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA2D19ECEAFD0007D038 /* BBDeclineBenchPress-21 (dragged).tiff */; };
+		C6DBAA4519ECEAFD0007D038 /* BBDeclineBenchPress-22 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA2E19ECEAFD0007D038 /* BBDeclineBenchPress-22 (dragged).tiff */; };
+		C6DBAA4619ECEAFD0007D038 /* BBDeclineBenchPress-23 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA2F19ECEAFD0007D038 /* BBDeclineBenchPress-23 (dragged).tiff */; };
+		C6DBAA7619ECEB920007D038 /* LVLyingLegCurl-1 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA4819ECEB910007D038 /* LVLyingLegCurl-1 (dragged).tiff */; };
+		C6DBAA7719ECEB920007D038 /* LVLyingLegCurl-2 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA4919ECEB910007D038 /* LVLyingLegCurl-2 (dragged).tiff */; };
+		C6DBAA7819ECEB920007D038 /* LVLyingLegCurl-3 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA4A19ECEB910007D038 /* LVLyingLegCurl-3 (dragged).tiff */; };
+		C6DBAA7919ECEB920007D038 /* LVLyingLegCurl-4 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA4B19ECEB910007D038 /* LVLyingLegCurl-4 (dragged).tiff */; };
+		C6DBAA7A19ECEB920007D038 /* LVLyingLegCurl-5 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA4C19ECEB910007D038 /* LVLyingLegCurl-5 (dragged).tiff */; };
+		C6DBAA7B19ECEB920007D038 /* LVLyingLegCurl-6 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA4D19ECEB910007D038 /* LVLyingLegCurl-6 (dragged).tiff */; };
+		C6DBAA7C19ECEB920007D038 /* LVLyingLegCurl-7 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA4E19ECEB910007D038 /* LVLyingLegCurl-7 (dragged).tiff */; };
+		C6DBAA7D19ECEB920007D038 /* LVLyingLegCurl-8 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA4F19ECEB910007D038 /* LVLyingLegCurl-8 (dragged).tiff */; };
+		C6DBAA7E19ECEB920007D038 /* LVLyingLegCurl-9 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA5019ECEB910007D038 /* LVLyingLegCurl-9 (dragged).tiff */; };
+		C6DBAA7F19ECEB920007D038 /* LVLyingLegCurl-10 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA5119ECEB910007D038 /* LVLyingLegCurl-10 (dragged).tiff */; };
+		C6DBAA8019ECEB920007D038 /* LVLyingLegCurl-11 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA5219ECEB910007D038 /* LVLyingLegCurl-11 (dragged).tiff */; };
+		C6DBAA8119ECEB920007D038 /* LVLyingLegCurl-12 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA5319ECEB910007D038 /* LVLyingLegCurl-12 (dragged).tiff */; };
+		C6DBAA8219ECEB920007D038 /* LVLyingLegCurl-13 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA5419ECEB910007D038 /* LVLyingLegCurl-13 (dragged).tiff */; };
+		C6DBAA8319ECEB920007D038 /* LVLyingLegCurl-14 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA5519ECEB920007D038 /* LVLyingLegCurl-14 (dragged).tiff */; };
+		C6DBAA8419ECEB920007D038 /* LVLyingLegCurl-15 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA5619ECEB920007D038 /* LVLyingLegCurl-15 (dragged).tiff */; };
+		C6DBAA8519ECEB920007D038 /* LVLyingLegCurl-16 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA5719ECEB920007D038 /* LVLyingLegCurl-16 (dragged).tiff */; };
+		C6DBAA8619ECEB920007D038 /* LVLyingLegCurl-17 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA5819ECEB920007D038 /* LVLyingLegCurl-17 (dragged).tiff */; };
+		C6DBAA8719ECEB920007D038 /* LVLyingLegCurl-18 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA5919ECEB920007D038 /* LVLyingLegCurl-18 (dragged).tiff */; };
+		C6DBAA8819ECEB920007D038 /* LVLyingLegCurl-19 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA5A19ECEB920007D038 /* LVLyingLegCurl-19 (dragged).tiff */; };
+		C6DBAA8919ECEB920007D038 /* LVLyingLegCurl-20 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA5B19ECEB920007D038 /* LVLyingLegCurl-20 (dragged).tiff */; };
+		C6DBAA8A19ECEB920007D038 /* LVLyingLegCurl-21 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA5C19ECEB920007D038 /* LVLyingLegCurl-21 (dragged).tiff */; };
+		C6DBAA8B19ECEB920007D038 /* LVLyingLegCurl-22 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA5D19ECEB920007D038 /* LVLyingLegCurl-22 (dragged).tiff */; };
+		C6DBAA8C19ECEB920007D038 /* LVLyingLegCurl-23 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA5E19ECEB920007D038 /* LVLyingLegCurl-23 (dragged).tiff */; };
+		C6DBAA8D19ECEB920007D038 /* LVLyingLegCurl-24 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA5F19ECEB920007D038 /* LVLyingLegCurl-24 (dragged).tiff */; };
+		C6DBAA8E19ECEB920007D038 /* LVLyingLegCurl-25 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA6019ECEB920007D038 /* LVLyingLegCurl-25 (dragged).tiff */; };
+		C6DBAA8F19ECEB920007D038 /* LVLyingLegCurl-26 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA6119ECEB920007D038 /* LVLyingLegCurl-26 (dragged).tiff */; };
+		C6DBAA9019ECEB920007D038 /* LVLyingLegCurl-27 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA6219ECEB920007D038 /* LVLyingLegCurl-27 (dragged).tiff */; };
+		C6DBAA9119ECEB920007D038 /* LVLyingLegCurl-28 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA6319ECEB920007D038 /* LVLyingLegCurl-28 (dragged).tiff */; };
+		C6DBAA9219ECEB920007D038 /* LVLyingLegCurl-29 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA6419ECEB920007D038 /* LVLyingLegCurl-29 (dragged).tiff */; };
+		C6DBAA9319ECEB920007D038 /* LVLyingLegCurl-30 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA6519ECEB920007D038 /* LVLyingLegCurl-30 (dragged).tiff */; };
+		C6DBAA9419ECEB920007D038 /* LVLyingLegCurl-31 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA6619ECEB920007D038 /* LVLyingLegCurl-31 (dragged).tiff */; };
+		C6DBAA9519ECEB920007D038 /* LVLyingLegCurl-32 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA6719ECEB920007D038 /* LVLyingLegCurl-32 (dragged).tiff */; };
+		C6DBAA9619ECEB920007D038 /* LVLyingLegCurl-33 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA6819ECEB920007D038 /* LVLyingLegCurl-33 (dragged).tiff */; };
+		C6DBAA9719ECEB920007D038 /* LVLyingLegCurl-34 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA6919ECEB920007D038 /* LVLyingLegCurl-34 (dragged).tiff */; };
+		C6DBAA9819ECEB920007D038 /* LVLyingLegCurl-35 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA6A19ECEB920007D038 /* LVLyingLegCurl-35 (dragged).tiff */; };
+		C6DBAA9919ECEB920007D038 /* LVLyingLegCurl-36 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA6B19ECEB920007D038 /* LVLyingLegCurl-36 (dragged).tiff */; };
+		C6DBAA9A19ECEB920007D038 /* LVLyingLegCurl-37 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA6C19ECEB920007D038 /* LVLyingLegCurl-37 (dragged).tiff */; };
+		C6DBAA9B19ECEB920007D038 /* LVLyingLegCurl-38 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA6D19ECEB920007D038 /* LVLyingLegCurl-38 (dragged).tiff */; };
+		C6DBAA9C19ECEB920007D038 /* LVLyingLegCurl-39 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA6E19ECEB920007D038 /* LVLyingLegCurl-39 (dragged).tiff */; };
+		C6DBAA9D19ECEB920007D038 /* LVLyingLegCurl-40 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA6F19ECEB920007D038 /* LVLyingLegCurl-40 (dragged).tiff */; };
+		C6DBAA9E19ECEB920007D038 /* LVLyingLegCurl-41 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA7019ECEB920007D038 /* LVLyingLegCurl-41 (dragged).tiff */; };
+		C6DBAA9F19ECEB920007D038 /* LVLyingLegCurl-42 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA7119ECEB920007D038 /* LVLyingLegCurl-42 (dragged).tiff */; };
+		C6DBAAA019ECEB920007D038 /* LVLyingLegCurl-43 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA7219ECEB920007D038 /* LVLyingLegCurl-43 (dragged).tiff */; };
+		C6DBAAA119ECEB920007D038 /* LVLyingLegCurl-44 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA7319ECEB920007D038 /* LVLyingLegCurl-44 (dragged).tiff */; };
+		C6DBAAA219ECEB920007D038 /* LVLyingLegCurl-45 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA7419ECEB920007D038 /* LVLyingLegCurl-45 (dragged).tiff */; };
+		C6DBAAA319ECEB920007D038 /* LVLyingLegCurl-46 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAA7519ECEB920007D038 /* LVLyingLegCurl-46 (dragged).tiff */; };
+		C6DBAAD419ECED0A0007D038 /* LVLegExtension-1 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAAA519ECED0A0007D038 /* LVLegExtension-1 (dragged).tiff */; };
+		C6DBAAD519ECED0A0007D038 /* LVLegExtension-2 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAAA619ECED0A0007D038 /* LVLegExtension-2 (dragged).tiff */; };
+		C6DBAAD619ECED0A0007D038 /* LVLegExtension-3 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAAA719ECED0A0007D038 /* LVLegExtension-3 (dragged).tiff */; };
+		C6DBAAD719ECED0A0007D038 /* LVLegExtension-4 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAAA819ECED0A0007D038 /* LVLegExtension-4 (dragged).tiff */; };
+		C6DBAAD819ECED0A0007D038 /* LVLegExtension-5 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAAA919ECED0A0007D038 /* LVLegExtension-5 (dragged).tiff */; };
+		C6DBAAD919ECED0A0007D038 /* LVLegExtension-6 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAAAA19ECED0A0007D038 /* LVLegExtension-6 (dragged).tiff */; };
+		C6DBAADA19ECED0A0007D038 /* LVLegExtension-7 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAAAB19ECED0A0007D038 /* LVLegExtension-7 (dragged).tiff */; };
+		C6DBAADB19ECED0A0007D038 /* LVLegExtension-8 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAAAC19ECED0A0007D038 /* LVLegExtension-8 (dragged).tiff */; };
+		C6DBAADC19ECED0A0007D038 /* LVLegExtension-9 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAAAD19ECED0A0007D038 /* LVLegExtension-9 (dragged).tiff */; };
+		C6DBAADD19ECED0A0007D038 /* LVLegExtension-10 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAAAE19ECED0A0007D038 /* LVLegExtension-10 (dragged).tiff */; };
+		C6DBAADE19ECED0A0007D038 /* LVLegExtension-11 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAAAF19ECED0A0007D038 /* LVLegExtension-11 (dragged).tiff */; };
+		C6DBAADF19ECED0A0007D038 /* LVLegExtension-12 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAAB019ECED0A0007D038 /* LVLegExtension-12 (dragged).tiff */; };
+		C6DBAAE019ECED0A0007D038 /* LVLegExtension-13 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAAB119ECED0A0007D038 /* LVLegExtension-13 (dragged).tiff */; };
+		C6DBAAE119ECED0A0007D038 /* LVLegExtension-14 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAAB219ECED0A0007D038 /* LVLegExtension-14 (dragged).tiff */; };
+		C6DBAAE219ECED0A0007D038 /* LVLegExtension-15 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAAB319ECED0A0007D038 /* LVLegExtension-15 (dragged).tiff */; };
+		C6DBAAE319ECED0A0007D038 /* LVLegExtension-16 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAAB419ECED0A0007D038 /* LVLegExtension-16 (dragged).tiff */; };
+		C6DBAAE419ECED0A0007D038 /* LVLegExtension-17 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAAB519ECED0A0007D038 /* LVLegExtension-17 (dragged).tiff */; };
+		C6DBAAE519ECED0A0007D038 /* LVLegExtension-18 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAAB619ECED0A0007D038 /* LVLegExtension-18 (dragged).tiff */; };
+		C6DBAAE619ECED0A0007D038 /* LVLegExtension-19 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAAB719ECED0A0007D038 /* LVLegExtension-19 (dragged).tiff */; };
+		C6DBAAE719ECED0A0007D038 /* LVLegExtension-20 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAAB819ECED0A0007D038 /* LVLegExtension-20 (dragged).tiff */; };
+		C6DBAAE819ECED0A0007D038 /* LVLegExtension-21 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAAB919ECED0A0007D038 /* LVLegExtension-21 (dragged).tiff */; };
+		C6DBAAE919ECED0A0007D038 /* LVLegExtension-22 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAABA19ECED0A0007D038 /* LVLegExtension-22 (dragged).tiff */; };
+		C6DBAAEA19ECED0A0007D038 /* LVLegExtension-23 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAABB19ECED0A0007D038 /* LVLegExtension-23 (dragged).tiff */; };
+		C6DBAAEB19ECED0A0007D038 /* LVLegExtension-24 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAABC19ECED0A0007D038 /* LVLegExtension-24 (dragged).tiff */; };
+		C6DBAAEC19ECED0A0007D038 /* LVLegExtension-25 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAABD19ECED0A0007D038 /* LVLegExtension-25 (dragged).tiff */; };
+		C6DBAAED19ECED0A0007D038 /* LVLegExtension-26 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAABE19ECED0A0007D038 /* LVLegExtension-26 (dragged).tiff */; };
+		C6DBAAEE19ECED0A0007D038 /* LVLegExtension-27 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAABF19ECED0A0007D038 /* LVLegExtension-27 (dragged).tiff */; };
+		C6DBAAEF19ECED0A0007D038 /* LVLegExtension-28 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAAC019ECED0A0007D038 /* LVLegExtension-28 (dragged).tiff */; };
+		C6DBAAF019ECED0A0007D038 /* LVLegExtension-29 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAAC119ECED0A0007D038 /* LVLegExtension-29 (dragged).tiff */; };
+		C6DBAAF119ECED0A0007D038 /* LVLegExtension-30 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAAC219ECED0A0007D038 /* LVLegExtension-30 (dragged).tiff */; };
+		C6DBAAF219ECED0A0007D038 /* LVLegExtension-31 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAAC319ECED0A0007D038 /* LVLegExtension-31 (dragged).tiff */; };
+		C6DBAAF319ECED0A0007D038 /* LVLegExtension-32 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAAC419ECED0A0007D038 /* LVLegExtension-32 (dragged).tiff */; };
+		C6DBAAF419ECED0A0007D038 /* LVLegExtension-33 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAAC519ECED0A0007D038 /* LVLegExtension-33 (dragged).tiff */; };
+		C6DBAAF519ECED0A0007D038 /* LVLegExtension-34 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAAC619ECED0A0007D038 /* LVLegExtension-34 (dragged).tiff */; };
+		C6DBAAF619ECED0A0007D038 /* LVLegExtension-35 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAAC719ECED0A0007D038 /* LVLegExtension-35 (dragged).tiff */; };
+		C6DBAAF719ECED0A0007D038 /* LVLegExtension-36 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAAC819ECED0A0007D038 /* LVLegExtension-36 (dragged).tiff */; };
+		C6DBAAF819ECED0A0007D038 /* LVLegExtension-37 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAAC919ECED0A0007D038 /* LVLegExtension-37 (dragged).tiff */; };
+		C6DBAAF919ECED0A0007D038 /* LVLegExtension-38 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAACA19ECED0A0007D038 /* LVLegExtension-38 (dragged).tiff */; };
+		C6DBAAFA19ECED0A0007D038 /* LVLegExtension-39 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAACB19ECED0A0007D038 /* LVLegExtension-39 (dragged).tiff */; };
+		C6DBAAFB19ECED0A0007D038 /* LVLegExtension-40 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAACC19ECED0A0007D038 /* LVLegExtension-40 (dragged).tiff */; };
+		C6DBAAFC19ECED0A0007D038 /* LVLegExtension-41 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAACD19ECED0A0007D038 /* LVLegExtension-41 (dragged).tiff */; };
+		C6DBAAFD19ECED0A0007D038 /* LVLegExtension-42 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAACE19ECED0A0007D038 /* LVLegExtension-42 (dragged).tiff */; };
+		C6DBAAFE19ECED0A0007D038 /* LVLegExtension-43 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAACF19ECED0A0007D038 /* LVLegExtension-43 (dragged).tiff */; };
+		C6DBAAFF19ECED0A0007D038 /* LVLegExtension-44 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAAD019ECED0A0007D038 /* LVLegExtension-44 (dragged).tiff */; };
+		C6DBAB0019ECED0A0007D038 /* LVLegExtension-45 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAAD119ECED0A0007D038 /* LVLegExtension-45 (dragged).tiff */; };
+		C6DBAB0119ECED0A0007D038 /* LVLegExtension-46 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAAD219ECED0A0007D038 /* LVLegExtension-46 (dragged).tiff */; };
+		C6DBAB0219ECED0A0007D038 /* LVLegExtension-47 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAAD319ECED0A0007D038 /* LVLegExtension-47 (dragged).tiff */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -194,6 +384,196 @@
 		C658C59719ECDA3000192E89 /* Pushups-15 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Pushups-15 (dragged).tiff"; sourceTree = "<group>"; };
 		C658C59819ECDA3000192E89 /* Pushups-16 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Pushups-16 (dragged).tiff"; sourceTree = "<group>"; };
 		C658C59919ECDA3000192E89 /* Pushups-17 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Pushups-17 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA98019ECE2C10007D038 /* BWSitupNeck-1 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BWSitupNeck-1 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA98119ECE2C10007D038 /* BWSitupNeck-2 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BWSitupNeck-2 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA98219ECE2C10007D038 /* BWSitupNeck-3 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BWSitupNeck-3 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA98319ECE2C10007D038 /* BWSitupNeck-4 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BWSitupNeck-4 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA98419ECE2C10007D038 /* BWSitupNeck-5 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BWSitupNeck-5 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA98519ECE2C10007D038 /* BWSitupNeck-6 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BWSitupNeck-6 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA98619ECE2C10007D038 /* BWSitupNeck-7 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BWSitupNeck-7 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA98719ECE2C10007D038 /* BWSitupNeck-8 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BWSitupNeck-8 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA98819ECE2C10007D038 /* BWSitupNeck-9 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BWSitupNeck-9 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA98919ECE2C10007D038 /* BWSitupNeck-10 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BWSitupNeck-10 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA98A19ECE2C10007D038 /* BWSitupNeck-11 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BWSitupNeck-11 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA98B19ECE2C10007D038 /* BWSitupNeck-12 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BWSitupNeck-12 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA98C19ECE2C10007D038 /* BWSitupNeck-13 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BWSitupNeck-13 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA98D19ECE2C10007D038 /* BWSitupNeck-14 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BWSitupNeck-14 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA98E19ECE2C10007D038 /* BWSitupNeck-15 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BWSitupNeck-15 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA98F19ECE2C10007D038 /* BWSitupNeck-16 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BWSitupNeck-16 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA99019ECE2C10007D038 /* BWSitupNeck-17 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BWSitupNeck-17 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA99119ECE2C10007D038 /* BWSitupNeck-18 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BWSitupNeck-18 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA99219ECE2C10007D038 /* BWSitupNeck-19 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BWSitupNeck-19 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA99319ECE2C10007D038 /* BWSitupNeck-20 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BWSitupNeck-20 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA99419ECE2C10007D038 /* BWSitupNeck-21 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BWSitupNeck-21 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA99519ECE2C10007D038 /* BWSitupNeck-22 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BWSitupNeck-22 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA99619ECE2C10007D038 /* BWSitupNeck-23 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BWSitupNeck-23 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA99719ECE2C10007D038 /* BWSitupNeck-24 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BWSitupNeck-24 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA99819ECE2C10007D038 /* BWSitupNeck-25 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BWSitupNeck-25 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA99919ECE2C10007D038 /* BWSitupNeck-26 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BWSitupNeck-26 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA99A19ECE2C10007D038 /* BWSitupNeck-27 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BWSitupNeck-27 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA99B19ECE2C10007D038 /* BWSitupNeck-28 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BWSitupNeck-28 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA99C19ECE2C10007D038 /* BWSitupNeck-29 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BWSitupNeck-29 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA99D19ECE2C10007D038 /* BWSitupNeck-30 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BWSitupNeck-30 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA99E19ECE2C10007D038 /* BWSitupNeck-31 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BWSitupNeck-31 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA99F19ECE2C10007D038 /* BWSitupNeck-32 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BWSitupNeck-32 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA9A019ECE2C10007D038 /* BWSitupNeck-33 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BWSitupNeck-33 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA9A119ECE2C10007D038 /* BWSitupNeck-34 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BWSitupNeck-34 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA9A219ECE2C10007D038 /* BWSitupNeck-35 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BWSitupNeck-35 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA9A319ECE2C10007D038 /* BWSitupNeck-36 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BWSitupNeck-36 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA9C919ECE50D0007D038 /* DBBenchPress-1 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "DBBenchPress-1 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA9CA19ECE50D0007D038 /* DBBenchPress-2 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "DBBenchPress-2 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA9CB19ECE50D0007D038 /* DBBenchPress-3 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "DBBenchPress-3 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA9CC19ECE50D0007D038 /* DBBenchPress-4 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "DBBenchPress-4 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA9CD19ECE50D0007D038 /* DBBenchPress-5 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "DBBenchPress-5 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA9CF19ECE50D0007D038 /* DBBenchPress-7 (dragged) 1.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "DBBenchPress-7 (dragged) 1.tiff"; sourceTree = "<group>"; };
+		C6DBA9D019ECE50D0007D038 /* DBBenchPress-8 (dragged) 1.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "DBBenchPress-8 (dragged) 1.tiff"; sourceTree = "<group>"; };
+		C6DBA9D119ECE50D0007D038 /* DBBenchPress-9 (dragged) 1.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "DBBenchPress-9 (dragged) 1.tiff"; sourceTree = "<group>"; };
+		C6DBA9D219ECE50D0007D038 /* DBBenchPress-10 (dragged) 1.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "DBBenchPress-10 (dragged) 1.tiff"; sourceTree = "<group>"; };
+		C6DBA9D319ECE50D0007D038 /* DBBenchPress-11 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "DBBenchPress-11 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA9D419ECE50D0007D038 /* DBBenchPress-12 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "DBBenchPress-12 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA9D519ECE50D0007D038 /* DBBenchPress-13 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "DBBenchPress-13 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA9D619ECE50D0007D038 /* DBBenchPress-14 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "DBBenchPress-14 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA9D719ECE50D0007D038 /* DBBenchPress-15 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "DBBenchPress-15 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA9D819ECE50D0007D038 /* DBBenchPress-16 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "DBBenchPress-16 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA9D919ECE50D0007D038 /* DBBenchPress-17 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "DBBenchPress-17 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA9DA19ECE50D0007D038 /* DBBenchPress-18 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "DBBenchPress-18 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA9DB19ECE50D0007D038 /* DBBenchPress-19 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "DBBenchPress-19 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA9EF19ECE8BB0007D038 /* DBBenchPress-6 (dragged) 1.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "DBBenchPress-6 (dragged) 1.tiff"; sourceTree = "<group>"; };
+		C6DBA9F219ECE9CC0007D038 /* BBInclineBenchPress-1 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBInclineBenchPress-1 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA9F319ECE9CC0007D038 /* BBInclineBenchPress-2 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBInclineBenchPress-2 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA9F419ECE9CC0007D038 /* BBInclineBenchPress-3 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBInclineBenchPress-3 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA9F519ECE9CC0007D038 /* BBInclineBenchPress-4 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBInclineBenchPress-4 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA9F619ECE9CC0007D038 /* BBInclineBenchPress-5 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBInclineBenchPress-5 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA9F719ECE9CC0007D038 /* BBInclineBenchPress-6 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBInclineBenchPress-6 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA9F819ECE9CC0007D038 /* BBInclineBenchPress-7 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBInclineBenchPress-7 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA9F919ECE9CC0007D038 /* BBInclineBenchPress-8 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBInclineBenchPress-8 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA9FA19ECE9CC0007D038 /* BBInclineBenchPress-9 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBInclineBenchPress-9 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA9FB19ECE9CC0007D038 /* BBInclineBenchPress-10 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBInclineBenchPress-10 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA9FC19ECE9CC0007D038 /* BBInclineBenchPress-11 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBInclineBenchPress-11 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA9FD19ECE9CC0007D038 /* BBInclineBenchPress-12 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBInclineBenchPress-12 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA9FE19ECE9CC0007D038 /* BBInclineBenchPress-13 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBInclineBenchPress-13 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBA9FF19ECE9CC0007D038 /* BBInclineBenchPress-14 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBInclineBenchPress-14 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA0019ECE9CC0007D038 /* BBInclineBenchPress-15 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBInclineBenchPress-15 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA0119ECE9CC0007D038 /* BBInclineBenchPress-16 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBInclineBenchPress-16 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA0219ECE9CC0007D038 /* BBInclineBenchPress-17 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBInclineBenchPress-17 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA0319ECE9CC0007D038 /* BBInclineBenchPress-18 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBInclineBenchPress-18 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA0419ECE9CC0007D038 /* BBInclineBenchPress-19 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBInclineBenchPress-19 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA1919ECEAFD0007D038 /* BBDeclineBenchPress-1 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBDeclineBenchPress-1 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA1A19ECEAFD0007D038 /* BBDeclineBenchPress-2 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBDeclineBenchPress-2 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA1B19ECEAFD0007D038 /* BBDeclineBenchPress-3 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBDeclineBenchPress-3 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA1C19ECEAFD0007D038 /* BBDeclineBenchPress-4 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBDeclineBenchPress-4 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA1D19ECEAFD0007D038 /* BBDeclineBenchPress-5 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBDeclineBenchPress-5 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA1E19ECEAFD0007D038 /* BBDeclineBenchPress-6 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBDeclineBenchPress-6 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA1F19ECEAFD0007D038 /* BBDeclineBenchPress-7 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBDeclineBenchPress-7 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA2019ECEAFD0007D038 /* BBDeclineBenchPress-8 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBDeclineBenchPress-8 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA2119ECEAFD0007D038 /* BBDeclineBenchPress-9 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBDeclineBenchPress-9 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA2219ECEAFD0007D038 /* BBDeclineBenchPress-10 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBDeclineBenchPress-10 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA2319ECEAFD0007D038 /* BBDeclineBenchPress-11 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBDeclineBenchPress-11 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA2419ECEAFD0007D038 /* BBDeclineBenchPress-12 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBDeclineBenchPress-12 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA2519ECEAFD0007D038 /* BBDeclineBenchPress-13 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBDeclineBenchPress-13 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA2619ECEAFD0007D038 /* BBDeclineBenchPress-14 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBDeclineBenchPress-14 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA2719ECEAFD0007D038 /* BBDeclineBenchPress-15 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBDeclineBenchPress-15 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA2819ECEAFD0007D038 /* BBDeclineBenchPress-16 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBDeclineBenchPress-16 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA2919ECEAFD0007D038 /* BBDeclineBenchPress-17 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBDeclineBenchPress-17 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA2A19ECEAFD0007D038 /* BBDeclineBenchPress-18 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBDeclineBenchPress-18 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA2B19ECEAFD0007D038 /* BBDeclineBenchPress-19 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBDeclineBenchPress-19 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA2C19ECEAFD0007D038 /* BBDeclineBenchPress-20 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBDeclineBenchPress-20 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA2D19ECEAFD0007D038 /* BBDeclineBenchPress-21 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBDeclineBenchPress-21 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA2E19ECEAFD0007D038 /* BBDeclineBenchPress-22 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBDeclineBenchPress-22 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA2F19ECEAFD0007D038 /* BBDeclineBenchPress-23 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBDeclineBenchPress-23 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA4819ECEB910007D038 /* LVLyingLegCurl-1 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLyingLegCurl-1 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA4919ECEB910007D038 /* LVLyingLegCurl-2 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLyingLegCurl-2 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA4A19ECEB910007D038 /* LVLyingLegCurl-3 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLyingLegCurl-3 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA4B19ECEB910007D038 /* LVLyingLegCurl-4 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLyingLegCurl-4 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA4C19ECEB910007D038 /* LVLyingLegCurl-5 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLyingLegCurl-5 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA4D19ECEB910007D038 /* LVLyingLegCurl-6 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLyingLegCurl-6 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA4E19ECEB910007D038 /* LVLyingLegCurl-7 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLyingLegCurl-7 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA4F19ECEB910007D038 /* LVLyingLegCurl-8 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLyingLegCurl-8 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA5019ECEB910007D038 /* LVLyingLegCurl-9 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLyingLegCurl-9 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA5119ECEB910007D038 /* LVLyingLegCurl-10 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLyingLegCurl-10 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA5219ECEB910007D038 /* LVLyingLegCurl-11 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLyingLegCurl-11 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA5319ECEB910007D038 /* LVLyingLegCurl-12 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLyingLegCurl-12 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA5419ECEB910007D038 /* LVLyingLegCurl-13 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLyingLegCurl-13 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA5519ECEB920007D038 /* LVLyingLegCurl-14 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLyingLegCurl-14 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA5619ECEB920007D038 /* LVLyingLegCurl-15 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLyingLegCurl-15 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA5719ECEB920007D038 /* LVLyingLegCurl-16 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLyingLegCurl-16 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA5819ECEB920007D038 /* LVLyingLegCurl-17 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLyingLegCurl-17 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA5919ECEB920007D038 /* LVLyingLegCurl-18 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLyingLegCurl-18 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA5A19ECEB920007D038 /* LVLyingLegCurl-19 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLyingLegCurl-19 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA5B19ECEB920007D038 /* LVLyingLegCurl-20 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLyingLegCurl-20 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA5C19ECEB920007D038 /* LVLyingLegCurl-21 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLyingLegCurl-21 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA5D19ECEB920007D038 /* LVLyingLegCurl-22 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLyingLegCurl-22 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA5E19ECEB920007D038 /* LVLyingLegCurl-23 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLyingLegCurl-23 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA5F19ECEB920007D038 /* LVLyingLegCurl-24 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLyingLegCurl-24 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA6019ECEB920007D038 /* LVLyingLegCurl-25 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLyingLegCurl-25 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA6119ECEB920007D038 /* LVLyingLegCurl-26 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLyingLegCurl-26 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA6219ECEB920007D038 /* LVLyingLegCurl-27 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLyingLegCurl-27 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA6319ECEB920007D038 /* LVLyingLegCurl-28 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLyingLegCurl-28 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA6419ECEB920007D038 /* LVLyingLegCurl-29 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLyingLegCurl-29 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA6519ECEB920007D038 /* LVLyingLegCurl-30 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLyingLegCurl-30 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA6619ECEB920007D038 /* LVLyingLegCurl-31 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLyingLegCurl-31 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA6719ECEB920007D038 /* LVLyingLegCurl-32 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLyingLegCurl-32 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA6819ECEB920007D038 /* LVLyingLegCurl-33 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLyingLegCurl-33 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA6919ECEB920007D038 /* LVLyingLegCurl-34 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLyingLegCurl-34 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA6A19ECEB920007D038 /* LVLyingLegCurl-35 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLyingLegCurl-35 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA6B19ECEB920007D038 /* LVLyingLegCurl-36 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLyingLegCurl-36 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA6C19ECEB920007D038 /* LVLyingLegCurl-37 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLyingLegCurl-37 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA6D19ECEB920007D038 /* LVLyingLegCurl-38 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLyingLegCurl-38 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA6E19ECEB920007D038 /* LVLyingLegCurl-39 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLyingLegCurl-39 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA6F19ECEB920007D038 /* LVLyingLegCurl-40 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLyingLegCurl-40 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA7019ECEB920007D038 /* LVLyingLegCurl-41 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLyingLegCurl-41 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA7119ECEB920007D038 /* LVLyingLegCurl-42 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLyingLegCurl-42 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA7219ECEB920007D038 /* LVLyingLegCurl-43 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLyingLegCurl-43 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA7319ECEB920007D038 /* LVLyingLegCurl-44 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLyingLegCurl-44 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA7419ECEB920007D038 /* LVLyingLegCurl-45 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLyingLegCurl-45 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAA7519ECEB920007D038 /* LVLyingLegCurl-46 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLyingLegCurl-46 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAAA519ECED0A0007D038 /* LVLegExtension-1 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLegExtension-1 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAAA619ECED0A0007D038 /* LVLegExtension-2 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLegExtension-2 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAAA719ECED0A0007D038 /* LVLegExtension-3 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLegExtension-3 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAAA819ECED0A0007D038 /* LVLegExtension-4 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLegExtension-4 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAAA919ECED0A0007D038 /* LVLegExtension-5 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLegExtension-5 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAAAA19ECED0A0007D038 /* LVLegExtension-6 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLegExtension-6 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAAAB19ECED0A0007D038 /* LVLegExtension-7 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLegExtension-7 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAAAC19ECED0A0007D038 /* LVLegExtension-8 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLegExtension-8 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAAAD19ECED0A0007D038 /* LVLegExtension-9 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLegExtension-9 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAAAE19ECED0A0007D038 /* LVLegExtension-10 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLegExtension-10 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAAAF19ECED0A0007D038 /* LVLegExtension-11 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLegExtension-11 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAAB019ECED0A0007D038 /* LVLegExtension-12 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLegExtension-12 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAAB119ECED0A0007D038 /* LVLegExtension-13 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLegExtension-13 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAAB219ECED0A0007D038 /* LVLegExtension-14 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLegExtension-14 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAAB319ECED0A0007D038 /* LVLegExtension-15 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLegExtension-15 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAAB419ECED0A0007D038 /* LVLegExtension-16 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLegExtension-16 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAAB519ECED0A0007D038 /* LVLegExtension-17 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLegExtension-17 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAAB619ECED0A0007D038 /* LVLegExtension-18 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLegExtension-18 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAAB719ECED0A0007D038 /* LVLegExtension-19 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLegExtension-19 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAAB819ECED0A0007D038 /* LVLegExtension-20 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLegExtension-20 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAAB919ECED0A0007D038 /* LVLegExtension-21 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLegExtension-21 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAABA19ECED0A0007D038 /* LVLegExtension-22 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLegExtension-22 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAABB19ECED0A0007D038 /* LVLegExtension-23 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLegExtension-23 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAABC19ECED0A0007D038 /* LVLegExtension-24 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLegExtension-24 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAABD19ECED0A0007D038 /* LVLegExtension-25 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLegExtension-25 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAABE19ECED0A0007D038 /* LVLegExtension-26 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLegExtension-26 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAABF19ECED0A0007D038 /* LVLegExtension-27 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLegExtension-27 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAAC019ECED0A0007D038 /* LVLegExtension-28 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLegExtension-28 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAAC119ECED0A0007D038 /* LVLegExtension-29 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLegExtension-29 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAAC219ECED0A0007D038 /* LVLegExtension-30 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLegExtension-30 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAAC319ECED0A0007D038 /* LVLegExtension-31 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLegExtension-31 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAAC419ECED0A0007D038 /* LVLegExtension-32 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLegExtension-32 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAAC519ECED0A0007D038 /* LVLegExtension-33 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLegExtension-33 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAAC619ECED0A0007D038 /* LVLegExtension-34 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLegExtension-34 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAAC719ECED0A0007D038 /* LVLegExtension-35 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLegExtension-35 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAAC819ECED0A0007D038 /* LVLegExtension-36 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLegExtension-36 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAAC919ECED0A0007D038 /* LVLegExtension-37 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLegExtension-37 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAACA19ECED0A0007D038 /* LVLegExtension-38 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLegExtension-38 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAACB19ECED0A0007D038 /* LVLegExtension-39 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLegExtension-39 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAACC19ECED0A0007D038 /* LVLegExtension-40 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLegExtension-40 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAACD19ECED0A0007D038 /* LVLegExtension-41 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLegExtension-41 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAACE19ECED0A0007D038 /* LVLegExtension-42 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLegExtension-42 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAACF19ECED0A0007D038 /* LVLegExtension-43 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLegExtension-43 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAAD019ECED0A0007D038 /* LVLegExtension-44 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLegExtension-44 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAAD119ECED0A0007D038 /* LVLegExtension-45 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLegExtension-45 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAAD219ECED0A0007D038 /* LVLegExtension-46 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLegExtension-46 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAAD319ECED0A0007D038 /* LVLegExtension-47 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLegExtension-47 (dragged).tiff"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -332,6 +712,12 @@
 		6DD17CB019AD8868008B6FCB /* image */ = {
 			isa = PBXGroup;
 			children = (
+				C6DBAAA419ECECFA0007D038 /* LVLegExtension */,
+				C6DBAA4719ECEB810007D038 /* LVLyingLegCurl */,
+				C6DBAA1819ECEAE90007D038 /* DeclineBenchPress */,
+				C6DBA9F119ECE9B70007D038 /* InclineBenchPress */,
+				C6DBA9C819ECE4F60007D038 /* BenchPress */,
+				C6DBA93619ECE2990007D038 /* Situp */,
 				C658C58819ECDA0900192E89 /* Pushup */,
 				8B1B233419B888DE00E0F259 /* facebook.icon.205x205.jpg */,
 				8B1B232E19B87F4D00E0F259 /* wallpaper.jpg */,
@@ -376,6 +762,238 @@
 				C658C59919ECDA3000192E89 /* Pushups-17 (dragged).tiff */,
 			);
 			name = Pushup;
+			sourceTree = "<group>";
+		};
+		C6DBA93619ECE2990007D038 /* Situp */ = {
+			isa = PBXGroup;
+			children = (
+				C6DBA98019ECE2C10007D038 /* BWSitupNeck-1 (dragged).tiff */,
+				C6DBA98119ECE2C10007D038 /* BWSitupNeck-2 (dragged).tiff */,
+				C6DBA98219ECE2C10007D038 /* BWSitupNeck-3 (dragged).tiff */,
+				C6DBA98319ECE2C10007D038 /* BWSitupNeck-4 (dragged).tiff */,
+				C6DBA98419ECE2C10007D038 /* BWSitupNeck-5 (dragged).tiff */,
+				C6DBA98519ECE2C10007D038 /* BWSitupNeck-6 (dragged).tiff */,
+				C6DBA98619ECE2C10007D038 /* BWSitupNeck-7 (dragged).tiff */,
+				C6DBA98719ECE2C10007D038 /* BWSitupNeck-8 (dragged).tiff */,
+				C6DBA98819ECE2C10007D038 /* BWSitupNeck-9 (dragged).tiff */,
+				C6DBA98919ECE2C10007D038 /* BWSitupNeck-10 (dragged).tiff */,
+				C6DBA98A19ECE2C10007D038 /* BWSitupNeck-11 (dragged).tiff */,
+				C6DBA98B19ECE2C10007D038 /* BWSitupNeck-12 (dragged).tiff */,
+				C6DBA98C19ECE2C10007D038 /* BWSitupNeck-13 (dragged).tiff */,
+				C6DBA98D19ECE2C10007D038 /* BWSitupNeck-14 (dragged).tiff */,
+				C6DBA98E19ECE2C10007D038 /* BWSitupNeck-15 (dragged).tiff */,
+				C6DBA98F19ECE2C10007D038 /* BWSitupNeck-16 (dragged).tiff */,
+				C6DBA99019ECE2C10007D038 /* BWSitupNeck-17 (dragged).tiff */,
+				C6DBA99119ECE2C10007D038 /* BWSitupNeck-18 (dragged).tiff */,
+				C6DBA99219ECE2C10007D038 /* BWSitupNeck-19 (dragged).tiff */,
+				C6DBA99319ECE2C10007D038 /* BWSitupNeck-20 (dragged).tiff */,
+				C6DBA99419ECE2C10007D038 /* BWSitupNeck-21 (dragged).tiff */,
+				C6DBA99519ECE2C10007D038 /* BWSitupNeck-22 (dragged).tiff */,
+				C6DBA99619ECE2C10007D038 /* BWSitupNeck-23 (dragged).tiff */,
+				C6DBA99719ECE2C10007D038 /* BWSitupNeck-24 (dragged).tiff */,
+				C6DBA99819ECE2C10007D038 /* BWSitupNeck-25 (dragged).tiff */,
+				C6DBA99919ECE2C10007D038 /* BWSitupNeck-26 (dragged).tiff */,
+				C6DBA99A19ECE2C10007D038 /* BWSitupNeck-27 (dragged).tiff */,
+				C6DBA99B19ECE2C10007D038 /* BWSitupNeck-28 (dragged).tiff */,
+				C6DBA99C19ECE2C10007D038 /* BWSitupNeck-29 (dragged).tiff */,
+				C6DBA99D19ECE2C10007D038 /* BWSitupNeck-30 (dragged).tiff */,
+				C6DBA99E19ECE2C10007D038 /* BWSitupNeck-31 (dragged).tiff */,
+				C6DBA99F19ECE2C10007D038 /* BWSitupNeck-32 (dragged).tiff */,
+				C6DBA9A019ECE2C10007D038 /* BWSitupNeck-33 (dragged).tiff */,
+				C6DBA9A119ECE2C10007D038 /* BWSitupNeck-34 (dragged).tiff */,
+				C6DBA9A219ECE2C10007D038 /* BWSitupNeck-35 (dragged).tiff */,
+				C6DBA9A319ECE2C10007D038 /* BWSitupNeck-36 (dragged).tiff */,
+			);
+			name = Situp;
+			sourceTree = "<group>";
+		};
+		C6DBA9C819ECE4F60007D038 /* BenchPress */ = {
+			isa = PBXGroup;
+			children = (
+				C6DBA9EF19ECE8BB0007D038 /* DBBenchPress-6 (dragged) 1.tiff */,
+				C6DBA9C919ECE50D0007D038 /* DBBenchPress-1 (dragged).tiff */,
+				C6DBA9CA19ECE50D0007D038 /* DBBenchPress-2 (dragged).tiff */,
+				C6DBA9CB19ECE50D0007D038 /* DBBenchPress-3 (dragged).tiff */,
+				C6DBA9CC19ECE50D0007D038 /* DBBenchPress-4 (dragged).tiff */,
+				C6DBA9CD19ECE50D0007D038 /* DBBenchPress-5 (dragged).tiff */,
+				C6DBA9CF19ECE50D0007D038 /* DBBenchPress-7 (dragged) 1.tiff */,
+				C6DBA9D019ECE50D0007D038 /* DBBenchPress-8 (dragged) 1.tiff */,
+				C6DBA9D119ECE50D0007D038 /* DBBenchPress-9 (dragged) 1.tiff */,
+				C6DBA9D219ECE50D0007D038 /* DBBenchPress-10 (dragged) 1.tiff */,
+				C6DBA9D319ECE50D0007D038 /* DBBenchPress-11 (dragged).tiff */,
+				C6DBA9D419ECE50D0007D038 /* DBBenchPress-12 (dragged).tiff */,
+				C6DBA9D519ECE50D0007D038 /* DBBenchPress-13 (dragged).tiff */,
+				C6DBA9D619ECE50D0007D038 /* DBBenchPress-14 (dragged).tiff */,
+				C6DBA9D719ECE50D0007D038 /* DBBenchPress-15 (dragged).tiff */,
+				C6DBA9D819ECE50D0007D038 /* DBBenchPress-16 (dragged).tiff */,
+				C6DBA9D919ECE50D0007D038 /* DBBenchPress-17 (dragged).tiff */,
+				C6DBA9DA19ECE50D0007D038 /* DBBenchPress-18 (dragged).tiff */,
+				C6DBA9DB19ECE50D0007D038 /* DBBenchPress-19 (dragged).tiff */,
+			);
+			name = BenchPress;
+			sourceTree = "<group>";
+		};
+		C6DBA9F119ECE9B70007D038 /* InclineBenchPress */ = {
+			isa = PBXGroup;
+			children = (
+				C6DBA9F219ECE9CC0007D038 /* BBInclineBenchPress-1 (dragged).tiff */,
+				C6DBA9F319ECE9CC0007D038 /* BBInclineBenchPress-2 (dragged).tiff */,
+				C6DBA9F419ECE9CC0007D038 /* BBInclineBenchPress-3 (dragged).tiff */,
+				C6DBA9F519ECE9CC0007D038 /* BBInclineBenchPress-4 (dragged).tiff */,
+				C6DBA9F619ECE9CC0007D038 /* BBInclineBenchPress-5 (dragged).tiff */,
+				C6DBA9F719ECE9CC0007D038 /* BBInclineBenchPress-6 (dragged).tiff */,
+				C6DBA9F819ECE9CC0007D038 /* BBInclineBenchPress-7 (dragged).tiff */,
+				C6DBA9F919ECE9CC0007D038 /* BBInclineBenchPress-8 (dragged).tiff */,
+				C6DBA9FA19ECE9CC0007D038 /* BBInclineBenchPress-9 (dragged).tiff */,
+				C6DBA9FB19ECE9CC0007D038 /* BBInclineBenchPress-10 (dragged).tiff */,
+				C6DBA9FC19ECE9CC0007D038 /* BBInclineBenchPress-11 (dragged).tiff */,
+				C6DBA9FD19ECE9CC0007D038 /* BBInclineBenchPress-12 (dragged).tiff */,
+				C6DBA9FE19ECE9CC0007D038 /* BBInclineBenchPress-13 (dragged).tiff */,
+				C6DBA9FF19ECE9CC0007D038 /* BBInclineBenchPress-14 (dragged).tiff */,
+				C6DBAA0019ECE9CC0007D038 /* BBInclineBenchPress-15 (dragged).tiff */,
+				C6DBAA0119ECE9CC0007D038 /* BBInclineBenchPress-16 (dragged).tiff */,
+				C6DBAA0219ECE9CC0007D038 /* BBInclineBenchPress-17 (dragged).tiff */,
+				C6DBAA0319ECE9CC0007D038 /* BBInclineBenchPress-18 (dragged).tiff */,
+				C6DBAA0419ECE9CC0007D038 /* BBInclineBenchPress-19 (dragged).tiff */,
+			);
+			name = InclineBenchPress;
+			sourceTree = "<group>";
+		};
+		C6DBAA1819ECEAE90007D038 /* DeclineBenchPress */ = {
+			isa = PBXGroup;
+			children = (
+				C6DBAA1919ECEAFD0007D038 /* BBDeclineBenchPress-1 (dragged).tiff */,
+				C6DBAA1A19ECEAFD0007D038 /* BBDeclineBenchPress-2 (dragged).tiff */,
+				C6DBAA1B19ECEAFD0007D038 /* BBDeclineBenchPress-3 (dragged).tiff */,
+				C6DBAA1C19ECEAFD0007D038 /* BBDeclineBenchPress-4 (dragged).tiff */,
+				C6DBAA1D19ECEAFD0007D038 /* BBDeclineBenchPress-5 (dragged).tiff */,
+				C6DBAA1E19ECEAFD0007D038 /* BBDeclineBenchPress-6 (dragged).tiff */,
+				C6DBAA1F19ECEAFD0007D038 /* BBDeclineBenchPress-7 (dragged).tiff */,
+				C6DBAA2019ECEAFD0007D038 /* BBDeclineBenchPress-8 (dragged).tiff */,
+				C6DBAA2119ECEAFD0007D038 /* BBDeclineBenchPress-9 (dragged).tiff */,
+				C6DBAA2219ECEAFD0007D038 /* BBDeclineBenchPress-10 (dragged).tiff */,
+				C6DBAA2319ECEAFD0007D038 /* BBDeclineBenchPress-11 (dragged).tiff */,
+				C6DBAA2419ECEAFD0007D038 /* BBDeclineBenchPress-12 (dragged).tiff */,
+				C6DBAA2519ECEAFD0007D038 /* BBDeclineBenchPress-13 (dragged).tiff */,
+				C6DBAA2619ECEAFD0007D038 /* BBDeclineBenchPress-14 (dragged).tiff */,
+				C6DBAA2719ECEAFD0007D038 /* BBDeclineBenchPress-15 (dragged).tiff */,
+				C6DBAA2819ECEAFD0007D038 /* BBDeclineBenchPress-16 (dragged).tiff */,
+				C6DBAA2919ECEAFD0007D038 /* BBDeclineBenchPress-17 (dragged).tiff */,
+				C6DBAA2A19ECEAFD0007D038 /* BBDeclineBenchPress-18 (dragged).tiff */,
+				C6DBAA2B19ECEAFD0007D038 /* BBDeclineBenchPress-19 (dragged).tiff */,
+				C6DBAA2C19ECEAFD0007D038 /* BBDeclineBenchPress-20 (dragged).tiff */,
+				C6DBAA2D19ECEAFD0007D038 /* BBDeclineBenchPress-21 (dragged).tiff */,
+				C6DBAA2E19ECEAFD0007D038 /* BBDeclineBenchPress-22 (dragged).tiff */,
+				C6DBAA2F19ECEAFD0007D038 /* BBDeclineBenchPress-23 (dragged).tiff */,
+			);
+			name = DeclineBenchPress;
+			sourceTree = "<group>";
+		};
+		C6DBAA4719ECEB810007D038 /* LVLyingLegCurl */ = {
+			isa = PBXGroup;
+			children = (
+				C6DBAA4819ECEB910007D038 /* LVLyingLegCurl-1 (dragged).tiff */,
+				C6DBAA4919ECEB910007D038 /* LVLyingLegCurl-2 (dragged).tiff */,
+				C6DBAA4A19ECEB910007D038 /* LVLyingLegCurl-3 (dragged).tiff */,
+				C6DBAA4B19ECEB910007D038 /* LVLyingLegCurl-4 (dragged).tiff */,
+				C6DBAA4C19ECEB910007D038 /* LVLyingLegCurl-5 (dragged).tiff */,
+				C6DBAA4D19ECEB910007D038 /* LVLyingLegCurl-6 (dragged).tiff */,
+				C6DBAA4E19ECEB910007D038 /* LVLyingLegCurl-7 (dragged).tiff */,
+				C6DBAA4F19ECEB910007D038 /* LVLyingLegCurl-8 (dragged).tiff */,
+				C6DBAA5019ECEB910007D038 /* LVLyingLegCurl-9 (dragged).tiff */,
+				C6DBAA5119ECEB910007D038 /* LVLyingLegCurl-10 (dragged).tiff */,
+				C6DBAA5219ECEB910007D038 /* LVLyingLegCurl-11 (dragged).tiff */,
+				C6DBAA5319ECEB910007D038 /* LVLyingLegCurl-12 (dragged).tiff */,
+				C6DBAA5419ECEB910007D038 /* LVLyingLegCurl-13 (dragged).tiff */,
+				C6DBAA5519ECEB920007D038 /* LVLyingLegCurl-14 (dragged).tiff */,
+				C6DBAA5619ECEB920007D038 /* LVLyingLegCurl-15 (dragged).tiff */,
+				C6DBAA5719ECEB920007D038 /* LVLyingLegCurl-16 (dragged).tiff */,
+				C6DBAA5819ECEB920007D038 /* LVLyingLegCurl-17 (dragged).tiff */,
+				C6DBAA5919ECEB920007D038 /* LVLyingLegCurl-18 (dragged).tiff */,
+				C6DBAA5A19ECEB920007D038 /* LVLyingLegCurl-19 (dragged).tiff */,
+				C6DBAA5B19ECEB920007D038 /* LVLyingLegCurl-20 (dragged).tiff */,
+				C6DBAA5C19ECEB920007D038 /* LVLyingLegCurl-21 (dragged).tiff */,
+				C6DBAA5D19ECEB920007D038 /* LVLyingLegCurl-22 (dragged).tiff */,
+				C6DBAA5E19ECEB920007D038 /* LVLyingLegCurl-23 (dragged).tiff */,
+				C6DBAA5F19ECEB920007D038 /* LVLyingLegCurl-24 (dragged).tiff */,
+				C6DBAA6019ECEB920007D038 /* LVLyingLegCurl-25 (dragged).tiff */,
+				C6DBAA6119ECEB920007D038 /* LVLyingLegCurl-26 (dragged).tiff */,
+				C6DBAA6219ECEB920007D038 /* LVLyingLegCurl-27 (dragged).tiff */,
+				C6DBAA6319ECEB920007D038 /* LVLyingLegCurl-28 (dragged).tiff */,
+				C6DBAA6419ECEB920007D038 /* LVLyingLegCurl-29 (dragged).tiff */,
+				C6DBAA6519ECEB920007D038 /* LVLyingLegCurl-30 (dragged).tiff */,
+				C6DBAA6619ECEB920007D038 /* LVLyingLegCurl-31 (dragged).tiff */,
+				C6DBAA6719ECEB920007D038 /* LVLyingLegCurl-32 (dragged).tiff */,
+				C6DBAA6819ECEB920007D038 /* LVLyingLegCurl-33 (dragged).tiff */,
+				C6DBAA6919ECEB920007D038 /* LVLyingLegCurl-34 (dragged).tiff */,
+				C6DBAA6A19ECEB920007D038 /* LVLyingLegCurl-35 (dragged).tiff */,
+				C6DBAA6B19ECEB920007D038 /* LVLyingLegCurl-36 (dragged).tiff */,
+				C6DBAA6C19ECEB920007D038 /* LVLyingLegCurl-37 (dragged).tiff */,
+				C6DBAA6D19ECEB920007D038 /* LVLyingLegCurl-38 (dragged).tiff */,
+				C6DBAA6E19ECEB920007D038 /* LVLyingLegCurl-39 (dragged).tiff */,
+				C6DBAA6F19ECEB920007D038 /* LVLyingLegCurl-40 (dragged).tiff */,
+				C6DBAA7019ECEB920007D038 /* LVLyingLegCurl-41 (dragged).tiff */,
+				C6DBAA7119ECEB920007D038 /* LVLyingLegCurl-42 (dragged).tiff */,
+				C6DBAA7219ECEB920007D038 /* LVLyingLegCurl-43 (dragged).tiff */,
+				C6DBAA7319ECEB920007D038 /* LVLyingLegCurl-44 (dragged).tiff */,
+				C6DBAA7419ECEB920007D038 /* LVLyingLegCurl-45 (dragged).tiff */,
+				C6DBAA7519ECEB920007D038 /* LVLyingLegCurl-46 (dragged).tiff */,
+			);
+			name = LVLyingLegCurl;
+			sourceTree = "<group>";
+		};
+		C6DBAAA419ECECFA0007D038 /* LVLegExtension */ = {
+			isa = PBXGroup;
+			children = (
+				C6DBAAA519ECED0A0007D038 /* LVLegExtension-1 (dragged).tiff */,
+				C6DBAAA619ECED0A0007D038 /* LVLegExtension-2 (dragged).tiff */,
+				C6DBAAA719ECED0A0007D038 /* LVLegExtension-3 (dragged).tiff */,
+				C6DBAAA819ECED0A0007D038 /* LVLegExtension-4 (dragged).tiff */,
+				C6DBAAA919ECED0A0007D038 /* LVLegExtension-5 (dragged).tiff */,
+				C6DBAAAA19ECED0A0007D038 /* LVLegExtension-6 (dragged).tiff */,
+				C6DBAAAB19ECED0A0007D038 /* LVLegExtension-7 (dragged).tiff */,
+				C6DBAAAC19ECED0A0007D038 /* LVLegExtension-8 (dragged).tiff */,
+				C6DBAAAD19ECED0A0007D038 /* LVLegExtension-9 (dragged).tiff */,
+				C6DBAAAE19ECED0A0007D038 /* LVLegExtension-10 (dragged).tiff */,
+				C6DBAAAF19ECED0A0007D038 /* LVLegExtension-11 (dragged).tiff */,
+				C6DBAAB019ECED0A0007D038 /* LVLegExtension-12 (dragged).tiff */,
+				C6DBAAB119ECED0A0007D038 /* LVLegExtension-13 (dragged).tiff */,
+				C6DBAAB219ECED0A0007D038 /* LVLegExtension-14 (dragged).tiff */,
+				C6DBAAB319ECED0A0007D038 /* LVLegExtension-15 (dragged).tiff */,
+				C6DBAAB419ECED0A0007D038 /* LVLegExtension-16 (dragged).tiff */,
+				C6DBAAB519ECED0A0007D038 /* LVLegExtension-17 (dragged).tiff */,
+				C6DBAAB619ECED0A0007D038 /* LVLegExtension-18 (dragged).tiff */,
+				C6DBAAB719ECED0A0007D038 /* LVLegExtension-19 (dragged).tiff */,
+				C6DBAAB819ECED0A0007D038 /* LVLegExtension-20 (dragged).tiff */,
+				C6DBAAB919ECED0A0007D038 /* LVLegExtension-21 (dragged).tiff */,
+				C6DBAABA19ECED0A0007D038 /* LVLegExtension-22 (dragged).tiff */,
+				C6DBAABB19ECED0A0007D038 /* LVLegExtension-23 (dragged).tiff */,
+				C6DBAABC19ECED0A0007D038 /* LVLegExtension-24 (dragged).tiff */,
+				C6DBAABD19ECED0A0007D038 /* LVLegExtension-25 (dragged).tiff */,
+				C6DBAABE19ECED0A0007D038 /* LVLegExtension-26 (dragged).tiff */,
+				C6DBAABF19ECED0A0007D038 /* LVLegExtension-27 (dragged).tiff */,
+				C6DBAAC019ECED0A0007D038 /* LVLegExtension-28 (dragged).tiff */,
+				C6DBAAC119ECED0A0007D038 /* LVLegExtension-29 (dragged).tiff */,
+				C6DBAAC219ECED0A0007D038 /* LVLegExtension-30 (dragged).tiff */,
+				C6DBAAC319ECED0A0007D038 /* LVLegExtension-31 (dragged).tiff */,
+				C6DBAAC419ECED0A0007D038 /* LVLegExtension-32 (dragged).tiff */,
+				C6DBAAC519ECED0A0007D038 /* LVLegExtension-33 (dragged).tiff */,
+				C6DBAAC619ECED0A0007D038 /* LVLegExtension-34 (dragged).tiff */,
+				C6DBAAC719ECED0A0007D038 /* LVLegExtension-35 (dragged).tiff */,
+				C6DBAAC819ECED0A0007D038 /* LVLegExtension-36 (dragged).tiff */,
+				C6DBAAC919ECED0A0007D038 /* LVLegExtension-37 (dragged).tiff */,
+				C6DBAACA19ECED0A0007D038 /* LVLegExtension-38 (dragged).tiff */,
+				C6DBAACB19ECED0A0007D038 /* LVLegExtension-39 (dragged).tiff */,
+				C6DBAACC19ECED0A0007D038 /* LVLegExtension-40 (dragged).tiff */,
+				C6DBAACD19ECED0A0007D038 /* LVLegExtension-41 (dragged).tiff */,
+				C6DBAACE19ECED0A0007D038 /* LVLegExtension-42 (dragged).tiff */,
+				C6DBAACF19ECED0A0007D038 /* LVLegExtension-43 (dragged).tiff */,
+				C6DBAAD019ECED0A0007D038 /* LVLegExtension-44 (dragged).tiff */,
+				C6DBAAD119ECED0A0007D038 /* LVLegExtension-45 (dragged).tiff */,
+				C6DBAAD219ECED0A0007D038 /* LVLegExtension-46 (dragged).tiff */,
+				C6DBAAD319ECED0A0007D038 /* LVLegExtension-47 (dragged).tiff */,
+			);
+			name = LVLegExtension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -454,46 +1072,236 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6DBAA3F19ECEAFD0007D038 /* BBDeclineBenchPress-16 (dragged).tiff in Resources */,
 				C658C5A219ECDA3000192E89 /* Pushups-5 (dragged).tiff in Resources */,
+				C6DBAA0B19ECE9CC0007D038 /* BBInclineBenchPress-7 (dragged).tiff in Resources */,
+				C6DBAAA119ECEB920007D038 /* LVLyingLegCurl-44 (dragged).tiff in Resources */,
+				C6DBA9C019ECE2C10007D038 /* BWSitupNeck-29 (dragged).tiff in Resources */,
+				C6DBAA3619ECEAFD0007D038 /* BBDeclineBenchPress-7 (dragged).tiff in Resources */,
+				C6DBAA4419ECEAFD0007D038 /* BBDeclineBenchPress-21 (dragged).tiff in Resources */,
+				C6DBAA9B19ECEB920007D038 /* LVLyingLegCurl-38 (dragged).tiff in Resources */,
 				0190BDF319ADF30A003F1FBB /* deadlifts.png in Resources */,
+				C6DBAA7719ECEB920007D038 /* LVLyingLegCurl-2 (dragged).tiff in Resources */,
+				C6DBAA9F19ECEB920007D038 /* LVLyingLegCurl-42 (dragged).tiff in Resources */,
+				C6DBA9A519ECE2C10007D038 /* BWSitupNeck-2 (dragged).tiff in Resources */,
+				C6DBAA8719ECEB920007D038 /* LVLyingLegCurl-18 (dragged).tiff in Resources */,
+				C6DBAAEB19ECED0A0007D038 /* LVLegExtension-24 (dragged).tiff in Resources */,
+				C6DBAA3E19ECEAFD0007D038 /* BBDeclineBenchPress-15 (dragged).tiff in Resources */,
+				C6DBAAA319ECEB920007D038 /* LVLyingLegCurl-46 (dragged).tiff in Resources */,
+				C6DBAA1319ECE9CC0007D038 /* BBInclineBenchPress-15 (dragged).tiff in Resources */,
+				C6DBAA0619ECE9CC0007D038 /* BBInclineBenchPress-2 (dragged).tiff in Resources */,
+				C6DBAA9D19ECEB920007D038 /* LVLyingLegCurl-40 (dragged).tiff in Resources */,
+				C6DBAAE819ECED0A0007D038 /* LVLegExtension-21 (dragged).tiff in Resources */,
+				C6DBAAF819ECED0A0007D038 /* LVLegExtension-37 (dragged).tiff in Resources */,
+				C6DBA9C119ECE2C10007D038 /* BWSitupNeck-30 (dragged).tiff in Resources */,
+				C6DBAA1619ECE9CC0007D038 /* BBInclineBenchPress-18 (dragged).tiff in Resources */,
+				C6DBAAE019ECED0A0007D038 /* LVLegExtension-13 (dragged).tiff in Resources */,
 				8BE1E3A719B1A28C00820683 /* wall5.jpg in Resources */,
+				C6DBAA3519ECEAFD0007D038 /* BBDeclineBenchPress-6 (dragged).tiff in Resources */,
+				C6DBAA8419ECEB920007D038 /* LVLyingLegCurl-15 (dragged).tiff in Resources */,
+				C6DBAA4619ECEAFD0007D038 /* BBDeclineBenchPress-23 (dragged).tiff in Resources */,
+				C6DBAA9C19ECEB920007D038 /* LVLyingLegCurl-39 (dragged).tiff in Resources */,
+				C6DBAA3119ECEAFD0007D038 /* BBDeclineBenchPress-2 (dragged).tiff in Resources */,
+				C6DBAAFC19ECED0A0007D038 /* LVLegExtension-41 (dragged).tiff in Resources */,
+				C6DBAA3C19ECEAFD0007D038 /* BBDeclineBenchPress-13 (dragged).tiff in Resources */,
+				C6DBA9A919ECE2C10007D038 /* BWSitupNeck-6 (dragged).tiff in Resources */,
 				8B1B232F19B87F4D00E0F259 /* wallpaper.jpg in Resources */,
+				C6DBAA8519ECEB920007D038 /* LVLyingLegCurl-16 (dragged).tiff in Resources */,
+				C6DBAA9619ECEB920007D038 /* LVLyingLegCurl-33 (dragged).tiff in Resources */,
+				C6DBA9C219ECE2C10007D038 /* BWSitupNeck-31 (dragged).tiff in Resources */,
+				C6DBA9AF19ECE2C10007D038 /* BWSitupNeck-12 (dragged).tiff in Resources */,
+				C6DBAA9019ECEB920007D038 /* LVLyingLegCurl-27 (dragged).tiff in Resources */,
+				C6DBAA8A19ECEB920007D038 /* LVLyingLegCurl-21 (dragged).tiff in Resources */,
+				C6DBAAE319ECED0A0007D038 /* LVLegExtension-16 (dragged).tiff in Resources */,
+				C6DBAA9419ECEB920007D038 /* LVLyingLegCurl-31 (dragged).tiff in Resources */,
 				C658C5B619ECDA3000192E89 /* Pushups-15 (dragged).tiff in Resources */,
+				C6DBA9AA19ECE2C10007D038 /* BWSitupNeck-7 (dragged).tiff in Resources */,
+				C6DBAA0C19ECE9CC0007D038 /* BBInclineBenchPress-8 (dragged).tiff in Resources */,
+				C6DBA9C319ECE2C10007D038 /* BWSitupNeck-32 (dragged).tiff in Resources */,
+				C6DBAA3419ECEAFD0007D038 /* BBDeclineBenchPress-5 (dragged).tiff in Resources */,
 				C658C5A419ECDA3000192E89 /* Pushups-6 (dragged).tiff in Resources */,
+				C6DBAA3819ECEAFD0007D038 /* BBDeclineBenchPress-9 (dragged).tiff in Resources */,
+				C6DBA9B519ECE2C10007D038 /* BWSitupNeck-18 (dragged).tiff in Resources */,
 				0190BDF419ADF30A003F1FBB /* declinepress.jpg in Resources */,
 				C658C59A19ECDA3000192E89 /* Pushups-1 (dragged).tiff in Resources */,
+				C6DBAADB19ECED0A0007D038 /* LVLegExtension-8 (dragged).tiff in Resources */,
+				C6DBA9AE19ECE2C10007D038 /* BWSitupNeck-11 (dragged).tiff in Resources */,
+				C6DBAAE919ECED0A0007D038 /* LVLegExtension-22 (dragged).tiff in Resources */,
+				C6DBAA3019ECEAFD0007D038 /* BBDeclineBenchPress-1 (dragged).tiff in Resources */,
+				C6DBA9DC19ECE50D0007D038 /* DBBenchPress-1 (dragged).tiff in Resources */,
+				C6DBAA7B19ECEB920007D038 /* LVLyingLegCurl-6 (dragged).tiff in Resources */,
 				0190BDF519ADF30A003F1FBB /* inclinepress.jpg in Resources */,
+				C6DBA9E419ECE50D0007D038 /* DBBenchPress-9 (dragged) 1.tiff in Resources */,
+				C6DBAA1419ECE9CC0007D038 /* BBInclineBenchPress-16 (dragged).tiff in Resources */,
+				C6DBA9E619ECE50D0007D038 /* DBBenchPress-11 (dragged).tiff in Resources */,
+				C6DBAA8819ECEB920007D038 /* LVLyingLegCurl-19 (dragged).tiff in Resources */,
+				C6DBAAED19ECED0A0007D038 /* LVLegExtension-26 (dragged).tiff in Resources */,
+				C6DBA9EB19ECE50D0007D038 /* DBBenchPress-16 (dragged).tiff in Resources */,
+				C6DBAA8119ECEB920007D038 /* LVLyingLegCurl-12 (dragged).tiff in Resources */,
+				C6DBA9A619ECE2C10007D038 /* BWSitupNeck-3 (dragged).tiff in Resources */,
+				C6DBAAEF19ECED0A0007D038 /* LVLegExtension-28 (dragged).tiff in Resources */,
 				6DD17CB219AD8E52008B6FCB /* 2nd.jpg in Resources */,
+				C6DBAAE619ECED0A0007D038 /* LVLegExtension-19 (dragged).tiff in Resources */,
 				0170023919D52802000967AF /* location.plist in Resources */,
+				C6DBA9DF19ECE50D0007D038 /* DBBenchPress-4 (dragged).tiff in Resources */,
+				C6DBAA0519ECE9CC0007D038 /* BBInclineBenchPress-1 (dragged).tiff in Resources */,
+				C6DBA9BA19ECE2C10007D038 /* BWSitupNeck-23 (dragged).tiff in Resources */,
+				C6DBA9AC19ECE2C10007D038 /* BWSitupNeck-9 (dragged).tiff in Resources */,
+				C6DBAADF19ECED0A0007D038 /* LVLegExtension-12 (dragged).tiff in Resources */,
 				8BE1E3A519B1A1D600820683 /* wall4.jpg in Resources */,
+				C6DBA9C619ECE2C10007D038 /* BWSitupNeck-35 (dragged).tiff in Resources */,
+				C6DBAAD419ECED0A0007D038 /* LVLegExtension-1 (dragged).tiff in Resources */,
+				C6DBA9BF19ECE2C10007D038 /* BWSitupNeck-28 (dragged).tiff in Resources */,
+				C6DBAA7F19ECEB920007D038 /* LVLyingLegCurl-10 (dragged).tiff in Resources */,
+				C6DBA9B419ECE2C10007D038 /* BWSitupNeck-17 (dragged).tiff in Resources */,
+				C6DBAA9E19ECEB920007D038 /* LVLyingLegCurl-41 (dragged).tiff in Resources */,
 				C658C5A019ECDA3000192E89 /* Pushups-4 (dragged).tiff in Resources */,
+				C6DBAA8619ECEB920007D038 /* LVLyingLegCurl-17 (dragged).tiff in Resources */,
 				C658C5B219ECDA3000192E89 /* Pushups-13 (dragged).tiff in Resources */,
+				C6DBAA0719ECE9CC0007D038 /* BBInclineBenchPress-3 (dragged).tiff in Resources */,
+				C6DBAA8D19ECEB920007D038 /* LVLyingLegCurl-24 (dragged).tiff in Resources */,
+				C6DBAA3D19ECEAFD0007D038 /* BBDeclineBenchPress-14 (dragged).tiff in Resources */,
+				C6DBA9B219ECE2C10007D038 /* BWSitupNeck-15 (dragged).tiff in Resources */,
+				C6DBAADA19ECED0A0007D038 /* LVLegExtension-7 (dragged).tiff in Resources */,
+				C6DBAA9319ECEB920007D038 /* LVLyingLegCurl-30 (dragged).tiff in Resources */,
 				C658C5AA19ECDA3000192E89 /* Pushups-9 (dragged).tiff in Resources */,
+				C6DBAA9819ECEB920007D038 /* LVLyingLegCurl-35 (dragged).tiff in Resources */,
 				0190BDF019ADF30A003F1FBB /* barbellrow.jpg in Resources */,
+				C6DBA9F019ECE8BB0007D038 /* DBBenchPress-6 (dragged) 1.tiff in Resources */,
+				C6DBAAF619ECED0A0007D038 /* LVLegExtension-35 (dragged).tiff in Resources */,
+				C6DBAAE719ECED0A0007D038 /* LVLegExtension-20 (dragged).tiff in Resources */,
+				C6DBA9B019ECE2C10007D038 /* BWSitupNeck-13 (dragged).tiff in Resources */,
+				C6DBAA0F19ECE9CC0007D038 /* BBInclineBenchPress-11 (dragged).tiff in Resources */,
+				C6DBAA8019ECEB920007D038 /* LVLyingLegCurl-11 (dragged).tiff in Resources */,
+				C6DBA9E519ECE50D0007D038 /* DBBenchPress-10 (dragged) 1.tiff in Resources */,
 				C658C5A819ECDA3000192E89 /* Pushups-8 (dragged).tiff in Resources */,
+				C6DBAAEC19ECED0A0007D038 /* LVLegExtension-25 (dragged).tiff in Resources */,
+				C6DBAA0819ECE9CC0007D038 /* BBInclineBenchPress-4 (dragged).tiff in Resources */,
+				C6DBAAD519ECED0A0007D038 /* LVLegExtension-2 (dragged).tiff in Resources */,
+				C6DBAA8B19ECEB920007D038 /* LVLyingLegCurl-22 (dragged).tiff in Resources */,
+				C6DBAAFB19ECED0A0007D038 /* LVLegExtension-40 (dragged).tiff in Resources */,
+				C6DBAAF419ECED0A0007D038 /* LVLegExtension-33 (dragged).tiff in Resources */,
 				C658C59C19ECDA3000192E89 /* Pushups-2 (dragged).tiff in Resources */,
+				C6DBA9B719ECE2C10007D038 /* BWSitupNeck-20 (dragged).tiff in Resources */,
 				C658C5AE19ECDA3000192E89 /* Pushups-11 (dragged).tiff in Resources */,
+				C6DBAAFA19ECED0A0007D038 /* LVLegExtension-39 (dragged).tiff in Resources */,
+				C6DBAAA019ECEB920007D038 /* LVLyingLegCurl-43 (dragged).tiff in Resources */,
 				017ACE2519B71347009E9B62 /* twitter-bird-white-on-blue-jpeg.jpg in Resources */,
+				C6DBA9A719ECE2C10007D038 /* BWSitupNeck-4 (dragged).tiff in Resources */,
 				0190BDF119ADF30A003F1FBB /* benchpress.jpg in Resources */,
+				C6DBA9E719ECE50D0007D038 /* DBBenchPress-12 (dragged).tiff in Resources */,
+				C6DBAAA219ECEB920007D038 /* LVLyingLegCurl-45 (dragged).tiff in Resources */,
+				C6DBAA4019ECEAFD0007D038 /* BBDeclineBenchPress-17 (dragged).tiff in Resources */,
+				C6DBA9A419ECE2C10007D038 /* BWSitupNeck-1 (dragged).tiff in Resources */,
+				C6DBAA8E19ECEB920007D038 /* LVLyingLegCurl-25 (dragged).tiff in Resources */,
 				0190BDF719ADF30A003F1FBB /* legextension.jpg in Resources */,
+				C6DBAA9919ECEB920007D038 /* LVLyingLegCurl-36 (dragged).tiff in Resources */,
 				8B1B233319B8827600E0F259 /* cycling.jpg in Resources */,
+				C6DBAA1119ECE9CC0007D038 /* BBInclineBenchPress-13 (dragged).tiff in Resources */,
+				C6DBA9AD19ECE2C10007D038 /* BWSitupNeck-10 (dragged).tiff in Resources */,
+				C6DBAA0D19ECE9CC0007D038 /* BBInclineBenchPress-9 (dragged).tiff in Resources */,
+				C6DBA9EE19ECE50D0007D038 /* DBBenchPress-19 (dragged).tiff in Resources */,
+				C6DBAA7A19ECEB920007D038 /* LVLyingLegCurl-5 (dragged).tiff in Resources */,
 				6DD17C8519AD749C008B6FCB /* Main_iPad.storyboard in Resources */,
+				C6DBA9A819ECE2C10007D038 /* BWSitupNeck-5 (dragged).tiff in Resources */,
+				C6DBAA3919ECEAFD0007D038 /* BBDeclineBenchPress-10 (dragged).tiff in Resources */,
+				C6DBAAE219ECED0A0007D038 /* LVLegExtension-15 (dragged).tiff in Resources */,
 				6DD17C8A19AD749C008B6FCB /* Images.xcassets in Resources */,
+				C6DBAA3A19ECEAFD0007D038 /* BBDeclineBenchPress-11 (dragged).tiff in Resources */,
+				C6DBA9E919ECE50D0007D038 /* DBBenchPress-14 (dragged).tiff in Resources */,
+				C6DBA9C719ECE2C10007D038 /* BWSitupNeck-36 (dragged).tiff in Resources */,
 				0190BDF219ADF30A003F1FBB /* bodumbellrow.jpg in Resources */,
+				C6DBA9BD19ECE2C10007D038 /* BWSitupNeck-26 (dragged).tiff in Resources */,
+				C6DBAAF219ECED0A0007D038 /* LVLegExtension-31 (dragged).tiff in Resources */,
+				C6DBAA9719ECEB920007D038 /* LVLyingLegCurl-34 (dragged).tiff in Resources */,
+				C6DBAAD719ECED0A0007D038 /* LVLegExtension-4 (dragged).tiff in Resources */,
 				8BE1E3A019B19E2100820683 /* wall1.jpg in Resources */,
+				C6DBAA9119ECEB920007D038 /* LVLyingLegCurl-28 (dragged).tiff in Resources */,
+				C6DBA9E819ECE50D0007D038 /* DBBenchPress-13 (dragged).tiff in Resources */,
+				C6DBAB0219ECED0A0007D038 /* LVLegExtension-47 (dragged).tiff in Resources */,
+				C6DBAA3719ECEAFD0007D038 /* BBDeclineBenchPress-8 (dragged).tiff in Resources */,
+				C6DBAAE419ECED0A0007D038 /* LVLegExtension-17 (dragged).tiff in Resources */,
 				C658C5A619ECDA3000192E89 /* Pushups-7 (dragged).tiff in Resources */,
+				C6DBAAF319ECED0A0007D038 /* LVLegExtension-32 (dragged).tiff in Resources */,
+				C6DBAA1019ECE9CC0007D038 /* BBInclineBenchPress-12 (dragged).tiff in Resources */,
+				C6DBA9E019ECE50D0007D038 /* DBBenchPress-5 (dragged).tiff in Resources */,
+				C6DBAA0A19ECE9CC0007D038 /* BBInclineBenchPress-6 (dragged).tiff in Resources */,
+				C6DBAAEE19ECED0A0007D038 /* LVLegExtension-27 (dragged).tiff in Resources */,
+				C6DBA9BC19ECE2C10007D038 /* BWSitupNeck-25 (dragged).tiff in Resources */,
 				C658C5BA19ECDA3000192E89 /* Pushups-17 (dragged).tiff in Resources */,
+				C6DBAAFF19ECED0A0007D038 /* LVLegExtension-44 (dragged).tiff in Resources */,
+				C6DBAAFE19ECED0A0007D038 /* LVLegExtension-43 (dragged).tiff in Resources */,
 				6DD17C8219AD749C008B6FCB /* Main_iPhone.storyboard in Resources */,
+				C6DBAAD619ECED0A0007D038 /* LVLegExtension-3 (dragged).tiff in Resources */,
+				C6DBAA4519ECEAFD0007D038 /* BBDeclineBenchPress-22 (dragged).tiff in Resources */,
+				C6DBA9DD19ECE50D0007D038 /* DBBenchPress-2 (dragged).tiff in Resources */,
+				C6DBA9B619ECE2C10007D038 /* BWSitupNeck-19 (dragged).tiff in Resources */,
+				C6DBA9B119ECE2C10007D038 /* BWSitupNeck-14 (dragged).tiff in Resources */,
+				C6DBAAF019ECED0A0007D038 /* LVLegExtension-29 (dragged).tiff in Resources */,
+				C6DBA9C519ECE2C10007D038 /* BWSitupNeck-34 (dragged).tiff in Resources */,
+				C6DBAA0E19ECE9CC0007D038 /* BBInclineBenchPress-10 (dragged).tiff in Resources */,
+				C6DBA9B819ECE2C10007D038 /* BWSitupNeck-21 (dragged).tiff in Resources */,
+				C6DBAA8C19ECEB920007D038 /* LVLyingLegCurl-23 (dragged).tiff in Resources */,
+				C6DBAAE519ECED0A0007D038 /* LVLegExtension-18 (dragged).tiff in Resources */,
+				C6DBAA7C19ECEB920007D038 /* LVLyingLegCurl-7 (dragged).tiff in Resources */,
+				C6DBAA4119ECEAFD0007D038 /* BBDeclineBenchPress-18 (dragged).tiff in Resources */,
+				C6DBAAF919ECED0A0007D038 /* LVLegExtension-38 (dragged).tiff in Resources */,
+				C6DBAADC19ECED0A0007D038 /* LVLegExtension-9 (dragged).tiff in Resources */,
+				C6DBAA8919ECEB920007D038 /* LVLyingLegCurl-20 (dragged).tiff in Resources */,
+				C6DBA9B919ECE2C10007D038 /* BWSitupNeck-22 (dragged).tiff in Resources */,
 				6DD17C7919AD749C008B6FCB /* InfoPlist.strings in Resources */,
+				C6DBA9AB19ECE2C10007D038 /* BWSitupNeck-8 (dragged).tiff in Resources */,
+				C6DBAA1719ECE9CC0007D038 /* BBInclineBenchPress-19 (dragged).tiff in Resources */,
+				C6DBAAF519ECED0A0007D038 /* LVLegExtension-34 (dragged).tiff in Resources */,
+				C6DBA9BB19ECE2C10007D038 /* BWSitupNeck-24 (dragged).tiff in Resources */,
+				C6DBAA4219ECEAFD0007D038 /* BBDeclineBenchPress-19 (dragged).tiff in Resources */,
+				C6DBAA9219ECEB920007D038 /* LVLyingLegCurl-29 (dragged).tiff in Resources */,
+				C6DBAA7619ECEB920007D038 /* LVLyingLegCurl-1 (dragged).tiff in Resources */,
+				C6DBAA8F19ECEB920007D038 /* LVLyingLegCurl-26 (dragged).tiff in Resources */,
+				C6DBAAD819ECED0A0007D038 /* LVLegExtension-5 (dragged).tiff in Resources */,
+				C6DBAA4319ECEAFD0007D038 /* BBDeclineBenchPress-20 (dragged).tiff in Resources */,
+				C6DBA9B319ECE2C10007D038 /* BWSitupNeck-16 (dragged).tiff in Resources */,
+				C6DBA9ED19ECE50D0007D038 /* DBBenchPress-18 (dragged).tiff in Resources */,
+				C6DBAA7E19ECEB920007D038 /* LVLyingLegCurl-9 (dragged).tiff in Resources */,
+				C6DBAB0019ECED0A0007D038 /* LVLegExtension-45 (dragged).tiff in Resources */,
+				C6DBAA7D19ECEB920007D038 /* LVLyingLegCurl-8 (dragged).tiff in Resources */,
 				8BE1E39F19B19E2100820683 /* wall.jpg in Resources */,
+				C6DBAADE19ECED0A0007D038 /* LVLegExtension-11 (dragged).tiff in Resources */,
+				C6DBAAF119ECED0A0007D038 /* LVLegExtension-30 (dragged).tiff in Resources */,
+				C6DBAAE119ECED0A0007D038 /* LVLegExtension-14 (dragged).tiff in Resources */,
 				8B1B233519B888DE00E0F259 /* facebook.icon.205x205.jpg in Resources */,
 				C658C5B419ECDA3000192E89 /* Pushups-14 (dragged).tiff in Resources */,
 				C658C5AC19ECDA3000192E89 /* Pushups-10 (dragged).tiff in Resources */,
+				C6DBAA1219ECE9CC0007D038 /* BBInclineBenchPress-14 (dragged).tiff in Resources */,
+				C6DBAAEA19ECED0A0007D038 /* LVLegExtension-23 (dragged).tiff in Resources */,
+				C6DBA9BE19ECE2C10007D038 /* BWSitupNeck-27 (dragged).tiff in Resources */,
+				C6DBAA1519ECE9CC0007D038 /* BBInclineBenchPress-17 (dragged).tiff in Resources */,
+				C6DBAA8219ECEB920007D038 /* LVLyingLegCurl-13 (dragged).tiff in Resources */,
+				C6DBAAD919ECED0A0007D038 /* LVLegExtension-6 (dragged).tiff in Resources */,
 				6DD17CAE19AD885B008B6FCB /* 1st.jpg in Resources */,
+				C6DBAA3219ECEAFD0007D038 /* BBDeclineBenchPress-3 (dragged).tiff in Resources */,
+				C6DBAAFD19ECED0A0007D038 /* LVLegExtension-42 (dragged).tiff in Resources */,
+				C6DBAA7919ECEB920007D038 /* LVLyingLegCurl-4 (dragged).tiff in Resources */,
+				C6DBA9E219ECE50D0007D038 /* DBBenchPress-7 (dragged) 1.tiff in Resources */,
 				C658C5B019ECDA3000192E89 /* Pushups-12 (dragged).tiff in Resources */,
+				C6DBA9EA19ECE50D0007D038 /* DBBenchPress-15 (dragged).tiff in Resources */,
+				C6DBA9E319ECE50D0007D038 /* DBBenchPress-8 (dragged) 1.tiff in Resources */,
+				C6DBAA9519ECEB920007D038 /* LVLyingLegCurl-32 (dragged).tiff in Resources */,
+				C6DBAB0119ECED0A0007D038 /* LVLegExtension-46 (dragged).tiff in Resources */,
+				C6DBAA3319ECEAFD0007D038 /* BBDeclineBenchPress-4 (dragged).tiff in Resources */,
 				C658C5B819ECDA3000192E89 /* Pushups-16 (dragged).tiff in Resources */,
 				C658C59E19ECDA3000192E89 /* Pushups-3 (dragged).tiff in Resources */,
+				C6DBAAF719ECED0A0007D038 /* LVLegExtension-36 (dragged).tiff in Resources */,
+				C6DBA9C419ECE2C10007D038 /* BWSitupNeck-33 (dragged).tiff in Resources */,
+				C6DBA9EC19ECE50D0007D038 /* DBBenchPress-17 (dragged).tiff in Resources */,
+				C6DBAA8319ECEB920007D038 /* LVLyingLegCurl-14 (dragged).tiff in Resources */,
+				C6DBAADD19ECED0A0007D038 /* LVLegExtension-10 (dragged).tiff in Resources */,
 				0190BDF619ADF30A003F1FBB /* legcurl.jpg in Resources */,
+				C6DBAA7819ECEB920007D038 /* LVLyingLegCurl-3 (dragged).tiff in Resources */,
+				C6DBA9DE19ECE50D0007D038 /* DBBenchPress-3 (dragged).tiff in Resources */,
+				C6DBAA3B19ECEAFD0007D038 /* BBDeclineBenchPress-12 (dragged).tiff in Resources */,
+				C6DBAA9A19ECEB920007D038 /* LVLyingLegCurl-37 (dragged).tiff in Resources */,
+				C6DBAA0919ECE9CC0007D038 /* BBInclineBenchPress-5 (dragged).tiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
