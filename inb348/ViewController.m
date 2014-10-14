@@ -172,7 +172,8 @@
     NSString *str44 = @"4: Slowly lower under control by dropping your torso and hips down until the bar touches the floor.";
     exercise.instruction = [NSString stringWithFormat:@"%@\n%@\n%@\n%@",str41,str42,str43,str44];
 
-    exercise.cover = [UIImage imageNamed:@"deadlifts.png"];
+    exercise.cover = [UIImage imageNamed:@"BBDeadlift-1 (dragged).tiff"];
+     exercise.animationArray = @[@"BBDeadlift-1 (dragged).tiff", @"BBDeadlift-2 (dragged).tiff", @"BBDeadlift-3 (dragged).tiff", @"BBDeadlift-4 (dragged).tiff", @"BBDeadlift-5 (dragged).tiff", @"BBDeadlift-6 (dragged).tiff", @"BBDeadlift-7 (dragged).tiff", @"BBDeadlift-8 (dragged).tiff", @"BBDeadlift-9 (dragged).tiff", @"BBDeadlift-10 (dragged).tiff", @"BBDeadlift-11 (dragged).tiff", @"BBDeadlift-12 (dragged).tiff", @"BBDeadlift-13 (dragged).tiff", @"BBDeadlift-14 (dragged).tiff", @"BBDeadlift-15 (dragged).tiff", @"BBDeadlift-16 (dragged).tiff", @"BBDeadlift-17 (dragged).tiff", @"BBDeadlift-18 (dragged).tiff", @"BBDeadlift-19 (dragged).tiff", @"BBDeadlift-20 (dragged).tiff", @"BBDeadlift-21 (dragged).tiff"];
     [_exercise addObject:exercise]; // add the object to array
    
     //=====================================================

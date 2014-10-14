@@ -287,6 +287,27 @@
 		C6DBAB0019ECED0A0007D038 /* LVLegExtension-45 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAAD119ECED0A0007D038 /* LVLegExtension-45 (dragged).tiff */; };
 		C6DBAB0119ECED0A0007D038 /* LVLegExtension-46 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAAD219ECED0A0007D038 /* LVLegExtension-46 (dragged).tiff */; };
 		C6DBAB0219ECED0A0007D038 /* LVLegExtension-47 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAAD319ECED0A0007D038 /* LVLegExtension-47 (dragged).tiff */; };
+		C6DBAB1A19ECF62F0007D038 /* BBDeadlift-1 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAB0519ECF62F0007D038 /* BBDeadlift-1 (dragged).tiff */; };
+		C6DBAB1B19ECF62F0007D038 /* BBDeadlift-2 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAB0619ECF62F0007D038 /* BBDeadlift-2 (dragged).tiff */; };
+		C6DBAB1C19ECF62F0007D038 /* BBDeadlift-3 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAB0719ECF62F0007D038 /* BBDeadlift-3 (dragged).tiff */; };
+		C6DBAB1D19ECF62F0007D038 /* BBDeadlift-4 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAB0819ECF62F0007D038 /* BBDeadlift-4 (dragged).tiff */; };
+		C6DBAB1E19ECF62F0007D038 /* BBDeadlift-5 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAB0919ECF62F0007D038 /* BBDeadlift-5 (dragged).tiff */; };
+		C6DBAB1F19ECF62F0007D038 /* BBDeadlift-6 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAB0A19ECF62F0007D038 /* BBDeadlift-6 (dragged).tiff */; };
+		C6DBAB2019ECF62F0007D038 /* BBDeadlift-7 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAB0B19ECF62F0007D038 /* BBDeadlift-7 (dragged).tiff */; };
+		C6DBAB2119ECF62F0007D038 /* BBDeadlift-8 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAB0C19ECF62F0007D038 /* BBDeadlift-8 (dragged).tiff */; };
+		C6DBAB2219ECF62F0007D038 /* BBDeadlift-9 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAB0D19ECF62F0007D038 /* BBDeadlift-9 (dragged).tiff */; };
+		C6DBAB2319ECF62F0007D038 /* BBDeadlift-10 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAB0E19ECF62F0007D038 /* BBDeadlift-10 (dragged).tiff */; };
+		C6DBAB2419ECF62F0007D038 /* BBDeadlift-11 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAB0F19ECF62F0007D038 /* BBDeadlift-11 (dragged).tiff */; };
+		C6DBAB2519ECF62F0007D038 /* BBDeadlift-12 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAB1019ECF62F0007D038 /* BBDeadlift-12 (dragged).tiff */; };
+		C6DBAB2619ECF62F0007D038 /* BBDeadlift-13 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAB1119ECF62F0007D038 /* BBDeadlift-13 (dragged).tiff */; };
+		C6DBAB2719ECF62F0007D038 /* BBDeadlift-14 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAB1219ECF62F0007D038 /* BBDeadlift-14 (dragged).tiff */; };
+		C6DBAB2819ECF62F0007D038 /* BBDeadlift-15 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAB1319ECF62F0007D038 /* BBDeadlift-15 (dragged).tiff */; };
+		C6DBAB2919ECF62F0007D038 /* BBDeadlift-16 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAB1419ECF62F0007D038 /* BBDeadlift-16 (dragged).tiff */; };
+		C6DBAB2A19ECF62F0007D038 /* BBDeadlift-17 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAB1519ECF62F0007D038 /* BBDeadlift-17 (dragged).tiff */; };
+		C6DBAB2B19ECF62F0007D038 /* BBDeadlift-18 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAB1619ECF62F0007D038 /* BBDeadlift-18 (dragged).tiff */; };
+		C6DBAB2C19ECF62F0007D038 /* BBDeadlift-19 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAB1719ECF62F0007D038 /* BBDeadlift-19 (dragged).tiff */; };
+		C6DBAB2D19ECF62F0007D038 /* BBDeadlift-20 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAB1819ECF62F0007D038 /* BBDeadlift-20 (dragged).tiff */; };
+		C6DBAB2E19ECF62F0007D038 /* BBDeadlift-21 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBAB1919ECF62F0007D038 /* BBDeadlift-21 (dragged).tiff */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -574,6 +595,27 @@
 		C6DBAAD119ECED0A0007D038 /* LVLegExtension-45 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLegExtension-45 (dragged).tiff"; sourceTree = "<group>"; };
 		C6DBAAD219ECED0A0007D038 /* LVLegExtension-46 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLegExtension-46 (dragged).tiff"; sourceTree = "<group>"; };
 		C6DBAAD319ECED0A0007D038 /* LVLegExtension-47 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "LVLegExtension-47 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAB0519ECF62F0007D038 /* BBDeadlift-1 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBDeadlift-1 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAB0619ECF62F0007D038 /* BBDeadlift-2 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBDeadlift-2 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAB0719ECF62F0007D038 /* BBDeadlift-3 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBDeadlift-3 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAB0819ECF62F0007D038 /* BBDeadlift-4 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBDeadlift-4 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAB0919ECF62F0007D038 /* BBDeadlift-5 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBDeadlift-5 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAB0A19ECF62F0007D038 /* BBDeadlift-6 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBDeadlift-6 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAB0B19ECF62F0007D038 /* BBDeadlift-7 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBDeadlift-7 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAB0C19ECF62F0007D038 /* BBDeadlift-8 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBDeadlift-8 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAB0D19ECF62F0007D038 /* BBDeadlift-9 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBDeadlift-9 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAB0E19ECF62F0007D038 /* BBDeadlift-10 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBDeadlift-10 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAB0F19ECF62F0007D038 /* BBDeadlift-11 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBDeadlift-11 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAB1019ECF62F0007D038 /* BBDeadlift-12 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBDeadlift-12 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAB1119ECF62F0007D038 /* BBDeadlift-13 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBDeadlift-13 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAB1219ECF62F0007D038 /* BBDeadlift-14 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBDeadlift-14 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAB1319ECF62F0007D038 /* BBDeadlift-15 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBDeadlift-15 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAB1419ECF62F0007D038 /* BBDeadlift-16 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBDeadlift-16 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAB1519ECF62F0007D038 /* BBDeadlift-17 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBDeadlift-17 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAB1619ECF62F0007D038 /* BBDeadlift-18 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBDeadlift-18 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAB1719ECF62F0007D038 /* BBDeadlift-19 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBDeadlift-19 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAB1819ECF62F0007D038 /* BBDeadlift-20 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBDeadlift-20 (dragged).tiff"; sourceTree = "<group>"; };
+		C6DBAB1919ECF62F0007D038 /* BBDeadlift-21 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BBDeadlift-21 (dragged).tiff"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -712,6 +754,7 @@
 		6DD17CB019AD8868008B6FCB /* image */ = {
 			isa = PBXGroup;
 			children = (
+				C6DBAB0419ECF5F00007D038 /* BBDeadlift */,
 				C6DBAAA419ECECFA0007D038 /* LVLegExtension */,
 				C6DBAA4719ECEB810007D038 /* LVLyingLegCurl */,
 				C6DBAA1819ECEAE90007D038 /* DeclineBenchPress */,
@@ -996,6 +1039,34 @@
 			name = LVLegExtension;
 			sourceTree = "<group>";
 		};
+		C6DBAB0419ECF5F00007D038 /* BBDeadlift */ = {
+			isa = PBXGroup;
+			children = (
+				C6DBAB0519ECF62F0007D038 /* BBDeadlift-1 (dragged).tiff */,
+				C6DBAB0619ECF62F0007D038 /* BBDeadlift-2 (dragged).tiff */,
+				C6DBAB0719ECF62F0007D038 /* BBDeadlift-3 (dragged).tiff */,
+				C6DBAB0819ECF62F0007D038 /* BBDeadlift-4 (dragged).tiff */,
+				C6DBAB0919ECF62F0007D038 /* BBDeadlift-5 (dragged).tiff */,
+				C6DBAB0A19ECF62F0007D038 /* BBDeadlift-6 (dragged).tiff */,
+				C6DBAB0B19ECF62F0007D038 /* BBDeadlift-7 (dragged).tiff */,
+				C6DBAB0C19ECF62F0007D038 /* BBDeadlift-8 (dragged).tiff */,
+				C6DBAB0D19ECF62F0007D038 /* BBDeadlift-9 (dragged).tiff */,
+				C6DBAB0E19ECF62F0007D038 /* BBDeadlift-10 (dragged).tiff */,
+				C6DBAB0F19ECF62F0007D038 /* BBDeadlift-11 (dragged).tiff */,
+				C6DBAB1019ECF62F0007D038 /* BBDeadlift-12 (dragged).tiff */,
+				C6DBAB1119ECF62F0007D038 /* BBDeadlift-13 (dragged).tiff */,
+				C6DBAB1219ECF62F0007D038 /* BBDeadlift-14 (dragged).tiff */,
+				C6DBAB1319ECF62F0007D038 /* BBDeadlift-15 (dragged).tiff */,
+				C6DBAB1419ECF62F0007D038 /* BBDeadlift-16 (dragged).tiff */,
+				C6DBAB1519ECF62F0007D038 /* BBDeadlift-17 (dragged).tiff */,
+				C6DBAB1619ECF62F0007D038 /* BBDeadlift-18 (dragged).tiff */,
+				C6DBAB1719ECF62F0007D038 /* BBDeadlift-19 (dragged).tiff */,
+				C6DBAB1819ECF62F0007D038 /* BBDeadlift-20 (dragged).tiff */,
+				C6DBAB1919ECF62F0007D038 /* BBDeadlift-21 (dragged).tiff */,
+			);
+			name = BBDeadlift;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1075,6 +1146,7 @@
 				C6DBAA3F19ECEAFD0007D038 /* BBDeclineBenchPress-16 (dragged).tiff in Resources */,
 				C658C5A219ECDA3000192E89 /* Pushups-5 (dragged).tiff in Resources */,
 				C6DBAA0B19ECE9CC0007D038 /* BBInclineBenchPress-7 (dragged).tiff in Resources */,
+				C6DBAB2E19ECF62F0007D038 /* BBDeadlift-21 (dragged).tiff in Resources */,
 				C6DBAAA119ECEB920007D038 /* LVLyingLegCurl-44 (dragged).tiff in Resources */,
 				C6DBA9C019ECE2C10007D038 /* BWSitupNeck-29 (dragged).tiff in Resources */,
 				C6DBAA3619ECEAFD0007D038 /* BBDeclineBenchPress-7 (dragged).tiff in Resources */,
@@ -1108,6 +1180,7 @@
 				8B1B232F19B87F4D00E0F259 /* wallpaper.jpg in Resources */,
 				C6DBAA8519ECEB920007D038 /* LVLyingLegCurl-16 (dragged).tiff in Resources */,
 				C6DBAA9619ECEB920007D038 /* LVLyingLegCurl-33 (dragged).tiff in Resources */,
+				C6DBAB2819ECF62F0007D038 /* BBDeadlift-15 (dragged).tiff in Resources */,
 				C6DBA9C219ECE2C10007D038 /* BWSitupNeck-31 (dragged).tiff in Resources */,
 				C6DBA9AF19ECE2C10007D038 /* BWSitupNeck-12 (dragged).tiff in Resources */,
 				C6DBAA9019ECEB920007D038 /* LVLyingLegCurl-27 (dragged).tiff in Resources */,
@@ -1125,6 +1198,7 @@
 				0190BDF419ADF30A003F1FBB /* declinepress.jpg in Resources */,
 				C658C59A19ECDA3000192E89 /* Pushups-1 (dragged).tiff in Resources */,
 				C6DBAADB19ECED0A0007D038 /* LVLegExtension-8 (dragged).tiff in Resources */,
+				C6DBAB2A19ECF62F0007D038 /* BBDeadlift-17 (dragged).tiff in Resources */,
 				C6DBA9AE19ECE2C10007D038 /* BWSitupNeck-11 (dragged).tiff in Resources */,
 				C6DBAAE919ECED0A0007D038 /* LVLegExtension-22 (dragged).tiff in Resources */,
 				C6DBAA3019ECEAFD0007D038 /* BBDeclineBenchPress-1 (dragged).tiff in Resources */,
@@ -1151,6 +1225,7 @@
 				8BE1E3A519B1A1D600820683 /* wall4.jpg in Resources */,
 				C6DBA9C619ECE2C10007D038 /* BWSitupNeck-35 (dragged).tiff in Resources */,
 				C6DBAAD419ECED0A0007D038 /* LVLegExtension-1 (dragged).tiff in Resources */,
+				C6DBAB2B19ECF62F0007D038 /* BBDeadlift-18 (dragged).tiff in Resources */,
 				C6DBA9BF19ECE2C10007D038 /* BWSitupNeck-28 (dragged).tiff in Resources */,
 				C6DBAA7F19ECEB920007D038 /* LVLyingLegCurl-10 (dragged).tiff in Resources */,
 				C6DBA9B419ECE2C10007D038 /* BWSitupNeck-17 (dragged).tiff in Resources */,
@@ -1165,6 +1240,7 @@
 				C6DBAADA19ECED0A0007D038 /* LVLegExtension-7 (dragged).tiff in Resources */,
 				C6DBAA9319ECEB920007D038 /* LVLyingLegCurl-30 (dragged).tiff in Resources */,
 				C658C5AA19ECDA3000192E89 /* Pushups-9 (dragged).tiff in Resources */,
+				C6DBAB2219ECF62F0007D038 /* BBDeadlift-9 (dragged).tiff in Resources */,
 				C6DBAA9819ECEB920007D038 /* LVLyingLegCurl-35 (dragged).tiff in Resources */,
 				0190BDF019ADF30A003F1FBB /* barbellrow.jpg in Resources */,
 				C6DBA9F019ECE8BB0007D038 /* DBBenchPress-6 (dragged) 1.tiff in Resources */,
@@ -1177,10 +1253,12 @@
 				C658C5A819ECDA3000192E89 /* Pushups-8 (dragged).tiff in Resources */,
 				C6DBAAEC19ECED0A0007D038 /* LVLegExtension-25 (dragged).tiff in Resources */,
 				C6DBAA0819ECE9CC0007D038 /* BBInclineBenchPress-4 (dragged).tiff in Resources */,
+				C6DBAB1E19ECF62F0007D038 /* BBDeadlift-5 (dragged).tiff in Resources */,
 				C6DBAAD519ECED0A0007D038 /* LVLegExtension-2 (dragged).tiff in Resources */,
 				C6DBAA8B19ECEB920007D038 /* LVLyingLegCurl-22 (dragged).tiff in Resources */,
 				C6DBAAFB19ECED0A0007D038 /* LVLegExtension-40 (dragged).tiff in Resources */,
 				C6DBAAF419ECED0A0007D038 /* LVLegExtension-33 (dragged).tiff in Resources */,
+				C6DBAB1A19ECF62F0007D038 /* BBDeadlift-1 (dragged).tiff in Resources */,
 				C658C59C19ECDA3000192E89 /* Pushups-2 (dragged).tiff in Resources */,
 				C6DBA9B719ECE2C10007D038 /* BWSitupNeck-20 (dragged).tiff in Resources */,
 				C658C5AE19ECDA3000192E89 /* Pushups-11 (dragged).tiff in Resources */,
@@ -1194,12 +1272,17 @@
 				C6DBAA4019ECEAFD0007D038 /* BBDeclineBenchPress-17 (dragged).tiff in Resources */,
 				C6DBA9A419ECE2C10007D038 /* BWSitupNeck-1 (dragged).tiff in Resources */,
 				C6DBAA8E19ECEB920007D038 /* LVLyingLegCurl-25 (dragged).tiff in Resources */,
+				C6DBAB2719ECF62F0007D038 /* BBDeadlift-14 (dragged).tiff in Resources */,
 				0190BDF719ADF30A003F1FBB /* legextension.jpg in Resources */,
 				C6DBAA9919ECEB920007D038 /* LVLyingLegCurl-36 (dragged).tiff in Resources */,
 				8B1B233319B8827600E0F259 /* cycling.jpg in Resources */,
 				C6DBAA1119ECE9CC0007D038 /* BBInclineBenchPress-13 (dragged).tiff in Resources */,
+				C6DBAB2419ECF62F0007D038 /* BBDeadlift-11 (dragged).tiff in Resources */,
+				C6DBAB2D19ECF62F0007D038 /* BBDeadlift-20 (dragged).tiff in Resources */,
+				C6DBAB2319ECF62F0007D038 /* BBDeadlift-10 (dragged).tiff in Resources */,
 				C6DBA9AD19ECE2C10007D038 /* BWSitupNeck-10 (dragged).tiff in Resources */,
 				C6DBAA0D19ECE9CC0007D038 /* BBInclineBenchPress-9 (dragged).tiff in Resources */,
+				C6DBAB2619ECF62F0007D038 /* BBDeadlift-13 (dragged).tiff in Resources */,
 				C6DBA9EE19ECE50D0007D038 /* DBBenchPress-19 (dragged).tiff in Resources */,
 				C6DBAA7A19ECEB920007D038 /* LVLyingLegCurl-5 (dragged).tiff in Resources */,
 				6DD17C8519AD749C008B6FCB /* Main_iPad.storyboard in Resources */,
@@ -1209,6 +1292,7 @@
 				6DD17C8A19AD749C008B6FCB /* Images.xcassets in Resources */,
 				C6DBAA3A19ECEAFD0007D038 /* BBDeclineBenchPress-11 (dragged).tiff in Resources */,
 				C6DBA9E919ECE50D0007D038 /* DBBenchPress-14 (dragged).tiff in Resources */,
+				C6DBAB2119ECF62F0007D038 /* BBDeadlift-8 (dragged).tiff in Resources */,
 				C6DBA9C719ECE2C10007D038 /* BWSitupNeck-36 (dragged).tiff in Resources */,
 				0190BDF219ADF30A003F1FBB /* bodumbellrow.jpg in Resources */,
 				C6DBA9BD19ECE2C10007D038 /* BWSitupNeck-26 (dragged).tiff in Resources */,
@@ -1216,6 +1300,7 @@
 				C6DBAA9719ECEB920007D038 /* LVLyingLegCurl-34 (dragged).tiff in Resources */,
 				C6DBAAD719ECED0A0007D038 /* LVLegExtension-4 (dragged).tiff in Resources */,
 				8BE1E3A019B19E2100820683 /* wall1.jpg in Resources */,
+				C6DBAB1B19ECF62F0007D038 /* BBDeadlift-2 (dragged).tiff in Resources */,
 				C6DBAA9119ECEB920007D038 /* LVLyingLegCurl-28 (dragged).tiff in Resources */,
 				C6DBA9E819ECE50D0007D038 /* DBBenchPress-13 (dragged).tiff in Resources */,
 				C6DBAB0219ECED0A0007D038 /* LVLegExtension-47 (dragged).tiff in Resources */,
@@ -1235,6 +1320,7 @@
 				C6DBAAD619ECED0A0007D038 /* LVLegExtension-3 (dragged).tiff in Resources */,
 				C6DBAA4519ECEAFD0007D038 /* BBDeclineBenchPress-22 (dragged).tiff in Resources */,
 				C6DBA9DD19ECE50D0007D038 /* DBBenchPress-2 (dragged).tiff in Resources */,
+				C6DBAB2019ECF62F0007D038 /* BBDeadlift-7 (dragged).tiff in Resources */,
 				C6DBA9B619ECE2C10007D038 /* BWSitupNeck-19 (dragged).tiff in Resources */,
 				C6DBA9B119ECE2C10007D038 /* BWSitupNeck-14 (dragged).tiff in Resources */,
 				C6DBAAF019ECED0A0007D038 /* LVLegExtension-29 (dragged).tiff in Resources */,
@@ -1256,7 +1342,9 @@
 				C6DBA9BB19ECE2C10007D038 /* BWSitupNeck-24 (dragged).tiff in Resources */,
 				C6DBAA4219ECEAFD0007D038 /* BBDeclineBenchPress-19 (dragged).tiff in Resources */,
 				C6DBAA9219ECEB920007D038 /* LVLyingLegCurl-29 (dragged).tiff in Resources */,
+				C6DBAB2919ECF62F0007D038 /* BBDeadlift-16 (dragged).tiff in Resources */,
 				C6DBAA7619ECEB920007D038 /* LVLyingLegCurl-1 (dragged).tiff in Resources */,
+				C6DBAB1D19ECF62F0007D038 /* BBDeadlift-4 (dragged).tiff in Resources */,
 				C6DBAA8F19ECEB920007D038 /* LVLyingLegCurl-26 (dragged).tiff in Resources */,
 				C6DBAAD819ECED0A0007D038 /* LVLegExtension-5 (dragged).tiff in Resources */,
 				C6DBAA4319ECEAFD0007D038 /* BBDeclineBenchPress-20 (dragged).tiff in Resources */,
@@ -1271,11 +1359,13 @@
 				C6DBAAE119ECED0A0007D038 /* LVLegExtension-14 (dragged).tiff in Resources */,
 				8B1B233519B888DE00E0F259 /* facebook.icon.205x205.jpg in Resources */,
 				C658C5B419ECDA3000192E89 /* Pushups-14 (dragged).tiff in Resources */,
+				C6DBAB1C19ECF62F0007D038 /* BBDeadlift-3 (dragged).tiff in Resources */,
 				C658C5AC19ECDA3000192E89 /* Pushups-10 (dragged).tiff in Resources */,
 				C6DBAA1219ECE9CC0007D038 /* BBInclineBenchPress-14 (dragged).tiff in Resources */,
 				C6DBAAEA19ECED0A0007D038 /* LVLegExtension-23 (dragged).tiff in Resources */,
 				C6DBA9BE19ECE2C10007D038 /* BWSitupNeck-27 (dragged).tiff in Resources */,
 				C6DBAA1519ECE9CC0007D038 /* BBInclineBenchPress-17 (dragged).tiff in Resources */,
+				C6DBAB2C19ECF62F0007D038 /* BBDeadlift-19 (dragged).tiff in Resources */,
 				C6DBAA8219ECEB920007D038 /* LVLyingLegCurl-13 (dragged).tiff in Resources */,
 				C6DBAAD919ECED0A0007D038 /* LVLegExtension-6 (dragged).tiff in Resources */,
 				6DD17CAE19AD885B008B6FCB /* 1st.jpg in Resources */,
@@ -1285,6 +1375,7 @@
 				C6DBA9E219ECE50D0007D038 /* DBBenchPress-7 (dragged) 1.tiff in Resources */,
 				C658C5B019ECDA3000192E89 /* Pushups-12 (dragged).tiff in Resources */,
 				C6DBA9EA19ECE50D0007D038 /* DBBenchPress-15 (dragged).tiff in Resources */,
+				C6DBAB2519ECF62F0007D038 /* BBDeadlift-12 (dragged).tiff in Resources */,
 				C6DBA9E319ECE50D0007D038 /* DBBenchPress-8 (dragged) 1.tiff in Resources */,
 				C6DBAA9519ECEB920007D038 /* LVLyingLegCurl-32 (dragged).tiff in Resources */,
 				C6DBAB0119ECED0A0007D038 /* LVLegExtension-46 (dragged).tiff in Resources */,
@@ -1296,6 +1387,7 @@
 				C6DBA9EC19ECE50D0007D038 /* DBBenchPress-17 (dragged).tiff in Resources */,
 				C6DBAA8319ECEB920007D038 /* LVLyingLegCurl-14 (dragged).tiff in Resources */,
 				C6DBAADD19ECED0A0007D038 /* LVLegExtension-10 (dragged).tiff in Resources */,
+				C6DBAB1F19ECF62F0007D038 /* BBDeadlift-6 (dragged).tiff in Resources */,
 				0190BDF619ADF30A003F1FBB /* legcurl.jpg in Resources */,
 				C6DBAA7819ECEB920007D038 /* LVLyingLegCurl-3 (dragged).tiff in Resources */,
 				C6DBA9DE19ECE50D0007D038 /* DBBenchPress-3 (dragged).tiff in Resources */,
