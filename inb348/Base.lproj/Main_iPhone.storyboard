@@ -197,13 +197,17 @@
         <scene sceneID="gfZ-8m-HGI">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4g6-16-I25" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Workout Library" id="MBH-Wy-cZN"/>
+                    <tabBarItem key="tabBarItem" title="Workout Library" image="Place-Filled.png" id="FRQ-Q0-Rha"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Iab-O4-OEq">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="dSa-Nt-vB6">
+                        <rect key="frame" x="0.0" y="524" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
                     <connections>
                         <segue destination="MP5-0M-o7Y" kind="relationship" relationship="rootViewController" id="ALo-YB-Klc"/>
                     </connections>
@@ -513,7 +517,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Reminder" id="hIl-uL-dw5"/>
+                    <tabBarItem key="tabBarItem" title="Reminder" image="Place-Filled.png" id="DuL-jA-iiT"/>
                     <navigationItem key="navigationItem" id="CXR-zh-99z"/>
                     <connections>
                         <outlet property="datePicker" destination="b0I-SL-TCZ" id="wHT-w5-mWN"/>
@@ -603,11 +607,16 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
         <!--Navigation Controller - Today's Workout-->
         <scene sceneID="v5G-Vc-1DX">
             <objects>
-                <navigationController definesPresentationContext="YES" id="TwB-Ak-yn3" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Today's Workout" id="muN-Fq-DXl"/>
+                <navigationController definesPresentationContext="YES" toolbarHidden="NO" id="TwB-Ak-yn3" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Today's Workout" image="Place-Line.png" id="RMg-gP-BcN"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="JWm-gp-aut">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translucent="NO" id="XWL-wx-LUw">
+                        <rect key="frame" x="0.0" y="524" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
                     <connections>
                         <segue destination="suK-1E-aWf" kind="relationship" relationship="rootViewController" id="fR8-PQ-jw0"/>
                     </connections>
@@ -660,7 +669,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
         <scene sceneID="xyd-WA-1DZ">
             <objects>
                 <navigationController definesPresentationContext="YES" id="xDa-Fn-kNp" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" systemItem="history" id="4WS-Ci-Wi1"/>
+                    <tabBarItem key="tabBarItem" systemItem="favorites" id="4WS-Ci-Wi1"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Zky-Uo-5QU">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -690,11 +699,13 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
             </objects>
             <point key="canvasLocation" x="1107" y="28"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Navigation Controller - Map-->
         <scene sceneID="C7c-lq-L5H">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="7aX-Ln-9qt" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Map" image="Place-Filled.png" id="ttV-VS-UIE"/>
                     <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Qre-1v-v8R">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -710,6 +721,8 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
         </scene>
     </scenes>
     <resources>
+        <image name="Place-Filled.png" width="17" height="23"/>
+        <image name="Place-Line.png" width="17" height="24"/>
         <image name="facebook.icon.205x205.jpg" width="512" height="512"/>
         <image name="twitter-bird-white-on-blue-jpeg.jpg" width="300" height="300"/>
     </resources>
