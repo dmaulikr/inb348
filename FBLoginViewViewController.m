@@ -35,7 +35,6 @@ NSNumber *userID;
     self.lblLoginStatus.text = @"";
     self.loginButton.readPermissions = @[@"public_profile",@"email"];
     self.loginButton.delegate = self;
-    
     [self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"2.jpg"]]];
 }
 
@@ -55,10 +54,10 @@ NSNumber *userID;
 
 -(void)loginViewShowingLoggedInUser:(FBLoginView *)loginView
 {
-    [_lblLoginStatus setText:[NSString stringWithFormat:@"Welcome to Fitness Mate, %@", userName]];
     //self.lblLoginStatus.text = @"%@", userName;
     NSLog(@"%@",userName);
     [self toggleHiddenState:NO];
+    self.myImage.hidden = YES;
 }
 
 -(void)loginViewFetchedUserInfo:(FBLoginView *)loginView user:(id<FBGraphUser>)user
@@ -71,7 +70,7 @@ NSNumber *userID;
     //self.lblUsername.text = user.name;
     //self.lblEmail.text = [user objectForKey:@"email"];
     self.btnContinue.hidden = NO;
-    
+    [_lblLoginStatus setText:[NSString stringWithFormat:@"Welcome to Fitness Mate, %@", userName]];
     //PASSING VALUE
     //COULDNT PASS ANYTHING....
     ViewController *view = [[ViewController alloc]initWithNibName:@"ViewController" bundle:nil];
@@ -84,6 +83,8 @@ NSNumber *userID;
 {
     //self.lblLoginStatus.text = @"Please Login";
     [self toggleHiddenState:YES];
+    self.lblLoginStatus.text = @"";
+    self.myImage.hidden = NO;
 }
 
 -(void)loginView:(FBLoginView *)loginView handleError:(NSError *)error

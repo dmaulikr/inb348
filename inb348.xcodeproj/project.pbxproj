@@ -13,6 +13,8 @@
 		010A72C419EE5CEA0008F956 /* black.png in Resources */ = {isa = PBXBuildFile; fileRef = 010A72C319EE5CEA0008F956 /* black.png */; };
 		010A72D419EE71080008F956 /* back8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 010A72D319EE71080008F956 /* back8.jpg */; };
 		010A72D619EE71210008F956 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 010A72D519EE71210008F956 /* 2.jpg */; };
+		010A72D819EE7C4A0008F956 /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 010A72D719EE7C4A0008F956 /* images.jpeg */; };
+		010A72DA19EE7CD70008F956 /* c10d2b83dd.png in Resources */ = {isa = PBXBuildFile; fileRef = 010A72D919EE7CD70008F956 /* c10d2b83dd.png */; };
 		013D0C9919E5215A003EB31E /* FBLoginViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 013D0C9819E5215A003EB31E /* FBLoginViewViewController.m */; };
 		0143B1EF19E9310C00B2101A /* Current-Location-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 0143B1EE19E9310C00B2101A /* Current-Location-512.png */; };
 		0143B1F119E9330400B2101A /* PixelKit_5-Oclock-Shades-Icon-Set__0001_14.png in Resources */ = {isa = PBXBuildFile; fileRef = 0143B1F019E9330400B2101A /* PixelKit_5-Oclock-Shades-Icon-Set__0001_14.png */; };
@@ -93,6 +95,8 @@
 		010A72C319EE5CEA0008F956 /* black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = black.png; path = ../../black.png; sourceTree = "<group>"; };
 		010A72D319EE71080008F956 /* back8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = back8.jpg; path = ../../back8.jpg; sourceTree = "<group>"; };
 		010A72D519EE71210008F956 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2.jpg; path = ../../2.jpg; sourceTree = "<group>"; };
+		010A72D719EE7C4A0008F956 /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = images.jpeg; path = ../../images.jpeg; sourceTree = "<group>"; };
+		010A72D919EE7CD70008F956 /* c10d2b83dd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = c10d2b83dd.png; path = ../../c10d2b83dd.png; sourceTree = "<group>"; };
 		013D0C9719E5215A003EB31E /* FBLoginViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBLoginViewViewController.h; path = ../FBLoginViewViewController.h; sourceTree = "<group>"; };
 		013D0C9819E5215A003EB31E /* FBLoginViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBLoginViewViewController.m; path = ../FBLoginViewViewController.m; sourceTree = "<group>"; };
 		0143B1EE19E9310C00B2101A /* Current-Location-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Current-Location-512.png"; sourceTree = "<group>"; };
@@ -303,6 +307,8 @@
 		6DD17CB019AD8868008B6FCB /* image */ = {
 			isa = PBXGroup;
 			children = (
+				010A72D919EE7CD70008F956 /* c10d2b83dd.png */,
+				010A72D719EE7C4A0008F956 /* images.jpeg */,
 				010A72D519EE71210008F956 /* 2.jpg */,
 				010A72D319EE71080008F956 /* back8.jpg */,
 				010A72C319EE5CEA0008F956 /* black.png */,
@@ -442,6 +448,8 @@
 				8BE1E39F19B19E2100820683 /* wall.jpg in Resources */,
 				0190BDF919ADF30A003F1FBB /* situp.jpg in Resources */,
 				8B1B233519B888DE00E0F259 /* facebook.icon.205x205.jpg in Resources */,
+				010A72D819EE7C4A0008F956 /* images.jpeg in Resources */,
+				010A72DA19EE7CD70008F956 /* c10d2b83dd.png in Resources */,
 				6DD17CAE19AD885B008B6FCB /* 1st.jpg in Resources */,
 				0190BDF619ADF30A003F1FBB /* legcurl.jpg in Resources */,
 				0143B1F119E9330400B2101A /* PixelKit_5-Oclock-Shades-Icon-Set__0001_14.png in Resources */,
