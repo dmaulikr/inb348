@@ -21,6 +21,7 @@
 		010A72E219EE85E90008F956 /* jog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 010A72E119EE85E90008F956 /* jog.jpg */; };
 		010A72E419EE86A10008F956 /* time.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 010A72E319EE86A10008F956 /* time.jpg */; };
 		010A72EE19EE87E40008F956 /* time5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 010A72ED19EE87E40008F956 /* time5.jpg */; };
+		010A72F019EE888E0008F956 /* next-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 010A72EF19EE888E0008F956 /* next-button.png */; };
 		013D0C9919E5215A003EB31E /* FBLoginViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 013D0C9819E5215A003EB31E /* FBLoginViewViewController.m */; };
 		0143B1EF19E9310C00B2101A /* Current-Location-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 0143B1EE19E9310C00B2101A /* Current-Location-512.png */; };
 		0143B1F119E9330400B2101A /* PixelKit_5-Oclock-Shades-Icon-Set__0001_14.png in Resources */ = {isa = PBXBuildFile; fileRef = 0143B1F019E9330400B2101A /* PixelKit_5-Oclock-Shades-Icon-Set__0001_14.png */; };
@@ -109,6 +110,7 @@
 		010A72E119EE85E90008F956 /* jog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = jog.jpg; path = ../../jog.jpg; sourceTree = "<group>"; };
 		010A72E319EE86A10008F956 /* time.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = time.jpg; path = ../../time.jpg; sourceTree = "<group>"; };
 		010A72ED19EE87E40008F956 /* time5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = time5.jpg; path = ../../time5.jpg; sourceTree = "<group>"; };
+		010A72EF19EE888E0008F956 /* next-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "next-button.png"; path = "../../next-button.png"; sourceTree = "<group>"; };
 		013D0C9719E5215A003EB31E /* FBLoginViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBLoginViewViewController.h; path = ../FBLoginViewViewController.h; sourceTree = "<group>"; };
 		013D0C9819E5215A003EB31E /* FBLoginViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBLoginViewViewController.m; path = ../FBLoginViewViewController.m; sourceTree = "<group>"; };
 		0143B1EE19E9310C00B2101A /* Current-Location-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Current-Location-512.png"; sourceTree = "<group>"; };
@@ -319,6 +321,7 @@
 		6DD17CB019AD8868008B6FCB /* image */ = {
 			isa = PBXGroup;
 			children = (
+				010A72EF19EE888E0008F956 /* next-button.png */,
 				010A72ED19EE87E40008F956 /* time5.jpg */,
 				010A72E319EE86A10008F956 /* time.jpg */,
 				010A72E119EE85E90008F956 /* jog.jpg */,
@@ -455,6 +458,7 @@
 				010A72E419EE86A10008F956 /* time.jpg in Resources */,
 				8B1B233319B8827600E0F259 /* cycling.jpg in Resources */,
 				010A72C019EE5BE90008F956 /* fitness-point-icon-150x150.jpg in Resources */,
+				010A72F019EE888E0008F956 /* next-button.png in Resources */,
 				010A72EE19EE87E40008F956 /* time5.jpg in Resources */,
 				6DD17C8519AD749C008B6FCB /* Main_iPad.storyboard in Resources */,
 				6DD17C8A19AD749C008B6FCB /* Images.xcassets in Resources */,
