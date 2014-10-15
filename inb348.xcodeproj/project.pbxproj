@@ -64,7 +64,9 @@
 		8BE1E3A719B1A28C00820683 /* wall5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8BE1E3A619B1A28C00820683 /* wall5.jpg */; };
 		9E57A65319B0184B00262BE6 /* ExerciseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E57A65219B0184B00262BE6 /* ExerciseTableViewCell.m */; };
 		C6026E1B19EF024B00042164 /* Place-Filled@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6026E1919EF024B00042164 /* Place-Filled@2x.png */; };
-		C6026E1C19EF024B00042164 /* Place-Line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6026E1A19EF024B00042164 /* Place-Line@2x.png */; };
+		C6026E2419EF2B6E00042164 /* Alarm-Filled@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6026E2319EF2B6E00042164 /* Alarm-Filled@2x.png */; };
+		C6026E2619EF2C4900042164 /* library.png in Resources */ = {isa = PBXBuildFile; fileRef = C6026E2519EF2C4900042164 /* library.png */; };
+		C6026E2819EF2D3F00042164 /* list.png in Resources */ = {isa = PBXBuildFile; fileRef = C6026E2719EF2D3F00042164 /* list.png */; };
 		C658C59A19ECDA3000192E89 /* Pushups-1 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C658C58919ECDA3000192E89 /* Pushups-1 (dragged).tiff */; };
 		C658C59B19ECDA3000192E89 /* Pushups-1 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C658C58919ECDA3000192E89 /* Pushups-1 (dragged).tiff */; };
 		C658C59C19ECDA3000192E89 /* Pushups-2 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C658C58A19ECDA3000192E89 /* Pushups-2 (dragged).tiff */; };
@@ -443,7 +445,9 @@
 		9E57A65119B0184B00262BE6 /* ExerciseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseTableViewCell.h; sourceTree = "<group>"; };
 		9E57A65219B0184B00262BE6 /* ExerciseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseTableViewCell.m; sourceTree = "<group>"; };
 		C6026E1919EF024B00042164 /* Place-Filled@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Place-Filled@2x.png"; sourceTree = "<group>"; };
-		C6026E1A19EF024B00042164 /* Place-Line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Place-Line@2x.png"; sourceTree = "<group>"; };
+		C6026E2319EF2B6E00042164 /* Alarm-Filled@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Alarm-Filled@2x.png"; sourceTree = "<group>"; };
+		C6026E2519EF2C4900042164 /* library.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = library.png; sourceTree = "<group>"; };
+		C6026E2719EF2D3F00042164 /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list.png; sourceTree = "<group>"; };
 		C658C58919ECDA3000192E89 /* Pushups-1 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Pushups-1 (dragged).tiff"; sourceTree = "<group>"; };
 		C658C58A19ECDA3000192E89 /* Pushups-2 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Pushups-2 (dragged).tiff"; sourceTree = "<group>"; };
 		C658C58B19ECDA3000192E89 /* Pushups-3 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Pushups-3 (dragged).tiff"; sourceTree = "<group>"; };
@@ -897,8 +901,10 @@
 		C6026E1819EF023200042164 /* Bar Icon */ = {
 			isa = PBXGroup;
 			children = (
+				C6026E2719EF2D3F00042164 /* list.png */,
+				C6026E2519EF2C4900042164 /* library.png */,
+				C6026E2319EF2B6E00042164 /* Alarm-Filled@2x.png */,
 				C6026E1919EF024B00042164 /* Place-Filled@2x.png */,
-				C6026E1A19EF024B00042164 /* Place-Line@2x.png */,
 			);
 			name = "Bar Icon";
 			sourceTree = "<group>";
@@ -1330,7 +1336,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6DBAA3F19ECEAFD0007D038 /* BBDeclineBenchPress-16 (dragged).tiff in Resources */,
-				C6026E1C19EF024B00042164 /* Place-Line@2x.png in Resources */,
 				C658C5A219ECDA3000192E89 /* Pushups-5 (dragged).tiff in Resources */,
 				C6DBAA0B19ECE9CC0007D038 /* BBInclineBenchPress-7 (dragged).tiff in Resources */,
 				C6DBAB2E19ECF62F0007D038 /* BBDeadlift-21 (dragged).tiff in Resources */,
@@ -1421,6 +1426,7 @@
 				8BE1E3A519B1A1D600820683 /* wall4.jpg in Resources */,
 				C6DBA9C619ECE2C10007D038 /* BWSitupNeck-35 (dragged).tiff in Resources */,
 				C6DBAAD419ECED0A0007D038 /* LVLegExtension-1 (dragged).tiff in Resources */,
+				C6026E2619EF2C4900042164 /* library.png in Resources */,
 				C6DBAB2B19ECF62F0007D038 /* BBDeadlift-18 (dragged).tiff in Resources */,
 				C6DBA9BF19ECE2C10007D038 /* BWSitupNeck-28 (dragged).tiff in Resources */,
 				C6DBAB6419ECF6DA0007D038 /* BBBentOverRow-17 (dragged).tiff in Resources */,
@@ -1476,6 +1482,7 @@
 				C6DBAB8B19ECF7E70007D038 /* DBBentoverRow-3 (dragged).tiff in Resources */,
 				0190BDF119ADF30A003F1FBB /* benchpress.jpg in Resources */,
 				C6DBA9E719ECE50D0007D038 /* DBBenchPress-12 (dragged).tiff in Resources */,
+				C6026E2419EF2B6E00042164 /* Alarm-Filled@2x.png in Resources */,
 				C6DBAAA219ECEB920007D038 /* LVLyingLegCurl-45 (dragged).tiff in Resources */,
 				C6DBAA4019ECEAFD0007D038 /* BBDeclineBenchPress-17 (dragged).tiff in Resources */,
 				C6DBA9A419ECE2C10007D038 /* BWSitupNeck-1 (dragged).tiff in Resources */,
@@ -1526,6 +1533,7 @@
 				C6DBAAF319ECED0A0007D038 /* LVLegExtension-32 (dragged).tiff in Resources */,
 				C6DBAA1019ECE9CC0007D038 /* BBInclineBenchPress-12 (dragged).tiff in Resources */,
 				C6DBA9E019ECE50D0007D038 /* DBBenchPress-5 (dragged).tiff in Resources */,
+				C6026E2819EF2D3F00042164 /* list.png in Resources */,
 				C6DBAA0A19ECE9CC0007D038 /* BBInclineBenchPress-6 (dragged).tiff in Resources */,
 				C6DBAAEE19ECED0A0007D038 /* LVLegExtension-27 (dragged).tiff in Resources */,
 				C6DBA9BC19ECE2C10007D038 /* BWSitupNeck-25 (dragged).tiff in Resources */,
