@@ -21,5 +21,6 @@
 @property (nonatomic) NSString *userName;
 //@property NSArray *array;
 @property NSString *string;
+@property NSString *stringRandom;
 //@property NSArray *selectedWorkout;
 @end

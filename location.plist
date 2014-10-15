@@ -4,6 +4,56 @@
 <array>
 	<dict>
 		<key>title</key>
+		<string>Tough Spot Gym</string>
+		<key>latitude</key>
+		<real>-27.477016</real>
+		<key>longitude</key>
+		<real>153.012277</real>
+		<key>distance</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>West End Boxing Gym</string>
+		<key>latitude</key>
+		<real>-27.480756</real>
+		<key>longitude</key>
+		<real>153.007897</real>
+		<key>distance</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Healthworks West End</string>
+		<key>latitude</key>
+		<real>-27.480834</real>
+		<key>longitude</key>
+		<real>153.00821</real>
+		<key>distance</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Momentum Fitness</string>
+		<key>latitude</key>
+		<real>-27.465577</real>
+		<key>longitude</key>
+		<real>153.027577</real>
+		<key>distance</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Snap Fitness</string>
+		<key>latitude</key>
+		<real>-27.468635</real>
+		<key>longitude</key>
+		<real>153.002898</real>
+		<key>distance</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>title</key>
 		<string>QUT KG Healthstream</string>
 		<key>latitude</key>
 		<real>-27.453214</real>

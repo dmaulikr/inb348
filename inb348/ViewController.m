@@ -31,17 +31,35 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    NSLog(@"%@",self.userName);
-    arrayChallenge = [[NSMutableArray alloc]initWithObjects:@"Do Push Ups for 50 times", @"Do Sit Ups for 50 times", @"Swimming for 1 hour", @"Jogging for 30 minutes",
-                      @"Cycling for 30 minutes",nil];
-    int i = arc4random() % 5;
-    challenge = arrayChallenge[i];
+    //NSLog(@"%@",self.userName);
     
+    [self showDaily];
+    
+    /*
+    arrayChallenge = [[NSMutableArray alloc]initWithObjects:@"Do Push Ups for 50 times", @"Do Sit Ups for 50 times", @"Swimming for 1 hour", @"Jogging for 30 minutes",@"Cycling for 30 minutes",nil];
+    //array = [[NSMutableArray alloc]initWithObjects:@"Dead Lifts",@"Push Ups",@"Bent Over One Arm Dumbell Rows",@"Bent Over Barbell Row",@"Leg Extensions",
+            // @"Leg Curls", @"Incline Bench Press", @"Decline Bench Press",@"Sit Ups", @"Bench Press", nil];
+
+    int i = arc4random() % 5;
+    test = arrayChallenge[i];
+    NSLog(@"Random has %lu", arrayChallenge.count);
+    NSLog(@"Random challenge is %@", arrayChallenge[i]);
+    NSLog(@"Test is %@", test);
+    
+     */
+     
+    /*
     testView = [[UIAlertView alloc] initWithTitle:@"Daily Challenge" message:arrayChallenge[i] delegate:nil cancelButtonTitle:@"Challenge Accepted" otherButtonTitles:nil];
     [testView addButtonWithTitle:@"Not Today"];
     [testView show];
+    */
     
+    /*
+    UIAlertView *dailyView = [[UIAlertView alloc]initWithTitle:@"Daily Challenge" message:array[i] delegate:nil cancelButtonTitle:@"Challenge Accepted" otherButtonTitles:nil];
+    [dailyView addButtonWithTitle:@"Not Today"];
+    [dailyView show];
     
+    */
     
     //MAYBE CAN PUT INTO THE TODAY'S WORK OUT LIST
 
@@ -257,6 +275,26 @@ shouldReloadTableForSearchString:(NSString *)searchString
     
 }
 
+-(IBAction)showDaily
+{
+    arrayChallenge = [[NSMutableArray alloc]initWithObjects:@"Do Push Ups for 50 times", @"Do Sit Ups for 50 times", @"Swimming for 1 hour", @"Jogging for 30 minutes",@"Cycling for 30 minutes",nil];
+    int i = arc4random() % 5;
+    test = arrayChallenge[i];
+    NSLog(@"Random has %lu", arrayChallenge.count);
+    NSLog(@"Random challenge is %@", arrayChallenge[i]);
+    NSLog(@"Test is %@", test);
+    
+    
+    /*
+     testView = [[UIAlertView alloc] initWithTitle:@"Daily Challenge" message:arrayChallenge[i] delegate:nil cancelButtonTitle:@"Challenge Accepted" otherButtonTitles:nil];
+     [testView addButtonWithTitle:@"Not Today"];
+     [testView show];
+     */
+    
+    
+    UIAlertView *alertView2 = [[UIAlertView alloc] initWithTitle:@"Daily Challenge" message:arrayChallenge[i] delegate:self cancelButtonTitle:@"Try it!" otherButtonTitles:nil];
+    [alertView2 addButtonWithTitle:@"No, Thank You"];
+    [alertView2 show];}
 
 -(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
 {
@@ -293,11 +331,48 @@ shouldReloadTableForSearchString:(NSString *)searchString
     }
     if(buttonIndex == 1)
     {
-        
+        NSLog(@"Not Today");
     }
 }
 
-
+-(void)dailyView:(UIAlertView *)dailyView clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+    if(buttonIndex == 0)
+    {
+        
+        NSLog(@"You pressed yES");
+        /*
+        _string = test;
+        AppDelegate *appDelegate = [[UIApplication sharedApplication]delegate];
+        
+        if([appDelegate.exerciseList containsObject:_string])
+        {
+            UIAlertView *notification =[[UIAlertView alloc]initWithTitle:@"Sorry!" message:@"You already registered this exercise" delegate:nil cancelButtonTitle:@"Continue" otherButtonTitles:nil];
+            [notification show];
+        }
+        else
+        {
+            UIAlertView *notification =[[UIAlertView alloc]initWithTitle:@"Great!" message:@"You had added this to today's exercise" delegate:nil cancelButtonTitle:@"Continue" otherButtonTitles:nil];
+            [notification show];
+            [appDelegate.exerciseList addObject:[NSString stringWithFormat:@"%@",_string]];
+            NSLog(@"%@",_string);
+            // NSLog(@"%@",appDelegate.exerciseList);
+            // NSLog(@"%lu",(unsigned long)appDelegate.exerciseList.count);
+            
+            
+            NSString *documentsDirectoryPath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)objectAtIndex:0];
+            NSString *filePath = [documentsDirectoryPath stringByAppendingPathComponent:@"exercise.plist"];
+            [appDelegate.exerciseList writeToFile:filePath atomically:YES];
+         }
+         */
+        
+        
+    }
+    if(buttonIndex == 1)
+    {
+        NSLog(@"You press not today");
+    }
+}
 
 //this method decide what cell will show on table view
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath

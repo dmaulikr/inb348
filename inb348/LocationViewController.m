@@ -39,6 +39,7 @@ double currentLat, currentLng;
     [self.mapView addAnnotations:[self createAnnotations]];
     
     CLLocationCoordinate2D zoomLocation;
+    
     //CURRENT POSITION
     //zoomLocation.latitude = currentLat;
     //zoomLocation.longitude = currentLng;
@@ -59,6 +60,11 @@ double currentLat, currentLng;
     CLLocation *location6 = [[CLLocation alloc]initWithLatitude:-27.482322 longitude:153.002473];
     CLLocation *location7 = [[CLLocation alloc]initWithLatitude:-27.472458 longitude:153.014545];
     CLLocation *location8 = [[CLLocation alloc]initWithLatitude:-27.477776 longitude:153.007106];
+    CLLocation *location9 = [[CLLocation alloc]initWithLatitude:-27.477016 longitude:153.012277];
+    CLLocation *location10 = [[CLLocation alloc]initWithLatitude:-27.480756 longitude:153.007897];
+    CLLocation *location11 = [[CLLocation alloc]initWithLatitude:-27.480834 longitude:153.00821];
+    CLLocation *location12 = [[CLLocation alloc]initWithLatitude:-27.465577 longitude:153.027577];
+    CLLocation *location13 = [[CLLocation alloc]initWithLatitude:-27.468635 longitude:153.002898];
     
     //DISTANCE BETWEEN DEFAULT LOCATION AND QUT HEALTHSTREAM iN METERS
     NSLog(@"Distance between these two coordinates: %f",[location1 distanceFromLocation:location2]);
@@ -69,6 +75,12 @@ double currentLat, currentLng;
     NSInteger distance5 = [location1 distanceFromLocation:location6];
     NSInteger distance6 = [location1 distanceFromLocation:location7];
     NSInteger distance7 = [location1 distanceFromLocation:location8];
+    NSInteger distance8 = [location1 distanceFromLocation:location9];
+    NSInteger distance9 = [location1 distanceFromLocation:location10];
+    NSInteger distance10 = [location1 distanceFromLocation:location11];
+    NSInteger distance11 = [location1 distanceFromLocation:location12];
+    NSInteger distance12 = [location1 distanceFromLocation:location13];
+    
     NSLog(@"Distance from QUT GP %ld meters", (long)distance1);
     NSLog(@"Distance from QUT KG %ld meters", (long)distance2);
     NSLog(@"Distance from Jetts %ld meters",(long)distance3);
@@ -82,6 +94,11 @@ double currentLat, currentLng;
     NSNumber *distanceObject5 = [NSNumber numberWithInteger:distance5];
     NSNumber *distanceObject6 = [NSNumber numberWithInteger:distance6];
     NSNumber *distanceObject7 = [NSNumber numberWithInteger:distance7];
+    NSNumber *distanceObject8 = [NSNumber numberWithInteger:distance8];
+    NSNumber *distanceObject9 = [NSNumber numberWithInteger:distance9];
+    NSNumber *distanceObject10 = [NSNumber numberWithInteger:distance10];
+    NSNumber *distanceObject11 = [NSNumber numberWithInteger:distance11];
+    NSNumber *distanceObject12 = [NSNumber numberWithInteger:distance12];
     
     //LOCATION OF PLIST
    // NSString *dataFilePath = [[NSBundle mainBundle]pathForResource:@"location" ofType:@"plist"];
@@ -110,6 +127,17 @@ double currentLat, currentLng;
             [dict setObject:distanceObject6 forKey:@"distance"];
         if([[dict objectForKey:@"title"]isEqualToString:@"Dundee's Fitness Gym"])
             [dict setObject:distanceObject7 forKey:@"distance"];
+        if([[dict objectForKey:@"title"]isEqualToString:@"Tough Spot Gym"])
+            [dict setObject:distanceObject8 forKey:@"distance"];
+        if([[dict objectForKey:@"title"]isEqualToString:@"West End Boxing Gym"])
+            [dict setObject:distanceObject9 forKey:@"distance"];
+        if([[dict objectForKey:@"title"]isEqualToString:@"Healthworks West End"])
+            [dict setObject:distanceObject10 forKey:@"distance"];
+        if([[dict objectForKey:@"title"]isEqualToString:@"Momentum Fitness"])
+            [dict setObject:distanceObject11 forKey:@"distance"];
+        if([[dict objectForKey:@"title"]isEqualToString:@"Snap Fitness"])
+            [dict setObject:distanceObject12 forKey:@"distance"];
+
     }
     NSLog(@"plistArray after additon : %@", plistArray);
     

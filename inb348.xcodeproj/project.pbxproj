@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		010A72BE19EE5A180008F956 /* 100fitness-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 010A72BD19EE5A180008F956 /* 100fitness-icon.png */; };
+		010A72C019EE5BE90008F956 /* fitness-point-icon-150x150.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 010A72BF19EE5BE90008F956 /* fitness-point-icon-150x150.jpg */; };
+		010A72C219EE5C440008F956 /* icon220x220.png in Resources */ = {isa = PBXBuildFile; fileRef = 010A72C119EE5C440008F956 /* icon220x220.png */; };
+		010A72C419EE5CEA0008F956 /* black.png in Resources */ = {isa = PBXBuildFile; fileRef = 010A72C319EE5CEA0008F956 /* black.png */; };
+		010A72D419EE71080008F956 /* back8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 010A72D319EE71080008F956 /* back8.jpg */; };
+		010A72D619EE71210008F956 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 010A72D519EE71210008F956 /* 2.jpg */; };
 		013D0C9919E5215A003EB31E /* FBLoginViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 013D0C9819E5215A003EB31E /* FBLoginViewViewController.m */; };
 		0143B1EF19E9310C00B2101A /* Current-Location-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 0143B1EE19E9310C00B2101A /* Current-Location-512.png */; };
 		0143B1F119E9330400B2101A /* PixelKit_5-Oclock-Shades-Icon-Set__0001_14.png in Resources */ = {isa = PBXBuildFile; fileRef = 0143B1F019E9330400B2101A /* PixelKit_5-Oclock-Shades-Icon-Set__0001_14.png */; };
@@ -81,6 +87,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		010A72BD19EE5A180008F956 /* 100fitness-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "100fitness-icon.png"; path = "../../100fitness-icon.png"; sourceTree = "<group>"; };
+		010A72BF19EE5BE90008F956 /* fitness-point-icon-150x150.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "fitness-point-icon-150x150.jpg"; path = "../../fitness-point-icon-150x150.jpg"; sourceTree = "<group>"; };
+		010A72C119EE5C440008F956 /* icon220x220.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon220x220.png; path = ../../icon220x220.png; sourceTree = "<group>"; };
+		010A72C319EE5CEA0008F956 /* black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = black.png; path = ../../black.png; sourceTree = "<group>"; };
+		010A72D319EE71080008F956 /* back8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = back8.jpg; path = ../../back8.jpg; sourceTree = "<group>"; };
+		010A72D519EE71210008F956 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2.jpg; path = ../../2.jpg; sourceTree = "<group>"; };
 		013D0C9719E5215A003EB31E /* FBLoginViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBLoginViewViewController.h; path = ../FBLoginViewViewController.h; sourceTree = "<group>"; };
 		013D0C9819E5215A003EB31E /* FBLoginViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBLoginViewViewController.m; path = ../FBLoginViewViewController.m; sourceTree = "<group>"; };
 		0143B1EE19E9310C00B2101A /* Current-Location-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Current-Location-512.png"; sourceTree = "<group>"; };
@@ -291,6 +303,12 @@
 		6DD17CB019AD8868008B6FCB /* image */ = {
 			isa = PBXGroup;
 			children = (
+				010A72D519EE71210008F956 /* 2.jpg */,
+				010A72D319EE71080008F956 /* back8.jpg */,
+				010A72C319EE5CEA0008F956 /* black.png */,
+				010A72C119EE5C440008F956 /* icon220x220.png */,
+				010A72BF19EE5BE90008F956 /* fitness-point-icon-150x150.jpg */,
+				010A72BD19EE5A180008F956 /* 100fitness-icon.png */,
 				0143B1F219E9339600B2101A /* images.jpeg */,
 				0143B1F019E9330400B2101A /* PixelKit_5-Oclock-Shades-Icon-Set__0001_14.png */,
 				0143B1EE19E9310C00B2101A /* Current-Location-512.png */,
@@ -397,24 +415,30 @@
 				8BE1E3A719B1A28C00820683 /* wall5.jpg in Resources */,
 				8B1B232F19B87F4D00E0F259 /* wallpaper.jpg in Resources */,
 				0190BDF419ADF30A003F1FBB /* declinepress.jpg in Resources */,
+				010A72BE19EE5A180008F956 /* 100fitness-icon.png in Resources */,
+				010A72C219EE5C440008F956 /* icon220x220.png in Resources */,
 				0190BDF819ADF30A003F1FBB /* pushup.jpg in Resources */,
 				0190BDF519ADF30A003F1FBB /* inclinepress.jpg in Resources */,
 				6DD17CB219AD8E52008B6FCB /* 2nd.jpg in Resources */,
 				0170023919D52802000967AF /* location.plist in Resources */,
 				8BE1E3A519B1A1D600820683 /* wall4.jpg in Resources */,
 				0190BDF019ADF30A003F1FBB /* barbellrow.jpg in Resources */,
+				010A72D419EE71080008F956 /* back8.jpg in Resources */,
 				017ACE2519B71347009E9B62 /* twitter-bird-white-on-blue-jpeg.jpg in Resources */,
 				0190BDF119ADF30A003F1FBB /* benchpress.jpg in Resources */,
 				0190BDF719ADF30A003F1FBB /* legextension.jpg in Resources */,
 				8B1B233319B8827600E0F259 /* cycling.jpg in Resources */,
+				010A72C019EE5BE90008F956 /* fitness-point-icon-150x150.jpg in Resources */,
 				6DD17C8519AD749C008B6FCB /* Main_iPad.storyboard in Resources */,
 				6DD17C8A19AD749C008B6FCB /* Images.xcassets in Resources */,
 				0190BDF219ADF30A003F1FBB /* bodumbellrow.jpg in Resources */,
 				0143B1F319E9339600B2101A /* images.jpeg in Resources */,
+				010A72D619EE71210008F956 /* 2.jpg in Resources */,
 				8BE1E3A019B19E2100820683 /* wall1.jpg in Resources */,
 				6DD17C8219AD749C008B6FCB /* Main_iPhone.storyboard in Resources */,
 				0143B1EF19E9310C00B2101A /* Current-Location-512.png in Resources */,
 				6DD17C7919AD749C008B6FCB /* InfoPlist.strings in Resources */,
+				010A72C419EE5CEA0008F956 /* black.png in Resources */,
 				8BE1E39F19B19E2100820683 /* wall.jpg in Resources */,
 				0190BDF919ADF30A003F1FBB /* situp.jpg in Resources */,
 				8B1B233519B888DE00E0F259 /* facebook.icon.205x205.jpg in Resources */,

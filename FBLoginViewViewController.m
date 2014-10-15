@@ -27,6 +27,7 @@ NSNumber *userID;
 
 - (void)viewDidLoad
 {
+    
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
@@ -34,6 +35,8 @@ NSNumber *userID;
     self.lblLoginStatus.text = @"";
     self.loginButton.readPermissions = @[@"public_profile",@"email"];
     self.loginButton.delegate = self;
+    
+    [self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"2.jpg"]]];
 }
 
 - (void)didReceiveMemoryWarning
@@ -79,7 +82,7 @@ NSNumber *userID;
 
 -(void)loginViewShowingLoggedOutUser:(FBLoginView *)loginView
 {
-    self.lblLoginStatus.text = @"You are logged out";
+    //self.lblLoginStatus.text = @"Please Login";
     [self toggleHiddenState:YES];
 }
 
