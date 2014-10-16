@@ -18,7 +18,7 @@
     NSMutableArray *array;
     NSMutableArray *arrayChallenge;
     
-    NSArray *exerciseFilter;
+   
     NSArray *searchResults;
 }
 
@@ -212,11 +212,11 @@
 }
 
 //SEARCH FILTER LOGICS
-/*
+
 -(void)filterContentForSearchText:(NSString*)searchText scope:(NSString*)scope
 {
-    NSPredicate *resultsPredicate = [NSPredicate predicateWithFormat:@"SELF contains [cd] %@", searchText];
-    searchResults = [exerciseFilter filteredArrayUsingPredicate:resultsPredicate];
+    NSPredicate *resultsPredicate = [NSPredicate predicateWithFormat:@"SELF contains [C] %@", searchText];
+    searchResults = [_exercise filteredArrayUsingPredicate:resultsPredicate];
 }
 
 
@@ -230,7 +230,7 @@ shouldReloadTableForSearchString:(NSString *)searchString
     
     return YES;
 }
-*/
+
 
 //FOR SHAKE EVENT
 -(BOOL)canBecomeFirstResponder
@@ -319,16 +319,23 @@ shouldReloadTableForSearchString:(NSString *)searchString
     
     static NSString *CellIdentifier = @"EXCell";
     
-    ExerciseTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-    if (cell == nil && tableView != self.tableView) {
-        cell = [self.tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    ExerciseTableViewCell *cell = (ExerciseTableViewCell *)[self.tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    if (cell == nil) {
+        cell = [[ExerciseTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
     
+    
+    Exercises *exercise = nil;
+    if (tableView == self.searchDisplayController.searchResultsTableView) {
+        exercise = [searchResults objectAtIndex:indexPath.row];
+    } else {
+        exercise = [_exercise objectAtIndex:indexPath.row];
+    }
     
     //Create Exercise object of array and assign each row to cell. ex> cell 0 for exercise 0, cell 1 for exercise 1, cell 2 for exercise 2.
     
     
-    Exercises *exercise = [_exercise objectAtIndex:indexPath.row];
+    //Exercises *exercise = [_exercise objectAtIndex:indexPath.row];
     
     
     //UILabel *ourLabel = (UILabel *) [cell viewWithTag:42]; //create ourLabel object and this label is located in cell which is tag 42
@@ -366,7 +373,7 @@ shouldReloadTableForSearchString:(NSString *)searchString
 //set number of row on table view
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    /*
+    
     if(tableView == self.searchDisplayController.searchResultsTableView)
     {
         return [searchResults count];
@@ -375,8 +382,8 @@ shouldReloadTableForSearchString:(NSString *)searchString
     {
         return [_exercise count]; //set it as how many objects are in exercise array
     }
-     */
-    return [_exercise count];
+    
+    
 }
 
 
