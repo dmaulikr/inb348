@@ -11,7 +11,7 @@
 #import "IntroductionViewContoller.h"
 #import "ExerciseTableViewCell.h"
 #import <FacebookSDK/FacebookSDK.h>
-
+#import <MessageUI/MessageUI.h>
 
 @interface ViewController : UITableViewController<UIAlertViewDelegate, FBLoginViewDelegate>
 @property (weak, nonatomic) IBOutlet FBProfilePictureView *profilePicture;
@@ -20,4 +20,5 @@
 //@property NSArray *array;
 @property NSString *string;
 //@property NSArray *selectedWorkout;
+- (IBAction)showEmail:(id)sender;
 @end

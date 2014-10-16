@@ -101,6 +101,7 @@
 		C658C5B919ECDA3000192E89 /* Pushups-16 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C658C59819ECDA3000192E89 /* Pushups-16 (dragged).tiff */; };
 		C658C5BA19ECDA3000192E89 /* Pushups-17 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C658C59919ECDA3000192E89 /* Pushups-17 (dragged).tiff */; };
 		C658C5BB19ECDA3000192E89 /* Pushups-17 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C658C59919ECDA3000192E89 /* Pushups-17 (dragged).tiff */; };
+		C6D0B11919EF5C8C0000EFD2 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6D0B11819EF5C8C0000EFD2 /* MessageUI.framework */; };
 		C6DBA9A419ECE2C10007D038 /* BWSitupNeck-1 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA98019ECE2C10007D038 /* BWSitupNeck-1 (dragged).tiff */; };
 		C6DBA9A519ECE2C10007D038 /* BWSitupNeck-2 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA98119ECE2C10007D038 /* BWSitupNeck-2 (dragged).tiff */; };
 		C6DBA9A619ECE2C10007D038 /* BWSitupNeck-3 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C6DBA98219ECE2C10007D038 /* BWSitupNeck-3 (dragged).tiff */; };
@@ -465,6 +466,7 @@
 		C658C59719ECDA3000192E89 /* Pushups-15 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Pushups-15 (dragged).tiff"; sourceTree = "<group>"; };
 		C658C59819ECDA3000192E89 /* Pushups-16 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Pushups-16 (dragged).tiff"; sourceTree = "<group>"; };
 		C658C59919ECDA3000192E89 /* Pushups-17 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Pushups-17 (dragged).tiff"; sourceTree = "<group>"; };
+		C6D0B11819EF5C8C0000EFD2 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		C6DBA98019ECE2C10007D038 /* BWSitupNeck-1 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BWSitupNeck-1 (dragged).tiff"; sourceTree = "<group>"; };
 		C6DBA98119ECE2C10007D038 /* BWSitupNeck-2 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BWSitupNeck-2 (dragged).tiff"; sourceTree = "<group>"; };
 		C6DBA98219ECE2C10007D038 /* BWSitupNeck-3 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "BWSitupNeck-3 (dragged).tiff"; sourceTree = "<group>"; };
@@ -735,6 +737,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6D0B11919EF5C8C0000EFD2 /* MessageUI.framework in Frameworks */,
 				0170023419D52279000967AF /* CoreLocation.framework in Frameworks */,
 				0170023219D52273000967AF /* MapKit.framework in Frameworks */,
 				017ACE2319B70E41009E9B62 /* Social.framework in Frameworks */,
@@ -781,6 +784,7 @@
 		6DD17C6D19AD749C008B6FCB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C6D0B11819EF5C8C0000EFD2 /* MessageUI.framework */,
 				01A8DBC219E530D3004562C1 /* FacebookSDK.framework */,
 				0170023319D52279000967AF /* CoreLocation.framework */,
 				0170023119D52273000967AF /* MapKit.framework */,
