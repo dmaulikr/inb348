@@ -317,10 +317,12 @@ shouldReloadTableForSearchString:(NSString *)searchString
     
     //UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
     
- 
+    static NSString *CellIdentifier = @"EXCell";
     
-    ExerciseTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"EXCell"];
-
+    ExerciseTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    if (cell == nil && tableView != self.tableView) {
+        cell = [self.tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    }
     
     
     //Create Exercise object of array and assign each row to cell. ex> cell 0 for exercise 0, cell 1 for exercise 1, cell 2 for exercise 2.
