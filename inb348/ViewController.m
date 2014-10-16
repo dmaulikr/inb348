@@ -412,11 +412,11 @@ shouldReloadTableForSearchString:(NSString *)searchString
 
 - (IBAction)showEmail:(id)sender {
     // Email Subject
-    NSString *emailTitle = @"Test Email";
+    NSString *emailTitle = @"Feedback";
     // Email Content
-    NSString *messageBody = @"iOS programming is so fun!";
+    NSString *messageBody = @"";
     // To address
-    NSArray *toRecipents = [NSArray arrayWithObject:@"support@appcoda.com"];
+    NSArray *toRecipents = [NSArray arrayWithObject:@"danielavelinocham@hotmail.com"];
     
     MFMailComposeViewController *mc = [[MFMailComposeViewController alloc] init];
     mc.mailComposeDelegate = self;
