@@ -35,6 +35,12 @@
     
     [self showDaily];
     
+    //PARSE SAVING DATA
+//    PFObject *testObject = [PFObject objectWithClassName:@"test"];
+//    testObject[@"name"] = @"Clement";
+//    [testObject saveInBackground];
+    
+    
     /*
     arrayChallenge = [[NSMutableArray alloc]initWithObjects:@"Do Push Ups for 50 times", @"Do Sit Ups for 50 times", @"Swimming for 1 hour", @"Jogging for 30 minutes",@"Cycling for 30 minutes",nil];
     //array = [[NSMutableArray alloc]initWithObjects:@"Dead Lifts",@"Push Ups",@"Bent Over One Arm Dumbell Rows",@"Bent Over Barbell Row",@"Leg Extensions",

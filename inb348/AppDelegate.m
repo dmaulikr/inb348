@@ -13,6 +13,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    //PARSE
+    [Parse setApplicationId:@"ePcpB78nlRRGhPWbhKORrWbKDT3xO5YfuFoSjh5Y"
+                  clientKey:@"HEMAcVs5ayDna5XgAgSfmq5XpIUltX9ba6w5WuyG"];
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    
     //FACEBOOK LOGIN
     [FBLoginView class];
     [FBProfilePictureView class];

@@ -35,7 +35,7 @@ NSNumber *userID;
     self.lblLoginStatus.text = @"";
     self.loginButton.readPermissions = @[@"public_profile",@"email"];
     self.loginButton.delegate = self;
-    [self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"2.jpg"]]];
+    [self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"3.jpg"]]];
 }
 
 - (void)didReceiveMemoryWarning

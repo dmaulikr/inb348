@@ -10,7 +10,11 @@
 #import <MapKit/MapKit.h>
 #import <CoreLocation/CoreLocation.h>
 
-@interface LocationViewController : UIViewController <MKMapViewDelegate>
+@interface LocationViewController : UIViewController <MKMapViewDelegate, CLLocationManagerDelegate>
+{
+    CLLocationCoordinate2D locationCoordinate;
+}
 @property (strong,nonatomic) IBOutlet MKMapView *mapView;
 - (IBAction)returnCurrent:(id)sender;
+
 @end

@@ -32,7 +32,7 @@ int rowNo;
     self.gymList = [[NSArray alloc]initWithContentsOfFile:path];
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
-    NSLog(@"%@",self.gymList[0]);
+    //NSLog(@"%@",self.gymList[0]);
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
@@ -79,7 +79,7 @@ int rowNo;
     NSArray *sortDescriptors = [NSArray arrayWithObject:sortDescriptor];
     NSArray *sortedArray;
     sortedArray = [self.gymList sortedArrayUsingDescriptors:sortDescriptors];
-    NSLog(@"%@",sortedArray);
+    //NSLog(@"%@SORTED ARRAY",sortedArray);
     
     NSDictionary *eachGymTest = [sortedArray objectAtIndex:indexPath.row];
     cell.myLabel.text = [eachGymTest objectForKey:@"title"];
