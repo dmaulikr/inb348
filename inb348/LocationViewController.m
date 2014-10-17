@@ -58,18 +58,18 @@ double currentLat, currentLng;
     [self.mapView regionThatFits:viewRegion];
     //
         CLLocation *location1 = [[CLLocation alloc]initWithLatitude:zoomLocation.latitude longitude:zoomLocation.longitude];
-        CLLocation *location2 = [[CLLocation alloc]initWithLatitude:-27.477488 longitude:153.028461];
-        CLLocation *location3 = [[CLLocation alloc]initWithLatitude:-27.453214 longitude:153.008523];
-        CLLocation *location4 = [[CLLocation alloc]initWithLatitude:-27.486554 longitude:153.035959];
+        CLLocation *location2 = [[CLLocation alloc]initWithLatitude:-27.477776 longitude:153.007106];
+        CLLocation *location3 = [[CLLocation alloc]initWithLatitude:-27.472458 longitude:153.014545];
+        CLLocation *location4 = [[CLLocation alloc]initWithLatitude:-27.482322 longitude:153.002473];
         CLLocation *location5 = [[CLLocation alloc]initWithLatitude:-27.445713 longitude:153.02868];
-        CLLocation *location6 = [[CLLocation alloc]initWithLatitude:-27.482322 longitude:153.002473];
-        CLLocation *location7 = [[CLLocation alloc]initWithLatitude:-27.472458 longitude:153.014545];
-        CLLocation *location8 = [[CLLocation alloc]initWithLatitude:-27.477776 longitude:153.007106];
-        CLLocation *location9 = [[CLLocation alloc]initWithLatitude:-27.477016 longitude:153.012277];
-        CLLocation *location10 = [[CLLocation alloc]initWithLatitude:-27.480756 longitude:153.007897];
+        CLLocation *location6 = [[CLLocation alloc]initWithLatitude:-27.486554 longitude:153.035959];
+        CLLocation *location7 = [[CLLocation alloc]initWithLatitude:-27.477488 longitude:153.028461];
+        CLLocation *location8 = [[CLLocation alloc]initWithLatitude:-27.453214 longitude:153.008523];
+        CLLocation *location9 = [[CLLocation alloc]initWithLatitude:-27.468635 longitude:153.002898];
+        CLLocation *location10 = [[CLLocation alloc]initWithLatitude:-27.465577 longitude:153.027577];
         CLLocation *location11 = [[CLLocation alloc]initWithLatitude:-27.480834 longitude:153.00821];
-        CLLocation *location12 = [[CLLocation alloc]initWithLatitude:-27.465577 longitude:153.027577];
-        CLLocation *location13 = [[CLLocation alloc]initWithLatitude:-27.468635 longitude:153.002898];
+        CLLocation *location12 = [[CLLocation alloc]initWithLatitude:-27.480756 longitude:153.007897];
+        CLLocation *location13 = [[CLLocation alloc]initWithLatitude:-27.477016 longitude:153.012277];
     
         //DISTANCE BETWEEN DEFAULT LOCATION AND QUT HEALTHSTREAM iN METERS
         NSLog(@"Distance between these two coordinates: %f",[location1 distanceFromLocation:location2]);
@@ -100,24 +100,91 @@ double currentLat, currentLng;
         NSNumber *distanceObject6 = [NSNumber numberWithInteger:distance6];
         NSNumber *distanceObject7 = [NSNumber numberWithInteger:distance7];
         NSNumber *distanceObject8 = [NSNumber numberWithInteger:distance8];
-       NSNumber *distanceObject9 = [NSNumber numberWithInteger:distance9];
-       NSNumber *distanceObject10 = [NSNumber numberWithInteger:distance10];
+        NSNumber *distanceObject9 = [NSNumber numberWithInteger:distance9];
+        NSNumber *distanceObject10 = [NSNumber numberWithInteger:distance10];
         NSNumber *distanceObject11 = [NSNumber numberWithInteger:distance11];
         NSNumber *distanceObject12 = [NSNumber numberWithInteger:distance12];
     
+    
+    
+    //PARSE SAVING DATA
+    PFQuery *query1 = [PFQuery queryWithClassName:@"location"];
+    [query1 getObjectInBackgroundWithId:@"bN16ACmFmf" block:^(PFObject *test, NSError *error)
+     {
+         test[@"distance"]=distanceObject1;
+         [test saveInBackground];
+     }];
+    PFQuery *query2 = [PFQuery queryWithClassName:@"location"];
+    [query2 getObjectInBackgroundWithId:@"TvMREtZQyv" block:^(PFObject *test, NSError *error)
+     {
+         test[@"distance"]=distanceObject2;
+         [test saveInBackground];
+     }];
+    PFQuery *query3 = [PFQuery queryWithClassName:@"location"];
+    [query3 getObjectInBackgroundWithId:@"vVW72DcLmU" block:^(PFObject *test, NSError *error)
+     {
+         test[@"distance"]=distanceObject3;
+         [test saveInBackground];
+     }];
+    PFQuery *query4 = [PFQuery queryWithClassName:@"location"];
+    [query4 getObjectInBackgroundWithId:@"4zxoSSqetn" block:^(PFObject *test, NSError *error)
+     {
+         test[@"distance"]=distanceObject4;
+         [test saveInBackground];
+     }];
+    PFQuery *query5 = [PFQuery queryWithClassName:@"location"];
+    [query5 getObjectInBackgroundWithId:@"yNzPepc5iH" block:^(PFObject *test, NSError *error)
+     {
+         test[@"distance"]=distanceObject5;
+         [test saveInBackground];
+     }];
+    PFQuery *query6 = [PFQuery queryWithClassName:@"location"];
+    [query6 getObjectInBackgroundWithId:@"0wNrwcw087" block:^(PFObject *test, NSError *error)
+     {
+         test[@"distance"]=distanceObject6;
+         [test saveInBackground];
+     }];
+    PFQuery *query7 = [PFQuery queryWithClassName:@"location"];
+    [query7 getObjectInBackgroundWithId:@"7wxdNYfVQ8" block:^(PFObject *test, NSError *error)
+     {
+         test[@"distance"]=distanceObject7;
+         [test saveInBackground];
+     }];
+    PFQuery *query8 = [PFQuery queryWithClassName:@"location"];
+    [query8 getObjectInBackgroundWithId:@"6rL5mGwWpB" block:^(PFObject *test, NSError *error)
+     {
+         test[@"distance"]=distanceObject8;
+         [test saveInBackground];
+     }];
+    PFQuery *query9 = [PFQuery queryWithClassName:@"location"];
+    [query9 getObjectInBackgroundWithId:@"xOXiZ6cGYI" block:^(PFObject *test, NSError *error)
+     {
+         test[@"distance"]=distanceObject9;
+         [test saveInBackground];
+     }];
+    PFQuery *query10 = [PFQuery queryWithClassName:@"location"];
+    [query10 getObjectInBackgroundWithId:@"OK3k7XYMu2" block:^(PFObject *test, NSError *error)
+     {
+         test[@"distance"]=distanceObject10;
+         [test saveInBackground];
+     }];
+    PFQuery *query11 = [PFQuery queryWithClassName:@"location"];
+    [query11 getObjectInBackgroundWithId:@"Vo1wgTbtB7" block:^(PFObject *test, NSError *error)
+     {
+         test[@"distance"]=distanceObject11;
+         [test saveInBackground];
+     }];
+    PFQuery *query12 = [PFQuery queryWithClassName:@"location"];
+    [query12 getObjectInBackgroundWithId:@"gOYNln3xw2" block:^(PFObject *test, NSError *error)
+     {
+         test[@"distance"]=distanceObject12;
+         [test saveInBackground];
+     }];
+    
+
     //    //LOCATION OF PLIST
     //    NSString *dataFilePath = [[NSBundle mainBundle]pathForResource:@"location" ofType:@"plist"];
-//    NSError *error;
-//    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentationDirectory, NSUserDomainMask, YES);
-//    NSString *documentsDirectory = [paths objectAtIndex:0];
-//    NSString *path = [documentsDirectory stringByAppendingPathComponent:@"location.plist"];
-//    
-//    NSFileManager *fileManager = [NSFileManager defaultManager];
-//    if(![fileManager fileExistsAtPath:path])
-//    {
-//        NSString *bundle = [[NSBundle mainBundle] pathForResource:@"location" ofType:@"plist"];
-//        [fileManager copyItemAtPath:bundle toPath:path error:&error];
-//    }
+
     NSString *path = [[NSBundle mainBundle]pathForResource:@"location" ofType:@"plist"];
     //   // NSString *documentsDirectoryPath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)objectAtIndex:0];
     //    //NSString *filePath = [documentsDirectoryPath stringByAppendingPathComponent:@"location.plist"];
@@ -125,7 +192,6 @@ double currentLat, currentLng;
     //
     //    //CREATE ARRAY WITH CONTENTS OF PLIST
    
-          //[test release];
     
         NSMutableArray *plistArray = [[NSMutableArray alloc] initWithContentsOfFile: path];
         NSLog(@"plistArray before additon: %@", plistArray);
@@ -157,13 +223,15 @@ double currentLat, currentLng;
             if([[dict objectForKey:@"title"]isEqualToString:@"Snap Fitness"])
                 [dict setObject:distanceObject12 forKey:@"distance"];
         }
-        NSLog(@"plistArray after additon : %@", plistArray);
+    
+   
+    NSLog(@"plistArray after additon : %@", plistArray);
     
     //FIND WAYS TO WRITE DATA INTO DICTIONARY
     //DATAFILEPATH NOT WRONG, CAN READ THE DATA WITHIN
     
     
-    [plistArray writeToFile:path atomically:YES];
+    [plistArray writeToFile:path atomically:NO];
     NSLog(@"YES");
     //[location1 release];
     //[location2 release];

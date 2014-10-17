@@ -14,4 +14,5 @@
 
 //GLOBAL ARRAY
 @property (strong, nonatomic)NSMutableArray *exerciseList;
+@property (strong,nonatomic)NSMutableArray *eventArray;
 @end

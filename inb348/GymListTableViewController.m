@@ -28,8 +28,56 @@ int rowNo;
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    NSString *path = [[NSBundle mainBundle]pathForResource:@"location" ofType:@"plist"];
-    self.gymList = [[NSArray alloc]initWithContentsOfFile:path];
+    //PARSE
+    _gymList = [[NSMutableArray alloc]init];
+    PFQuery *query = [PFQuery queryWithClassName:@"location"];
+    [query orderByAscending:@"distance"];
+    __block int counter = 0;
+
+//    [query findObjectsInBackgroundWithBlock:^(NSArray *tests, NSError *error)
+//     {
+//         for (PFObject *test in tests)
+//         {
+//             PFObject *post = [test objectForKey:@"title"];
+//             [_gymList insertObject:post atIndex:counter];
+//             counter++;
+//             NSLog(@"GYM LIST %@", self.gymList);
+//        }
+//         NSLog(@"OUTER GYM LIST %@", _gymList);
+//
+//     }];
+    
+    [query findObjectsInBackgroundWithBlock:^(NSArray *test2s, NSError *error) {
+        for(PFObject *test2 in test2s)
+        {
+            PFObject *post2 = [test2 objectForKey:@"distance"];
+            [_gymDistance insertObject:post2 atIndex:counter];
+            counter++;
+            NSLog(@"GYM DISTANCE %@",_gymDistance);
+        }
+    }];
+    
+    
+
+    
+//    NSMutableArray *allObjects = [NSMutableArray array];
+//    PFQuery *query = [PFQuery queryWithClassName:@"location"];
+//    [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error)
+//     {
+//         [allObjects addObjectsFromArray:objects];
+//         NSLog(@"%@", allObjects);
+//     }];
+//  
+//    [query getObjectInBackgroundWithId:@"bN16ACmFmf" block:^(PFObject *test, NSError *error) {
+//        NSLog(@"%@", test);
+//        [self.gymList insertObject:test atIndex:0];
+//    }];
+   // NSLog(@"GYM LIST: %@",self.gymList);
+    
+    
+    
+    //NSString *path = [[NSBundle mainBundle]pathForResource:@"location" ofType:@"plist"];
+    //self.gymList = [[NSArray alloc]initWithContentsOfFile:path];
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     //NSLog(@"%@",self.gymList[0]);
@@ -69,30 +117,34 @@ int rowNo;
         cell = [[GymListTableViewCell alloc]initWithStyle:UITableViewCellStyleValue2 reuseIdentifier:@"myCell"];
     }
     
-    NSDictionary *eachGym = [self.gymList objectAtIndex:indexPath.row];
+    //NSDictionary *eachGym = [self.gymList objectAtIndex:indexPath.row];
 
+    
+    NSLog(@"TABLE CELL GYM LIST %@", self.gymList);
+    
+    
     
     //SORTING ALGO
     //GOES HERE
-    NSSortDescriptor *sortDescriptor;
-    sortDescriptor = [[NSSortDescriptor alloc]initWithKey:@"distance" ascending:YES];
-    NSArray *sortDescriptors = [NSArray arrayWithObject:sortDescriptor];
-    NSArray *sortedArray;
-    sortedArray = [self.gymList sortedArrayUsingDescriptors:sortDescriptors];
-    //NSLog(@"%@SORTED ARRAY",sortedArray);
-    
-    NSDictionary *eachGymTest = [sortedArray objectAtIndex:indexPath.row];
-    cell.myLabel.text = [eachGymTest objectForKey:@"title"];
-    
-    //PREVIOUS CODE
-    //cell.myLabel.text = [eachGym objectForKey:@"title"];
-    //cell.lblDistance.text = [eachGym objectForKey:@"distance"];
-    
-    //MUST CONVERT FROM NSNUMBER TO NSSTRING SINCE LABEL COULD NOT SET TEXT AS NSNUMBER
-    NSNumber *test = [eachGymTest objectForKey:@"distance"];
-    //NSLog(@"%@",test);
-    NSString *distance = [test stringValue];
-    cell.lblDistance.text = [distance stringByAppendingString:@" m"];
+//    NSSortDescriptor *sortDescriptor;
+//    sortDescriptor = [[NSSortDescriptor alloc]initWithKey:@"distance" ascending:YES];
+//    NSArray *sortDescriptors = [NSArray arrayWithObject:sortDescriptor];
+//    NSArray *sortedArray;
+//    sortedArray = [self.gymList sortedArrayUsingDescriptors:sortDescriptors];
+//    //NSLog(@"%@SORTED ARRAY",sortedArray);
+//    
+//    NSDictionary *eachGymTest = [sortedArray objectAtIndex:indexPath.row];
+//    cell.myLabel.text = [eachGymTest objectForKey:@"title"];
+//    
+//    //PREVIOUS CODE
+//    //cell.myLabel.text = [eachGym objectForKey:@"title"];
+//    //cell.lblDistance.text = [eachGym objectForKey:@"distance"];
+//    
+//    //MUST CONVERT FROM NSNUMBER TO NSSTRING SINCE LABEL COULD NOT SET TEXT AS NSNUMBER
+//    NSNumber *test = [eachGymTest objectForKey:@"distance"];
+//    NSLog(@"%@",test);
+//    NSString *distance = [test stringValue];
+//    cell.lblDistance.text = [distance stringByAppendingString:@" m"];
 
     
     // Configure the cell...
@@ -100,6 +152,7 @@ int rowNo;
     return cell;
 }
 
+/*
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     rowNo = indexPath.row;
@@ -121,7 +174,7 @@ int rowNo;
     
     //[self.parentViewController dismissViewControllerAnimated:YES completion:nil];
 }
-
+*/
 
 /*
 // Override to support conditional editing of the table view.
@@ -172,4 +225,17 @@ int rowNo;
 }
 */
 
+- (IBAction)btnTest:(id)sender {
+    GymListTableViewCell *cell;
+    cell.myLabel.text = @"TEST";
+    
+    
+    if(!cell)
+    {
+        cell = [[GymListTableViewCell alloc]initWithStyle:UITableViewCellStyleValue2 reuseIdentifier:@"myCell"];
+    }
+
+   // NSLog(@"%@", self.gymList);
+    NSLog(@"%@",self.gymDistance);
+}
 @end
