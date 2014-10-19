@@ -355,8 +355,9 @@ double currentLat, currentLng;
 
 - (IBAction)returnCurrent:(id)sender {
     CLLocationCoordinate2D zoomCurrent;
-    zoomCurrent.latitude = -27.476015;
-    zoomCurrent.longitude =153.028457;
+    
+    zoomCurrent.latitude = locationCoordinate.latitude;
+    zoomCurrent.longitude =locationCoordinate.longitude;
     MKCoordinateRegion viewRegion = MKCoordinateRegionMakeWithDistance(zoomCurrent, 500, 500);
     [self.mapView setRegion:viewRegion];
     [self.mapView regionThatFits:viewRegion];

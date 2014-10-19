@@ -12,6 +12,6 @@
 @interface GymListTableViewController : UITableViewController
 @property (strong,nonatomic) NSMutableArray *gymList;
 @property (strong,nonatomic) NSMutableArray *myArray;
-@property (strong,nonatomic) NSMutableArray *gymDistance;
+@property (weak,nonatomic) NSMutableArray *gymDistance;
 - (IBAction)btnTest:(id)sender;
 @end

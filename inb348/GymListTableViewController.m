@@ -30,10 +30,18 @@ int rowNo;
     [super viewDidLoad];
     //PARSE
     _gymList = [[NSMutableArray alloc]init];
-    PFQuery *query = [PFQuery queryWithClassName:@"location"];
-    [query orderByAscending:@"distance"];
-    __block int counter = 0;
+    //PFQuery *query = [PFQuery queryWithClassName:@"location"];
+    [self loadLocationFromParse];
+    [self loadDistanceFromParse];
+    NSLog(@"%@", self.gymList);
+    
+    UIAlertView *notification =[[UIAlertView alloc]initWithTitle:@"Calculating Distance!" message:@"Press the find button after a few seconds." delegate:nil cancelButtonTitle:@"Continue" otherButtonTitles:nil];
+    [notification show];
 
+//    [query orderByAscending:@"distance"];
+//    __block int counter = 0;
+//
+//    //ARRAY OF GYMS (SORTED)
 //    [query findObjectsInBackgroundWithBlock:^(NSArray *tests, NSError *error)
 //     {
 //         for (PFObject *test in tests)
@@ -47,15 +55,15 @@ int rowNo;
 //
 //     }];
     
-    [query findObjectsInBackgroundWithBlock:^(NSArray *test2s, NSError *error) {
-        for(PFObject *test2 in test2s)
-        {
-            PFObject *post2 = [test2 objectForKey:@"distance"];
-            [_gymDistance insertObject:post2 atIndex:counter];
-            counter++;
-            NSLog(@"GYM DISTANCE %@",_gymDistance);
-        }
-    }];
+//    [query findObjectsInBackgroundWithBlock:^(NSArray *test2s, NSError *error) {
+//        for(PFObject *test2 in test2s)
+//        {
+//            PFObject *post2 = [test2 objectForKey:@"distance"];
+//            [_gymDistance insertObject:post2 atIndex:counter];
+//            counter++;
+//            NSLog(@"GYM DISTANCE %@",_gymDistance);
+//        }
+//    }];
     
     
 
@@ -120,9 +128,12 @@ int rowNo;
     //NSDictionary *eachGym = [self.gymList objectAtIndex:indexPath.row];
 
     
-    NSLog(@"TABLE CELL GYM LIST %@", self.gymList);
-    
-    
+   // NSLog(@"TABLE CELL GYM LIST %@", self.gymList);
+        //NSDictionary *eachGymTest = [self.gymList objectAtIndex:indexPath.row];
+        cell.myLabel.text = [self.gymList objectAtIndex:indexPath.row];
+        NSNumber *test = [self.gymDistance objectAtIndex:indexPath.row];
+        NSString *distance = [test stringValue];
+        cell.lblDistance.text = distance;
     
     //SORTING ALGO
     //GOES HERE
@@ -225,6 +236,51 @@ int rowNo;
 }
 */
 
+-(void)loadLocationFromParse
+{
+
+    PFQuery *query = [PFQuery queryWithClassName:@"location"];
+    [query orderByAscending:@"distance"];
+    [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error)
+     {
+        self.gymList = [[NSMutableArray alloc]init];
+        if(!error)
+        {
+            NSLog(@"successful. %d", objects.count);
+            for(PFObject *object in objects)
+            {
+                NSLog(@"%@", object);
+                PFObject *post = [object objectForKey:@"title"];
+                [self.gymList addObject:post];
+            }
+        }
+        else{
+            NSLog(@"Errror %@", error);
+        }
+     }];
+}
+
+
+-(void)loadDistanceFromParse
+{
+    PFQuery *query = [PFQuery queryWithClassName:@"location"];
+    [query orderByAscending:@"distance"];
+    [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
+       if(!error)
+       {
+           for(PFObject *object in objects)
+           {
+               PFObject *post =[object objectForKey:@"distance"];
+               [self.gymDistance addObject:post];
+               //HOW TO PUT NSNUMBER INTO ARRAY
+           }
+       }
+       else{
+           NSLog(@"Errror %@", error);
+       }
+    }];
+}
+
 - (IBAction)btnTest:(id)sender {
     GymListTableViewCell *cell;
     cell.myLabel.text = @"TEST";
@@ -234,8 +290,9 @@ int rowNo;
     {
         cell = [[GymListTableViewCell alloc]initWithStyle:UITableViewCellStyleValue2 reuseIdentifier:@"myCell"];
     }
+    [self.tableView reloadData];
 
-   // NSLog(@"%@", self.gymList);
+    NSLog(@"%@", self.gymList);
     NSLog(@"%@",self.gymDistance);
 }
 @end
