@@ -23,11 +23,12 @@
     [FBProfilePictureView class];
     
     //HANDLE LAUNCHING FROM APPLICATION
-    UILocalNotification *localNotification = [launchOptions objectForKey:UIApplicationLaunchOptionsLocalNotificationKey];
-    if(localNotification)
-    {
-        application.applicationIconBadgeNumber = 0;
-    }
+//    UILocalNotification *localNotification = [launchOptions objectForKey:UIApplicationLaunchOptionsLocalNotificationKey];
+//    if(localNotification)
+//    {
+//        application.applicationIconBadgeNumber = 0;
+//    }
+    application.applicationIconBadgeNumber = 0;
     
     // Override point for customization after application launch.
     self.exerciseList = [[NSMutableArray alloc]init];

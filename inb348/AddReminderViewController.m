@@ -64,6 +64,7 @@
     localNotification.fireDate = pickerDate;
     localNotification.alertBody = self.itemText.text;
     localNotification.alertAction = @"Show me the item";
+    localNotification.soundName = UILocalNotificationDefaultSoundName;
     localNotification.timeZone = [NSTimeZone defaultTimeZone];
     localNotification.applicationIconBadgeNumber = [[UIApplication sharedApplication]applicationIconBadgeNumber]+1;
     
