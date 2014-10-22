@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AddReminderViewController : UIViewController
+@interface AddReminderViewController : UIViewController <UITextViewDelegate>
 - (IBAction)save:(id)sender;
 @property (weak, nonatomic) IBOutlet UITextField *itemText;
 @property (weak, nonatomic) IBOutlet UIDatePicker *datePicker;

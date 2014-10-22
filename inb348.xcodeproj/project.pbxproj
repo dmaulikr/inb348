@@ -32,6 +32,12 @@
 		01A5818219D9316400F2B421 /* GymListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A5818119D9316400F2B421 /* GymListTableViewController.m */; };
 		01A5818519D9363200F2B421 /* GymListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A5818419D9363200F2B421 /* GymListTableViewCell.m */; };
 		01A8DBC319E530D3004562C1 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A8DBC219E530D3004562C1 /* FacebookSDK.framework */; };
+		01BEB1FB19F7A62E0074E1A7 /* run.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01BEB1FA19F7A62E0074E1A7 /* run.jpg */; };
+		01BEB20719F7AA7A0074E1A7 /* googlepin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01BEB20619F7AA7A0074E1A7 /* googlepin.jpg */; };
+		01BEB20919F7AB6A0074E1A7 /* shake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01BEB20819F7AB6A0074E1A7 /* shake.jpg */; };
+		01BEB20B19F7ABB70074E1A7 /* gym.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01BEB20A19F7ABB70074E1A7 /* gym.jpg */; };
+		01BEB20D19F7AC090074E1A7 /* unnamed.png in Resources */ = {isa = PBXBuildFile; fileRef = 01BEB20C19F7AC090074E1A7 /* unnamed.png */; };
+		01BEB20F19F7AC9C0074E1A7 /* shell.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01BEB20E19F7AC9C0074E1A7 /* shell.jpg */; };
 		01C3781F19B04C7F0045D349 /* PageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C3781E19B04C7F0045D349 /* PageContentViewController.m */; };
 		01C3782019B04C7F0045D349 /* PageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C3781E19B04C7F0045D349 /* PageContentViewController.m */; };
 		01C3782719B04FB70045D349 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C3782619B04FB70045D349 /* MainViewController.m */; };
@@ -127,6 +133,12 @@
 		01A5818319D9363200F2B421 /* GymListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GymListTableViewCell.h; sourceTree = "<group>"; };
 		01A5818419D9363200F2B421 /* GymListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GymListTableViewCell.m; sourceTree = "<group>"; };
 		01A8DBC219E530D3004562C1 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		01BEB1FA19F7A62E0074E1A7 /* run.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = run.jpg; sourceTree = "<group>"; };
+		01BEB20619F7AA7A0074E1A7 /* googlepin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = googlepin.jpg; sourceTree = "<group>"; };
+		01BEB20819F7AB6A0074E1A7 /* shake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shake.jpg; sourceTree = "<group>"; };
+		01BEB20A19F7ABB70074E1A7 /* gym.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gym.jpg; sourceTree = "<group>"; };
+		01BEB20C19F7AC090074E1A7 /* unnamed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unnamed.png; sourceTree = "<group>"; };
+		01BEB20E19F7AC9C0074E1A7 /* shell.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shell.jpg; sourceTree = "<group>"; };
 		01C3781D19B04C7F0045D349 /* PageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageContentViewController.h; sourceTree = "<group>"; };
 		01C3781E19B04C7F0045D349 /* PageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageContentViewController.m; sourceTree = "<group>"; };
 		01C3782519B04FB70045D349 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
@@ -341,6 +353,12 @@
 		6DD17CB019AD8868008B6FCB /* image */ = {
 			isa = PBXGroup;
 			children = (
+				01BEB20E19F7AC9C0074E1A7 /* shell.jpg */,
+				01BEB20C19F7AC090074E1A7 /* unnamed.png */,
+				01BEB20A19F7ABB70074E1A7 /* gym.jpg */,
+				01BEB20819F7AB6A0074E1A7 /* shake.jpg */,
+				01BEB20619F7AA7A0074E1A7 /* googlepin.jpg */,
+				01BEB1FA19F7A62E0074E1A7 /* run.jpg */,
 				01F3D46A19F0CEAA008D3CBC /* 2.jpg */,
 				01F3D46B19F0CEAA008D3CBC /* 3.jpg */,
 				01F3D46C19F0CEAA008D3CBC /* glossy-apple.png */,
@@ -464,6 +482,7 @@
 				017ACE2519B71347009E9B62 /* twitter-bird-white-on-blue-jpeg.jpg in Resources */,
 				0190BDF119ADF30A003F1FBB /* benchpress.jpg in Resources */,
 				0190BDF719ADF30A003F1FBB /* legextension.jpg in Resources */,
+				01BEB1FB19F7A62E0074E1A7 /* run.jpg in Resources */,
 				8B1B233319B8827600E0F259 /* cycling.jpg in Resources */,
 				6DD17C8519AD749C008B6FCB /* Main_iPad.storyboard in Resources */,
 				01F3D47019F0CEAA008D3CBC /* 3.jpg in Resources */,
@@ -472,14 +491,19 @@
 				0143B1F319E9339600B2101A /* images.jpeg in Resources */,
 				8BE1E3A019B19E2100820683 /* wall1.jpg in Resources */,
 				6DD17C8219AD749C008B6FCB /* Main_iPhone.storyboard in Resources */,
+				01BEB20D19F7AC090074E1A7 /* unnamed.png in Resources */,
 				0143B1EF19E9310C00B2101A /* Current-Location-512.png in Resources */,
 				01F3D46F19F0CEAA008D3CBC /* 2.jpg in Resources */,
 				6DD17C7919AD749C008B6FCB /* InfoPlist.strings in Resources */,
 				8BE1E39F19B19E2100820683 /* wall.jpg in Resources */,
+				01BEB20719F7AA7A0074E1A7 /* googlepin.jpg in Resources */,
 				0190BDF919ADF30A003F1FBB /* situp.jpg in Resources */,
+				01BEB20919F7AB6A0074E1A7 /* shake.jpg in Resources */,
 				01F3D47319F0CEAA008D3CBC /* time5.jpg in Resources */,
+				01BEB20F19F7AC9C0074E1A7 /* shell.jpg in Resources */,
 				01F3D47219F0CEAA008D3CBC /* next.png in Resources */,
 				8B1B233519B888DE00E0F259 /* facebook.icon.205x205.jpg in Resources */,
+				01BEB20B19F7ABB70074E1A7 /* gym.jpg in Resources */,
 				6DD17CAE19AD885B008B6FCB /* 1st.jpg in Resources */,
 				0190BDF619ADF30A003F1FBB /* legcurl.jpg in Resources */,
 				01F3D47119F0CEAA008D3CBC /* glossy-apple.png in Resources */,

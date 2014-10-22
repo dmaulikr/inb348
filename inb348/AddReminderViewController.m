@@ -28,6 +28,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     [self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"time5.jpg"]]];
+    self.itemText.delegate = self;
 }
 
 - (void)didReceiveMemoryWarning
@@ -46,7 +47,11 @@
     // Pass the selected object to the new view controller.
 }
 */
-
+-(BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    [textField resignFirstResponder];
+    return NO;
+}
 
 - (IBAction)save:(id)sender {
     [self.itemText resignFirstResponder];

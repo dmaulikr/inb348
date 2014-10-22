@@ -33,9 +33,9 @@ NSNumber *userID;
     
     [self toggleHiddenState:YES];
     self.lblLoginStatus.text = @"";
-    self.loginButton.readPermissions = @[@"public_profile",@"email"];
+    self.loginButton.readPermissions = @[@"public_profile"];
     self.loginButton.delegate = self;
-    [self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"3.jpg"]]];
+    [self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"shell.jpg"]]];
 }
 
 - (void)didReceiveMemoryWarning
@@ -49,7 +49,7 @@ NSNumber *userID;
     self.lblUsername.hidden = shouldHide;
     self.lblEmail.hidden = shouldHide;
     self.profilePicture.hidden = shouldHide;
-    self.btnContinue.hidden = YES;
+    //self.btnContinue.hidden = YES;
 }
 
 -(void)loginViewShowingLoggedInUser:(FBLoginView *)loginView
