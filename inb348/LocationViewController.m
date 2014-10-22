@@ -245,6 +245,7 @@ double currentLat, currentLng;
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     //self.mapView.delegate = self;
+    [self zoomToLocation];
     [self startUpdatingCurrentLocation];
 
 }
@@ -335,8 +336,8 @@ double currentLat, currentLng;
 - (void)zoomToLocation
 {
     CLLocationCoordinate2D zoomLocation;
-    zoomLocation.latitude = -27.476015;
-    zoomLocation.longitude = 153.028457;
+    zoomLocation.latitude = locationCoordinate.latitude;
+    zoomLocation.longitude = locationCoordinate.longitude;
     MKCoordinateRegion viewRegion = MKCoordinateRegionMakeWithDistance(zoomLocation,800,800);
     [self.mapView setRegion:viewRegion animated:YES];
     [self.mapView regionThatFits:viewRegion];

@@ -34,7 +34,7 @@ int rowNo;
     [self loadLocationFromParse];
     [self loadDistanceFromParse];
     NSLog(@"%@", self.gymList);
-    
+
     UIAlertView *notification =[[UIAlertView alloc]initWithTitle:@"Calculating Distance!" message:@"Press the find button after a few seconds." delegate:nil cancelButtonTitle:@"Continue" otherButtonTitles:nil];
     [notification show];
 
@@ -133,7 +133,7 @@ int rowNo;
         cell.myLabel.text = [self.gymList objectAtIndex:indexPath.row];
         NSNumber *test = [self.gymDistance objectAtIndex:indexPath.row];
         NSString *distance = [test stringValue];
-        cell.lblDistance.text = distance;
+        cell.lblDistance.text = [distance stringByAppendingString:@" m"];
     
     //SORTING ALGO
     //GOES HERE
@@ -265,20 +265,24 @@ int rowNo;
 {
     PFQuery *query = [PFQuery queryWithClassName:@"location"];
     [query orderByAscending:@"distance"];
-    [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
-       if(!error)
-       {
-           for(PFObject *object in objects)
-           {
-               PFObject *post =[object objectForKey:@"distance"];
-               [self.gymDistance addObject:post];
-               //HOW TO PUT NSNUMBER INTO ARRAY
-           }
-       }
-       else{
-           NSLog(@"Errror %@", error);
-       }
-    }];
+    [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error)
+     {
+         self.gymDistance = [[NSMutableArray alloc]init];
+         if(!error)
+         {
+             NSLog(@"successful. %d", objects.count);
+             for(PFObject *object in objects)
+             {
+                 NSLog(@"%@", object);
+                 PFObject *post = [object objectForKey:@"distance"];
+                 [self.gymDistance addObject:post];
+             }
+         }
+         else{
+             NSLog(@"Errror %@", error);
+         }
+     }];
+
 }
 
 - (IBAction)btnTest:(id)sender {
@@ -293,6 +297,7 @@ int rowNo;
     [self.tableView reloadData];
 
     NSLog(@"%@", self.gymList);
-    NSLog(@"%@",self.gymDistance);
+    NSLog(@"DISTANCE %@",self.gymDistance);
+    //NSLog(@"TEST DISTANCE %@", self.testDistance);
 }
 @end
