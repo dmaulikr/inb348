@@ -77,7 +77,7 @@
     NSString *str9 = @"4: Return until back of shoulders contact with floor or mat.";
     NSString *str10 = @"5: Repeat.";
     exercise.instruction = [NSString stringWithFormat:@"%@\n%@\n%@\n%@\n%@",str6,str7,str8,str9,str10];
-    exercise.cover = [UIImage imageNamed:@"BWSiTupNeck-1 (dragged).tiff"];
+    exercise.cover = [UIImage imageNamed:@"BWSitupNeck-1 (dragged).tiff"];
     [_exercise addObject:exercise]; // add the object to array
     exercise.animationArray = @[@"BWSitupNeck-1 (dragged).tiff", @"BWSitupNeck-2 (dragged).tiff", @"BWSitupNeck-3 (dragged).tiff", @"BWSitupNeck-4 (dragged).tiff", @"BWSitupNeck-5 (dragged).tiff", @"BWSitupNeck-6 (dragged).tiff", @"BWSitupNeck-7 (dragged).tiff", @"BWSitupNeck-8 (dragged).tiff", @"BWSitupNeck-9 (dragged).tiff", @"BWSitupNeck-10 (dragged).tiff", @"BWSitupNeck-11 (dragged).tiff", @"BWSitupNeck-12 (dragged).tiff", @"BWSitupNeck-13 (dragged).tiff", @"BWSitupNeck-14 (dragged).tiff", @"BWSitupNeck-15 (dragged).tiff", @"BWSitupNeck-16 (dragged).tiff", @"BWSitupNeck-17 (dragged).tiff", @"BWSitupNeck-18 (dragged).tiff", @"BWSitupNeck-19 (dragged).tiff", @"BWSitupNeck-20 (dragged).tiff", @"BWSitupNeck-21 (dragged).tiff", @"BWSitupNeck-22 (dragged).tiff", @"BWSitupNeck-23 (dragged).tiff", @"BWSitupNeck-24 (dragged).tiff", @"BWSitupNeck-25 (dragged).tiff", @"BWSitupNeck-26 (dragged).tiff", @"BWSitupNeck-27 (dragged).tiff", @"BWSitupNeck-28 (dragged).tiff", @"BWSitupNeck-29 (dragged).tiff", @"BWSitupNeck-30 (dragged).tiff", @"BWSitupNeck-31 (dragged).tiff", @"BWSitupNeck-32 (dragged).tiff", @"BWSitupNeck-33 (dragged).tiff", @"BWSitupNeck-34 (dragged).tiff", @"BWSitupNeck-35 (dragged).tiff", @"BWSitupNeck-36 (dragged).tiff"];
     //=====================================================
