@@ -27,6 +27,15 @@
 {
     [super viewDidLoad];
     NSLog(@"NUMBER %ld", (long)self.rowNumber);
+    NSLog(@"%@",self.rowTitle);
+    
+    
+            CLLocationCoordinate2D _srcCoord = CLLocationCoordinate2DMake(-27.477488, 153.028461);
+            MKPlacemark *_srcMark = [[MKPlacemark alloc]initWithCoordinate:_srcCoord addressDictionary:nil];
+            MKMapItem *_srcItem =[[MKMapItem alloc]initWithPlacemark:_srcMark];
+            MKMapItem *_srcCurrent = [MKMapItem mapItemForCurrentLocation];
+            
+            [self findDirectionsFrom:_srcCurrent to:_srcItem];
     
     //NSLog(@"%@", self.rowNumber);
     // Do any additional setup after loading the view.
@@ -38,6 +47,40 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)findDirectionsFrom:(MKMapItem *)source
+                        to:(MKMapItem *)destination
+{
+    //provide loading animation here
+    
+    MKDirectionsRequest *request = [[MKDirectionsRequest alloc] init];
+    request.source = source;
+    request.transportType = MKDirectionsTransportTypeAutomobile;
+    request.destination = destination;
+    MKDirections *directions = [[MKDirections alloc] initWithRequest:request];
+    __block typeof(self) weakSelf = self;
+    [directions calculateDirectionsWithCompletionHandler:
+     ^(MKDirectionsResponse *response, NSError *error) {
+         
+         //stop loading animation here
+         
+         if (error) {
+             NSLog(@"Error is %@",error);
+         } else {
+             //do something about the response, like draw it on map
+             MKRoute *route = [response.routes firstObject];
+             [self.mapView addOverlay:route.polyline level:MKOverlayLevelAboveRoads];
+         }
+     }];
+}
+
+
+-(MKOverlayPathRenderer *)mapView:(MKMapView *)mapView rendererForOverlay:(id<MKOverlay>)overlay
+{
+    MKPolylineRenderer *polylineRender = [[MKPolylineRenderer alloc]initWithOverlay:overlay];
+    polylineRender.lineWidth = 3.0f;
+    polylineRender.strokeColor = [UIColor greenColor];
+    return polylineRender;
+}
 /*
 #pragma mark - Navigation
 

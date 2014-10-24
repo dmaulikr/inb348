@@ -13,4 +13,5 @@
 @interface RouteViewController : UIViewController <MKMapViewDelegate>
 @property (weak, nonatomic) IBOutlet MKMapView *mapView;
 @property (nonatomic,assign) NSUInteger *rowNumber;
+@property (nonatomic,assign) NSString *rowTitle;
 @end

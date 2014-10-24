@@ -113,6 +113,7 @@ int rowNo;
     RouteViewController *a= [self.storyboard instantiateViewControllerWithIdentifier:@"RouteViewController"];
     //a.modalTransitionStyle = UIModalTransitionStyleCoverVertical;
     a.rowNumber = indexPath.row;
+    a.rowTitle = [self.gymList objectAtIndex:indexPath.row];
     [self.navigationController pushViewController:a animated:YES];
     
     //[self presentViewController:a animated:NO completion:nil];
