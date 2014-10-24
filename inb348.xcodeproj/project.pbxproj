@@ -62,6 +62,7 @@
 		6D7517E119FAC3C300A03EA2 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D7517E019FAC3C300A03EA2 /* CoreData.framework */; };
 		6D7517E419FAC41900A03EA2 /* fitness.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6D7517E219FAC41900A03EA2 /* fitness.xcdatamodeld */; };
 		6DA30CFB19FAEC1500949B4A /* TodayDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA30CFA19FAEC1500949B4A /* TodayDetail.m */; };
+		6DA30CFE19FAF4A700949B4A /* HistoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA30CFD19FAF4A700949B4A /* HistoryTableViewController.m */; };
 		6DD17C6F19AD749C008B6FCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD17C6E19AD749C008B6FCB /* Foundation.framework */; };
 		6DD17C7119AD749C008B6FCB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD17C7019AD749C008B6FCB /* CoreGraphics.framework */; };
 		6DD17C7319AD749C008B6FCB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD17C7219AD749C008B6FCB /* UIKit.framework */; };
@@ -171,6 +172,8 @@
 		6D7517E319FAC41900A03EA2 /* fitness.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = fitness.xcdatamodel; sourceTree = "<group>"; };
 		6DA30CF919FAEC1500949B4A /* TodayDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodayDetail.h; sourceTree = "<group>"; };
 		6DA30CFA19FAEC1500949B4A /* TodayDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodayDetail.m; sourceTree = "<group>"; };
+		6DA30CFC19FAF4A700949B4A /* HistoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryTableViewController.h; sourceTree = "<group>"; };
+		6DA30CFD19FAF4A700949B4A /* HistoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryTableViewController.m; sourceTree = "<group>"; };
 		6DD17C6B19AD749C008B6FCB /* inb348.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = inb348.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DD17C6E19AD749C008B6FCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6DD17C7019AD749C008B6FCB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -339,6 +342,8 @@
 				6D7517E219FAC41900A03EA2 /* fitness.xcdatamodeld */,
 				6DA30CF919FAEC1500949B4A /* TodayDetail.h */,
 				6DA30CFA19FAEC1500949B4A /* TodayDetail.m */,
+				6DA30CFC19FAF4A700949B4A /* HistoryTableViewController.h */,
+				6DA30CFD19FAF4A700949B4A /* HistoryTableViewController.m */,
 			);
 			path = inb348;
 			sourceTree = "<group>";
@@ -554,6 +559,7 @@
 				0168249219CFEDEE00D73ADA /* AddReminderViewController.m in Sources */,
 				6DD17C8819AD749C008B6FCB /* ViewController.m in Sources */,
 				9E57A65319B0184B00262BE6 /* ExerciseTableViewCell.m in Sources */,
+				6DA30CFE19FAF4A700949B4A /* HistoryTableViewController.m in Sources */,
 				0170023719D522E4000967AF /* LocationViewController.m in Sources */,
 				013D0C9919E5215A003EB31E /* FBLoginViewViewController.m in Sources */,
 				01C3781F19B04C7F0045D349 /* PageContentViewController.m in Sources */,
