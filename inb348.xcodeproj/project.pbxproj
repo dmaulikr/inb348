@@ -58,6 +58,7 @@
 		01F3D47119F0CEAA008D3CBC /* glossy-apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 01F3D46C19F0CEAA008D3CBC /* glossy-apple.png */; };
 		01F3D47219F0CEAA008D3CBC /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = 01F3D46D19F0CEAA008D3CBC /* next.png */; };
 		01F3D47319F0CEAA008D3CBC /* time5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01F3D46E19F0CEAA008D3CBC /* time5.jpg */; };
+		6D7517DF19FAB42E00A03EA2 /* TodayDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7517DE19FAB42E00A03EA2 /* TodayDetailViewController.m */; };
 		6DD17C6F19AD749C008B6FCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD17C6E19AD749C008B6FCB /* Foundation.framework */; };
 		6DD17C7119AD749C008B6FCB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD17C7019AD749C008B6FCB /* CoreGraphics.framework */; };
 		6DD17C7319AD749C008B6FCB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD17C7219AD749C008B6FCB /* UIKit.framework */; };
@@ -161,6 +162,8 @@
 		01F3D46C19F0CEAA008D3CBC /* glossy-apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glossy-apple.png"; sourceTree = "<group>"; };
 		01F3D46D19F0CEAA008D3CBC /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next.png; sourceTree = "<group>"; };
 		01F3D46E19F0CEAA008D3CBC /* time5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = time5.jpg; sourceTree = "<group>"; };
+		6D7517DD19FAB42E00A03EA2 /* TodayDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodayDetailViewController.h; sourceTree = "<group>"; };
+		6D7517DE19FAB42E00A03EA2 /* TodayDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodayDetailViewController.m; sourceTree = "<group>"; };
 		6DD17C6B19AD749C008B6FCB /* inb348.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = inb348.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DD17C6E19AD749C008B6FCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6DD17C7019AD749C008B6FCB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -322,6 +325,8 @@
 				6DD17CA719AD77A9008B6FCB /* Exercises.m */,
 				6DD17C8919AD749C008B6FCB /* Images.xcassets */,
 				6DD17C7519AD749C008B6FCB /* Supporting Files */,
+				6D7517DD19FAB42E00A03EA2 /* TodayDetailViewController.h */,
+				6D7517DE19FAB42E00A03EA2 /* TodayDetailViewController.m */,
 			);
 			path = inb348;
 			sourceTree = "<group>";
@@ -547,6 +552,7 @@
 				6DD17C7F19AD749C008B6FCB /* AppDelegate.m in Sources */,
 				6DD17C7B19AD749C008B6FCB /* main.m in Sources */,
 				8B354C6B19AF469B00F090D3 /* TodayWorkoutViewControllerTableViewController.m in Sources */,
+				6D7517DF19FAB42E00A03EA2 /* TodayDetailViewController.m in Sources */,
 				013E13A419F9F9DE00BE5871 /* RouteViewController.m in Sources */,
 				6DD17CB619AD96AE008B6FCB /* IntroductionViewContoller.m in Sources */,
 			);
