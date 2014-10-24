@@ -14,7 +14,8 @@
 @property (weak, nonatomic) IBOutlet UITextField *kgTextField;
 @property (weak, nonatomic) IBOutlet UITextField *repsTextField;
 @property (weak, nonatomic) IBOutlet UITextField *setsTextField;
+@property (nonatomic, retain) NSManagedObjectContext *managedObjectContext;
 
-
+- (IBAction)logButton:(id)sender;
 
 @end

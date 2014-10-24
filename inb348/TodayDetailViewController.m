@@ -8,7 +8,11 @@
 
 #import "TodayDetailViewController.h"
 #import "AppDelegate.h"
+#import "TodayDetail.h"
 @interface TodayDetailViewController ()
+
+
+
 
 @end
 
@@ -17,6 +21,7 @@
 @synthesize kgTextField;
 @synthesize repsTextField;
 @synthesize setsTextField;
+@synthesize managedObjectContext;
 
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -33,7 +38,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     //nameLabel.setText :[self.exerciseHistory objectAtIndex:indexPath.row]];
-    
+    //1
+    AppDelegate* appDelegate = [UIApplication sharedApplication].delegate;
+    //2
+    self.managedObjectContext = appDelegate.managedObjectContext;
     self.kgTextField.delegate = self;
     self.repsTextField.delegate = self;
     self.setsTextField.delegate = self;
@@ -64,9 +72,31 @@
 */
 
 
+
+
+
+
 - (IBAction)logButton:(id)sender {
+    //  1
+    TodayDetail * newEntry = [NSEntityDescription insertNewObjectForEntityForName:@"TodayDetail"
+                                                      inManagedObjectContext:self.managedObjectContext];
+    //  2
+    newEntry.name = self.nameLabel.text;
+    newEntry.kg = self.kgTextField.text;
+    newEntry.reps = self.repsTextField.text;
+    newEntry.sets = self.setsTextField.text;
+    //  3
+    
+    
+    
+    NSError *error;
+    if (![self.managedObjectContext save:&error]) {
+        NSLog(@"Whoops, couldn't save: %@", [error localizedDescription]);
+    }
+    //  4
+    self.kgTextField.text = @"";
+    self.repsTextField.text = @"";
+    self.setsTextField.text = @"";
+    
 }
-
-
-
 @end
