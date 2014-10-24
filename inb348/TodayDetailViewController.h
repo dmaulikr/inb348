@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "TodayWorkoutViewControllerTableViewController.h"
 
+
 @interface TodayDetailViewController : UIViewController <UITextFieldDelegate>
 @property (weak, nonatomic) IBOutlet UILabel *nameLabel;
 @property (weak, nonatomic) IBOutlet UITextField *kgTextField;

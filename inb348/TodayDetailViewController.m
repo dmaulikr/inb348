@@ -9,7 +9,7 @@
 #import "TodayDetailViewController.h"
 #import "AppDelegate.h"
 #import "TodayDetail.h"
-@interface TodayDetailViewController ()
+@interface TodayDetailViewController ()<UITextFieldDelegate>
 
 
 
@@ -78,6 +78,8 @@
 
 - (IBAction)logButton:(id)sender {
     //  1
+    
+    
     TodayDetail * newEntry = [NSEntityDescription insertNewObjectForEntityForName:@"TodayDetail"
                                                       inManagedObjectContext:self.managedObjectContext];
     //  2
@@ -97,6 +99,18 @@
     self.kgTextField.text = @"";
     self.repsTextField.text = @"";
     self.setsTextField.text = @"";
+    
+    [self.view endEditing:YES];
+    
+    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
+    NSEntityDescription *entity = [NSEntityDescription entityForName:@"TodayDetail"
+                                              inManagedObjectContext:managedObjectContext];
+    [fetchRequest setEntity:entity];
+    NSArray *fetchedObjects = [managedObjectContext executeFetchRequest:fetchRequest error:&error];
+    for (TodayDetail *tdetail in fetchedObjects) {
+        NSLog(@"Name: %@ kg: %@ reps: %@ sets: %@", tdetail.name, tdetail.kg, tdetail.reps, tdetail.sets);
+        
+    }
     
 }
 @end

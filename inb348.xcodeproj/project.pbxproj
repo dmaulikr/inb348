@@ -61,7 +61,7 @@
 		6D7517DF19FAB42E00A03EA2 /* TodayDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7517DE19FAB42E00A03EA2 /* TodayDetailViewController.m */; };
 		6D7517E119FAC3C300A03EA2 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D7517E019FAC3C300A03EA2 /* CoreData.framework */; };
 		6D7517E419FAC41900A03EA2 /* fitness.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6D7517E219FAC41900A03EA2 /* fitness.xcdatamodeld */; };
-		6DA30CF819FAD80400949B4A /* TodayDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA30CF719FAD80400949B4A /* TodayDetail.m */; };
+		6DA30CFB19FAEC1500949B4A /* TodayDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA30CFA19FAEC1500949B4A /* TodayDetail.m */; };
 		6DD17C6F19AD749C008B6FCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD17C6E19AD749C008B6FCB /* Foundation.framework */; };
 		6DD17C7119AD749C008B6FCB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD17C7019AD749C008B6FCB /* CoreGraphics.framework */; };
 		6DD17C7319AD749C008B6FCB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD17C7219AD749C008B6FCB /* UIKit.framework */; };
@@ -169,8 +169,8 @@
 		6D7517DE19FAB42E00A03EA2 /* TodayDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodayDetailViewController.m; sourceTree = "<group>"; };
 		6D7517E019FAC3C300A03EA2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		6D7517E319FAC41900A03EA2 /* fitness.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = fitness.xcdatamodel; sourceTree = "<group>"; };
-		6DA30CF619FAD80400949B4A /* TodayDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodayDetail.h; sourceTree = "<group>"; };
-		6DA30CF719FAD80400949B4A /* TodayDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodayDetail.m; sourceTree = "<group>"; };
+		6DA30CF919FAEC1500949B4A /* TodayDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodayDetail.h; sourceTree = "<group>"; };
+		6DA30CFA19FAEC1500949B4A /* TodayDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodayDetail.m; sourceTree = "<group>"; };
 		6DD17C6B19AD749C008B6FCB /* inb348.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = inb348.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DD17C6E19AD749C008B6FCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6DD17C7019AD749C008B6FCB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -337,8 +337,8 @@
 				6D7517DD19FAB42E00A03EA2 /* TodayDetailViewController.h */,
 				6D7517DE19FAB42E00A03EA2 /* TodayDetailViewController.m */,
 				6D7517E219FAC41900A03EA2 /* fitness.xcdatamodeld */,
-				6DA30CF619FAD80400949B4A /* TodayDetail.h */,
-				6DA30CF719FAD80400949B4A /* TodayDetail.m */,
+				6DA30CF919FAEC1500949B4A /* TodayDetail.h */,
+				6DA30CFA19FAEC1500949B4A /* TodayDetail.m */,
 			);
 			path = inb348;
 			sourceTree = "<group>";
@@ -561,7 +561,7 @@
 				01A5818519D9363200F2B421 /* GymListTableViewCell.m in Sources */,
 				0170023C19D52B8C000967AF /* MapViewAnnotation.m in Sources */,
 				6D7517E419FAC41900A03EA2 /* fitness.xcdatamodeld in Sources */,
-				6DA30CF819FAD80400949B4A /* TodayDetail.m in Sources */,
+				6DA30CFB19FAEC1500949B4A /* TodayDetail.m in Sources */,
 				6DD17CA819AD77A9008B6FCB /* Exercises.m in Sources */,
 				6DD17C7F19AD749C008B6FCB /* AppDelegate.m in Sources */,
 				6DD17C7B19AD749C008B6FCB /* main.m in Sources */,

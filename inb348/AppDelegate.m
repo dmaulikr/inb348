@@ -127,7 +127,7 @@
         return _persistentStoreCoordinator;
     }
     NSURL *storeUrl = [NSURL fileURLWithPath: [[self applicationDocumentsDirectory]
-                                               stringByAppendingPathComponent: @"fitness.sqlite"]];
+                                               stringByAppendingPathComponent: @"fitness1.sqlite"]];
     NSError *error = nil;
     _persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc]
                                    initWithManagedObjectModel:[self managedObjectModel]];
@@ -138,7 +138,6 @@
     
     return _persistentStoreCoordinator;
 }
-
 
 
 - (NSString *)applicationDocumentsDirectory {
