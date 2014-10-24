@@ -32,7 +32,8 @@
     pageControl.backgroundColor = [UIColor whiteColor];
     
   
- 
+    
+    [[UITabBar appearance] setBarTintColor:[UIColor blackColor]];
       
     return YES;
 }
