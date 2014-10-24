@@ -7,16 +7,17 @@
 //
 
 #import "TodayDetailViewController.h"
-
+#import "AppDelegate.h"
 @interface TodayDetailViewController ()
 
 @end
 
 @implementation TodayDetailViewController
+@synthesize nameLabel;
 @synthesize kgTextField;
 @synthesize repsTextField;
 @synthesize setsTextField;
-@synthesize logButton;
+
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -31,6 +32,8 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    //nameLabel.setText :[self.exerciseHistory objectAtIndex:indexPath.row]];
+    
     self.kgTextField.delegate = self;
     self.repsTextField.delegate = self;
     self.setsTextField.delegate = self;
@@ -59,5 +62,11 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+
+- (IBAction)logButton:(id)sender {
+}
+
+
 
 @end

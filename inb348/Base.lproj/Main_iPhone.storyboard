@@ -744,6 +744,9 @@
                                 <state key="normal" title="Log">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="logButton:" destination="clC-dY-xzs" eventType="touchUpInside" id="gT7-3n-DSe"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -751,7 +754,8 @@
                     <navigationItem key="navigationItem" id="5TL-dc-J1W"/>
                     <connections>
                         <outlet property="kgTextField" destination="3sh-B2-06g" id="4wU-NE-GSi"/>
-                        <outlet property="logButton" destination="LPl-ro-52J" id="weV-eh-kiY"/>
+                        <outlet property="logButton" destination="LPl-ro-52J" id="cj1-v5-25C"/>
+                        <outlet property="nameLabel" destination="kd1-U4-gPo" id="xCF-U9-mt7"/>
                         <outlet property="repsTextField" destination="QIc-WN-sex" id="Lgm-Uv-Zoa"/>
                         <outlet property="setsTextField" destination="QJS-oN-oLm" id="PuH-Bw-Bkk"/>
                     </connections>

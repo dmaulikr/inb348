@@ -7,11 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TodayWorkoutViewControllerTableViewController.h"
 
 @interface TodayDetailViewController : UIViewController <UITextFieldDelegate>
+@property (weak, nonatomic) IBOutlet UILabel *nameLabel;
 @property (weak, nonatomic) IBOutlet UITextField *kgTextField;
 @property (weak, nonatomic) IBOutlet UITextField *repsTextField;
 @property (weak, nonatomic) IBOutlet UITextField *setsTextField;
-@property (weak, nonatomic) IBOutlet UIButton *logButton;
+
+
 
 @end
