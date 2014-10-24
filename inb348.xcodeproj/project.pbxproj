@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		013D0C9919E5215A003EB31E /* FBLoginViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 013D0C9819E5215A003EB31E /* FBLoginViewViewController.m */; };
+		013E13A419F9F9DE00BE5871 /* RouteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 013E13A319F9F9DE00BE5871 /* RouteViewController.m */; };
 		0143B1EF19E9310C00B2101A /* Current-Location-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 0143B1EE19E9310C00B2101A /* Current-Location-512.png */; };
 		0143B1F119E9330400B2101A /* PixelKit_5-Oclock-Shades-Icon-Set__0001_14.png in Resources */ = {isa = PBXBuildFile; fileRef = 0143B1F019E9330400B2101A /* PixelKit_5-Oclock-Shades-Icon-Set__0001_14.png */; };
 		0143B1F319E9339600B2101A /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0143B1F219E9339600B2101A /* images.jpeg */; };
@@ -104,6 +105,8 @@
 /* Begin PBXFileReference section */
 		013D0C9719E5215A003EB31E /* FBLoginViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBLoginViewViewController.h; path = ../FBLoginViewViewController.h; sourceTree = "<group>"; };
 		013D0C9819E5215A003EB31E /* FBLoginViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBLoginViewViewController.m; path = ../FBLoginViewViewController.m; sourceTree = "<group>"; };
+		013E13A219F9F9DE00BE5871 /* RouteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteViewController.h; sourceTree = "<group>"; };
+		013E13A319F9F9DE00BE5871 /* RouteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteViewController.m; sourceTree = "<group>"; };
 		0143B1EE19E9310C00B2101A /* Current-Location-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Current-Location-512.png"; sourceTree = "<group>"; };
 		0143B1F019E9330400B2101A /* PixelKit_5-Oclock-Shades-Icon-Set__0001_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PixelKit_5-Oclock-Shades-Icon-Set__0001_14.png"; sourceTree = "<group>"; };
 		0143B1F219E9339600B2101A /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
@@ -287,6 +290,8 @@
 				6DD17CB019AD8868008B6FCB /* image */,
 				6DD17C7D19AD749C008B6FCB /* AppDelegate.h */,
 				6DD17C7E19AD749C008B6FCB /* AppDelegate.m */,
+				013E13A219F9F9DE00BE5871 /* RouteViewController.h */,
+				013E13A319F9F9DE00BE5871 /* RouteViewController.m */,
 				013D0C9719E5215A003EB31E /* FBLoginViewViewController.h */,
 				013D0C9819E5215A003EB31E /* FBLoginViewViewController.m */,
 				0170023A19D52B8C000967AF /* MapViewAnnotation.h */,
@@ -542,6 +547,7 @@
 				6DD17C7F19AD749C008B6FCB /* AppDelegate.m in Sources */,
 				6DD17C7B19AD749C008B6FCB /* main.m in Sources */,
 				8B354C6B19AF469B00F090D3 /* TodayWorkoutViewControllerTableViewController.m in Sources */,
+				013E13A419F9F9DE00BE5871 /* RouteViewController.m in Sources */,
 				6DD17CB619AD96AE008B6FCB /* IntroductionViewContoller.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

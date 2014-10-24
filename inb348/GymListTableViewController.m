@@ -108,6 +108,26 @@ int rowNo;
     return 1;
 }
 
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    RouteViewController *a= [self.storyboard instantiateViewControllerWithIdentifier:@"RouteViewController"];
+    //a.modalTransitionStyle = UIModalTransitionStyleCoverVertical;
+    a.rowNumber = indexPath.row;
+    [self.navigationController pushViewController:a animated:YES];
+    
+    //[self presentViewController:a animated:NO completion:nil];
+    // self.selectedRow = indexPath.row;
+    //NSLog(@"%ld selected row", (long)self.selectedRow);
+    
+    //RouteViewController *a = [[RouteViewController alloc]initWithNibName:@"RouteViewController" bundle:nil];
+    //a.rowNumber = indexPath.row;
+    //[self pushViewController:RouteViewController animated:YES];
+
+   // NSLog(@"%@ selected row", self.selectedRow);
+    //[self performSegueWithIdentifier:@"pass" sender:nil];
+    
+}
+
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     // Return the number of rows in the section.
@@ -235,6 +255,17 @@ int rowNo;
     // Pass the selected object to the new view controller.
 }
 */
+
+/*
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if([segue.destinationViewController isKindOfClass:[RouteViewController class]])
+    {
+        RouteViewController *a = segue.destinationViewController;
+        a.rowNumber = self.selectedRow;
+    }
+   
+}*/
 
 -(void)loadLocationFromParse
 {
