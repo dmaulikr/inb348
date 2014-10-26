@@ -379,6 +379,8 @@
 		C670AE3919FCF8A600817646 /* Pushups-15 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C670AE2819FCF8A600817646 /* Pushups-15 (dragged).tiff */; };
 		C670AE3A19FCF8A600817646 /* Pushups-16 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C670AE2919FCF8A600817646 /* Pushups-16 (dragged).tiff */; };
 		C670AE3B19FCF8A600817646 /* Pushups-17 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C670AE2A19FCF8A600817646 /* Pushups-17 (dragged).tiff */; };
+		C670AE4419FD0FC900817646 /* FeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C670AE4319FD0FC900817646 /* FeedbackViewController.m */; };
+		C670AE4619FD146C00817646 /* 481892.PNG in Resources */ = {isa = PBXBuildFile; fileRef = C670AE4519FD146C00817646 /* 481892.PNG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -779,6 +781,9 @@
 		C670AE2819FCF8A600817646 /* Pushups-15 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Pushups-15 (dragged).tiff"; sourceTree = "<group>"; };
 		C670AE2919FCF8A600817646 /* Pushups-16 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Pushups-16 (dragged).tiff"; sourceTree = "<group>"; };
 		C670AE2A19FCF8A600817646 /* Pushups-17 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Pushups-17 (dragged).tiff"; sourceTree = "<group>"; };
+		C670AE4219FD0FC900817646 /* FeedbackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedbackViewController.h; sourceTree = SOURCE_ROOT; };
+		C670AE4319FD0FC900817646 /* FeedbackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedbackViewController.m; sourceTree = SOURCE_ROOT; };
+		C670AE4519FD146C00817646 /* 481892.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 481892.PNG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -896,6 +901,8 @@
 				9E57A65219B0184B00262BE6 /* ExerciseTableViewCell.m */,
 				6DD17CB419AD96AE008B6FCB /* IntroductionViewContoller.h */,
 				6DD17CB519AD96AE008B6FCB /* IntroductionViewContoller.m */,
+				C670AE4219FD0FC900817646 /* FeedbackViewController.h */,
+				C670AE4319FD0FC900817646 /* FeedbackViewController.m */,
 				6DD17C8319AD749C008B6FCB /* Main_iPad.storyboard */,
 				6DD17C8619AD749C008B6FCB /* ViewController.h */,
 				6DD17C8719AD749C008B6FCB /* ViewController.m */,
@@ -948,6 +955,7 @@
 		6DD17CB019AD8868008B6FCB /* image */ = {
 			isa = PBXGroup;
 			children = (
+				C670AE4519FD146C00817646 /* 481892.PNG */,
 				C670AE1919FCF88E00817646 /* Pushup */,
 				C670ADD019FCF83D00817646 /* Situp */,
 				C670ADA919FCF81900817646 /* BenchPress */,
@@ -1757,6 +1765,7 @@
 				C670AD7319FCF7E600817646 /* BBDeclineBenchPress-9 (dragged).tiff in Resources */,
 				C670AC2119FCF64C00817646 /* DBBentoverRow-15 (dragged).tiff in Resources */,
 				C670AC9619FCF69C00817646 /* BBDeadlift-21 (dragged).tiff in Resources */,
+				C670AE4619FD146C00817646 /* 481892.PNG in Resources */,
 				C670ADC619FCF83800817646 /* DBBenchPress-10 (dragged) 1.tiff in Resources */,
 				C670AD7619FCF7E600817646 /* BBDeclineBenchPress-12 (dragged).tiff in Resources */,
 			);
@@ -1796,6 +1805,7 @@
 				6DD17C7F19AD749C008B6FCB /* AppDelegate.m in Sources */,
 				6DD17C7B19AD749C008B6FCB /* main.m in Sources */,
 				8B354C6B19AF469B00F090D3 /* TodayWorkoutViewControllerTableViewController.m in Sources */,
+				C670AE4419FD0FC900817646 /* FeedbackViewController.m in Sources */,
 				6D7517DF19FAB42E00A03EA2 /* TodayDetailViewController.m in Sources */,
 				013E13A419F9F9DE00BE5871 /* RouteViewController.m in Sources */,
 				6DD17CB619AD96AE008B6FCB /* IntroductionViewContoller.m in Sources */,

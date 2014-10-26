@@ -212,6 +212,45 @@
             </objects>
             <point key="canvasLocation" x="1633" y="28"/>
         </scene>
+        <!--Feedback View Controller - Feedback-->
+        <scene sceneID="OSR-Kg-sfa">
+            <objects>
+                <viewController id="Zza-UG-PHB" customClass="FeedbackViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ext-ff-GFZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="Bqb-5E-AmZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="W7W-PZ-Yar">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wvL-32-HNd">
+                                <rect key="frame" x="187" y="354" width="113" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Contact Us">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showEmail:" destination="Zza-UG-PHB" eventType="touchUpInside" id="t2b-GX-CmD"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xrH-Xh-GzQ">
+                                <rect key="frame" x="37" y="165" width="246" height="117"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Your feedback is important to us. We value and appreciate receiving your compliments, suggestions, it helps us to improve our application.</string>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Feedback" image="Place-Filled.png" id="Q6C-A3-fMh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X36-E8-hDw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-839" y="-120"/>
+        </scene>
         <!--Navigation Controller - Workout Library-->
         <scene sceneID="gfZ-8m-HGI">
             <objects>
@@ -620,11 +659,12 @@
                         <segue destination="TwB-Ak-yn3" kind="relationship" relationship="viewControllers" id="zle-Rr-IXT"/>
                         <segue destination="fVM-Cs-fnu" kind="relationship" relationship="viewControllers" id="XvQ-e2-5dF"/>
                         <segue destination="7aX-Ln-9qt" kind="relationship" relationship="viewControllers" id="sQ5-HI-kmK"/>
+                        <segue destination="Zza-UG-PHB" kind="relationship" relationship="viewControllers" id="1Lg-bv-WxB"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IAB-Io-AOE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1279" y="1084"/>
+            <point key="canvasLocation" x="-1243" y="1048"/>
         </scene>
         <!--Today Workout View Controller Table View Controller - Today's Workout-->
         <scene sceneID="1Yi-4q-RYj">
