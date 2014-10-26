@@ -224,9 +224,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wvL-32-HNd">
-                                <rect key="frame" x="187" y="368" width="113" height="47"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wvL-32-HNd">
+                                <rect key="frame" x="191" y="349" width="113" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="113" id="7UE-rY-ax3"/>
+                                    <constraint firstAttribute="height" constant="47" id="rqf-Sa-tFD"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Contact Us">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -235,8 +239,8 @@
                                     <action selector="showEmail:" destination="Zza-UG-PHB" eventType="touchUpInside" id="t2b-GX-CmD"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xrH-Xh-GzQ">
-                                <rect key="frame" x="16" y="217" width="288" height="143"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xrH-Xh-GzQ">
+                                <rect key="frame" x="16" y="217" width="288" height="0.0"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Your feedback is important to us. We value and appreciate receiving your compliments, suggestions, it helps us to improve our application.</string>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="16"/>
@@ -244,6 +248,14 @@
                             </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.46078049076819971" green="0.84399556704099887" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="wvL-32-HNd" secondAttribute="trailing" constant="20" symbolic="YES" id="cma-oU-auS"/>
+                            <constraint firstItem="wvL-32-HNd" firstAttribute="top" secondItem="xrH-Xh-GzQ" secondAttribute="bottom" constant="8" symbolic="YES" id="e1e-ID-dYL"/>
+                            <constraint firstItem="xrH-Xh-GzQ" firstAttribute="centerX" secondItem="W7W-PZ-Yar" secondAttribute="centerX" id="eJX-IX-Jxi"/>
+                            <constraint firstItem="Bqb-5E-AmZ" firstAttribute="top" secondItem="wvL-32-HNd" secondAttribute="bottom" constant="80" id="mcs-rx-KnU"/>
+                            <constraint firstItem="xrH-Xh-GzQ" firstAttribute="top" secondItem="Ext-ff-GFZ" secondAttribute="bottom" constant="197" id="p2d-1a-vwp"/>
+                            <constraint firstItem="xrH-Xh-GzQ" firstAttribute="leading" secondItem="W7W-PZ-Yar" secondAttribute="leading" constant="16" id="p8W-Dy-1lv"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Feedback" image="Speaking-Filled.png" id="Q6C-A3-fMh"/>
                 </viewController>
