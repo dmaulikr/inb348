@@ -216,7 +216,7 @@
         <scene sceneID="gfZ-8m-HGI">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4g6-16-I25" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Workout Library" id="MBH-Wy-cZN"/>
+                    <tabBarItem key="tabBarItem" title="Workout Library" image="library.png" id="3eX-ay-OJT"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Iab-O4-OEq">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -593,7 +593,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Reminder" id="hIl-uL-dw5"/>
+                    <tabBarItem key="tabBarItem" title="Reminder" image="Alarm-Filled.png" id="6Zy-4Q-X4L"/>
                     <navigationItem key="navigationItem" id="CXR-zh-99z"/>
                     <connections>
                         <outlet property="datePicker" destination="b0I-SL-TCZ" id="wHT-w5-mWN"/>
@@ -822,7 +822,7 @@
         <scene sceneID="v5G-Vc-1DX">
             <objects>
                 <navigationController definesPresentationContext="YES" id="TwB-Ak-yn3" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Today's Workout" id="muN-Fq-DXl"/>
+                    <tabBarItem key="tabBarItem" title="Today's Workout" image="list.png" id="ERA-Za-gwT"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="JWm-gp-aut">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -912,9 +912,7 @@
         <scene sceneID="C7c-lq-L5H">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="7aX-Ln-9qt" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Map" id="ocw-h6-HGE">
-                        <inset key="imageInsets" minX="0.0" minY="0.0" maxX="1" maxY="0.0"/>
-                    </tabBarItem>
+                    <tabBarItem key="tabBarItem" title="Map" image="Place-Filled.png" id="gF0-Yb-SK9"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Qre-1v-v8R">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -931,9 +929,13 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Alarm-Filled.png" width="19" height="22"/>
         <image name="PixelKit_5-Oclock-Shades-Icon-Set__0001_14.png" width="126" height="127"/>
+        <image name="Place-Filled.png" width="17" height="23"/>
         <image name="facebook.icon.205x205.jpg" width="512" height="512"/>
         <image name="glossy-apple.png" width="512" height="512"/>
+        <image name="library.png" width="30" height="30"/>
+        <image name="list.png" width="30" height="30"/>
         <image name="next.png" width="256" height="256"/>
         <image name="twitter-bird-white-on-blue-jpeg.jpg" width="300" height="300"/>
     </resources>

@@ -95,6 +95,10 @@
 		8BE1E3A519B1A1D600820683 /* wall4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8BE1E3A419B1A1D600820683 /* wall4.jpg */; };
 		8BE1E3A719B1A28C00820683 /* wall5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8BE1E3A619B1A28C00820683 /* wall5.jpg */; };
 		9E57A65319B0184B00262BE6 /* ExerciseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E57A65219B0184B00262BE6 /* ExerciseTableViewCell.m */; };
+		C670ABFE19FCE62100817646 /* Alarm-Filled@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C670ABFA19FCE62100817646 /* Alarm-Filled@2x.png */; };
+		C670ABFF19FCE62100817646 /* library.png in Resources */ = {isa = PBXBuildFile; fileRef = C670ABFB19FCE62100817646 /* library.png */; };
+		C670AC0019FCE62100817646 /* list.png in Resources */ = {isa = PBXBuildFile; fileRef = C670ABFC19FCE62100817646 /* list.png */; };
+		C670AC0119FCE62100817646 /* Place-Filled@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C670ABFD19FCE62100817646 /* Place-Filled@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -211,6 +215,10 @@
 		8BE1E3A619B1A28C00820683 /* wall5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wall5.jpg; sourceTree = "<group>"; };
 		9E57A65119B0184B00262BE6 /* ExerciseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseTableViewCell.h; sourceTree = "<group>"; };
 		9E57A65219B0184B00262BE6 /* ExerciseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseTableViewCell.m; sourceTree = "<group>"; };
+		C670ABFA19FCE62100817646 /* Alarm-Filled@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Alarm-Filled@2x.png"; sourceTree = "<group>"; };
+		C670ABFB19FCE62100817646 /* library.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = library.png; sourceTree = "<group>"; };
+		C670ABFC19FCE62100817646 /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list.png; sourceTree = "<group>"; };
+		C670ABFD19FCE62100817646 /* Place-Filled@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Place-Filled@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -380,6 +388,7 @@
 		6DD17CB019AD8868008B6FCB /* image */ = {
 			isa = PBXGroup;
 			children = (
+				C670ABF919FCE5B300817646 /* Bar Icon */,
 				01BEB20E19F7AC9C0074E1A7 /* shell.jpg */,
 				01BEB20C19F7AC090074E1A7 /* unnamed.png */,
 				01BEB20A19F7ABB70074E1A7 /* gym.jpg */,
@@ -415,6 +424,17 @@
 				6DD17CAD19AD885B008B6FCB /* 1st.jpg */,
 			);
 			name = image;
+			sourceTree = "<group>";
+		};
+		C670ABF919FCE5B300817646 /* Bar Icon */ = {
+			isa = PBXGroup;
+			children = (
+				C670ABFA19FCE62100817646 /* Alarm-Filled@2x.png */,
+				C670ABFB19FCE62100817646 /* library.png */,
+				C670ABFC19FCE62100817646 /* list.png */,
+				C670ABFD19FCE62100817646 /* Place-Filled@2x.png */,
+			);
+			name = "Bar Icon";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -499,6 +519,7 @@
 				0190BDF319ADF30A003F1FBB /* deadlifts.png in Resources */,
 				8BE1E3A719B1A28C00820683 /* wall5.jpg in Resources */,
 				8B1B232F19B87F4D00E0F259 /* wallpaper.jpg in Resources */,
+				C670ABFF19FCE62100817646 /* library.png in Resources */,
 				0190BDF419ADF30A003F1FBB /* declinepress.jpg in Resources */,
 				0190BDF819ADF30A003F1FBB /* pushup.jpg in Resources */,
 				0190BDF519ADF30A003F1FBB /* inclinepress.jpg in Resources */,
@@ -522,13 +543,16 @@
 				0143B1EF19E9310C00B2101A /* Current-Location-512.png in Resources */,
 				01F3D46F19F0CEAA008D3CBC /* 2.jpg in Resources */,
 				6DD17C7919AD749C008B6FCB /* InfoPlist.strings in Resources */,
+				C670ABFE19FCE62100817646 /* Alarm-Filled@2x.png in Resources */,
 				8BE1E39F19B19E2100820683 /* wall.jpg in Resources */,
 				01BEB20719F7AA7A0074E1A7 /* googlepin.jpg in Resources */,
 				0190BDF919ADF30A003F1FBB /* situp.jpg in Resources */,
 				01BEB20919F7AB6A0074E1A7 /* shake.jpg in Resources */,
+				C670AC0119FCE62100817646 /* Place-Filled@2x.png in Resources */,
 				01F3D47319F0CEAA008D3CBC /* time5.jpg in Resources */,
 				01BEB20F19F7AC9C0074E1A7 /* shell.jpg in Resources */,
 				01F3D47219F0CEAA008D3CBC /* next.png in Resources */,
+				C670AC0019FCE62100817646 /* list.png in Resources */,
 				8B1B233519B888DE00E0F259 /* facebook.icon.205x205.jpg in Resources */,
 				01BEB20B19F7ABB70074E1A7 /* gym.jpg in Resources */,
 				6DD17CAE19AD885B008B6FCB /* 1st.jpg in Resources */,
