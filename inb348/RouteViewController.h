@@ -10,7 +10,10 @@
 #import <MapKit/MapKit.h>
 #import "GymListTableViewCell.h"
 
-@interface RouteViewController : UIViewController <MKMapViewDelegate>
+@interface RouteViewController : UIViewController <MKMapViewDelegate, CLLocationManagerDelegate>
+{
+    CLLocationCoordinate2D locationCoordinate;
+}
 @property (weak, nonatomic) IBOutlet MKMapView *mapView;
 @property (nonatomic,assign) NSUInteger *rowNumber;
 @property (nonatomic,assign) NSString *rowTitle;
