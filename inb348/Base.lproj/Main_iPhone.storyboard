@@ -225,7 +225,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wvL-32-HNd">
-                                <rect key="frame" x="187" y="354" width="113" height="47"/>
+                                <rect key="frame" x="187" y="368" width="113" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Contact Us">
@@ -236,16 +236,16 @@
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xrH-Xh-GzQ">
-                                <rect key="frame" x="37" y="165" width="246" height="117"/>
+                                <rect key="frame" x="16" y="217" width="288" height="143"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Your feedback is important to us. We value and appreciate receiving your compliments, suggestions, it helps us to improve our application.</string>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.46078049076819971" green="0.84399556704099887" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Feedback" image="Place-Filled.png" id="Q6C-A3-fMh"/>
+                    <tabBarItem key="tabBarItem" title="Feedback" image="Speaking-Filled.png" id="Q6C-A3-fMh"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X36-E8-hDw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -972,6 +972,7 @@
         <image name="Alarm-Filled.png" width="19" height="22"/>
         <image name="PixelKit_5-Oclock-Shades-Icon-Set__0001_14.png" width="126" height="127"/>
         <image name="Place-Filled.png" width="17" height="23"/>
+        <image name="Speaking-Filled.png" width="24" height="22"/>
         <image name="facebook.icon.205x205.jpg" width="512" height="512"/>
         <image name="glossy-apple.png" width="512" height="512"/>
         <image name="library.png" width="30" height="30"/>

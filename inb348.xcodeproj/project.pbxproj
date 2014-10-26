@@ -380,7 +380,9 @@
 		C670AE3A19FCF8A600817646 /* Pushups-16 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C670AE2919FCF8A600817646 /* Pushups-16 (dragged).tiff */; };
 		C670AE3B19FCF8A600817646 /* Pushups-17 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = C670AE2A19FCF8A600817646 /* Pushups-17 (dragged).tiff */; };
 		C670AE4419FD0FC900817646 /* FeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C670AE4319FD0FC900817646 /* FeedbackViewController.m */; };
-		C670AE4619FD146C00817646 /* 481892.PNG in Resources */ = {isa = PBXBuildFile; fileRef = C670AE4519FD146C00817646 /* 481892.PNG */; };
+		C670AE4E19FD1A9600817646 /* background.PNG in Resources */ = {isa = PBXBuildFile; fileRef = C670AE4D19FD1A9600817646 /* background.PNG */; };
+		C670AE5119FD1DB300817646 /* Speaking-Filled@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C670AE4F19FD1DB300817646 /* Speaking-Filled@2x.png */; };
+		C670AE5219FD1DB300817646 /* Speech-Bubble-Filled@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C670AE5019FD1DB300817646 /* Speech-Bubble-Filled@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -783,7 +785,9 @@
 		C670AE2A19FCF8A600817646 /* Pushups-17 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Pushups-17 (dragged).tiff"; sourceTree = "<group>"; };
 		C670AE4219FD0FC900817646 /* FeedbackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedbackViewController.h; sourceTree = SOURCE_ROOT; };
 		C670AE4319FD0FC900817646 /* FeedbackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedbackViewController.m; sourceTree = SOURCE_ROOT; };
-		C670AE4519FD146C00817646 /* 481892.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 481892.PNG; sourceTree = "<group>"; };
+		C670AE4D19FD1A9600817646 /* background.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.PNG; sourceTree = "<group>"; };
+		C670AE4F19FD1DB300817646 /* Speaking-Filled@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Speaking-Filled@2x.png"; sourceTree = "<group>"; };
+		C670AE5019FD1DB300817646 /* Speech-Bubble-Filled@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Speech-Bubble-Filled@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -874,6 +878,7 @@
 		6DD17C7419AD749C008B6FCB /* inb348 */ = {
 			isa = PBXGroup;
 			children = (
+				C670AE4D19FD1A9600817646 /* background.PNG */,
 				8B1B233219B8827600E0F259 /* cycling.jpg */,
 				6DD17CB019AD8868008B6FCB /* image */,
 				6DD17C7D19AD749C008B6FCB /* AppDelegate.h */,
@@ -955,7 +960,6 @@
 		6DD17CB019AD8868008B6FCB /* image */ = {
 			isa = PBXGroup;
 			children = (
-				C670AE4519FD146C00817646 /* 481892.PNG */,
 				C670AE1919FCF88E00817646 /* Pushup */,
 				C670ADD019FCF83D00817646 /* Situp */,
 				C670ADA919FCF81900817646 /* BenchPress */,
@@ -1007,6 +1011,8 @@
 		C670ABF919FCE5B300817646 /* Bar Icon */ = {
 			isa = PBXGroup;
 			children = (
+				C670AE4F19FD1DB300817646 /* Speaking-Filled@2x.png */,
+				C670AE5019FD1DB300817646 /* Speech-Bubble-Filled@2x.png */,
 				C670ABFA19FCE62100817646 /* Alarm-Filled@2x.png */,
 				C670ABFB19FCE62100817646 /* library.png */,
 				C670ABFC19FCE62100817646 /* list.png */,
@@ -1508,6 +1514,7 @@
 				C670AD9B19FCF81300817646 /* BBInclineBenchPress-6 (dragged).tiff in Resources */,
 				C670ACE219FCF6D200817646 /* LVLegExtension-28 (dragged).tiff in Resources */,
 				C670AC6519FCF67B00817646 /* BBBentOverRow-30 (dragged).tiff in Resources */,
+				C670AE5219FD1DB300817646 /* Speech-Bubble-Filled@2x.png in Resources */,
 				C670AE3719FCF8A600817646 /* Pushups-13 (dragged).tiff in Resources */,
 				6DD17CB219AD8E52008B6FCB /* 2nd.jpg in Resources */,
 				C670AD7219FCF7E600817646 /* BBDeclineBenchPress-8 (dragged).tiff in Resources */,
@@ -1611,6 +1618,7 @@
 				C670AC1B19FCF64C00817646 /* DBBentoverRow-9 (dragged).tiff in Resources */,
 				C670AD7E19FCF7E600817646 /* BBDeclineBenchPress-20 (dragged).tiff in Resources */,
 				6DD17C8219AD749C008B6FCB /* Main_iPhone.storyboard in Resources */,
+				C670AE5119FD1DB300817646 /* Speaking-Filled@2x.png in Resources */,
 				C670AE3919FCF8A600817646 /* Pushups-15 (dragged).tiff in Resources */,
 				C670AD2D19FCF70F00817646 /* LVLyingLegCurl-9 (dragged).tiff in Resources */,
 				C670ACDD19FCF6D200817646 /* LVLegExtension-23 (dragged).tiff in Resources */,
@@ -1693,6 +1701,7 @@
 				C670AD4C19FCF70F00817646 /* LVLyingLegCurl-40 (dragged).tiff in Resources */,
 				C670AC8A19FCF69C00817646 /* BBDeadlift-9 (dragged).tiff in Resources */,
 				C670AD3319FCF70F00817646 /* LVLyingLegCurl-15 (dragged).tiff in Resources */,
+				C670AE4E19FD1A9600817646 /* background.PNG in Resources */,
 				C670AD6B19FCF7E600817646 /* BBDeclineBenchPress-1 (dragged).tiff in Resources */,
 				C670ACD119FCF6D200817646 /* LVLegExtension-11 (dragged).tiff in Resources */,
 				C670AC1519FCF64C00817646 /* DBBentoverRow-3 (dragged).tiff in Resources */,
@@ -1765,7 +1774,6 @@
 				C670AD7319FCF7E600817646 /* BBDeclineBenchPress-9 (dragged).tiff in Resources */,
 				C670AC2119FCF64C00817646 /* DBBentoverRow-15 (dragged).tiff in Resources */,
 				C670AC9619FCF69C00817646 /* BBDeadlift-21 (dragged).tiff in Resources */,
-				C670AE4619FD146C00817646 /* 481892.PNG in Resources */,
 				C670ADC619FCF83800817646 /* DBBenchPress-10 (dragged) 1.tiff in Resources */,
 				C670AD7619FCF7E600817646 /* BBDeclineBenchPress-12 (dragged).tiff in Resources */,
 			);
