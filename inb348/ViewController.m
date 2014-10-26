@@ -86,8 +86,10 @@
     NSString *str4 = @"4: Push body up until arms are extended.";
     NSString *str5 = @"5: Repeat";
     exercise.instruction = [NSString stringWithFormat:@"%@\n%@\n%@\n%@\n%@",str1,str2,str3,str4,str5];
-    exercise.cover = [UIImage imageNamed:@"pushup.jpg"];
+    exercise.cover = [UIImage imageNamed:@"Pushups-1 (dragged).tiff"];
     [_exercise addObject:exercise]; //add the object to array
+    exercise.animationArray = @[@"Pushups-1 (dragged).tiff", @"Pushups-2 (dragged).tiff", @"Pushups-3 (dragged).tiff", @"Pushups-4 (dragged).tiff", @"Pushups-5 (dragged).tiff", @"Pushups-6 (dragged).tiff", @"Pushups-7 (dragged).tiff", @"Pushups-8 (dragged).tiff", @"Pushups-9 (dragged).tiff", @"Pushups-10 (dragged).tiff", @"Pushups-11 (dragged).tiff", @"Pushups-12 (dragged).tiff", @"Pushups-13 (dragged).tiff", @"Pushups-14 (dragged).tiff", @"Pushups-15 (dragged).tiff", @"Pushups-16 (dragged).tiff", @"Pushups-17 (dragged).tiff"];
+
     
     //=====================================================
     //                      EX 2
@@ -100,10 +102,9 @@
     NSString *str9 = @"4: Return until back of shoulders contact with floor or mat.";
     NSString *str10 = @"5: Repeat.";
     exercise.instruction = [NSString stringWithFormat:@"%@\n%@\n%@\n%@\n%@",str6,str7,str8,str9,str10];
-    exercise.cover = [UIImage imageNamed:@"situp.jpg"];
+    exercise.cover = [UIImage imageNamed:@"BWSitupNeck-1 (dragged).tiff"];
     [_exercise addObject:exercise]; // add the object to array
-    
-    //=====================================================
+    exercise.animationArray = @[@"BWSitupNeck-1 (dragged).tiff", @"BWSitupNeck-2 (dragged).tiff", @"BWSitupNeck-3 (dragged).tiff", @"BWSitupNeck-4 (dragged).tiff", @"BWSitupNeck-5 (dragged).tiff", @"BWSitupNeck-6 (dragged).tiff", @"BWSitupNeck-7 (dragged).tiff", @"BWSitupNeck-8 (dragged).tiff", @"BWSitupNeck-9 (dragged).tiff", @"BWSitupNeck-10 (dragged).tiff", @"BWSitupNeck-11 (dragged).tiff", @"BWSitupNeck-12 (dragged).tiff", @"BWSitupNeck-13 (dragged).tiff", @"BWSitupNeck-14 (dragged).tiff", @"BWSitupNeck-15 (dragged).tiff", @"BWSitupNeck-16 (dragged).tiff", @"BWSitupNeck-17 (dragged).tiff", @"BWSitupNeck-18 (dragged).tiff", @"BWSitupNeck-19 (dragged).tiff", @"BWSitupNeck-20 (dragged).tiff", @"BWSitupNeck-21 (dragged).tiff", @"BWSitupNeck-22 (dragged).tiff", @"BWSitupNeck-23 (dragged).tiff", @"BWSitupNeck-24 (dragged).tiff", @"BWSitupNeck-25 (dragged).tiff", @"BWSitupNeck-26 (dragged).tiff", @"BWSitupNeck-27 (dragged).tiff", @"BWSitupNeck-28 (dragged).tiff", @"BWSitupNeck-29 (dragged).tiff", @"BWSitupNeck-30 (dragged).tiff", @"BWSitupNeck-31 (dragged).tiff", @"BWSitupNeck-32 (dragged).tiff", @"BWSitupNeck-33 (dragged).tiff", @"BWSitupNeck-34 (dragged).tiff", @"BWSitupNeck-35 (dragged).tiff", @"BWSitupNeck-36 (dragged).tiff"];    //=====================================================
     //                      EX 3
     //=====================================================
     exercise = [[Exercises alloc] init]; //allocate in heap and initialise
@@ -115,7 +116,8 @@
     NSString *str15 = @"5: Lower weight to sides of upper chest until slight stretch is felt in chest or shoulder.";
     NSString *str16 = @"6: Repeat";
     exercise.instruction = [NSString stringWithFormat:@"%@\n%@\n%@\n%@\n%@\n%@",str11,str12,str13,str14,str15, str16];
-    exercise.cover = [UIImage imageNamed:@"benchpress.jpg"];
+    exercise.cover = [UIImage imageNamed:@"DBBenchPress-1 (dragged).tiff"];
+    exercise.animationArray = @[@"DBBenchPress-1 (dragged).tiff", @"DBBenchPress-2 (dragged).tiff", @"DBBenchPress-3 (dragged).tiff", @"DBBenchPress-4 (dragged).tiff", @"DBBenchPress-5 (dragged).tiff", @"DBBenchPress-6 (dragged) 1.tiff", @"DBBenchPress-7 (dragged) 1.tiff", @"DBBenchPress-8 (dragged) 1.tiff", @"DBBenchPress-9 (dragged) 1.tiff", @"DBBenchPress-10 (dragged) 1.tiff", @"DBBenchPress-11 (dragged).tiff", @"DBBenchPress-12 (dragged).tiff", @"DBBenchPress-13 (dragged).tiff", @"DBBenchPress-14 (dragged).tiff", @"DBBenchPress-15 (dragged).tiff", @"DBBenchPress-16 (dragged).tiff", @"DBBenchPress-17 (dragged).tiff", @"DBBenchPress-18 (dragged).tiff", @"DBBenchPress-19 (dragged).tiff"];
     [_exercise addObject:exercise]; // add the object to array
     
     //=====================================================
@@ -129,7 +131,9 @@
     NSString *str20 = @"4: Press bar until arms are extended";
     NSString *str21 = @"5: Repeat.";
     exercise.instruction = [NSString stringWithFormat:@"%@\n%@\n%@\n%@\n%@",str17,str18,str19,str20,str21];
-    exercise.cover = [UIImage imageNamed:@"inclinepress.jpg"];
+    exercise.cover = [UIImage imageNamed:@"BBInclineBenchPress-1 (dragged).tiff"];
+    exercise.animationArray = @[@"BBInclineBenchPress-1 (dragged).tiff", @"BBInclineBenchPress-2 (dragged).tiff", @"BBInclineBenchPress-3 (dragged).tiff", @"BBInclineBenchPress-4 (dragged).tiff", @"BBInclineBenchPress-5 (dragged).tiff", @"BBInclineBenchPress-6 (dragged).tiff", @"BBInclineBenchPress-7 (dragged).tiff", @"BBInclineBenchPress-8 (dragged).tiff", @"BBInclineBenchPress-9 (dragged).tiff", @"BBInclineBenchPress-10 (dragged).tiff", @"BBInclineBenchPress-11 (dragged).tiff", @"BBInclineBenchPress-12 (dragged).tiff", @"BBInclineBenchPress-13 (dragged).tiff", @"BBInclineBenchPress-14 (dragged).tiff", @"BBInclineBenchPress-15 (dragged).tiff", @"BBInclineBenchPress-16 (dragged).tiff", @"BBInclineBenchPress-17 (dragged).tiff", @"BBInclineBenchPress-18 (dragged).tiff", @"BBInclineBenchPress-19 (dragged).tiff"];
+
     [_exercise addObject:exercise]; // add the object to array
     
     //=====================================================
@@ -144,7 +148,8 @@
     NSString *str26 = @"5: Lower weight to sides of chest until slight stretch is felt in chest or shoulder.";
     NSString *str27 = @"6: Repeat";
     exercise.instruction = [NSString stringWithFormat:@"%@\n%@\n%@\n%@\n%@\n%@",str22,str23,str24,str25,str26,str27];
-    exercise.cover = [UIImage imageNamed:@"declinepress.jpg"];
+    exercise.cover = [UIImage imageNamed:@"BBDeclineBenchPress-1 (dragged).tiff"];
+    exercise.animationArray = @[@"BBDeclineBenchPress-1 (dragged).tiff", @"BBDeclineBenchPress-2 (dragged).tiff", @"BBDeclineBenchPress-3 (dragged).tiff", @"BBDeclineBenchPress-4 (dragged).tiff", @"BBDeclineBenchPress-5 (dragged).tiff", @"BBDeclineBenchPress-6 (dragged).tiff", @"BBDeclineBenchPress-7 (dragged).tiff", @"BBDeclineBenchPress-8 (dragged).tiff", @"BBDeclineBenchPress-9 (dragged).tiff", @"BBDeclineBenchPress-10 (dragged).tiff", @"BBDeclineBenchPress-11 (dragged).tiff", @"BBDeclineBenchPress-12 (dragged).tiff", @"BBDeclineBenchPress-13 (dragged).tiff", @"BBDeclineBenchPress-14 (dragged).tiff", @"BBDeclineBenchPress-15 (dragged).tiff", @"BBDeclineBenchPress-16 (dragged).tiff", @"BBDeclineBenchPress-17 (dragged).tiff", @"BBDeclineBenchPress-18 (dragged).tiff", @"BBDeclineBenchPress-19 (dragged).tiff", @"BBDeclineBenchPress-20 (dragged).tiff", @"BBDeclineBenchPress-21 (dragged).tiff", @"BBDeclineBenchPress-22 (dragged).tiff", @"BBDeclineBenchPress-23 (dragged).tiff"];
     [_exercise addObject:exercise]; // add the object to array
     
     //=====================================================
@@ -159,7 +164,9 @@
     NSString *str32 = @"5: Lower lever pads until knees are straight.";
     NSString *str33 = @"6: Repeat";
     exercise.instruction = [NSString stringWithFormat:@"%@\n%@\n%@\n%@\n%@\n%@",str28,str29,str30,str31,str32,str33];
-    exercise.cover = [UIImage imageNamed:@"legcurl.jpg"];
+    exercise.cover = [UIImage imageNamed:@"LVLyingLegCurl-1 (dragged).tiff"];
+    exercise.animationArray = @[@"LVLyingLegCurl-1 (dragged).tiff", @"LVLyingLegCurl-2 (dragged).tiff", @"LVLyingLegCurl-3 (dragged).tiff", @"LVLyingLegCurl-4 (dragged).tiff", @"LVLyingLegCurl-5 (dragged).tiff", @"LVLyingLegCurl-6 (dragged).tiff", @"LVLyingLegCurl-7 (dragged).tiff", @"LVLyingLegCurl-8 (dragged).tiff", @"LVLyingLegCurl-9 (dragged).tiff", @"LVLyingLegCurl-10 (dragged).tiff", @"LVLyingLegCurl-11 (dragged).tiff", @"LVLyingLegCurl-12 (dragged).tiff", @"LVLyingLegCurl-13 (dragged).tiff", @"LVLyingLegCurl-14 (dragged).tiff", @"LVLyingLegCurl-15 (dragged).tiff", @"LVLyingLegCurl-16 (dragged).tiff", @"LVLyingLegCurl-17 (dragged).tiff", @"LVLyingLegCurl-18 (dragged).tiff", @"LVLyingLegCurl-19 (dragged).tiff", @"LVLyingLegCurl-20 (dragged).tiff", @"LVLyingLegCurl-21 (dragged).tiff", @"LVLyingLegCurl-22 (dragged).tiff", @"LVLyingLegCurl-23 (dragged).tiff", @"LVLyingLegCurl-24 (dragged).tiff", @"LVLyingLegCurl-25 (dragged).tiff", @"LVLyingLegCurl-26 (dragged).tiff", @"LVLyingLegCurl-27 (dragged).tiff", @"LVLyingLegCurl-28 (dragged).tiff", @"LVLyingLegCurl-29 (dragged).tiff", @"LVLyingLegCurl-30 (dragged).tiff", @"LVLyingLegCurl-31 (dragged).tiff", @"LVLyingLegCurl-32 (dragged).tiff", @"LVLyingLegCurl-33 (dragged).tiff", @"LVLyingLegCurl-34 (dragged).tiff", @"LVLyingLegCurl-35 (dragged).tiff", @"LVLyingLegCurl-36 (dragged).tiff", @"LVLyingLegCurl-37 (dragged).tiff", @"LVLyingLegCurl-38 (dragged).tiff", @"LVLyingLegCurl-39 (dragged).tiff", @"LVLyingLegCurl-40 (dragged).tiff", @"LVLyingLegCurl-41 (dragged).tiff", @"LVLyingLegCurl-42 (dragged).tiff", @"LVLyingLegCurl-43 (dragged).tiff", @"LVLyingLegCurl-44 (dragged).tiff", @"LVLyingLegCurl-45 (dragged).tiff", @"LVLyingLegCurl-46 (dragged).tiff"];
+
     [_exercise addObject:exercise]; // add the object to array
 
     //=====================================================
@@ -175,7 +182,9 @@
     NSString *str39 = @"6: Return lever to original position by bending knees.";
     NSString *str40 = @"7: Repeat";
     exercise.instruction = [NSString stringWithFormat:@"%@\n%@\n%@\n%@\n%@\n%@\n%@",str34,str35,str36,str37,str38,str39,str40];
-    exercise.cover = [UIImage imageNamed:@"legextension.jpg"];
+    exercise.cover = [UIImage imageNamed:@"LVLegExtension-1 (dragged).tiff"];
+    exercise.animationArray = @[@"LVLegExtension-1 (dragged).tiff", @"LVLegExtension-2 (dragged).tiff", @"LVLegExtension-3 (dragged).tiff", @"LVLegExtension-4 (dragged).tiff", @"LVLegExtension-5 (dragged).tiff", @"LVLegExtension-6 (dragged).tiff", @"LVLegExtension-7 (dragged).tiff", @"LVLegExtension-8 (dragged).tiff", @"LVLegExtension-9 (dragged).tiff", @"LVLegExtension-10 (dragged).tiff", @"LVLegExtension-11 (dragged).tiff", @"LVLegExtension-12 (dragged).tiff", @"LVLegExtension-13 (dragged).tiff", @"LVLegExtension-14 (dragged).tiff", @"LVLegExtension-15 (dragged).tiff", @"LVLegExtension-16 (dragged).tiff", @"LVLegExtension-17 (dragged).tiff", @"LVLegExtension-18 (dragged).tiff", @"LVLegExtension-19 (dragged).tiff", @"LVLegExtension-20 (dragged).tiff", @"LVLegExtension-21 (dragged).tiff", @"LVLegExtension-22 (dragged).tiff", @"LVLegExtension-23 (dragged).tiff", @"LVLegExtension-24 (dragged).tiff", @"LVLegExtension-25 (dragged).tiff", @"LVLegExtension-26 (dragged).tiff", @"LVLegExtension-27 (dragged).tiff", @"LVLegExtension-28 (dragged).tiff", @"LVLegExtension-29 (dragged).tiff", @"LVLegExtension-30 (dragged).tiff", @"LVLegExtension-31 (dragged).tiff", @"LVLegExtension-32 (dragged).tiff", @"LVLegExtension-33 (dragged).tiff", @"LVLegExtension-34 (dragged).tiff", @"LVLegExtension-35 (dragged).tiff", @"LVLegExtension-36 (dragged).tiff", @"LVLegExtension-37 (dragged).tiff", @"LVLegExtension-38 (dragged).tiff", @"LVLegExtension-39 (dragged).tiff", @"LVLegExtension-40 (dragged).tiff", @"LVLegExtension-41 (dragged).tiff", @"LVLegExtension-42 (dragged).tiff", @"LVLegExtension-43 (dragged).tiff", @"LVLegExtension-44 (dragged).tiff", @"LVLegExtension-45 (dragged).tiff", @"LVLegExtension-46 (dragged).tiff", @"LVLegExtension-47 (dragged).tiff"];
+
     [_exercise addObject:exercise]; // add the object to array
     
     //=====================================================
@@ -189,7 +198,9 @@
     NSString *str44 = @"4: Slowly lower under control by dropping your torso and hips down until the bar touches the floor.";
     exercise.instruction = [NSString stringWithFormat:@"%@\n%@\n%@\n%@",str41,str42,str43,str44];
 
-    exercise.cover = [UIImage imageNamed:@"deadlifts.png"];
+    exercise.cover = [UIImage imageNamed:@"BBDeadlift-1 (dragged).tiff"];
+    exercise.animationArray = @[@"BBDeadlift-1 (dragged).tiff", @"BBDeadlift-2 (dragged).tiff", @"BBDeadlift-3 (dragged).tiff", @"BBDeadlift-4 (dragged).tiff", @"BBDeadlift-5 (dragged).tiff", @"BBDeadlift-6 (dragged).tiff", @"BBDeadlift-7 (dragged).tiff", @"BBDeadlift-8 (dragged).tiff", @"BBDeadlift-9 (dragged).tiff", @"BBDeadlift-10 (dragged).tiff", @"BBDeadlift-11 (dragged).tiff", @"BBDeadlift-12 (dragged).tiff", @"BBDeadlift-13 (dragged).tiff", @"BBDeadlift-14 (dragged).tiff", @"BBDeadlift-15 (dragged).tiff", @"BBDeadlift-16 (dragged).tiff", @"BBDeadlift-17 (dragged).tiff", @"BBDeadlift-18 (dragged).tiff", @"BBDeadlift-19 (dragged).tiff", @"BBDeadlift-20 (dragged).tiff", @"BBDeadlift-21 (dragged).tiff"];
+
     [_exercise addObject:exercise]; // add the object to array
    
     //=====================================================
@@ -202,7 +213,9 @@
     NSString *str47 = @"3: Powerfully contract your back and biceps, and pull the barbell upwards into the top of your core. Hold for 1s and return down to a full extension.";
     NSString *str48 = @"4: Repeat.";
     exercise.instruction = [NSString stringWithFormat:@"%@\n%@\n%@\n%@",str45,str46,str47,str48];
-    exercise.cover = [UIImage imageNamed:@"barbellrow.jpg"];
+    exercise.cover = [UIImage imageNamed:@"BBBentOverRow-1 (dragged).tiff"];
+    exercise.animationArray = @[@"BBBentOverRow-1 (dragged).tiff", @"BBBentOverRow-2 (dragged).tiff", @"BBBentOverRow-3 (dragged).tiff", @"BBBentOverRow-4 (dragged).tiff", @"BBBentOverRow-5 (dragged).tiff", @"BBBentOverRow-6 (dragged).tiff", @"BBBentOverRow-7 (dragged).tiff", @"BBBentOverRow-8 (dragged).tiff", @"BBBentOverRow-9 (dragged).tiff", @"BBBentOverRow-10 (dragged).tiff", @"BBBentOverRow-11 (dragged).tiff", @"BBBentOverRow-12 (dragged).tiff", @"BBBentOverRow-13 (dragged).tiff", @"BBBentOverRow-14 (dragged).tiff", @"BBBentOverRow-15 (dragged).tiff", @"BBBentOverRow-16 (dragged).tiff", @"BBBentOverRow-17 (dragged).tiff", @"BBBentOverRow-18 (dragged).tiff", @"BBBentOverRow-19 (dragged).tiff", @"BBBentOverRow-20 (dragged).tiff", @"BBBentOverRow-21 (dragged).tiff", @"BBBentOverRow-22 (dragged).tiff", @"BBBentOverRow-23 (dragged).tiff", @"BBBentOverRow-24 (dragged).tiff", @"BBBentOverRow-25 (dragged).tiff", @"BBBentOverRow-26 (dragged).tiff", @"BBBentOverRow-27 (dragged).tiff", @"BBBentOverRow-28 (dragged).tiff", @"BBBentOverRow-29 (dragged).tiff", @"BBBentOverRow-30 (dragged).tiff", @"BBBentOverRow-31 (dragged).tiff", @"BBBentOverRow-32 (dragged).tiff", @"BBBentOverRow-33 (dragged).tiff", @"BBBentOverRow-34 (dragged).tiff", @"BBBentOverRow-35 (dragged).tiff", @"BBBentOverRow-36 (dragged).tiff"];
+
     [_exercise addObject:exercise]; // add the object to array
     
     //=====================================================
@@ -215,7 +228,8 @@
     NSString *str51 = @"3: Hold 1s and slowly lower the dumbbell to a full extension — you should feel a stretch throughout your upper backout.";
     NSString *str52 = @"4: Repeat.";
     exercise.instruction = [NSString stringWithFormat:@"%@\n%@\n%@\n%@",str49,str50,str51,str52];
-    exercise.cover = [UIImage imageNamed:@"bodumbellrow.jpg"];
+    exercise.cover = [UIImage imageNamed:@"DBBentoverRow-1 (dragged).tiff"];
+    exercise.animationArray = @[@"DBBentoverRow-1 (dragged).tiff", @"DBBentoverRow-2 (dragged).tiff", @"DBBentoverRow-3 (dragged).tiff", @"DBBentoverRow-4 (dragged).tiff", @"DBBentoverRow-5 (dragged).tiff", @"DBBentoverRow-6 (dragged).tiff", @"DBBentoverRow-7 (dragged).tiff", @"DBBentoverRow-8 (dragged).tiff", @"DBBentoverRow-9 (dragged).tiff", @"DBBentoverRow-10 (dragged).tiff", @"DBBentoverRow-11 (dragged).tiff", @"DBBentoverRow-12 (dragged).tiff", @"DBBentoverRow-13 (dragged).tiff", @"DBBentoverRow-14 (dragged).tiff", @"DBBentoverRow-15 (dragged).tiff", @"DBBentoverRow-16 (dragged).tiff"];
     [_exercise addObject:exercise]; // add the object to array
 }
 

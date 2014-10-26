@@ -31,9 +31,19 @@
     
     _nameLabel.text = _selectedExercise.name;
     _instructionTextView.text = _selectedExercise.instruction;
-    _coverView.image = _selectedExercise.cover;
     
-
+    NSMutableArray *images = [[NSMutableArray alloc] init];
+    for (int i = 0; i < _selectedExercise.animationArray.count; i++) {
+        [images addObject:[UIImage imageNamed:[_selectedExercise.animationArray objectAtIndex:i]]];
+    }
+    
+    // Normal Animation
+    _coverView = [[UIImageView alloc] initWithFrame:CGRectMake(60, 120, 200, 133)];
+    _coverView.animationImages = images;
+    _coverView.animationDuration = 2;
+    
+    [self.view addSubview:_coverView];
+    [_coverView startAnimating];
     
 
 

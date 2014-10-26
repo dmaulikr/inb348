@@ -13,5 +13,6 @@
 @property NSString *name;
 @property NSString *instruction;
 @property UIImage *cover;
+@property (strong)NSArray *animationArray;
 
 @end
