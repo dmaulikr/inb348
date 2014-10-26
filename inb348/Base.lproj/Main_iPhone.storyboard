@@ -5,7 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
-        <!--View Controller - Work out Library-->
+        <!--View Controller - Workout Library-->
         <scene sceneID="yGr-L2-yUv">
             <objects>
                 <tableViewController id="MP5-0M-o7Y" customClass="ViewController" sceneMemberID="viewController">
@@ -13,6 +13,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+<<<<<<< HEAD
+=======
+                        <searchBar key="tableHeaderView" contentMode="redraw" id="xtG-p4-1Hr">
+                            <rect key="frame" x="0.0" y="64" width="320" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <connections>
+                                <outlet property="delegate" destination="MP5-0M-o7Y" id="FOb-hM-Ste"/>
+                            </connections>
+                        </searchBar>
+>>>>>>> Daniel2
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="EXCell" id="8MQ-nP-fua" customClass="ExerciseTableViewCell">
                                 <rect key="frame" x="0.0" y="86" width="320" height="44"/>
@@ -43,6 +54,7 @@
                             <outlet property="delegate" destination="MP5-0M-o7Y" id="2e0-6Y-tBd"/>
                         </connections>
                     </tableView>
+<<<<<<< HEAD
                     <navigationItem key="navigationItem" title="Work out Library" id="16N-A3-x3E">
                         <barButtonItem key="leftBarButtonItem" style="plain" id="fzR-Xg-WEE">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="SdY-3b-YmC">
@@ -56,6 +68,24 @@
                                     <segue destination="jqM-VS-ytF" kind="modal" id="bhH-BA-CTa"/>
                                 </connections>
                             </button>
+=======
+                    <navigationItem key="navigationItem" title="Workout Library" id="16N-A3-x3E">
+                        <barButtonItem key="leftBarButtonItem" style="plain" id="NLJ-NM-Dal">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="dLs-gH-XTf">
+                                <rect key="frame" x="16" y="5" width="75" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <state key="normal" title="Contact us">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showEmail:" destination="MP5-0M-o7Y" eventType="touchUpInside" id="gIE-o0-2ce"/>
+                                </connections>
+                            </button>
+                            <connections>
+                                <action selector="showEmail:" destination="MP5-0M-o7Y" id="4hw-dv-APR"/>
+                            </connections>
+>>>>>>> Daniel2
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" style="plain" id="FiT-rr-nDo">
                             <view key="customView" contentMode="scaleToFill" id="1EU-xQ-Qwe" customClass="FBProfilePictureView">
@@ -67,7 +97,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="profilePicture" destination="1EU-xQ-Qwe" id="yH9-Js-PYS"/>
-                        <outlet property="searchDisplayController" destination="Dce-kK-j3C" id="C56-S2-gxg"/>
+                        <outlet property="searchDisplayController" destination="0nw-pS-YbG" id="YKF-C3-vCe"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BYR-GF-Lfv" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -143,6 +173,15 @@
                         <outlet property="searchResultsDelegate" destination="MP5-0M-o7Y" id="dvb-sj-Gl5"/>
                     </connections>
                 </searchDisplayController>
+                <searchDisplayController id="0nw-pS-YbG">
+                    <connections>
+                        <outlet property="delegate" destination="MP5-0M-o7Y" id="xSn-lV-qqp"/>
+                        <outlet property="searchBar" destination="xtG-p4-1Hr" id="RjE-R2-A61"/>
+                        <outlet property="searchContentsController" destination="MP5-0M-o7Y" id="XqH-zS-ZMF"/>
+                        <outlet property="searchResultsDataSource" destination="MP5-0M-o7Y" id="uDc-up-AXi"/>
+                        <outlet property="searchResultsDelegate" destination="MP5-0M-o7Y" id="8C0-De-v3N"/>
+                    </connections>
+                </searchDisplayController>
             </objects>
             <point key="canvasLocation" x="692" y="28"/>
         </scene>
@@ -216,13 +255,17 @@
         <scene sceneID="gfZ-8m-HGI">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4g6-16-I25" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Workout Library" id="MBH-Wy-cZN"/>
+                    <tabBarItem key="tabBarItem" title="Workout Library" image="library.png" id="FRQ-Q0-Rha"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Iab-O4-OEq">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="dSa-Nt-vB6">
+                        <rect key="frame" x="0.0" y="524" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
                     <connections>
                         <segue destination="MP5-0M-o7Y" kind="relationship" relationship="rootViewController" id="ALo-YB-Klc"/>
                     </connections>
@@ -593,7 +636,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Reminder" id="hIl-uL-dw5"/>
+                    <tabBarItem key="tabBarItem" title="Reminder" image="Alarm-Filled.png" id="DuL-jA-iiT"/>
                     <navigationItem key="navigationItem" id="CXR-zh-99z"/>
                     <connections>
                         <outlet property="datePicker" destination="b0I-SL-TCZ" id="wHT-w5-mWN"/>
@@ -821,11 +864,16 @@
         <!--Navigation Controller - Today's Workout-->
         <scene sceneID="v5G-Vc-1DX">
             <objects>
-                <navigationController definesPresentationContext="YES" id="TwB-Ak-yn3" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Today's Workout" id="muN-Fq-DXl"/>
+                <navigationController definesPresentationContext="YES" toolbarHidden="NO" id="TwB-Ak-yn3" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Today's Workout" image="list.png" id="RMg-gP-BcN"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="JWm-gp-aut">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translucent="NO" id="XWL-wx-LUw">
+                        <rect key="frame" x="0.0" y="524" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
                     <connections>
                         <segue destination="suK-1E-aWf" kind="relationship" relationship="rootViewController" id="fR8-PQ-jw0"/>
                     </connections>
@@ -874,11 +922,11 @@
             </objects>
             <point key="canvasLocation" x="1012" y="927"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Navigation Controller - Map-->
         <scene sceneID="xyd-WA-1DZ">
             <objects>
                 <navigationController definesPresentationContext="YES" id="xDa-Fn-kNp" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" systemItem="history" id="4WS-Ci-Wi1"/>
+                    <tabBarItem key="tabBarItem" title="Map" image="Place-Filled.png" id="4WS-Ci-Wi1"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Zky-Uo-5QU">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -912,10 +960,15 @@
         <scene sceneID="C7c-lq-L5H">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="7aX-Ln-9qt" sceneMemberID="viewController">
+<<<<<<< HEAD
                     <tabBarItem key="tabBarItem" title="Map" id="ocw-h6-HGE">
                         <inset key="imageInsets" minX="0.0" minY="0.0" maxX="1" maxY="0.0"/>
                     </tabBarItem>
+=======
+                    <tabBarItem key="tabBarItem" title="Map" image="Place-Filled.png" id="ttV-VS-UIE"/>
+>>>>>>> Daniel2
                     <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Qre-1v-v8R">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -931,10 +984,18 @@
         </scene>
     </scenes>
     <resources>
+<<<<<<< HEAD
         <image name="PixelKit_5-Oclock-Shades-Icon-Set__0001_14.png" width="126" height="127"/>
         <image name="facebook.icon.205x205.jpg" width="512" height="512"/>
         <image name="glossy-apple.png" width="512" height="512"/>
         <image name="next.png" width="256" height="256"/>
+=======
+        <image name="Alarm-Filled.png" width="19" height="22"/>
+        <image name="Place-Filled.png" width="17" height="23"/>
+        <image name="facebook.icon.205x205.jpg" width="512" height="512"/>
+        <image name="library.png" width="30" height="30"/>
+        <image name="list.png" width="30" height="30"/>
+>>>>>>> Daniel2
         <image name="twitter-bird-white-on-blue-jpeg.jpg" width="300" height="300"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

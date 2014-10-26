@@ -40,6 +40,11 @@
     pageControl.pageIndicatorTintColor = [UIColor lightGrayColor];
     pageControl.currentPageIndicatorTintColor = [UIColor blackColor];
     pageControl.backgroundColor = [UIColor whiteColor];
+    
+  
+    
+    [[UITabBar appearance] setBarTintColor:[UIColor blackColor]];
+      
     return YES;
 }
 							
