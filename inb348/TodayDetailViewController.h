@@ -16,7 +16,7 @@
 @property (weak, nonatomic) IBOutlet UITextField *repsTextField;
 @property (weak, nonatomic) IBOutlet UITextField *setsTextField;
 @property (nonatomic, retain) NSManagedObjectContext *managedObjectContext;
-
+@property (nonatomic,assign) NSString *selectedExercise;
 - (IBAction)logButton:(id)sender;
 
 @end

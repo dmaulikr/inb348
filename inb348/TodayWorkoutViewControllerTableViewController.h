@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
 #import <Social/Social.h>
+#import "TodayDetailViewController.h"
 
 @interface TodayWorkoutViewControllerTableViewController : UITableViewController
 @property (nonatomic,strong) NSMutableArray *exerciseHistory;

@@ -12,9 +12,10 @@
 @interface TodayDetailViewController ()<UITextFieldDelegate>
 
 
-
-
 @end
+
+
+NSString *exerciseName;
 
 @implementation TodayDetailViewController
 @synthesize nameLabel;
@@ -45,6 +46,8 @@
     self.kgTextField.delegate = self;
     self.repsTextField.delegate = self;
     self.setsTextField.delegate = self;
+    self.nameLabel.text = self.selectedExercise;
+    NSLog(@"TODAYS WORKOUT %@", self.selectedExercise);
 }
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event

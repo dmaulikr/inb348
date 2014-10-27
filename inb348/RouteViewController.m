@@ -227,7 +227,7 @@ double currentLat, currentLng;
     [request setSource:[MKMapItem mapItemForCurrentLocation]];
     [request setDestination:destination];
     [request setTransportType:MKDirectionsTransportTypeAny]; // This can be limited to automobile and walking directions.
-    [request setRequestsAlternateRoutes:YES]; // Gives you several route options.
+    //[request setRequestsAlternateRoutes:YES]; // Gives you several route options.
     MKDirections *directions = [[MKDirections alloc] initWithRequest:request];
     [directions calculateDirectionsWithCompletionHandler:^(MKDirectionsResponse *response, NSError *error) {
         if (!error) {

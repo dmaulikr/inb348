@@ -100,6 +100,12 @@
     return cell;
 }
 
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    TodayDetailViewController *a = [self.storyboard instantiateViewControllerWithIdentifier:@"TodayDetailViewController"];
+    a.selectedExercise = [self.exerciseHistory objectAtIndex:indexPath.row];
+    [self.navigationController pushViewController:a animated:YES];  
+}
 
 
 /*
@@ -168,7 +174,7 @@
     if([SLComposeViewController isAvailableForServiceType:SLServiceTypeTwitter])
     {
         SLComposeViewController *tweetSheet = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeTwitter];
-        [tweetSheet setInitialText:@"Its fun to use this app for fitness! Come and join us!"];
+        [tweetSheet setInitialText:@"Its fun to FitnessMate for exercise! Come and join us!"];
         [self presentViewController:tweetSheet animated:YES completion:nil];
     }
 }
@@ -177,7 +183,7 @@
     if([SLComposeViewController isAvailableForServiceType:SLServiceTypeFacebook])
     {
         SLComposeViewController *facebook = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeFacebook];
-        [facebook setInitialText:@"Its fun to use this app for fitness! Come and join us!"];
+        [facebook setInitialText:@"Its fun to use FitnessMate for exercise! Come and join us!"];
         [self presentViewController:facebook animated:YES completion:nil];
     }
 }

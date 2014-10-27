@@ -478,14 +478,14 @@
 		6DA30CFA19FAEC1500949B4A /* TodayDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodayDetail.m; sourceTree = "<group>"; };
 		6DA30CFC19FAF4A700949B4A /* HistoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryTableViewController.h; sourceTree = "<group>"; };
 		6DA30CFD19FAF4A700949B4A /* HistoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryTableViewController.m; sourceTree = "<group>"; };
-		6DD17C6B19AD749C008B6FCB /* inb348.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = inb348.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DD17C6B19AD749C008B6FCB /* FitnessMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitnessMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DD17C6E19AD749C008B6FCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6DD17C7019AD749C008B6FCB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6DD17C7219AD749C008B6FCB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		6DD17C7619AD749C008B6FCB /* inb348-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "inb348-Info.plist"; sourceTree = "<group>"; };
+		6DD17C7619AD749C008B6FCB /* FitnessMate-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FitnessMate-Info.plist"; sourceTree = "<group>"; };
 		6DD17C7819AD749C008B6FCB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6DD17C7A19AD749C008B6FCB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6DD17C7C19AD749C008B6FCB /* inb348-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "inb348-Prefix.pch"; sourceTree = "<group>"; };
+		6DD17C7C19AD749C008B6FCB /* FitnessMate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FitnessMate-Prefix.pch"; sourceTree = "<group>"; };
 		6DD17C7D19AD749C008B6FCB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6DD17C7E19AD749C008B6FCB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6DD17C8119AD749C008B6FCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
@@ -493,9 +493,9 @@
 		6DD17C8619AD749C008B6FCB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6DD17C8719AD749C008B6FCB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6DD17C8919AD749C008B6FCB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6DD17C8F19AD749C008B6FCB /* inb348Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = inb348Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DD17C8F19AD749C008B6FCB /* FitnessMateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitnessMateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DD17C9019AD749C008B6FCB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		6DD17C9819AD749C008B6FCB /* inb348Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "inb348Tests-Info.plist"; sourceTree = "<group>"; };
+		6DD17C9819AD749C008B6FCB /* FitnessMateTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FitnessMateTests-Info.plist"; sourceTree = "<group>"; };
 		6DD17C9A19AD749C008B6FCB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6DD17C9C19AD749C008B6FCB /* inb348Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = inb348Tests.m; sourceTree = "<group>"; };
 		6DD17CA619AD77A9008B6FCB /* Exercises.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exercises.h; sourceTree = "<group>"; };
@@ -875,8 +875,8 @@
 		6DD17C6C19AD749C008B6FCB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6DD17C6B19AD749C008B6FCB /* inb348.app */,
-				6DD17C8F19AD749C008B6FCB /* inb348Tests.xctest */,
+				6DD17C6B19AD749C008B6FCB /* FitnessMate.app */,
+				6DD17C8F19AD749C008B6FCB /* FitnessMateTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -963,10 +963,10 @@
 		6DD17C7519AD749C008B6FCB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6DD17C7619AD749C008B6FCB /* inb348-Info.plist */,
+				6DD17C7619AD749C008B6FCB /* FitnessMate-Info.plist */,
 				6DD17C7719AD749C008B6FCB /* InfoPlist.strings */,
 				6DD17C7A19AD749C008B6FCB /* main.m */,
-				6DD17C7C19AD749C008B6FCB /* inb348-Prefix.pch */,
+				6DD17C7C19AD749C008B6FCB /* FitnessMate-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -983,7 +983,7 @@
 		6DD17C9719AD749C008B6FCB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6DD17C9819AD749C008B6FCB /* inb348Tests-Info.plist */,
+				6DD17C9819AD749C008B6FCB /* FitnessMateTests-Info.plist */,
 				6DD17C9919AD749C008B6FCB /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -1430,9 +1430,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6DD17C6A19AD749C008B6FCB /* inb348 */ = {
+		6DD17C6A19AD749C008B6FCB /* FitnessMate */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6DD17CA019AD749C008B6FCB /* Build configuration list for PBXNativeTarget "inb348" */;
+			buildConfigurationList = 6DD17CA019AD749C008B6FCB /* Build configuration list for PBXNativeTarget "FitnessMate" */;
 			buildPhases = (
 				6DD17C6719AD749C008B6FCB /* Sources */,
 				6DD17C6819AD749C008B6FCB /* Frameworks */,
@@ -1442,14 +1442,14 @@
 			);
 			dependencies = (
 			);
-			name = inb348;
+			name = FitnessMate;
 			productName = inb348;
-			productReference = 6DD17C6B19AD749C008B6FCB /* inb348.app */;
+			productReference = 6DD17C6B19AD749C008B6FCB /* FitnessMate.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6DD17C8E19AD749C008B6FCB /* inb348Tests */ = {
+		6DD17C8E19AD749C008B6FCB /* FitnessMateTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6DD17CA319AD749C008B6FCB /* Build configuration list for PBXNativeTarget "inb348Tests" */;
+			buildConfigurationList = 6DD17CA319AD749C008B6FCB /* Build configuration list for PBXNativeTarget "FitnessMateTests" */;
 			buildPhases = (
 				6DD17C8B19AD749C008B6FCB /* Sources */,
 				6DD17C8C19AD749C008B6FCB /* Frameworks */,
@@ -1460,9 +1460,9 @@
 			dependencies = (
 				6DD17C9519AD749C008B6FCB /* PBXTargetDependency */,
 			);
-			name = inb348Tests;
+			name = FitnessMateTests;
 			productName = inb348Tests;
-			productReference = 6DD17C8F19AD749C008B6FCB /* inb348Tests.xctest */;
+			productReference = 6DD17C8F19AD749C008B6FCB /* FitnessMateTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -1482,7 +1482,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6DD17C6619AD749C008B6FCB /* Build configuration list for PBXProject "inb348" */;
+			buildConfigurationList = 6DD17C6619AD749C008B6FCB /* Build configuration list for PBXProject "FitnessMate" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -1495,8 +1495,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6DD17C6A19AD749C008B6FCB /* inb348 */,
-				6DD17C8E19AD749C008B6FCB /* inb348Tests */,
+				6DD17C6A19AD749C008B6FCB /* FitnessMate */,
+				6DD17C8E19AD749C008B6FCB /* FitnessMateTests */,
 			);
 		};
 /* End PBXProject section */
@@ -1909,7 +1909,7 @@
 /* Begin PBXTargetDependency section */
 		6DD17C9519AD749C008B6FCB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6DD17C6A19AD749C008B6FCB /* inb348 */;
+			target = 6DD17C6A19AD749C008B6FCB /* FitnessMate */;
 			targetProxy = 6DD17C9419AD749C008B6FCB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -2035,9 +2035,9 @@
 					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "inb348/inb348-Prefix.pch";
-				INFOPLIST_FILE = "inb348/inb348-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "inb348/FitnessMate-Prefix.pch";
+				INFOPLIST_FILE = "inb348/FitnessMate-Info.plist";
+				PRODUCT_NAME = FitnessMate;
 				PROVISIONING_PROFILE = "032704bf-2b03-4b02-8008-82066cb61fbc";
 				WRAPPER_EXTENSION = app;
 			};
@@ -2056,9 +2056,9 @@
 					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "inb348/inb348-Prefix.pch";
-				INFOPLIST_FILE = "inb348/inb348-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "inb348/FitnessMate-Prefix.pch";
+				INFOPLIST_FILE = "inb348/FitnessMate-Info.plist";
+				PRODUCT_NAME = FitnessMate;
 				PROVISIONING_PROFILE = "032704bf-2b03-4b02-8008-82066cb61fbc";
 				WRAPPER_EXTENSION = app;
 			};
@@ -2079,8 +2079,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "inb348Tests/inb348Tests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "inb348Tests/FitnessMateTests-Info.plist";
+				PRODUCT_NAME = FitnessMateTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -2097,8 +2097,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "inb348/inb348-Prefix.pch";
-				INFOPLIST_FILE = "inb348Tests/inb348Tests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "inb348Tests/FitnessMateTests-Info.plist";
+				PRODUCT_NAME = FitnessMateTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -2107,7 +2107,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6DD17C6619AD749C008B6FCB /* Build configuration list for PBXProject "inb348" */ = {
+		6DD17C6619AD749C008B6FCB /* Build configuration list for PBXProject "FitnessMate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6DD17C9E19AD749C008B6FCB /* Debug */,
@@ -2116,7 +2116,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6DD17CA019AD749C008B6FCB /* Build configuration list for PBXNativeTarget "inb348" */ = {
+		6DD17CA019AD749C008B6FCB /* Build configuration list for PBXNativeTarget "FitnessMate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6DD17CA119AD749C008B6FCB /* Debug */,
@@ -2125,7 +2125,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6DD17CA319AD749C008B6FCB /* Build configuration list for PBXNativeTarget "inb348Tests" */ = {
+		6DD17CA319AD749C008B6FCB /* Build configuration list for PBXNativeTarget "FitnessMateTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6DD17CA419AD749C008B6FCB /* Debug */,

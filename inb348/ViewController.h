@@ -14,7 +14,7 @@
 
 
 @interface ViewController : UITableViewController<UIAlertViewDelegate, FBLoginViewDelegate>
-@property (weak, nonatomic) IBOutlet FBProfilePictureView *profilePicture;
+
 @property NSMutableArray *exercise;
 @property Exercises *selectedExercise;
 @property (nonatomic) NSNumber *userID;

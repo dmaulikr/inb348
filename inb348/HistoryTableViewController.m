@@ -69,16 +69,17 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"Cell2";
+    static NSString *CellIdentifier = @"Cell5";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     
     if (!cell) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:CellIdentifier];
     }
     TodayDetail * record = [self.fetchedRecordsArray objectAtIndex:indexPath.row];
     
     cell.textLabel.text = [NSString stringWithFormat:@"%@", record.name];
     cell.detailTextLabel.text = [NSString stringWithFormat:@" %@kg, %@reps, %@sets", record.kg, record.reps, record.sets];
+    //cell.detailTextLabel.text = [NSString stringWithFormat:@"%@", record.name];
     
     return cell;
 }

@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6DD17C6A19AD749C008B6FCB"
                BuildableName = "inb348.app"
-               BlueprintName = "inb348"
-               ReferencedContainer = "container:inb348.xcodeproj">
+               BlueprintName = "FitnessMate"
+               ReferencedContainer = "container:FitnessMate.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6DD17C8E19AD749C008B6FCB"
                BuildableName = "inb348Tests.xctest"
-               BlueprintName = "inb348Tests"
-               ReferencedContainer = "container:inb348.xcodeproj">
+               BlueprintName = "FitnessMateTests"
+               ReferencedContainer = "container:FitnessMate.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,8 +44,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6DD17C6A19AD749C008B6FCB"
             BuildableName = "inb348.app"
-            BlueprintName = "inb348"
-            ReferencedContainer = "container:inb348.xcodeproj">
+            BlueprintName = "FitnessMate"
+            ReferencedContainer = "container:FitnessMate.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6DD17C6A19AD749C008B6FCB"
             BuildableName = "inb348.app"
-            BlueprintName = "inb348"
-            ReferencedContainer = "container:inb348.xcodeproj">
+            BlueprintName = "FitnessMate"
+            ReferencedContainer = "container:FitnessMate.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -81,8 +81,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6DD17C6A19AD749C008B6FCB"
             BuildableName = "inb348.app"
-            BlueprintName = "inb348"
-            ReferencedContainer = "container:inb348.xcodeproj">
+            BlueprintName = "FitnessMate"
+            ReferencedContainer = "container:FitnessMate.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

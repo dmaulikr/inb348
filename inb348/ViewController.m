@@ -487,12 +487,6 @@ shouldReloadTableForSearchString:(NSString *)searchString
     
 }
 
--(void)loginViewFetchedUserInfo:(FBLoginView *)loginView user:(id<FBGraphUser>)user
-{
-    NSLog(@"%@", user);
-    self.profilePicture.profileID = user.id;
-    //userName = [user objectForKey:@"first_name"];
-}
 
 
 
