@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6DD17C6A19AD749C008B6FCB"
-               BuildableName = "inb348.app"
+               BuildableName = "FitnessMate.app"
                BlueprintName = "FitnessMate"
                ReferencedContainer = "container:FitnessMate.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6DD17C8E19AD749C008B6FCB"
-               BuildableName = "inb348Tests.xctest"
+               BuildableName = "FitnessMateTests.xctest"
                BlueprintName = "FitnessMateTests"
                ReferencedContainer = "container:FitnessMate.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6DD17C6A19AD749C008B6FCB"
-            BuildableName = "inb348.app"
+            BuildableName = "FitnessMate.app"
             BlueprintName = "FitnessMate"
             ReferencedContainer = "container:FitnessMate.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6DD17C6A19AD749C008B6FCB"
-            BuildableName = "inb348.app"
+            BuildableName = "FitnessMate.app"
             BlueprintName = "FitnessMate"
             ReferencedContainer = "container:FitnessMate.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6DD17C6A19AD749C008B6FCB"
-            BuildableName = "inb348.app"
+            BuildableName = "FitnessMate.app"
             BlueprintName = "FitnessMate"
             ReferencedContainer = "container:FitnessMate.xcodeproj">
          </BuildableReference>

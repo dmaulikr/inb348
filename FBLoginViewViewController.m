@@ -30,7 +30,7 @@ NSNumber *userID;
     
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
+    //self.lblWelcome.hidden = NO;
     [self toggleHiddenState:YES];
     self.lblLoginStatus.text = @"";
     self.loginButton.readPermissions = @[@"public_profile"];
@@ -50,6 +50,7 @@ NSNumber *userID;
     self.lblEmail.hidden = shouldHide;
     self.profilePicture.hidden = shouldHide;
     //self.btnContinue.hidden = YES;
+    //self.lblWelcome.hidden = YES;
 }
 
 -(void)loginViewShowingLoggedInUser:(FBLoginView *)loginView
@@ -58,6 +59,7 @@ NSNumber *userID;
     NSLog(@"%@",userName);
     [self toggleHiddenState:NO];
     self.myImage.hidden = YES;
+    self.lblWelcome.hidden=YES;
 }
 
 -(void)loginViewFetchedUserInfo:(FBLoginView *)loginView user:(id<FBGraphUser>)user
@@ -85,6 +87,7 @@ NSNumber *userID;
     [self toggleHiddenState:YES];
     self.lblLoginStatus.text = @"";
     self.myImage.hidden = NO;
+    self.lblWelcome.hidden = NO;
 }
 
 -(void)loginView:(FBLoginView *)loginView handleError:(NSError *)error
